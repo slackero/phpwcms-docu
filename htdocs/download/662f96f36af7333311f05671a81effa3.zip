@@ -1,0 +1,18 @@
+include/inc_lib/revision/revision.php	Modified
+include/inc_front/content/cnt7.article.inc.php	Modified
+include/inc_front/front.func.inc.php	Modified
+include/inc_front/content.func.inc.php	Modified
+include/inc_front/ext.func.inc.php	Modified
+include/inc_front/content.article.inc.php	Modified
+include/inc_lib/default.inc.php	Modified
+include/inc_lib/backend.functions.inc.php	Modified
+include/inc_lib/article.editcontent.inc.php	Modified
+include/inc_lib/general.inc.php	Modified
+include/inc_js/phpwcms.js	Modified
+index.php	Modified
+setup/setup.conf.inc.php	Modified
+setup/inc/setup.func.inc.php	Modified
+config/phpwcms/dist.conf.inc.php	Modified
+phpwcms.php	Modified
+
+content/gt	Deleted

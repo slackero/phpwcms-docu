@@ -1,0 +1,10 @@
+include/inc_lib/content/cnt8.readform.inc.php	Modified
+include/inc_front/content/cnt8.article.inc.php	Modified
+include/inc_tmpl/content/cnt8.inc.php	Modified
+
+include/inc_front/front.func.inc.php	Modified
+include/inc_tmpl/newsletter.list.tmpl.php	Modified
+include/inc_lang/backend/de/lang.inc.php	Modified
+
+include/inc_lib/revision/revision.php	Modified
+include/inc_lib/revision/r438.php	Added

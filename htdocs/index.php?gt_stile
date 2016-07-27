@@ -1,0 +1,280 @@
+ 
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+     phpwcms | free open source content management system
+     created by Oliver Georgi (oliver at phpwcms dot de) and licensed under GNU/GPL.
+     phpwcms is copyright 2003-2005 of Oliver Georgi. Extensions are copyright of
+     their respective owners. Visit project page http://www.phpwcms.org for details.
+//-->
+<html>
+<head>
+<title>phpwcms documentation | Farben und Stile</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script src="phpwcms_template/inc_js/frontend.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="phpwcms_template/inc_css/frontend.css">
+<META NAME="Title" CONTENT="Die phpWCMS Dokumentation">
+<meta name="author" content="Oliver Frohnert">
+<meta name="Publisher" content="Oliver Frohnert">
+<meta name="Copyright" content="Oliver Frohnert">
+<meta name="keywords" content="frohnert,documentation, dokumentation, phpwcms, cms. opensource, open source">
+<meta name="description" content="Das Dokumentations Projekt für das Open Source CMS phpWCMS">
+<meta name="Audience" content="Alle">
+<meta name="Content-language" content="DE">
+<META NAME="robots"      CONTENT="index,follow">
+<META NAME="expires" CONTENT="0">
+<meta name="revisit-after" content="7 days">
+<meta name="resource-type" content="document">
+<meta name="distribution" content="Global">
+<meta name="generator" content="PHPWCMS">
+<script language="JavaScript" type="text/javascript" src="pphlogger.js"></script>
+<noscript><img alt="" src="http://www.phpwcms-docu.de/pphlogger/pphlogger.php?id=phpwcms&st=img"></noscript>
+<!-- Start of StatCounter Code -->
+<script type="text/javascript" language="javascript">
+var sc_project=644539;
+var sc_partition=5;
+var sc_security="2e37fa21";
+</script>
+
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" link="#FF9900" vlink="#FF9900" alink="#FF9900" style="margin:0px 0px 0px 0px;">
+<table border="0" cellspacing="0" cellpadding="0" width="760" bgcolor="#ffffff" class="maintable" align="center">
+<tr>
+<td colspan="2" style="height:60px;"  bgcolor="#ffffff"><table width="760" height="135" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="1334" height="122" colspan="6" background="phpwcms_template/lang/de/header.jpg">&nbsp;</td>
+  </tr>
+  <tr>
+	<td height="27" background="phpwcms_template/lang/all/top_menu.jpg"><table width="570" border="0" align="left" cellpadding="0" cellspacing="0">
+      <tr>
+        <td align="center" width="254"><a href="index.php?deutsche_version"><img src="picture/flags/de.gif" width="16" height="10" hspace="10" border="0"  alt="Deutsche Version" title="Deutsche Version"></a>
+<a href="index.php?english_version"><img src="picture/flags/gb.gif" width="16" height="10" hspace="10" border="0"  alt="English Version" title="English Version"></a></td>
+        <td valign="middle"><div align="center"><a href="index.php?replacement_tags_de"><img src="content/gt/8c10fcb16c44a7b9c26a5a932c5e4ae9.png" alt="Replacement Tags" border="0" /></a></div></td>
+        <td width="30" valign="middle"><div align="center"><img src="phpwcms_template/lang/all/sep.gif" width="5" height="5" border="0"></div></td>
+        <td valign="middle"><div align="center"><a href="index.php?content_parts_de"><img src="content/gt/02725c45a346fbf433a4c83e02d8dc5a.png" alt="Content Parts" border="0" /></a></div></td>
+        <td width="30" valign="middle"><div align="center"><img src="phpwcms_template/lang/all/sep.gif" width="5" height="5" border="0"></div></td>
+        <td valign="middle"><div align="center"><a href="index.php?links_de"><img src="content/gt/2c41bfb28d6dd3d4bbc8bb7688fd62ee.png" alt="Links" border="0" /></a></div></td>
+        <td width="30" valign="middle"><div align="center"><img src="phpwcms_template/lang/all/sep.gif" width="5 " height="5" border="0"></div></td>
+        <td valign="middle"><div align="center"><a href="index.php?impressum"><img src="content/gt/d7380cf01602233e53be03b55123cf90.png" alt="Impressum" border="0" /></a></div></td>
+     </tr>
+    </table>    </td>
+  </tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="185" background="img/menu.gif"><table width="180" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="180" height="20">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="padding-left: 7px;"><table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='index.php?news_de';return false;" onMouseOver="MM_swapImage('linkidnz2LyX','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="2"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidnz2LyX" id="linkidnz2LyX"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="4"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="index.php?news_de">News<img src="picture/myRT1/neuR.gif" alt="9/27/2005" border="0"></a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='index.php?inst_de';return false;" onMouseOver="MM_swapImage('linkidixUpV2','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="2"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidixUpV2" id="linkidixUpV2"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="4"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="index.php?inst_de">Installation &amp; Upgrade</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='index.php?verwaltung_login';return false;">
+<td width="7" colspan="2"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_2" alt="" border="" name="linkidE3cNvT" id="linkidE3cNvT"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table_active" colspan="4"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="index.php?verwaltung_login">Die Docu<img src="picture/myRT1/neuR.gif" alt="9/18/2005" border="0"></a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='index.php?verwaltung_artikel';return false;" onMouseOver="MM_swapImage('linkidfPqZfu','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="3"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidfPqZfu" id="linkidfPqZfu"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="3"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="index.php?verwaltung_artikel">Artikel</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='index.php?dateien_hinzufuegen';return false;" onMouseOver="MM_swapImage('linkidMWxAuU','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="3"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidMWxAuU" id="linkidMWxAuU"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="3"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="index.php?dateien_hinzufuegen">Datei</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='index.php?verwaltung_module';return false;">
+<td width="7" colspan="3"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_2" alt="" border="" name="linkidD3bhpE" id="linkidD3bhpE"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table_active" colspan="3"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="index.php?verwaltung_module">Module</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='index.php?mod_graphical_text';return false;">
+<td width="7" colspan="4"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_2" alt="" border="" name="linkidegBmqk" id="linkidegBmqk"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table_active" colspan="2"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="index.php?mod_graphical_text">Graphical Text</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='index.php?gt_stile';return false;">
+<td width="7" colspan="5"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_2" alt="" border="" name="linkidTWM3He" id="linkidTWM3He"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table_active"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="index.php?gt_stile">Farben und Stile</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='index.php?gt_replacement_tags';return false;" onMouseOver="MM_swapImage('linkidx3BflL','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="5"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidx3BflL" id="linkidx3BflL"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="index.php?gt_replacement_tags">Replacement Tags</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='index.php?verwaltung_nachricht';return false;" onMouseOver="MM_swapImage('linkidUmrr48','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="3"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidUmrr48" id="linkidUmrr48"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="3"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="index.php?verwaltung_nachricht">Nachricht</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='index.php?verwaltung_chat';return false;" onMouseOver="MM_swapImage('linkidn9WoS8','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="3"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidn9WoS8" id="linkidn9WoS8"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="3"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="index.php?verwaltung_chat">Chat</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='index.php?verwaltung_profil';return false;" onMouseOver="MM_swapImage('linkidMKUzPP','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="3"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidMKUzPP" id="linkidMKUzPP"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="3"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="index.php?verwaltung_profil">Profil</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='index.php?verwaltung_admin';return false;" onMouseOver="MM_swapImage('linkidkTo05o','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="3"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidkTo05o" id="linkidkTo05o"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="3"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="index.php?verwaltung_admin">Admin<img src="picture/myRT1/neuR.gif" alt="9/18/2005" border="0"></a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='index.php?add_on';return false;" onMouseOver="MM_swapImage('linkidhY1fjI','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="2"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidhY1fjI" id="linkidhY1fjI"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="4"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="index.php?add_on">Add Ons</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='index.php?fehlermeldungen';return false;" onMouseOver="MM_swapImage('linkidS48ic3','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="2"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidS48ic3" id="linkidS48ic3"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="4"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="index.php?fehlermeldungen">Fehlermeldungen</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='index.php?suche';return false;" onMouseOver="MM_swapImage('linkidyncVNg','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="2"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidyncVNg" id="linkidyncVNg"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="4"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="index.php?suche">Suche</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='index.php?kontakt';return false;" onMouseOver="MM_swapImage('linkidCYG3wu','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="2"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidCYG3wu" id="linkidCYG3wu"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="4"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="index.php?kontakt">Kontakt</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="window.open('http://chat.phpwcms-docu.de', 'phpwcmnewwin');return false;" onMouseOver="MM_swapImage('linkidlDCAtx','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="2"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidlDCAtx" id="linkidlDCAtx"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="4"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="http://chat.phpwcms-docu.de" target="_blank">LIVE Chat</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+</table></td>
+  </tr>
+   <tr>
+    <td style="padding:10px; color:#000000;"><img src="picture/seperate.gif" border="0" alt="" /><BR><BR>
+	<img src="content/gt/2347bc9fa8590dd2c6d4e218ee55df88.png" alt="Letzte Version:" border="0" /><br>
+<img src="content/gt/e1fd75b3780539bb61dee5207be17344.png" alt="phpwcms 1.2.5-DEV" border="0" /><br><br>
+<img src="content/gt/59f9a148f00a5657f226e5c3cdece033.png" alt="V&ouml;: 07.08.2005" border="0" /><BR>
+<a href="http://www.phpwcms-docu.de/index.php?id=285,212,0,0,1,0"><img src="content/gt/5cb97ddbeaa3fc737b4b09fd212dcc36.png" alt="weiter..." border="0" /></a><BR><BR>
+<img src="picture/seperate.gif" border="0" alt="" /><BR><BR>
+<a href="http://www.phpwcms-docu.de/index.php?cvs_info_de">
+<img src="content/gt/561c1e752f944433a240916fd29f1d68.png" alt="Letzte CVS Version:" border="0" /><br>
+<img src="content/gt/e1fd75b3780539bb61dee5207be17344.png" alt="phpwcms 1.2.5-DEV" border="0" /><br><br>
+<img src="content/gt/e20a0981a7d0672571504df09d478beb.png" alt="V&ouml;: 30.09.2005" border="0" /><BR>
+<img src="content/gt/11c0da7af1db5732850053c45a24a778.png" alt="DOWNLOAD" border="0" /></a><BR><BR>
+<img src="picture/seperate.gif" border="0" alt="" /></TD>
+  </tr>
+  <tr>
+    <td align="center"><a href='http://www.phpwcms-docu.de/ads/adclick.php?bannerid=4&amp;zoneid=0&amp;source=&amp;dest=http%3A%2F%2Fwww.weitzelmedia.de' target='blank_' onMouseOver="self.status='http://www.weitzelmedia.de'; return true;" onMouseOut="self.status='';return true;"><img src='http://ads.phpwcms-docu.de/kunden/weitzel/weitzelmedia_banner.jpg' width='130' height='210' alt='http://www.weitzelmedia.de' title='http://www.weitzelmedia.de' border='0'></a><br><a href='http://www.phpwcms-docu.de/ads/adclick.php?bannerid=4&amp;zoneid=0&amp;source=&amp;dest=http%3A%2F%2Fwww.weitzelmedia.de' target='blank_' onMouseOver="self.status='http://www.weitzelmedia.de'; return true;" onMouseOut="self.status='';return true;">http://www.weitzelmedia.de</a><div id="beacon_4" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src='http://www.phpwcms-docu.de/ads/adlog.php?bannerid=4&amp;clientid=7&amp;zoneid=0&amp;source=&amp;block=0&amp;capping=0&amp;cb=4edd9bf23c02d435dccdb82bd05651b0' width='0' height='0' alt='' style='width: 0px; height: 0px;'></div><BR>WERBUNG<BR><BR><img src="picture/seperate.gif" border="0" alt="" /><P>
+</td>
+  </tr>
+<tr>
+    <td height="20">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td height="20">&nbsp;</td>
+  </tr>
+</table>
+
+
+</body>
+</html>
+</td>
+<td valign="top" width="555" bgcolor="#ffffff" class="maincontent"><img src="img/leer.gif" border="0" width="10" height="1" alt="" />
+<BR>
+<a href="index.php?deutsche_version">Deutsch</a> <span class="breadcrumb_spacer">&gt;</span> <a href="index.php?verwaltung_login">Die Docu<img src="picture/myRT1/neuR.gif" alt="9/18/2005" border="0"></a> <span class="breadcrumb_spacer">&gt;</span> <a href="index.php?verwaltung_module">Module</a> <span class="breadcrumb_spacer">&gt;</span> <a href="index.php?mod_graphical_text">Graphical Text</a> <span class="breadcrumb_spacer">&gt;</span> Farben und Stile
+<br>
+<HR>
+<br>
+<a name="jump89"></a><div style="margin:25px 0 0 0; padding:0 0 0 0; clear:both;"></div><h3>Farben definieren</h3><table width="158" border="0" cellspacing="0" cellpadding="0" align="left">
+<tr><td class="image_td"><a href="image_zoom.php?show=OGFiNzc1MTM3Y2MwZTU1YTYyZDI4YzhiY2U5NjBlYjQucG5nP3dpZHRoPSI3NzEiIGhlaWdodD0iNDAwIg==" onClick="checkClickZoom();clickZoom('image_zoom.php?show=OGFiNzc1MTM3Y2MwZTU1YTYyZDI4YzhiY2U5NjBlYjQucG5nP3dpZHRoPSI3NzEiIGhlaWdodD0iNDAwIg==','previewpic','width=771,height=400');return false;" target="_blank"><img src="content/images/f5e763d86213a72d5a854e94b94ffd62.png" width="150" height="78" border="0" class="image_img" alt="phpwcms_docu_gt_farben.png"></a></td><td><img src="img/leer.gif" width="8" height="1" alt="" /></td></tr>
+<tr><td align="center" class="image_caption"><img src="picture/icon_lupe_.gif" border="0" alt="" /><img src="content/gt/be1db930b6ac6f64e566b4590d6afb5a.png" alt="Zoom" border="0" /></td><td><img src="img/leer.gif" width="8" height="1" alt="" /></td></tr>
+</table><div class="articleText">Im Bereich Farben können Sie ganz einfach Farben definieren. Klicken Sie auf <IMG alt="Farben hinzufügen" src="img/button/add_11x11.gif" border=0>&nbsp;<FONT color=#cccccc><FONT color=#999999>Farben hinzufügen</FONT> </FONT><FONT color=#000000>um eine neue Farbe anzulegen. </FONT>
+<P><STRONG>Name:</STRONG> Bezeichnung der Farbe<BR><STRONG>Farbwert (hex)</STRONG>: Der Wert der Farbe in hexadezimaler Schreibweise, z.B. #FFFFFF<BR><STRONG>Hinzufügen:</STRONG> Diese Änderungen speichern und zur Übersicht zurückkehren<BR><STRONG>Abbrechen:</STRONG> Alle Änderungen verwerfen.</P>
+<P>Beachten Sie bitte, dass Sie auch eine Farbe für den Hintergrund definieren, wenn Sie die Funktion <EM>transparent</EM> nicht benutzen wollen. Im Allgemeinen sollten Sie auf jeden Fall die Hintergrundfarbe Ihrer Webseite definieren.</P>
+<P>Um eine bereits definierte Farbe zu ändern, klicken Sie in der Farbübersicht hinter der entsprechenden Farbe auf <IMG alt=Bearbeiten src="img/button/edit_22x11.gif" border=0>. sie bekommen dann dieselben Optionen, als ob Sie eine neue Farbe definieren wollten, nur dass die entsprechenden Felder schon mit den Daten der bestehenden Farbe gefüllt sind. Klicken Sie auch hier auf <STRONG>Aktualisieren</STRONG> um Ihre Eingabe abzuschließen</P></div><hr><h3>Stile</h3><table width="158" border="0" cellspacing="0" cellpadding="0" align="left">
+<tr><td class="image_td"><a href="image_zoom.php?show=MmZmMGVlN2ZkNGUwZTg1OGZhNTVlMjhiNjIwZDkzNWUucG5nP3dpZHRoPSI3NzEiIGhlaWdodD0iNDM5Ig==" onClick="checkClickZoom();clickZoom('image_zoom.php?show=MmZmMGVlN2ZkNGUwZTg1OGZhNTVlMjhiNjIwZDkzNWUucG5nP3dpZHRoPSI3NzEiIGhlaWdodD0iNDM5Ig==','previewpic','width=771,height=439');return false;" target="_blank"><img src="content/images/fd34d59c45ac2b14ab5ff6649329d1c0.png" width="150" height="85" border="0" class="image_img" alt="phpwcms_docu_gt_stile_hinzufuegen.png"></a></td><td><img src="img/leer.gif" width="8" height="1" alt="" /></td></tr>
+<tr><td align="center" class="image_caption"><img src="picture/icon_lupe_.gif" border="0" alt="" /><img src="content/gt/be1db930b6ac6f64e566b4590d6afb5a.png" alt="Zoom" border="0" /></td><td><img src="img/leer.gif" width="8" height="1" alt="" /></td></tr>
+</table><div class="articleText"><TABLE height=100 cellSpacing=0 cellPadding=0 width="70%" border=0>
+<TBODY>
+<TR>
+<TD vAlign=top>Im Bereich Stile legen Sie nun mit den Daten aus <STRONG>Schriftarten</STRONG> und <STRONG>Farben</STRONG> eine Stilart fest, die Sie dann mittels Replacement Tags in Ihrem Inhalt oder Ihrer Vorlage einsetzen können. Klicken Sie auf <IMG alt="Stil hinzufügen" src="img/button/add_11x11.gif" border=0>&nbsp;Stil hinzufügen um einen neuen Stil zu editieren oder auf <IMG alt=Bearbeiten src="img/button/edit_22x11.gif" border=0>&nbsp;um einen bestehenden Stil zu editieren. </TD></TR></TBODY></TABLE>
+<P>Hier können Sie nun folgende Angaben machen:</P>
+<P><STRONG>Name</STRONG>: Geben Sie hier den Namen für Ihren Stil an. Dieser wird dann auch in den Replacement Tags verwendet, sollte daher nicht zu lang sein. Gut sind Bezeichnungen wie "titelklein" oder "newsline"<BR><STRONG>Ausgabeformat</STRONG>: hier können Sie auswählen, in welchem Format die ausgegebene Grafik ist. Zur Wahl stehen JPEG oder PNG<BR><STRONG>Schriftart</STRONG>: Hier können Sie die unter "Schriftart" angelegte Schriftart auswählen<BR><STRONG>Kantenglättung Ja/Nein</STRONG>: Wählen Sie hier, ob die Grafikbibliothek eine Kantenglättung verwenden soll. Dies erfordert eine höhere Serverlast, führt aber zu schöneren Schriften<BR><STRONG>Schriftgröße</STRONG>: Geben Sie hier die Schriftgröße an.<BR><STRONG>Unterstreichung</STRONG>: Wählen Sie 0 für keine Unterstreichung. Jede andere Zahl beschreibt die Dicke des Unterstriches<BR><STRONG>Vordergundfarbe</STRONG>: Wählen Sie hier die Schriftfarbe aus Ihren definierten Schriften aus<BR><STRONG>Hintergrundfarbe</STRONG>: Wählen Sie hier die&nbsp;Hintergrundfarbe aus Ihren definierten Schriften aus<BR><STRONG>Transparenz:</STRONG> Wählt für den jeweiligen Vorder- oder Hintergrund Transparenz aus<BR><STRONG>Aktualisieren</STRONG>: Ihre Eingaben abschließen und zur Übersicht zurückkehren<BR><STRONG>Abbrechen</STRONG>: Ihre Änderungen verwerfen.</P>
+<P><BR><BR>&nbsp;</P></div><div align="right"><a href="#top"><img src="img/article/top_link_0.gif" border="0" alt="" /></a></div>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td colspan="2"><HR></td>
+  </tr>
+  <tr>
+    <td width="50%">Artikel erstellt: 2004/08/15</td>
+    <td align="right" width="50%">Letzte Änderung: 2005/05/29</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2" class="comment">Wenn sie einen Fehler entdecken eine Ergänzung oder Frage haben benutzen Sie bitte folgendes <a href="#" onClick="javascript:window.open('http://www.phpwcms-docu.de/content/pages/nachricht.htm','frage','width=400, height=250, screenX=440,screenY=200,menubar=no,statusbar=yes,scrollbar=yes,resizable=no');" target="" style="max-width:148px; overflow:hidden;"><u>Formular</u></a>.<br><BR>
+Hat Ihnen oder Ihrem Kunden diese Docu weitergeholfen ? Dann würde ich mich freuen wenn Sie das Projekt unterstützen würden. Bitte nutzen Sie dafür diesen <a href="https://www.paypal.com/xclick/business=support%40docu.fhss.de&item_name=phpwcms+support&no_shipping=1&no_note=1&tax=0&currency_code=EUR&lc=US" target="_blank">PayPal</a> Link. Jeder Betrag ist möglich und hilft der Weiterentwicklung und Aktualisierung dieser Dokumentation.<BR>
+Diese Seite nutzt die version: 
+</td>
+  </tr>
+  <tr>
+
+    <td colspan="2"><img src="img/leer.gif" border="0" width="10" height="10" alt="" /></td>
+  </tr>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="height:10px;"  bgcolor="#ffffff" class="footer"><table width="100%" height="20" background="img/footer.gif" cellpadding="0" cellspacing="0" border="0">
+	<tr><td width="180" align="center" valign="middle">5 User online</td>
+	<td>
+	<table width="100%"cellpadding="0" cellspacing="0" border="0">
+   <tr>
+    <td align="center"><a href="javascript:history.back();" target="_top" title="go back"><img src="picture/back_.gif" border="0" alt="Zurueck"><img src="content/gt/13c1f733e9ee7693bf810fd5f035d0b7.png" alt="Zur&uuml;ck" border="0" /></a></td>
+	<td align="center"><a href="index.php?sitemap_de"><img src="picture/sitemap_.gif" border="0"  alt="Sitemap"><img src="content/gt/38062c01670c74843cc0b291d94966c6.png" alt="Sitemap" border="0" /></a></td>
+	<td align="center"><a href="index.php?id=175,89,1,1,1,0" target="_blank"><img src="picture/print_.gif" border="0" alt="Drucken"><img src="content/gt/811a35c6cb2c5555a2f32d85b1bb5deb.png" alt="Drucken" border="0" /></a></td>
+	<td align="center"><a href="index.php?gaestebuch"><img src="picture/icon_gaestebuch.gif" border="0" align="top" alt="Gästebuch"><img src="content/gt/1257c79a2b085b5641453b0f6e0fe1fd.png" alt="G&auml;stebuch" border="0" /></a></td>
+	<td align="center"><a href="#" onClick="BookMark_Page();return false;" title=""><img src="picture/favoriten_.gif" border="0"  alt="Lesezeichen"><img src="content/gt/7ce0fe74ab60b3da559a77c54fb85a80.png" alt="Lesezeichen" border="0" /></a></td>
+    </tr>
+</table></td>
+	</tr>
+</table>
+<img src="img/leer.gif" border="0" width="760" height="10" alt="" /></td>
+</tr>
+</table>
+</body>
+</html>

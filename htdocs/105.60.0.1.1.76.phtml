@@ -1,0 +1,539 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!--
+	phpwcms | free open source content management system
+	created by Oliver Georgi (oliver at phpwcms dot de) and licensed under GNU/GPL.
+	phpwcms is copyright 2003-2006 of Oliver Georgi. Extensions are copyright of\
+	their respective owners. Visit project page for details: http://www.phpwcms.org/
+//-->
+<title>phpwcms documentation | Guestbook</title>
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+  <meta http-equiv="content-style-type" content="text/css" />
+  <script src="template/inc_js/frontend.js" type="text/javascript"></script>
+  <style type="text/css" media="all">
+  /* <![CDATA[ */
+    body {
+      margin: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+      padding-left: 0;
+      padding-right: 0;
+
+      background-color: #FFFFFF;
+      color: #000000;
+    }
+    a, a:link, a:active, a:visited, a:hover { color: #FF9900; }
+    a:visited { color: #FF9900; }
+    a:active { color: #FF9900; }
+  /* ]]> */
+  </style>
+  <style type="text/css">
+  /* <![CDATA[ */
+    @import url("template/inc_css/frontend.css");
+    @import url("template/inc_css/nlu_navi1_docu.css");
+  /* ]]> */
+  </style>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-361662-1";
+urchinTracker();
+</script>
+<META NAME="Title" CONTENT="The phpWCMS Documentation">
+<meta name="author" content="Oliver Frohnert">
+<meta name="Publisher" content="Oliver Frohnert">
+<meta name="Copyright" content="Oliver Frohnert">
+<meta name="keywords" content="frohnert,documentation, dokumentation, phpwcms, cms. opensource, open source">
+<meta name="description" content="A Documentation Project for the  Open Source CMS phpWCMS">
+<meta name="Audience" content="Alle">
+<meta name="Content-language" content="EN">
+<META NAME="robots"      CONTENT="index,follow">
+<META NAME="expires" CONTENT="0">
+<meta name="revisit-after" content="7 days">
+<meta name="resource-type" content="document">
+<meta name="distribution" content="Global">
+<meta name="generator" content="PHPWCMS">
+<META name="verify-v1" content="1ZpxZ7AZsjm7PxjqXQVus0eiUYqOsp5URTJn9q4KNz8=" />
+  <!--[if lt IE 7]>
+  <style type="text/css">
+    body { behavior: url("template/inc_css/specific/csshover2.htc"); }
+    img { behavior: url("template/inc_css/specific/pngbehavior.htc"); }
+  </style>
+  <![endif]-->
+</head>
+<body>
+<table border="0" cellspacing="0" cellpadding="0" width="760" bgcolor="#ffffff" class="maintable" align="center">
+<tr>
+<td colspan="2" style="height:60px;"  bgcolor="#ffffff"><a name="top"></a><table width="760" height="135" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="1334" height="122" colspan="6"><IMG src="/template/lang/en/header.jpg" alt="" border="0"></td>
+  </tr>
+  <tr>
+	<td height="27" background="template/lang/all/top_menu.jpg"><table width="570" border="0" align="left" cellpadding="0" cellspacing="0">
+      <tr>
+        <td align="center" width="254"><a href="deutsche_version.phtml"><img src="picture/flags/de.gif" width="16" height="10" hspace="10" border="0"  alt="Deutsche Version" title="Deutsche Version"></a>
+<a href="english_version.phtml"><img src="picture/flags/gb.gif" width="16" height="10" hspace="10" border="0"  alt="English Version" title="English Version"></a></td>
+        <td valign="middle"><div align="center"><a href="replacement_tags_en.phtml"><img src="content/gt/8c10fcb16c44a7b9c26a5a932c5e4ae9.png" alt="Replacement Tags" title="Replacement Tags" width="115" height="13" border="0" /></a></div></td>
+        <td width="30" valign="middle"><div align="center"><img src="template/lang/all/sep.gif" width="5" height="5" border="0"></div></td>
+        <td valign="middle"><div align="center"><a href="content_parts_en.phtml"><img src="content/gt/02725c45a346fbf433a4c83e02d8dc5a.png" alt="Content Parts" title="Content Parts" width="94" height="13" border="0" /></a></div></td>
+        <td width="30" valign="middle"><div align="center"><img src="template/lang/all/sep.gif" width="5" height="5" border="0"></div></td>
+        <td valign="middle"><div align="center"><a href="links_de.phtml"><img src="content/gt/2c41bfb28d6dd3d4bbc8bb7688fd62ee.png" alt="Links" title="Links" width="36" height="13" border="0" /></a></div></td>
+        <td width="30" valign="middle"><div align="center"><img src="template/lang/all/sep.gif" width="5 " height="5" border="0"></div></td>
+        <td valign="middle"><div align="center"><a href="imprint.phtml"><img src="content/gt/8b40044a8de89d790c10c1671094a297.png" alt="Imprint" title="Imprint" width="48" height="13" border="0" /></a></div></td>
+     </tr>
+    </table>    </td>
+  </tr>
+</table></td>
+</tr>
+<tr>
+<td valign="top" width="185" background="img/menu.gif"><table width="180" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="180" height="20">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="padding-left: 1px;"><div class="nlu_navi1_docu">
+<ul>
+	<li class="sub_no"><a href="news_en.phtml">News</a></li>
+	<li class="sub_no"><a href="installation_en.phtml">Installation &amp; Upgrade</a></li>
+	<li class="sub_no"><a href="the_docu.phtml">The Docu</a></li>
+	<li class="sub_no"><a href="add_on_en.phtml">Add On&#039;s</a></li>
+	<li class="sub_no"><a href="error_messages.phtml">Error messages</a></li>
+	<li class="sub_no"><a href="search.phtml">Search</a></li>
+	<li class="sub_ul active"><a href="contact.phtml">Contact</a>
+	<ul>
+		<li class="sub_no"><a href="imprint.phtml">Imprint</a></li>
+	</ul>
+	</li>
+	<li class="sub_no"><a href="faq_en.phtml">FAQ</a></li>
+</ul>
+</div></td>
+  </tr>
+ <tr>
+    <td style="padding:10px; color:#000000;">
+<img src="picture/seperate.gif" border="0" alt="" /><br /><br />
+<img src="content/gt/c21c1becaf44b7db9eb0e69f9f62318f.png" alt="Latest Final Version:" title="Latest Final Version:" width="142" height="13" border="0" /><br /><br />
+<img src="content/gt/a47a22992b78fea92073ce9c51387e9e.png" alt="phpwcms 1.2.6" title="phpwcms 1.2.6" width="83" height="13" border="0" /><br />
+<img src="content/gt/2e53c1aaeb325fb174c560fc4f5c889f.png" alt="RELEASED: 27.04.2006" title="RELEASED: 27.04.2006" width="131" height="13" border="0" /><br /><br />
+<a href="deutsche_version.phtml?news_en"><img src="content/gt/9661ea0c3a00342c05e40467dd5ec5e5.png" alt="more..." title="more..." width="40" height="13" border="0" /></a><br /><br />
+<img src="picture/seperate.gif" border="0" alt="" /><br /><br />
+<img src="content/gt/a499c0c6fe8365e71848b9c75953af5b.png" alt="Recommend Version:" title="Recommend Version:" width="123" height="13" border="0" /><br /><br />
+<img src="content/gt/054a904840ae782c6c8b0cc5bec4e6e1.png" alt="phpwcms 1.2.8 - NEW" title="phpwcms 1.2.8 - NEW" width="125" height="13" border="0" /><br />
+<img src="content/gt/b5e08eb5b5ef59579e7f15eef069da88.png" alt="RELEASED: 17.08.2006" title="RELEASED: 17.08.2006" width="128" height="13" border="0" /><br /><br />
+<a href="http://www.phpwcms.de/forum/viewtopic.php?t=11933"><img src="content/gt/52a225872f962dd15d7991a1bb034024.png" alt="more..." title="more..." width="40" height="13" border="0" /></a><br /><br />
+<img src="picture/seperate.gif" border="0" alt="" /><br /><br /></TD>
+  </tr>
+   <tr>
+    <td align="center"><script type="text/javascript"><!--
+google_ad_client = "pub-5747379735451868";
+google_ad_width = 120;
+google_ad_height = 240;
+google_ad_format = "120x240_as_rimg";
+google_cpa_choice = "CAAQwdqWhAIaCA7_S2iOQTQoKOPC93M";
+google_ad_channel = "";
+//--></script>
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script><div id="beacon_12" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src='./externals/ads/adlog.php?bannerid=12&amp;clientid=15&amp;zoneid=0&amp;source=&amp;block=0&amp;capping=0&amp;cb=0b184721a4eaa6b019254b4729b90d36' width='0' height='0' alt='' style='width: 0px; height: 0px;'></div><br />ADS<br /><br /><img src="picture/seperate.gif" border="0" alt="" /><P>
+</td>
+  </tr>
+<tr>
+    <td height="20">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td height="20">&nbsp;</td>
+  </tr>
+</table>
+
+
+</body>
+</html>
+</td>
+<td valign="top" width="555" bgcolor="#ffffff" class="maincontent"><img src="img/leer.gif" border="0" width="10" height="1" alt="" />
+<br />
+<a href="english_version.phtml">English</a> <span class="breadcrumb_spacer">&gt;</span> <a href="contact.phtml">Contact</a>
+<br />
+<HR>
+<br />
+<a name="jump60"></a><h1>Guestbook</h1><div style="margin:25px 0 0 0; padding:0 0 0 0; clear:both;"></div>
+  <form name="sign_guestbook" action="deutsche_version.phtml?id=105,60,0,1,1,76" method="post">
+<table border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F5F5F5" style="margin-bottom:10px;">
+  <tr bgcolor="#E1E1E1">
+    <td colspan="2"><strong>&nbsp;&nbsp;sign my guestbook</strong> <span style="font-size:10px;color:#CC3300;">(fields
+        marked * are obligatory)</span></td>
+  </tr>
+  <tr bgcolor="#E1E1E1">
+    <td colspan="2"><img src="img/leer.gif" width="1" height="1" alt="" /></td>
+  </tr>
+  
+  <tr>
+    <td colspan="2"><img src="img/leer.gif" width="1" height="3" alt="" /></td>
+  </tr>
+  <tr>
+    <td align="right" class="v10">email<span style="color:#CC3300;">*</span>:&nbsp;</td>
+    <td><input name="guestbook_email" type="text" id="guestbook_email" style="width: 350px" class="v12" value="" size="50" maxlength="250" />&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="right" class="v10">name<span style="color:#CC3300;">*</span>:&nbsp;</td>
+    <td><input name="guestbook_name" type="text" id="guestbook_name" style="width: 350px" class="v12" value=""  size="50" maxlength="500" /></td>
+  </tr>
+  <tr>
+    <td align="right" class="v10">website:&nbsp;</td>
+    <td><input name="guestbook_url" type="text" id="guestbook_url" style="width: 350px" class="v12" value="" size="50" maxlength="1000" /></td>
+  </tr>
+  <tr>
+    <td align="right" valign="top" class="v10">&nbsp;&nbsp;message:&nbsp;</td>
+    <td><textarea name="guestbook_msg" cols="50" rows="6" id="guestbook_msg" class="v12" style="width: 350px"></textarea></td>
+  </tr>
+  <tr>
+    <td align="right" valign="top" class="v10">display:&nbsp;</td>
+    <td><input name="guestbook_show" type="radio" value="0" checked>show email<br /><input name="guestbook_show" type="radio" value="1">hide email<br /><input type="radio" name="guestbook_show" value="2">show email as &quot;info at mail dot com&quot;</td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="img/leer.gif" width="1" height="4" alt="" /></td>
+  </tr>
+  <tr>
+  	<td align="right" class="v10">code<span style="color:#CC3300;">*</span>:&nbsp;</td>
+  	<td><table cellpadding="0" cellspacing="0" border="0">
+		<tr>
+			<td><input name="guestbook_captcha" type="text" id="guestbook_captcha" style="width: 100px" class="v12" value="" size="10" maxlength="10" />&nbsp;&nbsp;</td>
+			<td><img src="img/captcha.php?regen=y&amp;1168514488" alt="Captcha" border="0" /></td>
+		</tr>
+		</table></td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="img/leer.gif" width="1" height="10" alt="" /></td>
+  </tr>
+  <tr>
+    <td align="right">&nbsp;</td>
+    <td><input name="guestbook_send" type="submit" id="guestbook_send" value="sign guestbook" class="v11" /></td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="img/leer.gif" width="1" height="6" alt="" /></td>
+  </tr>
+</table>
+<input type="hidden" name="8791dd208df03eecc54a176bdfc6da5b" value="40724" /></form> 
+<table width="100%"  border="0" cellspacing="0" cellpadding="0" style="margin-top:5px;">
+  <tr>
+    <td><strong><a href="105.60.0.1.1.0.phtml">&lt;&lt;</a> <a href="105.60.0.1.1.75.phtml">&lt;</a></strong> <a href="105.60.0.1.1.73.phtml">74</a>&nbsp;<a href="105.60.0.1.1.74.phtml">75</a>&nbsp;<a href="105.60.0.1.1.75.phtml">76</a>&nbsp;<strong>77</strong>&nbsp;<a href="105.60.0.1.1.77.phtml">78</a> <strong><a href="105.60.0.1.1.77.phtml">&gt;</a>
+        <a href="105.60.0.1.1.77.phtml">&gt;&gt;</a></strong></td>
+    <td align="right"><form name="guestbookarchive" id="guestbookarchive" method="post" action="index.php?id=105,60,0,1,1,76"><select name="showarchive" id="showarchive" onchange="document.guestbookarchive.submit();"><option value="">all entries</option>
+<option value="2007/01">2007/01</option>
+<option value="2006/12">2006/12</option>
+<option value="2006/10">2006/10</option>
+<option value="2006/03">2006/03</option>
+<option value="2006/02">2006/02</option>
+<option value="2006/01">2006/01</option>
+<option value="2005/12">2005/12</option>
+<option value="2005/11">2005/11</option>
+<option value="2005/10">2005/10</option>
+<option value="2005/09">2005/09</option>
+<option value="2005/08">2005/08</option>
+<option value="2005/07">2005/07</option>
+<option value="2005/06">2005/06</option>
+<option value="2005/05">2005/05</option>
+<option value="2005/03">2005/03</option>
+<option value="2005/02">2005/02</option>
+<option value="2005/01">2005/01</option>
+<option value="2004/12">2004/12</option>
+<option value="2004/11">2004/11</option>
+<option value="2004/10">2004/10</option>
+<option value="2004/09">2004/09</option>
+<option value="2004/08">2004/08</option>
+</select><input type="hidden" name="archivedate" value="%Y/%m" />&nbsp;<input name="archivesubmit" class="guestbookArchiveSubmit" type="submit" value="go" /></form>&nbsp;<form name="guestbookjump" id="guestbookjump" method="post" action="index.php?id=105,60,0,1,1,76"><select name="showguestbookpage" id="showpage" onchange="document.guestbookjump.submit();"><option value="1">page
+      1</option>
+<option value="2">page
+      2</option>
+<option value="3">page
+      3</option>
+<option value="4">page
+      4</option>
+<option value="5">page
+      5</option>
+<option value="6">page
+      6</option>
+<option value="7">page
+      7</option>
+<option value="8">page
+      8</option>
+<option value="9">page
+      9</option>
+<option value="10">page
+      10</option>
+<option value="11">page
+      11</option>
+<option value="12">page
+      12</option>
+<option value="13">page
+      13</option>
+<option value="14">page
+      14</option>
+<option value="15">page
+      15</option>
+<option value="16">page
+      16</option>
+<option value="17">page
+      17</option>
+<option value="18">page
+      18</option>
+<option value="19">page
+      19</option>
+<option value="20">page
+      20</option>
+<option value="21">page
+      21</option>
+<option value="22">page
+      22</option>
+<option value="23">page
+      23</option>
+<option value="24">page
+      24</option>
+<option value="25">page
+      25</option>
+<option value="26">page
+      26</option>
+<option value="27">page
+      27</option>
+<option value="28">page
+      28</option>
+<option value="29">page
+      29</option>
+<option value="30">page
+      30</option>
+<option value="31">page
+      31</option>
+<option value="32">page
+      32</option>
+<option value="33">page
+      33</option>
+<option value="34">page
+      34</option>
+<option value="35">page
+      35</option>
+<option value="36">page
+      36</option>
+<option value="37">page
+      37</option>
+<option value="38">page
+      38</option>
+<option value="39">page
+      39</option>
+<option value="40">page
+      40</option>
+<option value="41">page
+      41</option>
+<option value="42">page
+      42</option>
+<option value="43">page
+      43</option>
+<option value="44">page
+      44</option>
+<option value="45">page
+      45</option>
+<option value="46">page
+      46</option>
+<option value="47">page
+      47</option>
+<option value="48">page
+      48</option>
+<option value="49">page
+      49</option>
+<option value="50">page
+      50</option>
+<option value="51">page
+      51</option>
+<option value="52">page
+      52</option>
+<option value="53">page
+      53</option>
+<option value="54">page
+      54</option>
+<option value="55">page
+      55</option>
+<option value="56">page
+      56</option>
+<option value="57">page
+      57</option>
+<option value="58">page
+      58</option>
+<option value="59">page
+      59</option>
+<option value="60">page
+      60</option>
+<option value="61">page
+      61</option>
+<option value="62">page
+      62</option>
+<option value="63">page
+      63</option>
+<option value="64">page
+      64</option>
+<option value="65">page
+      65</option>
+<option value="66">page
+      66</option>
+<option value="67">page
+      67</option>
+<option value="68">page
+      68</option>
+<option value="69">page
+      69</option>
+<option value="70">page
+      70</option>
+<option value="71">page
+      71</option>
+<option value="72">page
+      72</option>
+<option value="73">page
+      73</option>
+<option value="74">page
+      74</option>
+<option value="75">page
+      75</option>
+<option value="76">page
+      76</option>
+<option value="77" selected="selected">page
+      77</option>
+<option value="78">page
+      78</option>
+</select>&nbsp;<input name="jumpsubmit" class="guestbookJumpSubmit" type="submit" value="go" /></form></td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="img/leer.gif" width="1" height="3" alt="" /></td>
+  </tr>
+</table>
+
+<table width="100%"  border="0" cellspacing="0" cellpadding="2">
+  
+  <tr bgcolor="#F5F5F5">
+    <td width="99%">381 | 08/29/2004 20:57</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Rolf Dahl</strong>  <br />
+      Nice work!</td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="img/leer.gif" width="1" height="3" alt="" /></td>
+  </tr>
+  
+  <tr bgcolor="#F5F5F5">
+    <td width="99%">382 | 08/26/2004 12:07</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>tom</strong>  <br />
+      Hallo wertes Doku-Team,<br />
+ich bewundere Euren Einsatz und das Engagement für eine umfassende zentrale Dokumentation von phpwcms.<br />
+Damit wird es sicherlich noch viel mehr Installationen von phpwcms geben und die Möglichkeit bestehen, viele interessante Menschen durch dieses Projekt kennenzulernen.<br />
+Der gute Geist des Forums trägt sicher auch hier Früchte - ich wünsche allen viel Erfolg und gutes Gelingen bei allen Projekten.<br />
+<br />
+Beste Grüße<br />
+<br />
+Thomas<br />
+<br />
+<span style="color:#00CC00;">Hi Thomas, vielen Dank für die Anerkennung, auch wenn ich selber (brans) noch nicht viel geschrieben habe, denke ich, darf ich im Namen von allen sprechen und sagen, dass nur durch gegenseitige Anerkennung der gute Geist des WCMS-Forums erhalten bleibt.<br />
+brans</span></td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="img/leer.gif" width="1" height="3" alt="" /></td>
+  </tr>
+  
+  <tr bgcolor="#F5F5F5">
+    <td width="99%">383 | 08/16/2004 14:27</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Stephan Mackenzie</strong> <a href="http://www.rackco.com" target="_blank">visit
+      website</a> stephan at rackco  dot com<br />
+      PHPWCMS is the greatest... keep up the good work, a centralized documentation is a fantastic idea... kudos to the ones responsible!</td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="img/leer.gif" width="1" height="3" alt="" /></td>
+  </tr>
+  
+  <tr bgcolor="#F5F5F5">
+    <td width="99%">384 | 08/16/2004 02:19</td>
+  </tr>
+  <tr>
+    <td colspan="2"><a href="mailto:cfoxgrover@foxpath.com"><strong>Chick Foxgrover</strong></a>  cfoxgrover@foxpath.com<br />
+      Great resource for a terrific CMS script. Thanks!</td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="img/leer.gif" width="1" height="3" alt="" /></td>
+  </tr>
+  
+  <tr bgcolor="#F5F5F5">
+    <td width="99%">385 | 08/15/2004 19:30</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Uwe Twelker</strong> <a href="http://www.eyelikeit.de" target="_blank">visit
+      website</a> uwe.twelker at eyelikeit  dot de<br />
+      I&#039;m using the PHPWCMS for about half a year. And I think it&#039;s dynamite. What makes it great is of course the PHPWCMS itself. Easy to install, easy to use (you feel like driving a Mac!). But that&#039;s far form being everything. There is an Oliver who talks and listens to his users and works and works and works... There is a great community assisting in the forum. They are fast, they are friendly, there are competencies for almost everything and this knowledge is generously shared. There is another Oliver, and Manfred and Achim and Jayenne who work there butts off to set up this documentation. And there a lot of more unknown people with a lot of unknown useful contributions.<br />
+<br />
+Thank you all. I&#039;m proud to be part of this community!<br />
+<br />
+<span style="color:#00CC00;">hello mac and thank you for the translation and the correction of some articles.<br />
+Oliver &quot;Pappnase&quot;</span></td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="img/leer.gif" width="1" height="3" alt="" /></td>
+  </tr>
+  
+</table>
+
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td colspan="2"><HR></td>
+  </tr>
+  <tr>
+    <td width="50%">Article created: 2004/08/17</td>
+    <td align="right" width="50%">Last Changes: 2006/06/06</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2" class="comment">In case you find any mistakes or have enhancments, please use this <a href="#" onClick="javascript:window.open('./content/pages/message.htm','frage','width=400, height=250, screenX=440,screenY=200,menubar=no,statusbar=yes,scrollbar=yes,resizable=no');" target="" style="max-width:148px; overflow:hidden;"><u>form</u></a> .<br /><br />
+Have you found this website a helpful resource in understanding the Phpwcms content management system? If so, would you consider making a donation?  Please click here: <a href="#paypal">PayPal</a>. We welcome any donation amount. Your contribution helps make this website an even better resource and helps underwrite the associated server expenses of accomodating a growing number of visitors.<br />
+This page use the version:</td>
+  </tr>
+  <tr>
+
+    <td colspan="2"><img src="img/leer.gif" border="0" width="10" height="10" alt="" /></td>
+  </tr>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="height:10px;"  bgcolor="#ffffff" class="footer"><table width="100%" height="20" background="img/footer.gif" cellpadding="0" cellspacing="0" border="0">
+	<tr><td width="180" align="center" valign="middle">4 User online</td>
+	<td>
+	<table width="100%"cellpadding="0" cellspacing="0" border="0">
+   <tr>
+    <td align="center"><a href="javascript:history.back();" target="_top" title="go back"><img src="picture/back_.gif" border="0" alt="Back"><img src="content/gt/a8cf006b46d2d29bf7161aa985b04a42.png" alt="Back" title="Back" width="31" height="13" border="0" /></a></td>
+	<td align="center"><a href="sitemap_en.phtml"><img src="picture/sitemap_.gif" border="0"  alt="Sitemap"><img src="content/gt/38062c01670c74843cc0b291d94966c6.png" alt="Sitemap" title="Sitemap" width="50" height="13" border="0" /></a></td>
+	<td align="center"><a href="105.60.1.1.1.76.phtml" target="_blank"><img src="picture/print_.gif" border="0" alt="Print"><img src="content/gt/b4fe92ce3b96c84ca1ee38340fc2a4e6.png" alt="Print" title="Print" width="36" height="13" border="0" /></a></td>
+	<td align="center"><a href="guestbook.phtml"><img src="picture/icon_gaestebuch.gif" border="0" align="top" alt="Guestbook"><img src="content/gt/a8891d2da470901a9086f978d5a7dc3d.png" alt="Guestbook" title="Guestbook" width="66" height="13" border="0" /></a></td>
+	<td align="center"><a href="#" onclick="BookMark_Page();return false;" title=""><img src="picture/favoriten_.gif" border="0"  alt="Bookmark"><img src="content/gt/a8d175704cefbe0ee8222b9bde55b692.png" alt="Bookmark" title="Bookmark" width="59" height="13" border="0" /></a></td>
+    </tr>
+</table></td>
+	</tr>
+</table>
+<img src="img/leer.gif" border="0" width="760" height="10" alt="" /><br />
+<script type="text/javascript"><!--
+google_ad_client = "pub-5747379735451868";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text_image";
+google_ad_channel ="1196150249";
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></td>
+</tr>
+</table>
+
+</body>
+</html>

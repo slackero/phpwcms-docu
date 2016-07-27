@@ -1,0 +1,483 @@
+/* 
+========================================================================= 
+Stand CSS PHPWCMS-DOKU: 11.10.2007  
+Mario Perez Leal (peri)
+========================================================================= */
+
+/*=====  Typo  ===== */
+
+.fleft{
+	float:left;
+}
+
+.sys {
+	font-size: 11px;
+	color:#ffffff;
+	background:transparent;
+	float:right;
+}
+
+.image_caption{
+	font-size: 10px;
+	text-align:left;
+	padding:6px 0 20px 0;
+}
+
+.imglistcaption{
+	font-size: 10px;
+	text-align:left;
+	padding:6px 0 20px 0;
+}
+
+.image_td img{
+	padding:3px;
+	margin:5px 5px 0 0;
+}
+.image_td2 img{
+	padding:3px;
+	border:1px solid #CCCCCC;
+	margin:5px 5px 0 0;
+}
+.imagelisttd img{
+	padding:3px;
+	margin:5px 5px 0 0;
+}
+.imagelisttd2 img{
+	padding:3px;
+	border:1px solid #CCCCCC;
+	margin:5px 5px 0 0;
+}
+
+.imgListTableLeft{
+margin-right:10px;
+}
+
+.related a, .related a:link, .related a:visited, .related a:active, .related a:hover{
+	font-size: 10px;
+	color:#2d7bd2;
+	padding-left:9px;
+	background: transparent url(../lang/all/bullet.gif) 0 6px no-repeat;
+	line-height:13px;
+}
+
+#head p{
+	margin-left: 15em;
+	padding: 10px;
+	background:transparent;
+}
+
+
+#mainnavi p{
+	margin-left: 15em;
+	padding: 0 10px;
+	background:transparent;
+}
+
+
+pre {
+	padding: 0 0 5px 0;
+	margin:0;
+	background:transparent;
+}
+
+pre, code { font-size: 11px;}
+
+h1,h2 {
+	padding: 0 0 10px 0;
+	margin:0;
+	font-size: 16px; 
+	font-weight: bold;
+	background:transparent;
+}
+
+h3{
+	padding: 0 0 10px 0;
+	margin:0;
+	font-size: 14px; 
+	font-weight: bold;
+	background:transparent;
+}
+
+h4,h5 {
+	padding: 0 0 10px 0;
+	margin:0;
+	font-size: 13px; 
+	font-weight: bold;
+	background:transparent;
+}
+
+.sub{
+	font-size: 9px;
+	color: #567395;
+	padding-bottom:5px;
+}
+
+.bread{
+	font-size: 9px;
+	padding-top:2px;
+}
+
+.copy{
+	font-size: 9px;
+	color: #ACC1D6;
+}
+
+#content ul{
+	list-style-image:url(../lang/all/arrow_li.gif);
+	margin-bottom:4px;
+	
+}
+
+li{
+	padding-bottom:2px;
+	margin-bottom:8px;
+}
+
+b,strong,h1,h2,h3,h4,h5,h6{
+	color: #1e4a81
+}
+
+/* =====  Elements like hr, img etc.  ===== */
+
+.image_td img{
+	padding:3px;
+	margin:5px 5px 0 0;
+}
+
+img.download {
+	vertical-align:middle;
+}
+
+hr {
+	color: #cbe0f7;
+	background-color: #c1dbf7;
+	height: 1px;
+	margin:15px 0 15px 0;
+	border:0;
+}
+
+div.images div.imageEntry img {
+	border:1px solid #d0cac2;
+}
+
+div.images div.imageEntry a {
+	padding:2px;
+	display:block;
+}
+
+div.images div.imageEntry a:hover {
+	background-color:#ededec;
+}
+
+/* =====  Hyperlinks  ===== */
+
+#mainnavi a, #mainnavi a:link, #mainnavi a:visited {
+	color: #ffffff;
+	text-decoration:none;
+	background:transparent;
+	font-weight: normal;
+	font-size: 11px;
+}
+#mainnavi a:hover,#mainnavi a:active  {
+	color: #91d0ff;
+	font-weight: normal;
+	text-decoration:none;
+	background:transparent;
+	font-size: 11px;
+}
+
+a, a:link, a:visited, a:active, a:focus {
+	color: #517FB6;
+	background:transparent;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #2C79D5;
+	background:transparent;
+	text-decoration: underline;
+}
+
+#footer a, #footer a:link, #footer a:active, #footer a:visited {
+	text-decoration:none;
+	background:transparent;
+	font-size: 10px;
+}
+#footer a:hover {
+	text-decoration:underline;
+	background:transparent;
+	font-size: 10px;
+}
+
+a.sblink img{
+border:1px solid #ffffff;
+}
+
+
+a.sblink:hover img{
+border:1px solid #91d0ff;
+}
+
+
+
+
+/* =====  Poll css  ===== */
+
+/* =====  Form Styles  ===== */
+
+.error{
+	color:#a10704; 
+	background:transparent;
+	font-weight: bold; 
+}
+
+.checkbox{
+	font-size: 0.8em;
+	width: 10px;
+	height:10px;
+	color:#274d79;
+	background-color: #e8f1f9;
+	border:1px solid #ffffff;
+	border:0;
+	padding-left:2px;
+	font-size:11px; 
+	font-weight: normal; 
+	text-decoration:none;
+}
+
+.button,
+.button:focus,
+.button:active{
+	font-size: 11px;
+	width: 124px;
+	height:20px;
+	padding:1px;
+	margin-bottom:2px;
+	color:#ededec;
+	font-weight: bold; 
+	text-decoration:none;
+	background-color: #1E4E8F;
+	border: 1px solid #D1E0EE;
+	color:#ffffff;
+}
+
+.button:hover{
+	background-color: #4C78B3;
+	border: 1px solid #D1E0EE;
+	color:#ffffff;
+	font-size: 11px;
+}
+
+
+.formButton{
+	font-size: 0.9em;
+	width: 90px;
+	height:203px;
+	padding:1px;
+	margin-bottom:2px;
+	font-weight: bold; 
+	text-decoration:none;
+	background-repeat:no-repeat;
+	background-position:0 0.2em;
+	background-color: #1E4E8F;
+	border: 1px solid #D1E0EE;
+	color:#ffffff;
+}
+
+.btstyle,
+.btstyle:focus,
+.btstyle:active{
+	background-color: #1E4E8F;
+	border: 1px solid #D1E0EE;
+	color:#ffffff;
+	font-size: 11px;
+	width:150px;
+	height:18px;
+}
+
+
+.btstyle:hover{
+	background-color: #4C78B3;
+	border: 1px solid #D1E0EE;
+	color:#ffffff;
+	font-size: 11px;
+	width:150px;
+	height:18px;
+}
+
+
+.size1 {width:230px;height:18px;}
+
+.size7 {width:280px;height:123px;}
+
+select:hover{
+	border: 1px solid #B6CDE6;
+	color: #567395;
+	font-size:11px;
+}
+
+#search_input_field:focus,
+select:focus,
+input:focus,
+textarea:focus{
+	background: #F0F7FD;
+	border: 1px solid #B6CDE6;
+	color: #1e4a81;
+	font-size:11px;
+}
+
+.deepblue{
+	background-color: #5A85B0;
+	padding-left:2px;
+	color:#ffffff;
+	font-size:11px;
+	height:18px;
+}
+
+
+.inselect{
+	background-color: #FCFDFF;
+	border-bottom:1px dashed #B6CDE6;
+	padding:1px;
+	color:#567395;
+	font-size:11px;
+}
+
+.customSearchInput{
+	background-color: #e8f1f9;
+	border:1px solid #B6CDE6;
+	padding-left:2px;
+	color:#567395;
+	width:140px; 
+	height:16px; 
+	font-size:10px;
+}
+
+
+
+
+fieldset{
+	border:1px solid #C7D5E5; 
+	width:95%;
+	padding:10px;
+}
+
+legend{
+	color: #185990;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+
+.formButton,
+.formButton:focus,
+.formButton:active{
+	background-color: #1E4E8F;
+	border: 1px solid #D1E0EE;
+	color:#ffffff;
+	font-size: 11px;
+	height:18px;
+}
+
+.formButton:hover{
+	background-color: #4C78B3;
+	border: 1px solid #D1E0EE;
+	color:#ffffff;
+	font-size: 11px;
+	height:18px;
+}
+
+#search_input_field{
+	background-color: #FCFDFF;
+	border:1px solid #B6CDE6;
+	padding-left:2px;
+	width:200px;
+	height:16px;
+	color:#567395;
+	font-size:11px;
+	font-weight:normal;
+}
+
+
+.tbh{
+	background-color: #21508f;
+	font-size:10px;
+	color:#ffffff;
+	}
+	
+.tbl{
+	background-color: #ffffff;
+	padding:10PX; 
+	}
+	
+code{
+	color:#0a6dcc;
+	font-family: "Courier New", Courier, monospace;
+	background-color:#e1ecf8;
+	display:block;
+	padding:5px;
+	border:1px solid #d4e3f3;
+}
+	
+.tbr{
+	background-color: #FCFDFF;
+	}
+	
+.tbb{
+	background-color: #e8f2fd;
+	padding:3px;
+	}
+
+/* =====  FAQ  ===== */
+
+.docuFAQ h5 {
+	font-size:11px;
+	font-weight:bold;
+	color:#01659C;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	margin:0;
+	padding:0 0 10px 20px;
+	background-image:url(../img/faq_closed.gif);
+	background-position:left 3px;
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+
+.docuFAQ .faqEntry h5 {
+	background-image:url(../img/faq_open.gif);
+	background-position:left 4px;
+	background-repeat:no-repeat;
+}
+
+.docuFAQ p {
+	padding:0 0 0 20px;
+	margin:0;
+}
+
+#faqShowHide a {
+	text-decoration:none;
+	font-weight:bold;
+}
+
+/* sitemap*/
+
+.sitemap_art li{
+	margin-bottom:2px;
+	list-style-image:url(../lang/all/arrow_li.gif);
+}
+
+.sitemap_art2 li, .sitemap_art3 li{
+	margin-bottom:2px;
+	list-style-image:url(../lang/all/bullet.gif);
+}
+
+.sitemap_art4 li{
+	margin-bottom:2px;
+	list-style-image:url(../lang/all/nsn.gif);
+}
+
+.sitemap_art5 li{
+	margin-bottom:2px;
+	list-style-image:url(../lang/all/nn.gif);
+}
+

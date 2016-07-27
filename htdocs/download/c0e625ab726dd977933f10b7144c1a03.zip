@@ -1,0 +1,5 @@
+include/inc_lib/default.inc.php	Modified
+include/inc_lib/revision/revision.php	Modified
+include/inc_front/content/cnt8.article.inc.php	Modified
+setup/inc/setup.func.inc.php	Modified
+template/inc_default/teaser.tmpl	Modified

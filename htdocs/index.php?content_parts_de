@@ -1,0 +1,550 @@
+ 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!--
+	phpwcms | free open source content management system
+	created by Oliver Georgi (oliver at phpwcms dot de) and licensed under GNU/GPL.
+	phpwcms is copyright 2003-2007 of Oliver Georgi. Extensions are copyright of
+	their respective owners. Visit project page for details: http://www.phpwcms.org/
+//-->
+<title>phpwcms-docu for  phpwcms :: web based content management system | Content Parts{D:07/30/2007,30,neuR.gif} | Allgemeines zu Inhaltstypen / Content Parts</title>
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+  <meta http-equiv="content-style-type" content="text/css" />
+  <script src="template/inc_js/frontend.js" type="text/javascript"></script>
+  <style type="text/css">
+  <!-- 
+    @import url("template/inc_css/mpl_docu.css");
+    @import url("template/inc_css/mpl_frontend.css");
+    @import url("template/inc_css/mpl_menu.css");
+    @import url("template/inc_css/mpl_objects.css");
+  //-->
+  </style>
+<script type="text/javascript" language="javascript">
+<!--
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+}
+//-->
+</script>
+<meta name="Title" content="Die phpWCMS Dokumentation" />
+<meta name="author" content="Oliver Frohnert, Mario Perez Leal" />
+<meta name="Publisher" content="Oliver Frohnert, Mario Perez Leal, creacion" />
+<meta name="Copyright" content="Oliver Frohnert, Mario Perez Leal, creacion" />
+<meta name="keywords" content="frohnert, perez leal, creacion, documentation, dokumentation, phpwcms, cms, opensource, open source, docu" />
+<meta name="description" content="Das Dokumentations Projekt für das Open Source CMS phpWCMS" />
+<meta name="Audience" content="Alle" />
+<meta name="Content-language" content="DE" />
+<meta name="robots" content="index,follow" />
+<meta name="expires" content="0" />
+<meta name="revisit-after" content="7 days" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="Global" />
+<meta name="generator" content="PHPWCMS" />
+<meta name="verify-v1" content="1ZpxZ7AZsjm7PxjqXQVus0eiUYqOsp5URTJn9q4KNz8=" />
+  <!--[if lt IE 7]>
+  <style type="text/css">
+    body { behavior: url("template/inc_css/specific/csshover2.htc"); }
+    img { behavior: url("template/inc_css/specific/pngbehavior.htc"); }
+  </style>
+  <![endif]-->
+</head>
+<body id="myid_100">
+<div id="container"><a name="top" id="top"></a>
+
+
+	<div id="head">
+		
+	<div id="mainnavi">
+		<div class="fleft"><a href="http://www.phpwcms-docu.de/index.php">Startseite</a> | <a href="news_de.phtml">News</a> | <span style="text-decoration:none;font-weight:bold;"><a href="die_docu.phtml">Die Docu</a></span> | <a href="Nuetzliche_Links_und_Tools.phtml">Links &amp; Tools</a> | <a href="downloads.phtml">Downloads</a> | <a href="kontakt.phtml">Kontakt</a> | <a href="faq_de.phtml">FAQ</a> | <a href="http://forum.phpwcms.org/" target="_blank">Forum</a> | <a href="howto_de.phtml">HowTo</a></div>				
+		<div class="sys">Sonntag, 18. Oktober 2015<img src="img/leer.gif" border="0" width="5" height="1" alt="" />|<img src="img/leer.gif" border="0" width="5" height="1" alt="" />3 User online<img src="img/leer.gif" border="0" width="10" height="1" alt="" />
+		<a href="deutsche_version.phtml" title="Deutsche Version"><img src="picture/../template/lang/all/flag_de.gif" border="0" alt="" /></a>
+		<a href="english_version.phtml"  title="English version"><img src="picture/../template/lang/all/flag_en.gif" border="0" alt="" /></a>
+		</div>
+	</div>
+	
+	<a href="http://www.phpwcms-docu.de/" title="phpwcms-docu Startseite aufrufen" class="homelink">
+	<span>&raquo; Zur phpwcms-docu Startseite</span></a>
+	<h2>phpwcms-docu - Die Dokumentation f&uuml;r f&uuml;r das CMS phpWCMS</h2>
+	<p>phpwcms-docu ist eine Art Kompass, der Ihnen die M&ouml;glichkeiten von phpWcms aufzeigt und Sie erfolgreich, ohne gro&szlig;e Umwege, zu Ihrer fertigen Web-Anwendung f&uuml;hren soll.
+	</p>
+	</div>
+
+	
+	<div id="left">
+	<div class="leftnav" style="margin-top:24px;">
+	
+<div id="ul_div_309">
+<ul>
+	<li class="sub_no"><a href="download-dev-versionen.phtml">Download Dev Versionen</a></li>
+	<li class="sub_no sub_ul_true"><a href="installation_und_upgrade_von_phpwcms.phtml">Installation &amp; Upgrade</a></li>
+	<li class="sub_ul"><a href="verwaltung_artikel.phtml">Artikel</a>
+	<div id="ul_div_82">
+	<ul>
+		<li class="sub_no"><a href="artikel_erstellen.phtml">Artikel erstellen</a></li>
+		<li class="sub_no"><a href="artikel_editieren.phtml">Artikel bearbeiten</a></li>
+		<li class="sub_no sub_ul_true"><a href="artikel_organisation.phtml">Artikel Organisation</a></li>
+		<li class="sub_ul active"><a href="content_parts_de.phtml">Content Parts</a>
+		<div id="ul_div_100">
+		<ul>
+			<li class="sub_no"><a href="einfacher_text.phtml">Einfacher Text</a></li>
+			<li class="sub_no"><a href="content_part_html_de.phtml">HTML</a></li>
+			<li class="sub_no"><a href="content_part_wysiwyg_html_de.phtml">WYSIWYG HTML</a></li>
+			<li class="sub_no"><a href="content_part_code_de.phtml">Code</a></li>
+			<li class="sub_no"><a href="content_part_text_mit_bild.phtml">Text mit Bild</a></li>
+			<li class="sub_no"><a href="content_part_bilder_div.phtml"><span style="text-decoration:line-through;font-size:10px;">Bilder &lt;DIV&gt;</span></a></li>
+			<li class="sub_no"><a href="content_part_bilder.phtml">Bilder</a></li>
+			<li class="sub_no"><a href="content_part_aufzaehlung.phtml">Aufzählung</a></li>
+			<li class="sub_no"><a href="content_part_liste.phtml">Liste</a></li>
+			<li class="sub_no"><a href="content_part_link_und_e-mail.phtml">Link &amp; E-Mail</a></li>
+			<li class="sub_no"><a href="content_part_linkliste.phtml">Linkliste</a></li>
+			<li class="sub_no"><a href="content_part_artikellink.phtml">Artikellink</a></li>
+			<li class="sub_no"><a href="content_part_teaser_artikellink.phtml"><span style="text-decoration:line-through;font-size:10px;">Teaser / Artikellink</span></a></li>
+			<li class="sub_no"><a href="content_part_artikelmenue.phtml">Artikelmenü</a></li>
+			<li class="sub_no"><a href="content_part_multimedia_de.phtml">Multimedia</a></li>
+			<li class="sub_no"><a href="content_part_dateiliste.phtml">Dateiliste</a></li>
+			<li class="sub_no sub_ul_true"><a href="content_part_ecard_de.phtml">E-Card</a></li>
+			<li class="sub_no"><a href="content_part_formular.phtml">Formular</a></li>
+			<li class="sub_no sub_ul_true"><a href="content_part_e-mail_formulargenerator.phtml">E-Mail Form. [OLD]</a></li>
+			<li class="sub_no"><a href="content_part_e-mail_formular.phtml">E-Mail Formular</a></li>
+			<li class="sub_no sub_ul_true"><a href="content_part_newsletter_de.phtml">Newsletter</a></li>
+			<li class="sub_no"><a href="content_part_suche.phtml">Suche</a></li>
+			<li class="sub_no sub_ul_true"><a href="content_part_gaestebuch_kommentar.phtml">Gästebuch / Komm.</a></li>
+			<li class="sub_no"><a href="content_part_sitemap_de.phtml">Sitemap</a></li>
+			<li class="sub_no"><a href="content_part_externer_content.phtml">Ext. Content</a></li>
+			<li class="sub_no"><a href="content_part_bildwechsel.phtml">Bildwechsel</a></li>
+			<li class="sub_no"><a href="content_part_rss_feed_de.phtml">RSS Feed</a></li>
+			<li class="sub_no"><a href="content_part_landkarte.phtml">Landkarte</a></li>
+			<li class="sub_no"><a href="content_part_php_variablen.phtml">PHP Variablen</a></li>
+			<li class="sub_no"><a href="content_part_contentpart_alias_de.phtml">Contentpart Alias</a></li>
+			<li class="sub_no"><a href="content_part_poll_de.phtml"><span style="text-decoration:line-through;font-size:10px;">Poll</span></a></li>
+			<li class="sub_no"><a href="content_part_kochrezept.phtml">Kochrezept</a></li>
+			<li class="sub_no"><a href="content_part_faq_de.phtml">FAQ</a></li>
+			<li class="sub_no"><a href="content_part_frontend_login_de.phtml"><span style="text-decoration:line-through;font-size:10px;">Frontend Login</span></a></li>
+			<li class="sub_no"><a href="content_part_glossar.phtml"><span style="text-decoration:line-through;font-size:10px;">Plug-in: Glossar</span></a></li>
+		</ul>
+		</div>
+		</li>
+	</ul>
+	</div>
+	</li>
+	<li class="sub_no sub_ul_true"><a href="dateizentrale.phtml">Datei</a></li>
+	<li class="sub_no sub_ul_true"><a href="verwaltung_module.phtml">Module</a></li>
+	<li class="sub_no sub_ul_true"><a href="Kommunikation.phtml">Kommunikation</a></li>
+	<li class="sub_no"><a href="verwaltung_nachricht.phtml">Nachricht</a></li>
+	<li class="sub_no"><a href="verwaltung_chat.phtml">Chat</a></li>
+	<li class="sub_no"><a href="verwaltung_profil.phtml">Profil</a></li>
+	<li class="sub_no sub_ul_true"><a href="verwaltung_admin.phtml">Admin</a></li>
+	<li class="sub_no sub_ul_true"><a href="add-on-und-vorlagen.phtml">Add Ons und Vorlagen</a></li>
+	<li class="sub_no"><a href="http://www.phpwcms-docu.de/index.php?replacement_tags_de">Replacement Tags</a></li>
+	<li class="sub_no"><a href="http://www.phpwcms-docu.de/index.php?content_parts_de">Content Parts</a></li>
+</ul>
+</div>
+
+		
+		
+		
+
+	</div> 
+	</div> 
+	  
+	<div id="right">
+		<div style="margin-top:24px;">			
+		<form action="index.php?suche" method="post" name="searchFE" onsubmit="s=document.getElementById('customSearchInput');if(s.value=='Suchen')return false;">
+			<table width="100%" border="0" cellpadding="0" cellspacing="0">
+			<tr>
+					<td><input type="text" name="search_input_field" size="20" maxlength="200" id="customSearchInput" class="customSearchInput" value="" onfocus="if(this.value=='Suchen')this.value='';" onblur="if(this.value=='')this.value='Suchen';" /></td>
+					<td><input type="image" name="search_go" onfocus="this.blur();" title="Suchen" src="/template/lang/all/submit.gif" /></td>
+				</tr>
+			</table>
+			</form>
+			
+			      <script type="text/javascript" language="javascript">
+			  <!-- 
+			        document.getElementById("customSearchInput").value="Suchen";
+			  //-->
+			      </script>
+				  
+			<!-- <p style="margin-top:10px;">Schriftgrad &auml;ndern: <a href="[FontSize-]"><img src="template/lang/all/icons/reduce.gif" width="18" height="17" alt="" title="Verkleinern" border="0" /></a>
+			<a href="[FontSize+]"><img src="template/lang/all/icons/extend.gif" width="18" height="17" alt="" title="Vergr&ouml;&szlig;ern" border="0" /></a>
+			</p> -->
+			
+	<p style="margin-top:10px;">Bitte w&auml;hlen Sie: 
+	<a href="index.php?content_parts_de&amp;print=2" target="_blank"><img src="template/lang/all/icons/pdf.gif" width="18" height="18" alt="PDF erstellen" title="PDF erstellen" border="0" /></a>
+	 </p>
+<div style="border-bottom:1px dotted #dae7f6; margin-top:10px; margin-bottom:15px;"></div>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_xclick" />
+<input type="hidden" name="business" value="support@docu.fhss.de" />
+<input type="hidden" name="item_name" value="phpwcms-docu.de" />
+<input type="hidden" name="buyer_credit_promo_code" value="" />
+<input type="hidden" name="buyer_credit_product_category" value="" />
+<input type="hidden" name="buyer_credit_shipping_method" value="" />
+<input type="hidden" name="buyer_credit_user_address_change" value="" />
+<input type="hidden" name="no_shipping" value="0" />
+<input type="hidden" name="no_note" value="1" />
+<input type="hidden" name="currency_code" value="EUR" />
+<input type="hidden" name="tax" value="0" />
+<input type="hidden" name="lc" value="DE" />
+<input type="hidden" name="bn" value="PP-DonationsBF" />
+<input type="image" src="template/img/paypal.gif" name="submit" title="Eine kleine Spende ist gerne willkommen ..." alt="Eine kleine Spende ist gerne willkommen ..." />
+<img alt="" border="0" src="https://www.paypal.com/de_DE/i/scr/pixel.gif" width="1" height="1" />
+</form>
+<div style="border-bottom:1px dotted #dae7f6; margin-top:10px; margin-bottom:15px;"></div>
+<!-- <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fwww.phpwcms-docu.de%2Findex.php%3Fdeutsche_version" title="W3C Standard XHTML" target="_blank"><img src="picture/w3c/w3c_xhtml.gif" border="0" alt="" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http://www.phpwcms-docu.de" title="W3C Standard CSS" target="_blank"><img src="picture/w3c/w3c_css.gif" border="0" alt="" /></a><br />			
+<div style="border-bottom:1px dotted #dae7f6; margin-top:10px; margin-bottom:15px;"></div> -->
+<h3>Partnersites</h3>
+
+
+
+
+
+
+<div style="border-bottom:1px dotted #dae7f6; margin-top:10px; margin-bottom:15px;"></div>
+
+<div style="margin-top:10px; margin-bottom:15px;"></div>
+<script type="text/javascript"><!--
+google_ad_client = "pub-5747379735451868";
+//160x600, Erstellt 22.12.07
+google_ad_slot = "1002097208";
+google_ad_width = 160;
+google_ad_height = 600;
+//--></script>
+<script type="text/javascript"src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+<div style="border-bottom:1px dotted #dae7f6; margin-top:10px; margin-bottom:15px;"></div>
+</div>
+
+	</div> 
+	
+	<div id="content">
+	<div id="bread">Sie sind hier: <a href="deutsche_version.phtml">Deutsch</a> <span class="breadcrumb_spacer">&gt;</span> <a href="die_docu.phtml">Die Docu</a> <span class="breadcrumb_spacer">&gt;</span> <a href="verwaltung_artikel.phtml">Artikel</a> <span class="breadcrumb_spacer">&gt;</span> Content Parts</div>
+		
+		<a name="jump335"></a><!-- Livedate: 15.07.2007 10:28:48 / Killdate: 12.07.2017 23:59:59 -->
+<h1>Allgemeines zu Inhaltstypen / Content Parts</h1>
+<h3>ab 1.2.9</h3>
+
+<h3>Kopfbereich</h3><p>Alle Inhaltstypen bieten die gleichen Einstellungsm&ouml;glichkeiten. Im Kopfbereich finden Sie folgende Einstellungs- und &Auml;nderungsm&ouml;glichkeiten:</p>
+<div class="imgDIVtopLeft"><div class="image_td2"><a href="image_zoom.php?show=MWU1ZDAzZWYwOWYyZDhhNTdiMzA0ZGZkMGI1NzVmMjcucG5nP3dpZHRoPSI1NDAiIGhlaWdodD0iMTgyIg%3D%3D" onclick="checkClickZoom();clickZoom('image_zoom.php?show=MWU1ZDAzZWYwOWYyZDhhNTdiMzA0ZGZkMGI1NzVmMjcucG5nP3dpZHRoPSI1NDAiIGhlaWdodD0iMTgyIg%3D%3D','previewpic','width=540,height=182');return false;"><img src="content/images/7f68ac667af0031654ccce71379306a1.png" width="500" height="168" border="0" class="image_img" alt="cp_deutsch_1.png" /></a></div><p class="image_caption">Kopfbereich des Inhaltstyps / Contentparts</p></div><div class="articleText"><fieldset> <legend> <img width="21" height="22" border="0" title="Info" alt="Info" src="template/lang/all/alarm_s.gif" /> <strong>Wichtig!</strong></legend> Wechseln Sie NIE den Content Part wenn Sie schon den Inhalt eingegeben haben.  Dabei ist es egal ob er gespeichrt wurde oder nicht,  da somit der Inhalt gel&ouml;scht wird. Wenn Sie den Inhaltstyp &auml;ndern wollen Kopieren sie den gesamten Inhalt, dann &auml;ndern Sie  den Inhaltstyp und f&uuml;gen den markierten Inhalt wieder ein.</fieldset>
+<p>&nbsp;</p>
+<fieldset> <legend> <img width="21" height="22" border="0" alt="Info" title="Info" src="template/lang/all/info_s.gif" />  <strong> Feldbeschreibungen</strong></legend>
+<table cellspacing="0" cellpadding="6" border="0">
+    <tbody>
+        <tr class="tbfield">
+            <td width="90" valign="top">Kategorie</td>
+            <td>Durch Dr&uuml;cken auf <img border="0" alt="" src="img/symbole/redirect.gif" /> gelangen Sie in die zu dem Artikel geh&ouml;rige Seitenstruktur. Siehe auch <a href="ebene_erstellen_und_bearbeiten.phtml" class="phpwcmsIntLink"> Seitenstruktur erstellen / bearbeiten</a></td>
+        </tr>
+        <tr>
+            <td valign="top">Artikeltitel</td>
+            <td>Durch Dr&uuml;cken auf <img border="0" alt="" src="img/symbole/redirect.gif" /> gelangen Sie in die zu dem Artikel geh&ouml;rige Seitenstruktur. Siehe auch <a href="artikel_erstellen.phtml" class="phpwcmsIntLink"> Artikel erstellen</a></td>
+        </tr>
+        <tr class="tbfield">
+            <td valign="top">Inhaltsart</td>
+            <td>Hier w&auml;hlen Sie den Inhaltstyp / Contentpart aus, den Sie verwenden wollen.<br />
+            <br />
+            <strong class="error">Wichtig: Wechseln Sie NIE den Inhaltstyp / Content Part, wenn Sie schon den Inhalt eingegeben haben. Dabei ist es egal ob er gespeichert wurde oder nicht, da somit der Inhalt gel&ouml;scht wird. Wenn Sie den Inhaltstyp &auml;ndern wollen, kopieren sie den gesamten Inhalt, dann &auml;ndern Sie den Inhaltstyp und f&uuml;gen den markierten Inhalt wieder ein.</strong></td>
+        </tr>
+        <tr class="tbfield">
+            <td valign="top">Ausgabe</td>
+            <td>Hier bestimmen Sie, in welchem bereich der Content Part angezeigt werden soll. <br />
+            <br />
+            Zur Auswahl stehen standardm&auml;&szlig;ig folgende Werte:<br />
+            <br />
+            <ul>
+                <li>Hauptspalte (CONTENT)</li>
+                <li>Links (LEFT)</li>
+                <li>Rechts ( RIGHT)</li>
+                <li>Kopfzeile (HEADER)</li>
+                <li>Fu&szlig;zeile (FOOTER)</li>
+            </ul>
+            </td>
+        </tr>
+        <tr>
+            <td width="90" valign="top">Abstand davor /danach</td>
+            <td>Hiermit definieren Sie einen Abstand zwischen dem aktuellen und dem angrenzenden Inhaltsbaustein / Content Parts.</td>
+        </tr>
+        <tr class="tbfield">
+            <td width="90" valign="top">Top-Link</td>
+            <td>
+            <p>Hiermit ist es m&ouml;glich, einen Link zu Beginn des Artikels anzeigen zu lassen.<br />
+            <br />
+            Ergebnis: <img border="1" alt="" src="img/article/top_link_0.gif" /><br />
+            <br />
+            Die Grafik kann auch ausgetauscht werden. Sie finden diese unter <strong>/img/article/top_link_0.gif</strong></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="90" valign="top">Anker</td>
+            <td>
+            <p>Hiermit k&ouml;nnen Sie einen Anker setzen. Das bedeutet ,Sie k&ouml;nnen direkt auf einen Content Part verlinken.<br />
+            <br />
+            Wenn Sie den Haken hier gesetzt haben wird folgende Codezeile generiert. <span class="postbody"> <strong>&lt;a name=&quot;cpidxxx&quot; class=&quot;anchorClass&quot;&gt;&lt;/a&gt; </strong>dabei steht die XXX f&uuml;r die ID des Content Parts. <br />
+            <br />
+            Wie sie die ID des Content Parts erfahren, finden sie hier <br />
+            <a href="http://www.phpwcms-docu.de/verwaltung_artikel.phtml#cpid1144">Die Artikelzentrale im Detail</a><br />
+            <br />
+            Um nun einen Anker in einem Artikel aufzurufen gibt es 2 M&ouml;glichkeiten.<br />
+            <br />
+            <strong>1. Anker innerhalb eines Artikels</strong><br />
+            <br />
+            F&uuml;gen Sie, um innerhalb eines Artikels einen Link zu setzen,&nbsp; folgenden Link ein.<br />
+            </span><strong>&lt;a href=&quot;#cpidxxx&quot;&gt;Linktext&lt;/a&gt; </strong>das XXX wird durch die ID des Content Parts ersetzt.<br />
+            <br />
+            <br />
+            <strong>2. Anker in einem anderen Artikel</strong><br />
+            F&uuml;gen Sie um, ausserhalb eines Artikels einen Link zu setzen, folgenden Link ein.<br />
+            <strong>&lt;a href=&quot;http://www.domain.tld/Alias.phtml#cpidxxx&quot;&gt;Linktext&lt;/a&gt;<br />
+            </strong>in diesem Fall wird &quot;<strong>Alias</strong>&quot; ersetzt durch den Strukturnamen in der der Artikel liegt und xxx ebenfalls wieder durch die ID des Content Parts.<br />
+            <br />
+            Das zweite Beispiel wurde beim Link &quot;Die Artikelzentrale im Detail&quot; eingesetzt.<br />
+            <br />
+            <span class="postbody"><strong class="error">Hinweis: Bitte achten Sie immer darauf, dass #cpid immer klein geschrieben wird.</strong><br />
+            </span></p>
+            </td>
+        </tr>
+        <tr class="tbfield">
+            <td width="90" valign="top">Sort. Wert (ab Ver. 1.3.3 )</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td width="90" valign="top">Inhaltstitel</td>
+            <td>&nbsp;Inhaltstitel des aktuellen Content Parts</td>
+        </tr>
+        <tr class="tbfield">
+            <td width="90" valign="top">Untertitel</td>
+            <td>&nbsp;Untertitel des aktuellen Content Parts</td>
+        </tr>
+    </tbody>
+</table>
+</fieldset>
+<p>&nbsp;</p>
+<p><b>                               Wie Sie sehen, gibt es in phpwcms insgesamt drei &Uuml;berschriften-Hierarchien: </b></p>
+<ol>
+    <li>Artikeltitel</li>
+    <li>Artikeluntertitel</li>
+    <li>Inhaltstitel</li>
+    <li>Inhaltsuntertitel</li>
+</ol></div><div align="right"><a href="#top"><img src="img/article/top_link_0.gif" border="0" alt="" /></a></div><div style="border-bottom:1px dotted #d2e2f5; margin-top:10px; margin-bottom:15px;"></div><h3>Fussbereich</h3><h4>Ansicht bei einem neu erstellten Inhaltstyp / Contenpart</h4><p>Im Fussbereich finden Sie folgende Einstellungs- und &Auml;nderungsm&ouml;glichkeiten bzw. Schaltfl&auml;chen:</p><div class="imgDIVtopLeft"><div class="image_td2"><a href="image_zoom.php?show=MjY1NTcyN2VkNjFhNzRkMTRlYTU1ODNiZTViZjg4NjMucG5nP3dpZHRoPSI1NDAiIGhlaWdodD0iMTczIg%3D%3D" onclick="checkClickZoom();clickZoom('image_zoom.php?show=MjY1NTcyN2VkNjFhNzRkMTRlYTU1ODNiZTViZjg4NjMucG5nP3dpZHRoPSI1NDAiIGhlaWdodD0iMTczIg%3D%3D','previewpic','width=540,height=173');return false;"><img src="content/images/8111a57056bb8744f94b478986448c62.png" width="500" height="160" border="0" class="image_img" alt="cp_deutsch_2.png" /></a></div><p class="image_caption">Fusszeile des Inhaltstyps / Content Parts</p></div><div class="articleText"><fieldset><legend> <img width="21" height="22" border="0" align="middle" title="Info" alt="Info" src="template/lang/all/info_s.gif" /> <b>Feldbeschreibungen</b></legend>
+<table cellspacing="0" cellpadding="6" border="0">
+    <tbody>
+        <tr>
+            <td width="90" valign="top">Status</td>
+            <td>Hier entscheiden Sie durch Setzen des Hakens ob der&nbsp; Content Part sichtbar f&uuml;r die Besucher ist oder nicht.<br />
+            <br />
+            Haken gesetzt = Content Part sichtbar<br />
+            Haken nicht gesetzt = Content Part nicht sichtbar (Standard)</td>
+        </tr>
+        <tr class="tbfield">
+            <td valign="top">Erstellen</td>
+            <td>Der Content Part wird erstellt aber Sie k&ouml;nnen an ihm weiterarbeiten.</td>
+        </tr>
+        <tr>
+            <td valign="top">Sichern</td>
+            <td>Der Content Part wird erstellt, aber die Ansicht wird geschlossen und sie gelangen zu der &Uuml;bersicht aller Content Parts in diesem Artikel.</td>
+        </tr>
+        <tr class="tbfield">
+            <td valign="top">Abbruch</td>
+            <td>Der Contentpart wird geschlossen ohne zu speichern.<br />
+            <br />
+            <strong class="error">Hinweis: Alle eingebenen Daten werden dabei gel&ouml;scht</strong></td>
+        </tr>
+        <tr>
+            <td valign="top">Notizen</td>
+            <td>&nbsp;Hier k&ouml;nnen Sie Notizen zum Content Part hinterlassen.</td>
+        </tr>
+    </tbody>
+</table>
+</fieldset></div><div align="right"><a href="#top"><img src="img/article/top_link_0.gif" border="0" alt="" /></a></div><div style="border-bottom:1px dotted #d2e2f5; margin-top:10px; margin-bottom:15px;"></div><h4>Ansicht bei einem bereits erstelltem Inhaltstyp / Contenpart</h4><p>Die Ansicht bei einem neu erstellten Inhaltstyp / Content Part unterscheidet sich wie folgt:</p><div class="imgDIVtopLeft"><div class="image_td2"><a href="image_zoom.php?show=NGE3M2FmMmUwODM3MzUwYTEwMjI2YzI1N2ZkNzRhMzkucG5nP3dpZHRoPSI1NDAiIGhlaWdodD0iMTczIg%3D%3D" onclick="checkClickZoom();clickZoom('image_zoom.php?show=NGE3M2FmMmUwODM3MzUwYTEwMjI2YzI1N2ZkNzRhMzkucG5nP3dpZHRoPSI1NDAiIGhlaWdodD0iMTczIg%3D%3D','previewpic','width=540,height=173');return false;"><img src="content/images/183e24adb10c042cbdad2fda3ef4d6be.png" width="500" height="160" border="0" class="image_img" alt="cp_deutsch_3.png" /></a></div><p class="image_caption">Fusszeile des Inhaltstyps / Contentparts</p></div><div class="articleText"><fieldset><legend> <img width="21" height="22" border="0" align="middle" title="Info" alt="Info" src="template/lang/all/info_s.gif" /> <b>Feldbeschreibungen</b></legend>
+<table cellspacing="0" cellpadding="6" border="0">
+    <tbody>
+        <tr>
+            <td width="90" valign="top">Status</td>
+            <td>Hier entscheiden Sie durch setzten des Hakens ob der&nbsp; Content Part sichtbar f&uuml;r die Besucher ist oder nicht.<br />
+            <br />
+            Haken gesetzt = Content Part sichtbar<br />
+            Haken nicht gesetzt = Content Part nicht sichtbar (Standard)</td>
+        </tr>
+        <tr class="tbfield">
+            <td valign="top">Aktualisieren</td>
+            <td>Die &Auml;nderungen werden &uuml;bernommen und Sie k&ouml;nnen in dieser Ansicht weiterarbeiten.</td>
+        </tr>
+        <tr>
+            <td valign="top">Sichern</td>
+            <td>Die &Auml;nderungen werden &uuml;bernommen und die Ansicht geschlossen. Sie gelangen dann zu der Content Part &Uuml;bersicht des Artikels zur&uuml;ck.</td>
+        </tr>
+        <tr class="tbfield">
+            <td valign="top">Abbruch</td>
+            <td>Der Content Part wird geschlossen ohne zu speichern.<br />
+            <br />
+            <strong class="error">Hinweis: Alle eingebenen &Auml;nderungen werden dabei nicht &uuml;bernommen.<br />
+            </strong></td>
+        </tr>
+        <tr>
+            <td valign="top">Voransicht</td>
+            <td>Durch Klicken auf diese Schaltfl&auml;che wird in einem neuen Fenster der aktuelle Abschnitt angezeigt, wie Ihn die Besucher sehen w&uuml;rden.</td>
+        </tr>
+        <tr class="tbfield">
+            <td width="90" valign="top">Notizen</td>
+            <td>&nbsp;Hier k&ouml;nnen Sie Notizen zum Content Part hinterlassen.</td>
+        </tr>
+    </tbody>
+</table>
+<br />
+</fieldset></div><div align="right"><a href="#top"><img src="img/article/top_link_0.gif" border="0" alt="" /></a></div>
+		 
+		
+		<br /><br />
+		<div class="sub">
+		Artikel erstellt am: Sonntag, 15. Juli 2007 <br /> Letzte &Auml;nderung: Freitag, 19. Oktober 2007	
+		</div>
+				
+	</div>
+	
+<div id="footer"><br /><br />
+<p style="height:30px;">&nbsp;</p>
+
+
+ <script type="text/javascript" language="javascript">
+<!--
+
+var showDefaultValue =  0
+
+function hideLayer(whichLayer) {
+	if (document.getElementById) {
+		// this is the way the standards work
+		document.getElementById(whichLayer).style.display = "none";
+	} else if (document.all) {
+		// this is the way old msie versions work
+		document.all[whichlayer].style.display = "none";
+	} else if (document.layers) {
+		// this is the way nn4 works
+		document.layers[whichLayer].display = "none";
+	}
+}
+
+function showLayer(whichLayer) {
+		//	alert(whichLayer);
+	if (document.getElementById) {
+		// this is the way the standards work
+		document.getElementById(whichLayer).style.display = "block";
+	}
+	else if (document.all) {
+		// this is the way old msie versions work
+		document.all[whichlayer].style.display = "block";
+	}
+	else if (document.layers) {
+		// this is the way nn4 works
+		document.layers[whichLayer].display = "block";
+	}
+}
+
+function toggleLayer(whichLayer) {
+	if(showDefaultValue == 0) {
+		hideLayer(whichLayer);
+		showDefaultValue = 1;
+	} else {
+		showLayer(whichLayer);
+		showDefaultValue = 0;
+	}
+}
+//-->
+</script>
+
+
+<div id="alles">
+<div id="klapper" onclick="toggleLayer('formular');">
+<table width="570" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><em style="color:#275EA8;" onmouseover="this.style.color='#4F96F4';" onmouseout="this.style.color='#275EA8';">Sie haben Anregungen oder Kritik zu diesem Artikel? Schreiben Sie uns!</em></td>   
+<td align="right" style="padding-right:2px;"><img src="template/lang/all/icons/write.gif" width="16" height="21" alt="" border="0" /></td>
+</tr>
+</table>
+
+</div>
+<div id="formular">
+
+<form name="form" method="post" action="index.php?id=100,335,0,1,1,0" style="margin:0;padding:0;"><input type="hidden" name="customForm" value="1" /><input type="hidden" name="docucheck" value="1" />
+
+
+<div style="float:left;">
+<p><select name="Betreff" id="Betreff" class="size1">
+<option value="" class="deepblue"> Bitte ausw&auml;hlen </option>
+<option value="subject_1" class="inselect">Anregungen</option>
+<option value="subject_2" class="inselect">Fehlermeldung/ Kritik</option>
+<option value="subject_3" class="inselect">Sonstiges</option>
+
+</select><br /></p>
+
+
+<p>Vorname:<br />
+<input type="text" name="Vorname" value="" class="size1" /></p>
+<p>Name:*<br />
+<input type="text" name="Name" value="" class="size1" /></p>
+<p>E-Mail:*<br />
+<input type="text" name="E-Mail" value="" class="size1" /></p>
+</div>
+
+
+<div style="float:right;">Mitteilung:*<br />
+<textarea name="Nachricht" cols="40" rows="4"  class="size7"></textarea>
+</div>
+
+<p style="clear:both; text-align:right;"><input type="reset" name="reset" value="Zur&uuml;cksetzen" class="btstyle" style="width:100px;" />&nbsp;&nbsp;
+<input type="submit" name="submit" value="Anfrage senden" class="btstyle" style="width:110px;" /></p>
+<p style="margin:20px;" class="sub">* Pflichtangaben. Ihre Daten werden ausschlie&szlig;lich für diese Anfrage verwendet.</p>
+
+</form>
+</div>
+</div>
+ <script type="text/javascript" language="javascript">
+<!--
+	// Lösung ohne Onload
+	toggleLayer('formular');
+//-->
+</script>
+<br />
+
+
+
+
+
+	<table width="97%" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td valign="bottom">	
+			&copy; phpwcms-docu 2004-2015
+			<img src="img/leer.gif" border="0" width="10" height="0" alt="" /><a href="impressum.phtml" class="phpwcmsIntLink"><img src="template/lang/all/icons/imprint.gif" width="9" height="15" alt="Impressum" title="Impressum" border="0" /></a>&nbsp; 
+			<a href="sitemap_de.phtml" class="phpwcmsIntLink"><img src="template/lang/all/icons/sitemap.gif" width="19" height="15" alt="Sitemap" title="Sitemap" border="0" /></a>&nbsp; 
+			<a href="gaestebuch.phtml" class="phpwcmsIntLink"><img src="template/lang/all/icons/gbook.gif" width="20" height="16" alt="Ins G&auml;stebuch eintragen" title="Ins G&auml;stebuch eintragen" border="0" /></a>&nbsp; 
+			<a href="#" onclick="BookMark_Page();return false;" title="" class="phpwcmsBookmarkLink"><img src="template/lang/all/icons/favo.gif" width="12" height="15" alt="Seite als Bookmark speichern" title="Seite als Bookmark speichern" border="0" /></a>&nbsp; 
+			     
+			</td>
+			<td valign="bottom" style="padding-right:25px;">
+			
+			
+			
+			</td>		
+			<td width="150"><a href="http://www.all-inkl.com/index.php?partner=124181"><img src="template/img/allinc.gif" width="150" height="57" alt="" border="0" /></a>
+			</td>
+		</tr>
+	</table>
+</div><br/>
+
+</div>
+</body>
+</html>

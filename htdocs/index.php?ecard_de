@@ -1,0 +1,334 @@
+ 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!--
+	phpwcms | free open source content management system
+	created by Oliver Georgi (oliver at phpwcms dot de) and licensed under GNU/GPL.
+	phpwcms is copyright 2003-2007 of Oliver Georgi. Extensions are copyright of
+	their respective owners. Visit project page for details: http://www.phpwcms.org/
+//-->
+<title>phpwcms documentation | E-Card{D:8/15/2005,30,neuR.gif} | Content Part &quot;E-Card&quot;</title>
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+  <meta http-equiv="content-style-type" content="text/css" />
+  <script src="phpwcms_template/inc_js/frontend.js" type="text/javascript"></script>
+  <style type="text/css" media="all">
+  <!-- 
+    body {
+      margin: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+      padding-left: 0;
+      padding-right: 0;
+
+      background-color: #FFFFFF;
+      color: #000000;
+    }
+    a, a:link, a:active, a:visited, a:hover { color: #FF9900; }
+    a:visited { color: #FF9900; }
+    a:active { color: #FF9900; }
+  //-->
+  </style>
+  <style type="text/css">
+  <!-- 
+    @import url("phpwcms_template/inc_css/frontend.css");
+    @import url("phpwcms_template/inc_css/nlu_navi1_docu.css");
+  //-->
+  </style>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-361662-1";
+urchinTracker();
+</script>
+<META NAME="Title" CONTENT="Die phpWCMS Dokumentation">
+<meta name="author" content="Oliver Frohnert">
+<meta name="Publisher" content="Oliver Frohnert">
+<meta name="Copyright" content="Oliver Frohnert">
+<meta name="keywords" content="frohnert,documentation, dokumentation, phpwcms, cms, opensource, open source">
+<meta name="description" content="Das Dokumentations Projekt für das Open Source CMS phpWCMS">
+<meta name="Audience" content="Alle">
+<meta name="Content-language" content="DE">
+<META NAME="robots"      CONTENT="index,follow">
+<META NAME="expires" CONTENT="0">
+<meta name="revisit-after" content="7 days">
+<meta name="resource-type" content="document">
+<meta name="distribution" content="Global">
+<meta name="generator" content="PHPWCMS">
+<META name="verify-v1" content="1ZpxZ7AZsjm7PxjqXQVus0eiUYqOsp5URTJn9q4KNz8=" />
+  <!--[if lt IE 7]>
+  <style type="text/css">
+    body { behavior: url("phpwcms_template/inc_css/specific/csshover2.htc"); }
+    img { behavior: url("phpwcms_template/inc_css/specific/pngbehavior.htc"); }
+  </style>
+  <![endif]-->
+</head>
+<body>
+<table border="0" cellspacing="0" cellpadding="0" width="760" bgcolor="#ffffff" class="maintable" align="center" summary="">
+<tr>
+<td colspan="2" style="height:60px;"  bgcolor="#ffffff"><a name="top"></a><table width="760" height="135" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="1334" height="122" colspan="6"><IMG src="/phpwcms_template/lang/de/header.jpg" alt="" border="0">
+</td>
+  </tr>
+  <tr>
+	<td height="27" background="phpwcms_template/lang/all/top_menu.jpg"><table width="570" border="0" align="left" cellpadding="0" cellspacing="0">
+      <tr>
+        <td align="center" width="254"><a href="deutsche_version.phtml"><img src="picture/flags/de.gif" width="16" height="10" hspace="10" border="0"  alt="Deutsche Version" title="Deutsche Version"></a>
+<a href="english_version.phtml"><img src="picture/flags/gb.gif" width="16" height="10" hspace="10" border="0"  alt="English Version" title="English Version"></a></td>
+        <td valign="middle"><div align="center"><a href="replacement_tags_de.phtml"><img src="content/gt/8c10fcb16c44a7b9c26a5a932c5e4ae9.png" alt="Replacement Tags" title="Replacement Tags" width="115" height="13" border="0" /></a></div></td>
+        <td width="30" valign="middle"><div align="center"><img src="phpwcms_template/lang/all/sep.gif" width="5" height="5" border="0"></div></td>
+        <td valign="middle"><div align="center"><a href="content_parts_de.phtml"><img src="content/gt/02725c45a346fbf433a4c83e02d8dc5a.png" alt="Content Parts" title="Content Parts" width="94" height="13" border="0" /></a></div></td>
+        <td width="30" valign="middle"><div align="center"><img src="phpwcms_template/lang/all/sep.gif" width="5" height="5" border="0"></div></td>
+        <td valign="middle"><div align="center"><a href="links_de.phtml"><img src="content/gt/2c41bfb28d6dd3d4bbc8bb7688fd62ee.png" alt="Links" title="Links" width="36" height="13" border="0" /></a></div></td>
+        <td width="30" valign="middle"><div align="center"><img src="phpwcms_template/lang/all/sep.gif" width="5 " height="5" border="0"></div></td>
+        <td valign="middle"><div align="center"><a href="impressum.phtml"><img src="content/gt/d7380cf01602233e53be03b55123cf90.png" alt="Impressum" title="Impressum" width="64" height="13" border="0" /></a></div></td>
+     </tr>
+    </table>    </td>
+  </tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="185" style="background-image:url(img/menu.gif)"><table width="180" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="180" height="20">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="padding-left: 1px;"><div class="nlu_navi1_docu">
+<ul>
+	<li class="sub_no"><a href="http://www.phpwcms-docu.de/index.php?deutsche_vers">Startseite</a></li>
+	<li class="sub_no sub_ul_true"><a href="inst_de.phtml">Installation &amp; Upgrade</a></li>
+	<li class="sub_ul"><a href="die_docu.phtml">Die Docu</a>
+	<ul>
+		<li class="sub_ul"><a href="verwaltung_artikel.phtml">Artikel</a>
+		<ul>
+			<li class="sub_no"><a href="artikel_erstellen.phtml">Artikel erstellen</a></li>
+			<li class="sub_no"><a href="artikel_editieren.phtml">Artikel bearbeiten</a></li>
+			<li class="sub_no sub_ul_true"><a href="artikel_organisation.phtml">Artikel Organisation</a></li>
+			<li class="sub_ul"><a href="content_parts_de.phtml">Content Parts</a>
+			<ul>
+				<li class="sub_no"><a href="einfacher_text.phtml">Einfacher Text</a></li>
+				<li class="sub_no"><a href="html_.phtml">HTML</a></li>
+				<li class="sub_no"><a href="wysiwyg_html_.phtml">WYSIWYG HTML</a></li>
+				<li class="sub_no"><a href="code_.phtml">Code</a></li>
+				<li class="sub_no"><a href="text_mit_bild.phtml">Text mit Bild</a></li>
+				<li class="sub_no"><a href="bilder.phtml">Bilder</a></li>
+				<li class="sub_no"><a href="aufzahlung.phtml">Aufzählung</a></li>
+				<li class="sub_no"><a href="liste.phtml">Liste</a></li>
+				<li class="sub_no"><a href="link_e-mail_.phtml">Link &amp; E-Mail</a></li>
+				<li class="sub_no"><a href="linkliste.phtml">Linkliste</a></li>
+				<li class="sub_no"><a href="artikellink.phtml">Artikellink</a></li>
+				<li class="sub_no"><a href="artikelmenu.phtml">Artikelmenü</a></li>
+				<li class="sub_no"><a href="multimedia_.phtml">Multimedia</a></li>
+				<li class="sub_no"><a href="dateiliste.phtml">Dateiliste</a></li>
+				<li class="sub_ul active"><a href="ecard_de.phtml">E-Card</a>
+				<ul>
+					<li class="sub_no"><a href="ecard_beispiel.phtml">E-Card Beispiel</a></li>
+				</ul>
+				</li>
+				<li class="sub_no"><a href="e-mail_kontaktformular.phtml">E-Mail Kontaktformular</a></li>
+				<li class="sub_no sub_ul_true"><a href="e-mail_formular.phtml">E-Mail Formulargenerator</a></li>
+				<li class="sub_no sub_ul_true"><a href="newsletter_de.phtml">Newsletter</a></li>
+				<li class="sub_no"><a href="suche_.phtml">Suche</a></li>
+				<li class="sub_no sub_ul_true"><a href="gastebuch_komm.phtml">Gästebuch / Komm.</a></li>
+				<li class="sub_no"><a href="sitemap_.phtml">Sitemap</a></li>
+				<li class="sub_no sub_ul_true"><a href="angebot.phtml">Angebot</a></li>
+				<li class="sub_no"><a href="ext._content_.phtml">Ext. Content</a></li>
+				<li class="sub_no"><a href="rss_feed_de.phtml">RSS Feed</a></li>
+				<li class="sub_no"><a href="bildwechsel.phtml">Bildwechsel</a></li>
+				<li class="sub_no"><a href="contentpart_alias_de.phtml">Contentpart Alias</a></li>
+			</ul>
+			</li>
+		</ul>
+		</li>
+		<li class="sub_no sub_ul_true"><a href="dateien_hinzufuegen.phtml">Datei</a></li>
+		<li class="sub_no sub_ul_true"><a href="verwaltung_module.phtml">Module</a></li>
+		<li class="sub_no sub_ul_true"><a href="verwaltung_nachricht.phtml">Nachricht</a></li>
+		<li class="sub_no"><a href="verwaltung_chat.phtml">Chat</a></li>
+		<li class="sub_no"><a href="verwaltung_profil.phtml">Profil</a></li>
+		<li class="sub_no sub_ul_true"><a href="verwaltung_admin.phtml">Admin</a></li>
+	</ul>
+	</li>
+	<li class="sub_no sub_ul_true"><a href="add_on.phtml">Add Ons</a></li>
+	<li class="sub_no sub_ul_true"><a href="fehlermeldungen.phtml">Fehlermeldungen</a></li>
+	<li class="sub_no"><a href="suche.phtml">Suche</a></li>
+	<li class="sub_no sub_ul_true"><a href="kontakt.phtml">Kontakt</a></li>
+	<li class="sub_no"><a href="faq_de.phtml">FAQ</a></li>
+</ul>
+</div></td>
+  </tr>
+   <tr>
+    <td style="padding:10px; color:#000000;">
+<img src="picture/seperate.gif" border="0" alt="" /><br /><br />
+<img src="content/gt/4ed113c59a3746cabc12bacb98382a26.png" alt="Letzte Finale Version:" title="Letzte Finale Version:" width="149" height="13" border="0" /><br /><br />
+<img src="content/gt/e91a9fb3d2c66ffdf2b7ffd0222a1a9b.png" alt="phpwcms 1.3.3" title="phpwcms 1.3.3" width="83" height="13" border="0" /><br />
+<img src="content/gt/2a27ef3b6d9c74f4c2f49b2ec33593ef.png" alt="Vö: 02.05.2007" title="Vö: 02.05.2007" width="89" height="13" border="0" /><br /><br />
+<a href="http://www.phpwcms.de/forum/viewtopic.php?t=14617"><img src="content/gt/17ec582052b0d3ac3eddfbb9e5ff97f1.png" alt="weiter..." title="weiter..." width="52" height="13" border="0" /></a><br /><br />
+<img src="picture/seperate.gif" border="0" alt="" /><br /><br />
+</TD>
+  </tr>
+  <tr>
+    <td align="center"><span><script language='JavaScript' type='text/javascript'><!--
+/* openads=http://www.phpwcms-docu.de/externals/ads bannerid=12 zoneid=0 source= */
+if (typeof phpAds_adg == 'undefined') {
+	document.write('<scr'+'ipt language="JavaScript" type="text/javascript" src="http://www.phpwcms-docu.de/externals/ads/adg.js"></scr'+'ipt>');
+}
+//--></script><script type="text/javascript"><!--
+google_ad_client = "pub-5747379735451868";
+google_ad_width = 120;
+google_ad_height = 240;
+google_ad_format = "120x240_as_rimg";
+google_cpa_choice = "CAAQwdqWhAIaCA7_S2iOQTQoKOPC93M";
+google_ad_channel = "";
+//--></script>
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></span><div id="beacon_12" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src='http://www.phpwcms-docu.de/externals/ads/adlog.php?bannerid=12&amp;clientid=15&amp;zoneid=0&amp;source=&amp;block=0&amp;capping=0&amp;cb=b42eb6f7c2d0b00f753a0be6e5090609' width='0' height='0' alt='' style='width: 0px; height: 0px;'></div><br />WERBUNG<br /><br /><img src="picture/seperate.gif" border="0" alt="" /><P>
+</td>
+  </tr>
+<tr>
+    <td height="20">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td align="center" height="20">&nbsp</td>
+  </tr>
+</table>
+
+
+</body>
+</html>
+</td>
+<td valign="top" width="555" bgcolor="#ffffff" class="maincontent"><img src="img/leer.gif" border="0" width="10" height="1" alt="" />
+<br />
+<a href="deutsche_version.phtml">Deutsch</a> <span class="breadcrumb_spacer">&gt;</span> <a href="die_docu.phtml">Die Docu</a> <span class="breadcrumb_spacer">&gt;</span> <a href="verwaltung_artikel.phtml">Artikel</a> <span class="breadcrumb_spacer">&gt;</span> <a href="content_parts_de.phtml">Content Parts</a> <span class="breadcrumb_spacer">&gt;</span> E-Card
+<br />
+<HR>
+<br />
+<a name="jump148"></a><div>
+<h1 style="margin:0 0 5px 0;">Content Part &quot;E-Card&quot;</h1>
+
+
+</div><div style="margin:25px 0 0 0;padding:0;" class="spaceBeforeCP"></div><div class="imgDIVinTextLeft" align="left"><div class="image_td"><a href="image_zoom.php?show=MmIwMDljYTEwMjY1YTA2OTZlMWNiMjMzYWI5NTM0ZTMucG5nP3dpZHRoPSI0MDEiIGhlaWdodD0iODAwIg%3D%3D" onclick="checkClickZoom();clickZoom('image_zoom.php?show=MmIwMDljYTEwMjY1YTA2OTZlMWNiMjMzYWI5NTM0ZTMucG5nP3dpZHRoPSI0MDEiIGhlaWdodD0iODAwIg%3D%3D','previewpic','width=401,height=800');return false;"><img src="content/images/72bfc1ce9245fe3b68270e3d5ca291b0.png" width="150" height="299" border="0" class="image_img" alt="phpwcms_Backend_(Verwaltung)_1177858244622.png" /></a></div></div><div class="articleText"><strong>
+<table width="70%" height="300" cellspacing="0" cellpadding="0" border="0">
+    <tbody>
+        <tr>
+            <td>
+            <p align="justify"><strong>Auswahlart:</strong> Auswahl zwischen Radiobuttons und Javascript-Funktionalit&auml;t. Bei Javascript k&ouml;nnen folgende weitere Felder verwendet werden:<br />
+            <br />
+            - onMouseOver<br />
+            - onClick<br />
+            - onMouseOut<br />
+            <br />
+            <span style="font-weight: bold;">Bild:</span> W&auml;hlen Sie hier die Bilder aus, die Sie als eCard anbieten m&ouml;chten.<br />
+            <br />
+            <span style="font-weight: bold;">Ausrichtung:</span> Folgende Ausrichtungen stehen zur Verf&uuml;gung: <br />
+            links - zentriert - rechts<br />
+            <br />
+            <span style="font-weight: bold;">max. Breite - max. H&ouml;he:</span>&nbsp; Geben Sie hier die Ma&szlig;e der eCard-Grafiken in Pixel ein.<br />
+            <br />
+            <span style="font-weight: bold;">Spalten:&nbsp;</span> F&uuml;r die Anordnung der Grafiken k&ouml;nnen bis zu 10 Spalten ausgew&auml;hlt werden.<br />
+            <br />
+            <span style="font-weight: bold;">Bildabstand: </span>Sollen die Grafiken mit einem Abstand untereinander angezeigt werden, geben Sie bitte hier den Abstandswert in Pixel ein.</p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</strong>
+<p align="justify"><br />
+<span style="font-weight: bold;">Klick vergr&ouml;&szlig;erbar: </span>Wenn Sie dem Benutzer die M&ouml;glichkeit geben m&ouml;chten, ein Bild zu vergr&ouml;&szlig;ern, klicken Sie diese Option an.<br />
+<br />
+<span style="font-weight: bold;">Titel/E-Card:&nbsp; </span>Geben Sie hier den Titel der eCard an.<br />
+<br />
+<span style="font-weight: bold;">Formular:&nbsp; </span>In diesem Feld k&ouml;nnen Sie das Formular definieren, das die Absender- und Empf&auml;ngerdaten sowie die zu versendende Mitteilung vom Benutzer abfragt.<br />
+Folgende Platzhalter k&ouml;nnen im Formular verwendet werden:<br />
+<br />
+<span style="font-weight: bold;">###ECARD_SUBJECT###:</span> Der Titel der zu verschickenden eCard<br />
+<span style="font-weight: bold;">###SENDER_NAME###: </span>Der Absendername<br />
+<span style="font-weight: bold;">###SENDE_EMAIL###: </span>Die Absender-Email-Adresse<br />
+<span style="font-weight: bold;">###RECIPIENT_NAME###: </span>Der Empf&auml;ngername<br />
+<span style="font-weight: bold;">###RECIPIENT_EMAIL###: </span>Die Empf&auml;nger-Email-Adresse<br />
+<span style="font-weight: bold;">###SENDER_MESSAGE###: </span>Die Mitteilung des Absenders an den Empf&auml;nger<br />
+<span style="font-weight: bold;">&lt;!--FORM_ERROR_START--&gt;:</span> Start-Tag f&uuml;r die Fehlerbehandlung<br />
+<span style="font-weight: bold;">&lt;!--FORM_ERROR_END--&gt;:</span> Ende-Tag f&uuml;r die Fehlerbehandlung<br />
+<br />
+<span style="font-weight: bold;">Gesendet:&nbsp; </span>Dieses Feld k&ouml;nnen Sie f&uuml;r die Erstellung einer Erfolgsmeldung verwenden, die erscheint, wenn die eCard ordnungsgem&auml;&szlig; gesendet wurde.<br />
+Folgende Platzhalter k&ouml;nnen in der Gesendet-Meldung verwendet werden:<br />
+<br />
+<span style="font-weight: bold;">###ECARD_SUBJECT###:</span> Der Titel der verschickten eCard<br />
+<span style="font-weight: bold;">###RECIPIENT_NAME###: </span>Der Empf&auml;ngername<br />
+<span style="font-weight: bold;">###RECIPIENT_EMAIL###: </span>Die Empf&auml;nger-Email-Adresse<br />
+<span style="font-weight: bold;">###SENDER_MESSAGE###: </span>Die Mitteilung des Absenders an den Empf&auml;nger<br />
+<span style="font-weight: bold;">###ECARD_TITLE###:&nbsp; </span>Der eCard-Titel<span style="font-weight: bold;"><br />
+###ECARD_IMAGE###: </span>Das eCard-Bild<span style="font-weight: bold;"><br />
+</span><br />
+<span style="font-weight: bold;">Email: </span>Hier definieren Sie die Email, die der Empf&auml;nger der eCard erhalten soll.<br />
+Folgende Platzhalter k&ouml;nnen bei der Email verwendet werden:<br />
+<br />
+<span style="font-weight: bold;">###ECARD_SUBJECT###:</span> Der Titel der empfangenen eCard<br />
+<span style="font-weight: bold;">###SENDER_NAME###: </span>Der Absendername<br />
+<span style="font-weight: bold;">###SENDE_EMAIL###: </span>Die Absender-Email-Adresse<br />
+<span style="font-weight: bold;">###RECIPIENT_NAME###: </span>Der Empf&auml;ngername<br />
+<span style="font-weight: bold;">###RECIPIENT_EMAIL###: </span>Die Empf&auml;nger-Email-Adresse<br />
+<span style="font-weight: bold;">###SENDER_MESSAGE###: </span>Die Mitteilung des Absenders an den Empf&auml;nger<br />
+<span style="font-weight: bold;">###ECARD_IMAGE###: </span>Das eCard-Bild<br />
+<span style="font-weight: bold;">###ECARD_TITLE###:&nbsp; </span>Der eCard-Titel<span style="font-weight: bold;"><br />
+</span><br />
+</p></div><div align="right"><a href="#top"><img src="img/article/top_link_0.gif" border="0" alt="" /></a></div>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td colspan="2"><HR></td>
+  </tr>
+  <tr>
+    <td width="50%">Artikel erstellt: 2004/09/02</td>
+    <td align="right" width="50%">Letzte Änderung:2007/04/30</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2" class="comment">Wenn Sie einen Fehler entdecken eine Ergänzung oder Frage haben benutzen Sie bitte folgendes <a href="#" onClick="javascript:window.open('http://www.phpwcms-docu.de/content/pages/nachricht.htm','frage','width=400, height=250, screenX=440,screenY=200,menubar=no,statusbar=yes,scrollbar=yes,resizable=no');" target="" style="max-width:148px; overflow:hidden;"><u>Formular</u></a>.<br /><br />
+Hat Ihnen oder Ihrem Kunden diese Docu weitergeholfen ? Dann würde ich mich freuen wenn Sie das Projekt unterstützen würden. Bitte nutzen Sie dafür diesen <a href="https://www.paypal.com/xclick/business=support%40docu.fhss.de&item_name=phpwcms+support&no_shipping=1&no_note=1&tax=0&currency_code=EUR&lc=US" target="_blank">PayPal</a> Link. Jeder Betrag ist möglich und hilft der Weiterentwicklung und Aktualisierung dieser Dokumentation.<br />
+Diese Seite nutzt die version:</td>
+  </tr>
+  <tr>
+
+    <td colspan="2"><img src="img/leer.gif" border="0" width="10" height="10" alt="" /></td>
+  </tr>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="height:10px;"  bgcolor="#ffffff" class="footer"><table width="100%" height="20" background="img/footer.gif" cellpadding="0" cellspacing="0" border="0">
+	<tr><td width="180" align="center" valign="middle">10 User online</td>
+	<td>
+	<table width="100%"cellpadding="0" cellspacing="0" border="0">
+   <tr>
+    <td align="center"><a href="#" target="_top" title="go back" onclick="history.back();return false;" class="phpwcmsBackLink"><img src="picture/back_.gif" border="0" alt="Zurueck"><img src="content/gt/13c1f733e9ee7693bf810fd5f035d0b7.png" alt="Zurück" title="Zurück" width="45" height="13" border="0" /></a></td>
+	<td align="center"><a href="sitemap_de.phtml"><img src="picture/sitemap_.gif" border="0"  alt="Sitemap"><img src="content/gt/38062c01670c74843cc0b291d94966c6.png" alt="Sitemap" title="Sitemap" width="50" height="13" border="0" /></a></td>
+	<td align="center"><a href="index.php?ecard_de&amp;print=1" target="_blank"><img src="picture/print_.gif" border="0" alt="Drucken"><img src="content/gt/811a35c6cb2c5555a2f32d85b1bb5deb.png" alt="Drucken" title="Drucken" width="52" height="13" border="0" /></a></td>
+	<td align="center"><a href="gaestebuch.phtml"><img src="picture/icon_gaestebuch.gif" border="0" align="top" alt="Gästebuch"><img src="content/gt/1257c79a2b085b5641453b0f6e0fe1fd.png" alt="Gästebuch" title="Gästebuch" width="66" height="13" border="0" /></a></td>
+	<td align="center"><a href="#" onclick="BookMark_Page();return false;" title="" class="phpwcmsBookmarkLink"><img src="picture/favoriten_.gif" border="0"  alt="Lesezeichen"><img src="content/gt/7ce0fe74ab60b3da559a77c54fb85a80.png" alt="Lesezeichen" title="Lesezeichen" width="78" height="13" border="0" /></a></td>
+    </tr>
+</table></td>
+	</tr>
+</table>
+<img src="img/leer.gif" border="0" width="760" height="10" alt="" /><br />
+<script type="text/javascript"><!--
+google_ad_client = "pub-5747379735451868";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text_image";
+google_ad_channel ="1196150249";
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></td>
+</tr>
+</table>
+
+</body>
+</html>

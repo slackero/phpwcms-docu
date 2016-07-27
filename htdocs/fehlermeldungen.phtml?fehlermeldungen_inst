@@ -1,0 +1,229 @@
+ 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!--
+	phpwcms | free open source content management system
+	created by Oliver Georgi (oliver at phpwcms dot de) and licensed under GNU/GPL.
+	phpwcms is copyright 2003-2007 of Oliver Georgi. Extensions are copyright of
+	their respective owners. Visit project page for details: http://www.phpwcms.org/
+//-->
+<title>phpwcms documentation | Fehlermeldungen</title>
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+  <meta http-equiv="content-style-type" content="text/css" />
+  <script src="template/inc_js/frontend.js" type="text/javascript"></script>
+  <style type="text/css" media="all">
+  <!-- 
+    body {
+      margin: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+      padding-left: 0;
+      padding-right: 0;
+
+      background-color: #FFFFFF;
+      color: #000000;
+    }
+    a, a:link, a:active, a:visited, a:hover { color: #FF9900; }
+    a:visited { color: #FF9900; }
+    a:active { color: #FF9900; }
+  //-->
+  </style>
+  <style type="text/css">
+  <!-- 
+    @import url("template/inc_css/frontend_eigene.css");
+    @import url("template/inc_css/nlu_navi1_docu.css");
+    @import url("template/inc_css/tabellen.css");
+  //-->
+  </style>
+
+  <meta name="keywords" content="*bearbeitet*" />
+  <!--[if lt IE 7]>
+  <style type="text/css">
+    body { behavior: url("template/inc_css/specific/csshover2.htc"); }
+    img { behavior: url("template/inc_css/specific/pngbehavior.htc"); }
+  </style>
+  <![endif]-->
+</head>
+<body id="myid_74">
+<table border="0" cellspacing="0" cellpadding="0" width="760" bgcolor="#ffffff" class="maintable" align="center" summary="">
+<tr>
+<td colspan="2" style="height:60px;"  bgcolor="#ffffff"><table width="760" height="135" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="1334" height="122" colspan="6"><IMG src="picture/sprachen/de/header.jpg" width="760" height="122" alt="" border="0"></td>
+  </tr>
+  <tr>
+	<td height="27" background="picture/sprachen/all/top_menu.jpg"><table width="570" border="0" align="left" cellpadding="0" cellspacing="0">
+      <tr>
+        <td align="center" width="254"><a href="deutsche_version.phtml"><img src="picture/flags/de.gif" width="16" height="10" hspace="10" border="0"  alt="Deutsche Version" title="Deutsche Version"></a>
+<a href="english_version.phtml"><img src="picture/flags/gb.gif" width="16" height="10" hspace="10" border="0"  alt="English Version" title="English Version"></a></td>
+        <td valign="middle"><div align="center"><a href="replacement_tags_de.phtml"><img src="content/gt/8c10fcb16c44a7b9c26a5a932c5e4ae9.png" alt="Replacement Tags" title="Replacement Tags" width="115" height="13" border="0" /></a></div></td>
+        <td width="30" valign="middle"><div align="center"><img src="picture/sprachen/all/sep.gif" width="5" height="5" border="0"></div></td>
+        <td valign="middle"><div align="center"><a href="content_parts_de.phtml"><img src="content/gt/02725c45a346fbf433a4c83e02d8dc5a.png" alt="Content Parts" title="Content Parts" width="94" height="13" border="0" /></a></div></td>
+        <td width="30" valign="middle"><div align="center"><img src="picture/sprachen/all/sep.gif" width="5" height="5" border="0"></div></td>
+        <td valign="middle"><div align="center"><a href="Nuetzliche_Links_und_Tools.phtml"><img src="content/gt/2c41bfb28d6dd3d4bbc8bb7688fd62ee.png" alt="Links" title="Links" width="36" height="13" border="0" /></a></div></td>
+        <td width="30" valign="middle"><div align="center"><img src="picture/sprachen/all/sep.gif" width="5 " height="5" border="0"></div></td>
+        <td valign="middle"><div align="center"><a href="impressum.phtml"><img src="content/gt/d7380cf01602233e53be03b55123cf90.png" alt="Impressum" title="Impressum" width="64" height="13" border="0" /></a></div></td>
+     </tr>
+    </table>    </td>
+  </tr>
+</table></td>
+</tr>
+<tr>
+<td valign="top" width="185" style="background-image:url(picture/navigation/menu.gif)"><table width="180" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="180" height="20">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="padding-left: 1px;"><div class="nlu_navi1_docu">
+<ul>
+	<li class="sub_no"><a href="http://www.phpwcms-docu.de/index.php">Startseite</a></li>
+	<li class="sub_no"><a href="news_de.phtml">News</a></li>
+	<li class="sub_no sub_ul_true"><a href="installation_und_upgrade_von_phpwcms.phtml">Installation &amp; Upgrade</a></li>
+	<li class="sub_no sub_ul_true"><a href="die_docu.phtml">Die Docu</a></li>
+	<li class="sub_no sub_ul_true"><a href="add-on-und-vorlagen.phtml">Add Ons und Vorlagen</a></li>
+	<li class="sub_no active"><a href="fehlermeldungen.phtml">Fehlermeldungen</a></li>
+	<li class="sub_no"><a href="suche.phtml">Suche</a></li>
+	<li class="sub_no"><a href="Nuetzliche_Links_und_Tools.phtml">Nützliche Links &amp; Tools</a></li>
+	<li class="sub_no sub_ul_true"><a href="kontakt.phtml">Kontakt</a></li>
+	<li class="sub_no"><a href="faq_de.phtml">FAQ</a></li>
+</ul>
+</div></td>
+  </tr>
+   <tr>
+    <td style="padding:10px; color:#000000;">
+<img src="picture/seperate.gif" border="0" alt="" /><br /><br />
+<img src="content/gt/4ed113c59a3746cabc12bacb98382a26.png" alt="Letzte Finale Version:" title="Letzte Finale Version:" width="149" height="13" border="0" /><br /><br />
+<img src="content/gt/e91a9fb3d2c66ffdf2b7ffd0222a1a9b.png" alt="phpwcms 1.3.3" title="phpwcms 1.3.3" width="83" height="13" border="0" /><br />
+<img src="content/gt/2a27ef3b6d9c74f4c2f49b2ec33593ef.png" alt="Vö: 02.05.2007" title="Vö: 02.05.2007" width="89" height="13" border="0" /><br /><br />
+<a href="http://www.phpwcms.de/forum/viewtopic.php?t=14617"><img src="content/gt/17ec582052b0d3ac3eddfbb9e5ff97f1.png" alt="weiter..." title="weiter..." width="52" height="13" border="0" /></a><br /><br />
+<img src="picture/seperate.gif" border="0" alt="" /><br /><br />
+<img src="content/gt/bf8d503ddd63538f09c99d9237453e75.png" alt="Neue &amp;" title="Neue &amp;" width="45" height="13" border="0" /><br /><img src="content/gt/afd02ca4b40709e95093e179a3a358f6.png" alt="Bearbeitete Artikel:" title="Bearbeitete Artikel:" width="135" height="13" border="0" /><br /><br />
+<div class="related"><p><a href="431.409.0.0.1.0.phtml">Gästebuch Vorlagen</a><p><a href="390.351.0.0.1.0.phtml">Update von RC 1.1 bis 1.2.9 auf 1.3.x</a><p><a href="416.392.0.0.1.0.phtml">Newsletter Abonnenten</a><p><a href="33.154.0.0.1.0.phtml">Nützliche Links &amp; Tools</a><p><a href="91.41.0.0.1.0.phtml">System Replacement Tags</a><p><a href="292.228.0.0.1.0.phtml">Newsletter Abonnement</a><p><a href="86.183.0.0.1.0.phtml">Chat</a><p><a href="122.72.0.0.1.0.phtml">Dateien hochladen</a><p><a href="180.220.0.0.1.0.phtml">Nachricht verfassen</a><p><a href="121.71.0.0.1.0.phtml">Verzeichnis erstellen und bearbeiten</a><p><a href="3.333.0.0.1.0.phtml">phpwcms Installationsanleitung</a><p><a href="174.88.0.0.1.0.phtml">Spracheinstellungen für Replacement Tags</a><p><a href="316.251.0.0.1.0.phtml">Neue Seitenstruktur erstellen / bearbeiten</a><p><a href="95.43.0.0.1.0.phtml">Replacement Tags für Links</a><p><a href="148.151.0.0.1.0.phtml">Content Part &quot;Sitemap&quot;</a></div>
+<br /><br />
+<img src="picture/seperate.gif" border="0" alt="" /><br /><br />
+<center><a href="http://www.amazon.de/gp/registry/registry.html/028-2107365-3333318?ie=UTF8&type=wishlist&id=33M51N2N85IXZ" target="_blank">Amazon Wunschzettel</a></center>
+<br />
+<img src="picture/seperate.gif" border="0" alt="" /><br /><br />
+</TD>
+  </tr>
+  <tr>
+    <td align="center">
+<!--/*SSL Delivery CommentSSL Backup CommentComment
+  */-->
+
+<script type='text/javascript'><!--//<![CDATA[
+   var m3_u = (location.protocol=='https:'?'https://www.phpwcms-docu.de/externals/ads/www/delivery/ajs.php':'http://www.phpwcms-docu.de/externals/ads/www/delivery/ajs.php');
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?campaignid=0");
+   document.write ('&amp;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+   document.write ("&amp;loc=" + escape(window.location));
+   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+   document.write ("'></scr"+"ipt>");
+//]]>--></script><noscript><a href='http://www.phpwcms-docu.de/externals/ads/www/delivery/ck.php?n=afc9d63a&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://www.phpwcms-docu.de/externals/ads/www/delivery/avw.php?cb=INSERT_RANDOM_NUMBER_HERE&amp;n=afc9d63a' border='0' alt='' /></a></noscript>
+
+<br />WERBUNG<br /><br /><img src="picture/seperate.gif" border="0" alt="" /><P>
+</td>
+  </tr>
+<tr>
+    <td height="20">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center"><form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="image" src="https://www.paypal.com/en_US/i/btn/x-click-but04.gif" border="0" name="submit" alt="Zahlen Sie mit PayPal - schnell, kostenlos und sicher!">
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+">
+</form>
+</td>
+  </tr>
+  <tr>
+    <td align="center" height="20">&nbsp</td>
+  </tr>
+</table></td>
+<td valign="top" width="555" bgcolor="#ffffff" class="maincontent"><img src="img/leer.gif" border="0" width="10" height="1" alt="" />
+<br />
+<a href="deutsche_version.phtml">Deutsch</a> <span class="breadcrumb_spacer">&gt;</span> Fehlermeldungen
+<br />
+<HR>
+<br />
+<a name="jump99"></a>
+<h1>Fehlermeldungen</h1>
+
+<div style="margin:25px 0 0 0;padding:0;" class="spaceBeforeCP"></div>Hallo<br /><br />der Bereich &quot;Fehlermeldungen &quot; wird hier in der Form nicht mehr weitergef&uuml;hrt :-)<br /><br />Sie finden die Fehlermeldungen jetzt auf der FAQ Seite!<br /><br /><a href="http://faq.phpwcms-docu.de/category18.html" target="_blank">http://faq.phpwcms-docu.de/category18.html</a><div align="right"><a href="#top"><img src="img/article/top_link_0.gif" border="0" alt="" /></a></div>
+<img src="img/leer.gif" border="0" width="10" height="10" alt="" />
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td colspan="3"><div style="clear:both;"><HR></DIV></td>
+  </tr>
+<tr>
+    <td align="left" width="30%">Artikel erstellt: 17-08-2004</td>
+    <td align="center" width="35%"><a href="http://www.mister-wong.de/index.php?action=addurl&amp;bm_url=http://www.phpwcms-docu.de/index.php?aid=99&amp;bm_description=Fehlermeldungen" title="Wong It!" target="_blank"><img src="template/img/bookmarklets/wong.gif" alt="Wong It!" border="0" /></a> <a href="http://digg.com/submit?phase=2&amp;url=http://www.phpwcms-docu.de/index.php?aid=99&amp;title=Fehlermeldungen&amp;bodytext=&amp;topic=" title="DiggIt!" target="_blank"><img src="template/img/bookmarklets/digg.gif" alt="DiggIt!" border="0" /></a> <a href="http://del.icio.us/post?url=http://www.phpwcms-docu.de/index.php?aid=99&amp;title=Fehlermeldungen&amp;jump=no" title="Del.icio.us" target="_blank"><img src="template/img/bookmarklets/delicious.gif" alt="Del.icio.us" border="0" /></a> <a href="http://technorati.com/faves?add=http%3A%2F%2Fwww.phpwcms-docu.de%2F" title="TechnoratiFaves" target="_blank"><img src="template/img/bookmarklets/technorati.gif" alt="TechnoratiFaves" border="0" /></a> <a href="http://www.spurl.net/spurl.php?title=Fehlermeldungen&amp;url=http://www.phpwcms-docu.de/index.php?aid=99" title="Spurl!" target="_blank"><img src="template/img/bookmarklets/spurl.gif" alt="Spurl!" border="0" /></a> <a href="http://www.furl.net/savedialog.jsp?p=1&amp;t=Fehlermeldungen&amp;u=http://www.phpwcms-docu.de/index.php?aid=99&amp;c=&amp;r=" title="Furl It" target="_blank"><img src="template/img/bookmarklets/furl.gif" alt="Furl It" border="0" /></a> <a href="http://myweb2.search.yahoo.com/myresults/bookmarklet?t=Fehlermeldungen&amp;u=http://www.phpwcms-docu.de/index.php?aid=99&amp;d=&amp;ei=iso-8859-1" title="Save to Yahoo! My Web" target="_blank"><img src="template/img/bookmarklets/yahoo.gif" alt="Save to Yahoo! My Web" border="0" /></a> <a href="http://www.google.com/bookmarks/mark?op=add&amp;bkmk=http://www.phpwcms-docu.de/index.php?aid=99&amp;title=Fehlermeldungen&amp;annotation=" title="Google Bookmark" target="_blank"><img src="template/img/bookmarklets/google.gif" alt="Google Bookmark" border="0" /></a></td>
+    <td align="right" width="35%">Letzte Änderung: 08-05-2006</td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="3" class="comment">Wenn Sie einen Fehler entdecken eine Ergänzung oder Frage haben benutzen Sie bitte folgendes <a href="#" onClick="javascript:window.open('http://www.phpwcms-docu.de/content/pages/nachricht.htm','frage','width=400, height=250, screenX=440,screenY=200,menubar=no,statusbar=yes,scrollbar=yes,resizable=no');" target="" style="max-width:148px; overflow:hidden;"><u>Formular</u></a>.<br /><br />
+Hat Ihnen oder Ihrem Kunden diese Docu weitergeholfen ? Dann würde ich mich freuen wenn Sie das Projekt unterstützen würden. Bitte nutzen Sie dafür diesen <a href="https://www.paypal.com/xclick/business=support%40docu.fhss.de&item_name=phpwcms+support&no_shipping=1&no_note=1&tax=0&currency_code=EUR&lc=US" target="_blank">PayPal</a> Link. Jeder Betrag ist möglich und hilft der Weiterentwicklung und Aktualisierung dieser Dokumentation.<br />
+<br /><br />
+<center>
+<a href="http://www.all-inkl.com/index.php?partner=124181">
+<img border="0" src="http://www.all-inkl.com/banner/button_hosted_by.gif" alt="all-inkl.com webhosting">
+</a>
+</center>
+</td>
+  </tr>
+  <tr>
+    <td colspan="3"><img src="img/leer.gif" border="0" width="10" height="10" alt="" /></td>
+  </tr>
+</table></td>
+</tr>
+<tr>
+<td colspan="2" style="height:10px;"  bgcolor="#ffffff" class="footer"><table width="100%" height="20" background="picture/navigation/footer.gif" cellpadding="0" cellspacing="0" border="0">
+	<tr><td width="180" align="center" valign="middle">7 User online</td>
+	<td>
+	<table width="100%"cellpadding="0" cellspacing="0" border="0">
+   <tr>
+    <td align="center"><a href="#" target="_top" title="go back" onclick="history.back();return false;" class="phpwcmsBackLink"><img src="picture/back_.gif" border="0" alt="Zurueck"><img src="content/gt/13c1f733e9ee7693bf810fd5f035d0b7.png" alt="Zurück" title="Zurück" width="45" height="13" border="0" /></a></td>
+	<td align="center"><a href="sitemap_de.phtml"><img src="picture/sitemap_.gif" border="0"  alt="Sitemap"><img src="content/gt/38062c01670c74843cc0b291d94966c6.png" alt="Sitemap" title="Sitemap" width="50" height="13" border="0" /></a></td>
+	<td align="center"><a href="index.php?fehlermeldungen&amp;print=1" target="_blank"><img src="picture/print_.gif" border="0" alt="Drucken"><img src="content/gt/811a35c6cb2c5555a2f32d85b1bb5deb.png" alt="Drucken" title="Drucken" width="52" height="13" border="0" /></a></td>
+	<td align="center"><a href="index.php?fehlermeldungen&amp;print=2" target="_blank"><img src="picture/print_.gif" border="0" alt="Drucken"><img src="content/gt/cf7bf35fcfeec86edd7b1ace71103944.png" alt="PDF" title="PDF" width="24" height="13" border="0" /></a></td>
+	<td align="center"><a href="gaestebuch.phtml"><img src="picture/icon_gaestebuch.gif" border="0" align="top" alt="Gästebuch"><img src="content/gt/1257c79a2b085b5641453b0f6e0fe1fd.png" alt="Gästebuch" title="Gästebuch" width="66" height="13" border="0" /></a></td>
+	<td align="center"><a href="#" onclick="BookMark_Page();return false;" title="" class="phpwcmsBookmarkLink"><img src="picture/favoriten_.gif" border="0"  alt="Lesezeichen"><img src="content/gt/7ce0fe74ab60b3da559a77c54fb85a80.png" alt="Lesezeichen" title="Lesezeichen" width="78" height="13" border="0" /></a></td>
+    </tr>
+</table></td>
+	</tr>
+</table>
+<img src="img/leer.gif" border="0" width="760" height="10" alt="" /></td>
+</tr>
+</table>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+  <!-- 
+	_uacct = "UA-361662-1";
+	urchinTracker();
+  //-->
+</script>
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+  <!-- 
+	var sc_project="644539";
+	var sc_invisible=1;
+	var sc_partition=7;
+	var sc_security="2e37fa21";
+	var sc_https=0;
+	var sc_remove_link=1;
+  //-->
+</script>
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script>
+<noscript><img src="http://c8.statcounter.com/counter.php?sc_project=644539&java=0&security=2e37fa21&invisible=1" alt="web hit counter" width="0" height="0" border="0" style="border:0" alt="StatCounter" /></noscript>
+<!-- End of StatCounter Code -->
+</body>
+</html>

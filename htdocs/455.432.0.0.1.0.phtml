@@ -1,0 +1,810 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!--
+	phpwcms | free open source content management system
+	created by Oliver Georgi (oliver at phpwcms dot de) and licensed under GNU/GPL.
+	phpwcms is copyright 2003-2007 of Oliver Georgi. Extensions are copyright of
+	their respective owners. Visit project page for details: http://www.phpwcms.org/
+//-->
+<title>DEV Version phpwcms</title>
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+  <meta http-equiv="content-style-type" content="text/css" />
+  <script src="template/inc_js/frontend.js" type="text/javascript"></script>
+  <style type="text/css">
+  <!-- 
+    @import url("template/inc_css/mpl_docu.css");
+    @import url("template/inc_css/mpl_frontend.css");
+    @import url("template/inc_css/mpl_menu.css");
+    @import url("template/inc_css/mpl_objects.css");
+  //-->
+  </style>
+<script type="text/javascript" language="javascript">
+<!--
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+}
+//-->
+</script>
+<meta name="Title" content="Die phpWCMS Dokumentation" />
+<meta name="author" content="Oliver Frohnert, Mario Perez Leal" />
+<meta name="Publisher" content="Oliver Frohnert, Mario Perez Leal, creacion" />
+<meta name="Copyright" content="Oliver Frohnert, Mario Perez Leal, creacion" />
+<meta name="keywords" content="frohnert, perez leal, creacion, documentation, dokumentation, phpwcms, cms, opensource, open source, docu" />
+<meta name="description" content="Das Dokumentations Projekt für das Open Source CMS phpWCMS" />
+<meta name="Audience" content="Alle" />
+<meta name="Content-language" content="DE" />
+<meta name="robots" content="index,follow" />
+<meta name="expires" content="0" />
+<meta name="revisit-after" content="7 days" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="Global" />
+<meta name="generator" content="PHPWCMS" />
+<meta name="verify-v1" content="1ZpxZ7AZsjm7PxjqXQVus0eiUYqOsp5URTJn9q4KNz8=" />
+  <!--[if lt IE 7]>
+  <style type="text/css">
+    body { behavior: url("template/inc_css/specific/csshover2.htc"); }
+    img { behavior: url("template/inc_css/specific/pngbehavior.htc"); }
+  </style>
+  <![endif]-->
+</head>
+<body id="myid_455">
+<div id="container"><a name="top" id="top"></a>
+
+
+	<div id="head">
+		
+	<div id="mainnavi">
+		<div class="fleft"><a href="deutsche_version.phtml">Startseite</a> | <a href="news_de.phtml">News</a> | <a href="die_docu.phtml">Die Docu</a> | <a href="Nuetzliche_Links_und_Tools.phtml">Links &amp; Tools</a> | <a href="downloads.phtml">Downloads</a> | <a href="kontakt.phtml">Kontakt</a> | <a href="faq_de.phtml">FAQ</a> | <a href="http://forum.phpwcms.org/" target="_blank">Forum</a> | <a href="howto_de.phtml">HowTo</a></div>				
+		<div class="sys">Montag, 8. September 2014<img src="img/leer.gif" border="0" width="5" height="1" alt="" />|<img src="img/leer.gif" border="0" width="5" height="1" alt="" />3 User online<img src="img/leer.gif" border="0" width="10" height="1" alt="" />
+		<a href="deutsche_version.phtml" title="Deutsche Version"><img src="picture/../template/lang/all/flag_de.gif" border="0" alt="" /></a>
+		<a href="english_version.phtml"  title="English version"><img src="picture/../template/lang/all/flag_en.gif" border="0" alt="" /></a>
+		</div>
+	</div>
+	
+	<a href="./" title="phpwcms-docu Startseite aufrufen" class="homelink">
+	<span>&raquo; Zur phpwcms-docu Startseite</span></a>
+	<h2>phpwcms-docu - Die Dokumentation f&uuml;r f&uuml;r das CMS phpWCMS</h2>
+	<p>phpwcms-docu ist eine Art Kompass, der Ihnen die M&ouml;glichkeiten von phpWcms aufzeigt und Sie erfolgreich, ohne gro&szlig;e Umwege, zu Ihrer fertigen Web-Anwendung f&uuml;hren soll.
+	</p>
+	</div>
+
+	
+	<div id="left">
+	<div class="leftnav" style="margin-top:24px;">
+	
+<div id="ul_div_311">
+<ul>
+	<li class="sub_no active"><a href="download-dev-versions.phtml">Download Dev Versions</a></li>
+	<li class="sub_no sub_ul_true"><a href="installation_en.phtml">Installation &amp; Upgrade</a></li>
+	<li class="sub_no sub_ul_true"><a href="article.phtml">Articles</a></li>
+	<li class="sub_no sub_ul_true"><a href="file.phtml">File</a></li>
+	<li class="sub_no sub_ul_true"><a href="module_en.phtml">Modules</a></li>
+	<li class="sub_no sub_ul_true"><a href="communication.phtml">Communication </a></li>
+	<li class="sub_no"><a href="chat_en.phtml">Chat</a></li>
+	<li class="sub_no"><a href="profile.phtml">Profile</a></li>
+	<li class="sub_no sub_ul_true"><a href="admin_en_.phtml">Admin</a></li>
+	<li class="sub_no sub_ul_true"><a href="add-ons-and-templates.phtml">Add On&#039;s and Templates</a></li>
+	<li class="sub_no"><a href="deutsche_version.phtml?replacement_tags_en">Replacement Tags</a></li>
+	<li class="sub_no"><a href="deutsche_version.phtml?content_parts_en">Content Parts</a></li>
+</ul>
+</div>
+
+		
+		
+		
+
+	</div> 
+	</div> 
+	  
+	<div id="right">
+		<div style="margin-top:24px;">			
+		<form action="index.php?suche" method="post" name="searchFE" onsubmit="s=document.getElementById('customSearchInput');if(s.value=='Suchen')return false;">
+			<table width="100%" border="0" cellpadding="0" cellspacing="0">
+			<tr>
+					<td><input type="text" name="search_input_field" size="20" maxlength="200" id="customSearchInput" class="customSearchInput" value="" onfocus="if(this.value=='Suchen')this.value='';" onblur="if(this.value=='')this.value='Suchen';" /></td>
+					<td><input type="image" name="search_go" onfocus="this.blur();" title="Suchen" src="/template/lang/all/submit.gif" /></td>
+				</tr>
+			</table>
+			</form>
+			
+			      <script type="text/javascript" language="javascript">
+			  <!-- 
+			        document.getElementById("customSearchInput").value="Suchen";
+			  //-->
+			      </script>
+				  
+			<!-- <p style="margin-top:10px;">Schriftgrad &auml;ndern: <a href="[FontSize-]"><img src="template/lang/all/icons/reduce.gif" width="18" height="17" alt="" title="Verkleinern" border="0" /></a>
+			<a href="[FontSize+]"><img src="template/lang/all/icons/extend.gif" width="18" height="17" alt="" title="Vergr&ouml;&szlig;ern" border="0" /></a>
+			</p> -->
+			
+	
+<div style="border-bottom:1px dotted #dae7f6; margin-top:10px; margin-bottom:15px;"></div>
+
+
+<div style="border-bottom:1px dotted #dae7f6; margin-top:10px; margin-bottom:15px;"></div>
+<!-- <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fwww.phpwcms-docu.de%2Findex.php%3Fdeutsche_version" title="W3C Standard XHTML" target="_blank"><img src="picture/w3c/w3c_xhtml.gif" border="0" alt="" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http://www.phpwcms-docu.de" title="W3C Standard CSS" target="_blank"><img src="picture/w3c/w3c_css.gif" border="0" alt="" /></a><br />			
+<div style="border-bottom:1px dotted #dae7f6; margin-top:10px; margin-bottom:15px;"></div> -->
+<h3>Partnersites</h3>
+
+
+
+
+
+
+<div style="border-bottom:1px dotted #dae7f6; margin-top:10px; margin-bottom:15px;"></div>
+
+<div style="margin-top:10px; margin-bottom:15px;"></div>
+
+
+<div style="border-bottom:1px dotted #dae7f6; margin-top:10px; margin-bottom:15px;"></div>
+</div>
+
+	</div> 
+	
+	<div id="content">
+	<div id="bread">Sie sind hier: <a href="index.phtml">Home</a> <span class="breadcrumb_spacer">&gt;</span> <a href="english_version.phtml">English</a> <span class="breadcrumb_spacer">&gt;</span> <a href="the_docu.phtml">The Docu</a> <span class="breadcrumb_spacer">&gt;</span> Download Dev Versions</div>
+		
+		<a name="jump432"></a><!-- Livedate: 01.01.2009 19:37:58 / Killdate: 30.12.2018 23:59:59 -->
+<h1>DEV - Version ZIP Format</h1>
+<b>The last current version is available at: </b><a href="http://code.google.com/p/phpwcms/downloads/list">code.google.com/p/phpwcms/downloads/list</a><br />
+&nbsp;<br />
+<b><span lang="en" class="short_text" id="result_box"><span class="hps">The changes</span> <span class="hps">are</span> <span class="hps">summarized</span> <span class="hps">at this point</span><span>:</span></span></b> <a target="_blank" href="http://code.google.com/p/phpwcms/wiki/Changelog">code.google.com/p/phpwcms/wiki/Changelog</a><br />
+&nbsp;<br type="_moz" />
+<div style="margin:10px 0 0 0;padding:0;" class="spaceBeforeCP"></div>
+<b>compared r464 -&gt; r469</b><b>&nbsp; -&gt; </b><b>uploaded:</b><b> 16.04.12 13:00&nbsp; (V1.5.2)<br />
+</b><b>compared r464 -&gt; r469</b><b>&nbsp; -&gt; Logfile</b><br />
+<b>compared </b><b>r452 -&gt; r464&nbsp; -&gt; </b><b>uploaded:</b><b> 09.04.12 12:45&nbsp; (V1.5.1)<br />
+</b><b>compared </b><b>r452 -&gt; r464&nbsp; -&gt; Logfile</b><br />
+<strike><b>compared </b><b>r452 -&gt; r462&nbsp; -&gt; </b><b>uploaded:</b><b> 09.04.12 08:00<br />
+</b><b>compared </b><b>r452 -&gt; r462&nbsp; -&gt; Logfile</b></strike><br />
+<strike><b>compared </b><b>r452 -&gt; r453&nbsp; -&gt; </b><b>uploaded:</b><b> 31.03.12 09:00<br />
+</b><b>compared </b><b>r452 -&gt; r453&nbsp; -&gt; Logfile</b></strike><br />
+<b>compared </b><b>r442 -&gt; r452&nbsp; -&gt; </b><b>uploaded:</b><b> 27.03.12 06:30<br />
+</b><b>compared </b><b>r442 -&gt; r452&nbsp; -&gt; Logfile</b><br />
+<strike><b>compared </b><b>r442 -&gt; r448&nbsp; -&gt; </b><b>uploaded:</b><b> 20.03.12 15:30<br />
+</b><b>compared </b><b>r442 -&gt; r448&nbsp; -&gt; Logfile</b></strike><br />
+<strike><b>compared </b><b>r442 -&gt; r445&nbsp; -&gt; </b><b>uploaded:</b><b> 17.03.12 15:30<br />
+</b><b>compared </b><b>r442 -&gt; r445&nbsp; -&gt; Logfile</b></strike><br />
+<strike><b>compared </b><b>r442 -&gt; r443&nbsp; -&gt; </b><b>uploaded:</b><b> 04.03.12 15:00<br />
+</b><b>compared </b><b>r442 -&gt; r443&nbsp; -&gt; Logfile</b></strike><br />
+<b>compared </b><b>r438 -&gt; r442&nbsp; -&gt; </b><b>uploaded:</b><b> 24.02.12 13:00<br />
+</b><b>compared </b><b>r438 -&gt; r442&nbsp; -&gt; Logfile</b><br />
+<b>compared </b><b>r435 -&gt; r438&nbsp; -&gt; </b><b>uploaded:</b><b> 13.02.12 19:30<br />
+</b><b>compared </b><b>r435 -&gt; r438&nbsp; -&gt; Logfile</b><br />
+<b>compared </b><b>r431 -&gt; r435&nbsp; -&gt; </b><b>uploaded:</b><b> 31.01.12 12:30<br />
+</b><b>compared </b><b>r431 -&gt; r435&nbsp; -&gt; Logfile</b><br />
+<b>compared </b><b>r428 -&gt; r431&nbsp; -&gt; </b><b>uploaded:</b><b> 27.01.12 16:00<br />
+</b><b>compared </b><b>r428 -&gt; r431&nbsp; -&gt; Logfile</b><br />
+<b>compared </b><b>r426 -&gt; r428&nbsp; -&gt; </b><b>uploaded:</b><b> 25.01.12 11:00<br />
+</b><b>compared </b><b>r426 -&gt; r428&nbsp; -&gt; Logfile</b><br />
+<b>compared </b><b>r412 -&gt; r426 &nbsp;</b><b>&nbsp; -&gt; </b><b>uploaded: 23.11.11 18:00</b><br />
+<b>compared </b><b>r424 -&gt; r426 &nbsp;</b><b>&nbsp; -&gt; </b><b>uploaded: 23.11.11 18:00</b><br />
+<b>compared </b><b>r423 -&gt; r424 &nbsp;</b><b>&nbsp; -&gt; </b><b>uploaded: 21.09.11 10:00</b><br />
+<b>version 1.4.7-r423 (15.09.11) -&gt; </b><b>uploaded: </b><b>16.09.11 12:30</b><br />
+<b>compared </b><b>r420 -&gt; r423 &nbsp;</b><b>&nbsp; -&gt; </b><b>uploaded: 16.09.11 12:30</b><br />
+<b>compared </b><b>r412 -&gt; r420 &nbsp;</b><b>&nbsp; -&gt; </b><b>uploaded: 22.08.11 11:30</b><br />
+<b>compared </b><b>r419 -&gt; r420 &nbsp;</b><b>&nbsp; -&gt; </b><b>uploaded: 18.05.11 06:20</b><br />
+<b>compared </b><b>r417 -&gt; r419 &nbsp;</b><b>&nbsp; -&gt; </b><b>uploaded: 16.05.11 06:20 (including </b>      Issue <a href="http://code.google.com/p/phpwcms/issues/detail?id=284" target="_blank">284</a>)<br />
+<strike>compared r417 -&gt; r419 &nbsp;&nbsp; -&gt; uploaded: 13.05.11 06:45</strike><br />
+<b>compared </b><b>r412 -&gt; r417 &nbsp;</b><b>&nbsp; -&gt; </b><b>uploaded: 09.05.11 12:00</b><br />
+<strike>compared<b> </b>r412 -&gt; r416 &nbsp;&nbsp; -&gt; uploaded: 03.05.11 23:00</strike><br />
+<strike> compared r412 -&gt; r415 &nbsp;&nbsp; -&gt; uploaded: 03.05.11 10:00</strike><br />
+<b><br />
+compared </b><b>r409 -&gt; r411 &nbsp;</b><b>&nbsp; -&gt; </b><b>uploaded: 19.12.10 13:30</b><br />
+<b>compared </b><b>r406 -&gt; r409 &nbsp;</b><b>&nbsp; -&gt; </b><b>uploaded: 17.12.10 23:30</b><br />
+<strike>version 1.4.7-r405 (23.11.10) -&gt; uploaded: 23.11.10 23:30</strike> <b><br />
+</b><strike>version 1.4.7-r405 (23.11.10) -&gt; uploaded: 24.11.10 21:00 (V1)</strike><b><br />
+</b><b>version 1.4.7-r406 (25.11.10) -&gt; </b><b>uploaded: 25.11.10 08:00</b><b><br />
+<br />
+</b><b> compared </b><b>r405 -&gt; r406 &nbsp;</b><b>&nbsp; -&gt; </b><b>uploaded: 25.11.10 08:00</b><br />
+<b><br />
+</b><strike> compared r403 -&gt; r405&nbsp;&nbsp;&nbsp; -&gt; uploaded: 23.11.10 23:30 </strike><b><br />
+</b><strike> compared r403 -&gt; r405&nbsp;&nbsp;&nbsp; -&gt; uploaded: 24.11.10 21:00 (V1)</strike><br />
+<b> compared </b><b>r403 -&gt; r406 &nbsp;</b><b>&nbsp; -&gt; </b><b>uploaded: 25.11.10 08:00</b><br />
+<br />
+<strike> compared r402 -&gt; r405&nbsp;&nbsp;&nbsp; -&gt; uploaded: 23.11.10 23:30 </strike><br />
+<strike> compared r402 -&gt; r405&nbsp;&nbsp;&nbsp; -&gt; uploaded: 24.11.10 21:00 (V1</strike>)<br />
+<b> compared </b><b>r402 -&gt; r406 &nbsp;</b><b>&nbsp; -&gt; </b><b>uploaded: 25.11.10 08:00</b><br />
+<b><br />
+</b><b><br />
+version 1.4.6-r402&nbsp; (30.03.10) uploaded:&nbsp; 30.09.10 09:40<br />
+</b><span style="font-family: Courier New;">includes:<br />
++ Patch 1, 2 and 3<br />
++  </span><span style="font-family: Courier New;"><a href="http://forum.phpwcms.org/viewtopic.php?p=124211#p124211" target="_blank"><span style="font-family: Courier New;">Formularproblem in Version R 402</span></a></span><span style="font-family: Courier New;"> </span><br />
+<span style="font-family: Courier New;"><br />
+</span>
+<div style="margin-top: 15px; padding-top: 10px; border-top: 1px dotted #CCCCCC;">
+
+	<div class="fileEntry" style="margin-bottom:10px; padding-bottom: 10px; border-bottom: 1px dotted #CCCCCC;">
+		<h2>
+			<img src="img/icons/small_icon_zip.gif" alt="" border="0" />
+			
+			<a href="download/48b6b4e2fd7f8a6f2520ffae6bb54843.zip" target="_blank">r464-r469.zip</a>
+		</h2>
+		<p>
+		compared r464 -&gt; r469  (uploaded: 16.04.12 13:00)<br />
+		zip, 24.1 KB, 04/16/12, 335 downloads
+		</p>
+
+	</div>
+
+
+
+	<div class="fileEntry" style="margin-bottom:10px; padding-bottom: 10px; border-bottom: 1px dotted #CCCCCC;">
+		<h2>
+			<img src="img/icons/small_icon_txt.gif" alt="" border="0" />
+			
+			<a href="download/c0e625ab726dd977933f10b7144c1a03.zip" target="_blank">r464-r469_log.txt</a>
+		</h2>
+		<p>
+		compared r464 -&gt; r469  Logfile<br />
+		txt, 229, 04/16/12, 336 downloads
+		</p>
+
+	</div>
+
+
+
+	<div class="fileEntry" style="margin-bottom:10px; padding-bottom: 10px; border-bottom: 1px dotted #CCCCCC;">
+		<h2>
+			<img src="img/icons/small_icon_zip.gif" alt="" border="0" />
+			
+			<a href="download/78e5d73f1b971a289be81d344f4c44cb.zip" target="_blank">r452-r464.zip</a>
+		</h2>
+		<p>
+		compared r452 -&gt; r464  (uploaded: 09.04.12 12:45)<br />
+		zip, 573.2 KB, 04/09/12, 243 downloads
+		</p>
+
+	</div>
+
+
+
+	<div class="fileEntry" style="margin-bottom:10px; padding-bottom: 10px; border-bottom: 1px dotted #CCCCCC;">
+		<h2>
+			<img src="img/icons/small_icon_txt.gif" alt="" border="0" />
+			
+			<a href="download/f11d9a836114ae51237a2f97273fadd9.zip" target="_blank">r452-r464_log.txt</a>
+		</h2>
+		<p>
+		compared r452 -&gt; r464  Logfile<br />
+		txt, 5.8 KB, 04/09/12, 341 downloads
+		</p>
+
+	</div>
+
+
+
+	<div class="fileEntry" style="margin-bottom:10px; padding-bottom: 10px; border-bottom: 1px dotted #CCCCCC;">
+		<h2>
+			<img src="img/icons/small_icon_zip.gif" alt="" border="0" />
+			
+			<a href="download/b318ee5af7711b69e44a0534c50d7927.zip" target="_blank">r442-r452.zip</a>
+		</h2>
+		<p>
+		compared r442 -&gt; r452  (uploaded: 27.03.12 06:30)<br />
+		zip, 130.4 KB, 03/27/12, 265 downloads
+		</p>
+
+	</div>
+
+
+
+	<div class="fileEntry" style="margin-bottom:10px; padding-bottom: 10px; border-bottom: 1px dotted #CCCCCC;">
+		<h2>
+			<img src="img/icons/small_icon_txt.gif" alt="" border="0" />
+			
+			<a href="download/00412aa59053f9afabc1b4742f27abb6.zip" target="_blank">r442-r452_log.txt</a>
+		</h2>
+		<p>
+		compared r442 -&gt; r452  Logfile<br />
+		txt, 1.4 KB, 03/27/12, 403 downloads
+		</p>
+
+	</div>
+
+
+
+	<div class="fileEntry" style="margin-bottom:10px; padding-bottom: 10px; border-bottom: 1px dotted #CCCCCC;">
+		<h2>
+			<img src="img/icons/small_icon_zip.gif" alt="" border="0" />
+			
+			<a href="download/44e9974e0f6577e9bf5e2916af70365e.zip" target="_blank">r438-r442.zip</a>
+		</h2>
+		<p>
+		compared r438 -&gt; r442  (uploaded: 24.02.12 13:00)<br />
+		zip, 141.1 KB, 02/24/12, 332 downloads
+		</p>
+
+	</div>
+
+
+
+	<div class="fileEntry" style="margin-bottom:10px; padding-bottom: 10px; border-bottom: 1px dotted #CCCCCC;">
+		<h2>
+			<img src="img/icons/small_icon_txt.gif" alt="" border="0" />
+			
+			<a href="download/662f96f36af7333311f05671a81effa3.zip" target="_blank">r438-r442_log.txt</a>
+		</h2>
+		<p>
+		compared r438 -&gt; r442  Logfile<br />
+		txt, 705, 05/24/12, 411 downloads
+		</p>
+
+	</div>
+
+
+
+	<div class="fileEntry" style="margin-bottom:10px; padding-bottom: 10px; border-bottom: 1px dotted #CCCCCC;">
+		<h2>
+			<img src="img/icons/small_icon_zip.gif" alt="" border="0" />
+			
+			<a href="download/67df1b7ff74d141add8da34d43d3479b.zip" target="_blank">r435-r438.zip</a>
+		</h2>
+		<p>
+		compared r435 -&gt; r438  (uploaded: 13.02.12 19:30)<br />
+		zip, 67.4 KB, 02/13/12, 382 downloads
+		</p>
+
+	</div>
+
+
+
+	<div class="fileEntry" style="margin-bottom:10px; padding-bottom: 10px; border-bottom: 1px dotted #CCCCCC;">
+		<h2>
+			<img src="img/icons/small_icon_txt.gif" alt="" border="0" />
+			
+			<a href="download/27768f3abee2a63d58e086db2f9ea774.zip" target="_blank">r435-r438_log.txt</a>
+		</h2>
+		<p>
+		compared r435 -&gt; r438  Logfile<br />
+		txt, 404, 02/13/12, 449 downloads
+		</p>
+
+	</div>
+
+
+
+	<div class="fileEntry" style="margin-bottom:10px; padding-bottom: 10px; border-bottom: 1px dotted #CCCCCC;">
+		<h2>
+			<img src="img/icons/small_icon_zip.gif" alt="" border="0" />
+			
+			<a href="download/4e033c29d39ed7e1ade715edaf257187.zip" target="_blank">r431-r435.zip</a>
+		</h2>
+		<p>
+		compared r431 -&gt; r435  (uploaded: 31.01.12 12:30)<br />
+		zip, 181.9 KB, 01/31/12, 427 downloads
+		</p>
+
+	</div>
+
+
+
+	<div class="fileEntry" style="margin-bottom:10px; padding-bottom: 10px; border-bottom: 1px dotted #CCCCCC;">
+		<h2>
+			<img src="img/icons/small_icon_txt.gif" alt="" border="0" />
+			
+			<a href="download/66936da1421a4563e4fd41e7bafed143.zip" target="_blank">r431-r435_log.txt</a>
+		</h2>
+		<p>
+		compared r431 -&gt; r435  Logfile<br />
+		txt, 1.7 KB, 01/31/12, 474 downloads
+		</p>
+
+	</div>
+
+
+
+	<div class="fileEntry" style="margin-bottom:10px; padding-bottom: 10px; border-bottom: 1px dotted #CCCCCC;">
+		<h2>
+			<img src="img/icons/small_icon_zip.gif" alt="" border="0" />
+			
+			<a href="download/f31a47be10f735c04eae26160f7b1f26.zip" target="_blank">r428-r431.zip</a>
+		</h2>
+		<p>
+		compared r428 -&gt; r431  (uploaded: 27.01.12 16:00)<br />
+		zip, 205.9 KB, 01/27/12, 406 downloads
+		</p>
+
+	</div>
+
+
+
+	<div class="fileEntry" style="margin-bottom:10px; padding-bottom: 10px; border-bottom: 1px dotted #CCCCCC;">
+		<h2>
+			<img src="img/icons/small_icon_txt.gif" alt="" border="0" />
+			
+			<a href="download/24abf208975b3e97fa375e1cd9832577.zip" target="_blank">r428-r431_log.txt</a>
+		</h2>
+		<p>
+		compared r428 -&gt; r431  Logfile<br />
+		txt, 1.9 KB, 01/27/12, 512 downloads
+		</p>
+
+	</div>
+
+
+
+	<div class="fileEntry" style="margin-bottom:10px; padding-bottom: 10px; border-bottom: 1px dotted #CCCCCC;">
+		<h2>
+			<img src="img/icons/small_icon_zip.gif" alt="" border="0" />
+			
+			<a href="download/a3aac45cbf9ca6d776b938058fed2926.zip" target="_blank">r426-r428.zip</a>
+		</h2>
+		<p>
+		compared r426 -&gt; r428  (uploaded: 25.01.12 11:00)<br />
+		zip, 1.3 MB, 01/25/12, 313 downloads
+		</p>
+
+	</div>
+
+
+
+	<div class="fileEntry" style="margin-bottom:10px; padding-bottom: 10px; border-bottom: 1px dotted #CCCCCC;">
+		<h2>
+			<img src="img/icons/small_icon_txt.gif" alt="" border="0" />
+			
+			<a href="download/d32bd908b8e147e48520ab986a2840dd.zip" target="_blank">r426-r428_log.txt</a>
+		</h2>
+		<p>
+		compared r426 -&gt; r428  Logfile<br />
+		txt, 31.9 KB, 01/25/12, 455 downloads
+		</p>
+
+	</div>
+
+
+
+	<div class="fileEntry" style="margin-bottom:10px; padding-bottom: 10px; border-bottom: 1px dotted #CCCCCC;">
+		<h2>
+			<img src="img/icons/small_icon_zip.gif" alt="" border="0" />
+			
+			<a href="download/3a5f0427fb02b297b9a6d3cbeca30d37.zip" target="_blank">r412-r426.zip</a>
+		</h2>
+		<p>
+		compared r412 -&gt; r426  (uploaded: 23.11.11 18:00)<br />
+		zip, 2.9 MB, 11/23/11, 260 downloads
+		</p>
+
+	</div>
+
+
+
+	<div class="fileEntry" style="margin-bottom:10px; padding-bottom: 10px; border-bottom: 1px dotted #CCCCCC;">
+		<h2>
+			<img src="img/icons/small_icon_zip.gif" alt="" border="0" />
+			
+			<a href="download/d66de8bf449d532a3d49d45db750f926.zip" target="_blank">r424-r426.zip</a>
+		</h2>
+		<p>
+		compared r424 -&gt; r426  (uploaded: 23.11.11 18:00)<br />
+		zip, 516.5 KB, 11/23/11, 305 downloads
+		</p>
+
+	</div>
+
+
+
+	<div class="fileEntry" style="margin-bottom:10px; padding-bottom: 10px; border-bottom: 1px dotted #CCCCCC;">
+		<h2>
+			<img src="img/icons/small_icon_zip.gif" alt="" border="0" />
+			
+			<a href="download/ed0230a812d356366ccdd0a1d8092b87.zip" target="_blank">r423-r424.zip</a>
+		</h2>
+		<p>
+		compared r423 -&gt; r424  (uploaded: 21.09.11 10:00)<br />
+		zip, 92.1 KB, 09/21/11, 379 downloads
+		</p>
+
+	</div>
+
+
+
+	<div class="fileEntry" style="margin-bottom:10px; padding-bottom: 10px; border-bottom: 1px dotted #CCCCCC;">
+		<h2>
+			<img src="img/icons/small_icon_zip.gif" alt="" border="0" />
+			
+			<a href="download/b963fd26db3b41145d8e4282b05463d8.zip" target="_blank">phpwcmsr423.zip</a>
+		</h2>
+		<p>
+		version 1.4.7-r423 (15.0911) uploaded: 16.09.11 12:30<br />
+		zip, 6 MB, 09/16/11, 176 downloads
+		</p>
+
+	</div>
+
+
+
+	<div class="fileEntry" style="margin-bottom:10px; padding-bottom: 10px; border-bottom: 1px dotted #CCCCCC;">
+		<h2>
+			<img src="img/icons/small_icon_zip.gif" alt="" border="0" />
+			
+			<a href="download/3e5e8de84e7e080e4c1646b63e057636.zip" target="_blank">r420-r423.zip</a>
+		</h2>
+		<p>
+		compared r420 -&gt; r423  (uploaded: 16.09.11 12:30)<br />
+		zip, 1.1 MB, 09/16/11, 232 downloads
+		</p>
+
+	</div>
+
+
+
+	<div class="fileEntry" style="margin-bottom:10px; padding-bottom: 10px; border-bottom: 1px dotted #CCCCCC;">
+		<h2>
+			<img src="img/icons/small_icon_zip.gif" alt="" border="0" />
+			
+			<a href="download/ec672dbe70a406ee6546cae8d97b796d.zip" target="_blank">r412-r420.zip</a>
+		</h2>
+		<p>
+		compared r412 -&gt; r420  (uploaded: 22.08.11 11:30)<br />
+		zip, 2.6 MB, 08/22/11, 198 downloads
+		</p>
+
+	</div>
+
+
+
+	<div class="fileEntry" style="margin-bottom:10px; padding-bottom: 10px; border-bottom: 1px dotted #CCCCCC;">
+		<h2>
+			<img src="img/icons/small_icon_zip.gif" alt="" border="0" />
+			
+			<a href="download/b81a680f82d684e191676d3292c14575.zip" target="_blank">r419-r420.zip</a>
+		</h2>
+		<p>
+		compared r419 -&gt; r420  (uploaded: 18.05.11 06:20)<br />
+		zip, 19 KB, 05/18/11, 641 downloads
+		</p>
+
+	</div>
+
+
+
+	<div class="fileEntry" style="margin-bottom:10px; padding-bottom: 10px; border-bottom: 1px dotted #CCCCCC;">
+		<h2>
+			<img src="img/icons/small_icon_zip.gif" alt="" border="0" />
+			
+			<a href="download/3dfd088d01e227549c87c499011cffae.zip" target="_blank">r417-r419.zip</a>
+		</h2>
+		<p>
+		compared r417 -&gt; r419  (uploaded: 16.05.11 06:20)<br />
+		zip, 796.9 KB, 05/16/11, 392 downloads
+		</p>
+
+	</div>
+
+
+
+	<div class="fileEntry" style="margin-bottom:10px; padding-bottom: 10px; border-bottom: 1px dotted #CCCCCC;">
+		<h2>
+			<img src="img/icons/small_icon_zip.gif" alt="" border="0" />
+			
+			<a href="download/9ad7febfb41fefb577a4e12676d81703.zip" target="_blank">r412-r417.zip</a>
+		</h2>
+		<p>
+		compared r412 -&gt; r417  (uploaded: 09.05.11 12:00)<br />
+		zip, 2.5 MB, 05/09/11, 289 downloads
+		</p>
+
+	</div>
+
+
+
+	<div class="fileEntry" style="margin-bottom:10px; padding-bottom: 10px; border-bottom: 1px dotted #CCCCCC;">
+		<h2>
+			<img src="img/icons/small_icon_zip.gif" alt="" border="0" />
+			
+			<a href="download/5df16b65eed37e6b7d37696025e5d5f8.zip" target="_blank">r409-r411.zip</a>
+		</h2>
+		<p>
+		compared r409 -&gt; r411  (uploaded: 19.12.10 13:30)<br />
+		zip, 811.9 KB, 12/19/10, 770 downloads
+		</p>
+
+	</div>
+
+
+
+	<div class="fileEntry" style="margin-bottom:10px; padding-bottom: 10px; border-bottom: 1px dotted #CCCCCC;">
+		<h2>
+			<img src="img/icons/small_icon_zip.gif" alt="" border="0" />
+			
+			<a href="download/98c1523250e74fbf2c6349f5e237bdbf.zip" target="_blank">r406-r409.zip</a>
+		</h2>
+		<p>
+		compared r406 -&gt; r409  (uploaded: 17.12.10 23:30)<br />
+		zip, 181.8 KB, 12/17/10, 675 downloads
+		</p>
+
+	</div>
+
+
+
+	<div class="fileEntry" style="margin-bottom:10px; padding-bottom: 10px; border-bottom: 1px dotted #CCCCCC;">
+		<h2>
+			<img src="img/icons/small_icon_zip.gif" alt="" border="0" />
+			
+			<a href="download/e1fd3331226ed612ff0b9bc9254d3fa1.zip" target="_blank">phpwcmsr406.zip</a>
+		</h2>
+		<p>
+		version 1.4.7-r406 (25.11.10) uploaded: 25.11.10 08:00<br />
+		zip, 5.4 MB, 11/25/10, 434 downloads
+		</p>
+
+	</div>
+
+
+
+	<div class="fileEntry" style="margin-bottom:10px; padding-bottom: 10px; border-bottom: 1px dotted #CCCCCC;">
+		<h2>
+			<img src="img/icons/small_icon_zip.gif" alt="" border="0" />
+			
+			<a href="download/a8166abc7cc6903520bdfe07b706aa9e.zip" target="_blank">r405-r406.zip</a>
+		</h2>
+		<p>
+		compared r405 -&gt; r406 (uploaded: 25.11.10 08:00)<br />
+		zip, 28.6 KB, 11/25/10, 788 downloads
+		</p>
+
+	</div>
+
+
+
+	<div class="fileEntry" style="margin-bottom:10px; padding-bottom: 10px; border-bottom: 1px dotted #CCCCCC;">
+		<h2>
+			<img src="img/icons/small_icon_zip.gif" alt="" border="0" />
+			
+			<a href="download/799cea2c0c42c02bcbd27d0cf25da6ac.zip" target="_blank">r403-r406.zip</a>
+		</h2>
+		<p>
+		compared r403 -&gt; r406 (uploaded: 25.11.10 08:00)<br />
+		zip, 365.6 KB, 11/25/10, 647 downloads
+		</p>
+
+	</div>
+
+
+
+	<div class="fileEntry" style="margin-bottom:10px; padding-bottom: 10px; border-bottom: 1px dotted #CCCCCC;">
+		<h2>
+			<img src="img/icons/small_icon_zip.gif" alt="" border="0" />
+			
+			<a href="download/75e2c856b0c577bd064e62fda3e01717.zip" target="_blank">r402-r406.zip</a>
+		</h2>
+		<p>
+		compared r402 -&gt; r406 (uploaded: 25.11.10 08:00)<br />
+		zip, 1.6 MB, 11/25/10, 459 downloads
+		</p>
+
+	</div>
+
+
+
+	<div class="fileEntry" style="margin-bottom:10px; padding-bottom: 10px; border-bottom: 1px dotted #CCCCCC;">
+		<h2>
+			<img src="img/icons/small_icon_zip.gif" alt="" border="0" />
+			
+			<a href="download/ef7ceab2b3926cd54327c89e9e165066.zip" target="_blank">phpwcmsr402_incl_all_patches_1_2_3.zip</a>
+		</h2>
+		<p>
+		version 1.4.6-r402 (30.03.10) uploaded: 30.09.10 09:40<br />
+		zip, 5.3 MB, 09/30/10, 437 downloads
+		</p>
+
+	</div>
+
+
+
+	<div class="fileEntry" style="margin-bottom:10px; padding-bottom: 10px; border-bottom: 1px dotted #CCCCCC;">
+		<h2>
+			<img src="img/icons/small_icon_zip.gif" alt="" border="0" />
+			
+			<a href="download/0b8708a390c33303ccd3702272f630d2.zip" target="_blank">phpwcmsr380.zip</a>
+		</h2>
+		<p>
+		last version with mootools locates at template/inc_js/mootool/<br />
+		zip, 4.8 MB, 11/23/09, 622 downloads
+		</p>
+
+	</div>
+
+
+
+	<div class="fileEntry" style="margin-bottom:10px; padding-bottom: 10px; border-bottom: 1px dotted #CCCCCC;">
+		<h2>
+			<img src="img/icons/small_icon_zip.gif" alt="" border="0" />
+			
+			<a href="download/31f0a5985df1589a25d394ea5c0db01e.zip" target="_blank">r377-r380.zip</a>
+		</h2>
+		<p>
+		compared r377 -&gt; r380 <br />keep an eye on changed Editor issues<br />
+		zip, 673.8 KB, 11/23/09, 928 downloads
+		</p>
+
+	</div>
+
+
+</div>
+<h3>Google Code Feed</h3>
+
+<div class="feedTitle">Subversion commits to project phpwcms on Google Code</div>
+<p style="padding:0;margin-bottom:6px;"></p>
+
+<div style="margin:2px;padding:0; border-top:1px dotted #B2B2B2;"></div>
+
+<p style="margin:0;padding:0;margin-top:2px;margin-bottom:3px;">08.09.14: <a href="http://code.google.com/p/phpwcms/source/detail?r=530" target="_blank">Revision 530: Merge with GitHub release: - More custom classes possible via template defaults </a><br /></p>
+
+<div style="margin:2px;padding:0; border-top:1px dotted #B2B2B2;"></div>
+
+<p style="margin:0;padding:0;margin-top:2px;margin-bottom:3px;">08.09.14: <a href="http://code.google.com/p/phpwcms/source/detail?r=529" target="_blank">Revision 529: New content part type implemented ? used especially for settings, usable via mod</a><br /></p>
+
+<div style="margin:2px;padding:0; border-top:1px dotted #B2B2B2;"></div>
+
+<p style="margin:0;padding:0;margin-top:2px;margin-bottom:3px;">08.09.14: <a href="http://code.google.com/p/phpwcms/source/detail?r=528" target="_blank">Revision 528: Add counter of used CP type Extend [download] by template option No forced aid t</a><br /></p>
+
+<div style="margin:2px;padding:0; border-top:1px dotted #B2B2B2;"></div>
+
+<p style="margin:0;padding:0;margin-top:2px;margin-bottom:3px;">08.09.14: <a href="http://code.google.com/p/phpwcms/source/detail?r=527" target="_blank">Revision 527: Missing ? Create new shop category fixed</a><br /></p>
+
+<div style="margin:2px;padding:0; border-top:1px dotted #B2B2B2;"></div>
+
+<p style="margin:0;padding:0;margin-top:2px;margin-bottom:3px;">08.09.14: <a href="http://code.google.com/p/phpwcms/source/detail?r=526" target="_blank">Revision 526: WYSIWYG editors replaced by CKEditor 4 (only) CP Teaser enhanced by IMAGE_ALT/IM</a><br /></p>
+
+<div style="margin:2px;padding:0; border-top:1px dotted #B2B2B2;"></div>
+
+
+		 
+		
+		<br /><br />
+		<div class="sub">
+			
+		</div>
+				
+	</div>
+	
+<div id="footer"><br /><br />
+<br />
+
+
+
+
+
+	<table width="97%" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td valign="bottom">	
+			&copy; phpwcms-docu 2004-2014
+			<img src="img/leer.gif" border="0" width="10" height="0" alt="" /><a href="impressum.phtml" class="phpwcmsIntLink"><img src="template/lang/all/icons/imprint.gif" width="9" height="15" alt="Impressum" title="Impressum" border="0" /></a>&nbsp; 
+			<a href="sitemap_de.phtml" class="phpwcmsIntLink"><img src="template/lang/all/icons/sitemap.gif" width="19" height="15" alt="Sitemap" title="Sitemap" border="0" /></a>&nbsp; 
+			<a href="gaestebuch.phtml" class="phpwcmsIntLink"><img src="template/lang/all/icons/gbook.gif" width="20" height="16" alt="Ins G&auml;stebuch eintragen" title="Ins G&auml;stebuch eintragen" border="0" /></a>&nbsp; 
+			<a href="#" onclick="BookMark_Page();return false;" title="" class="phpwcmsBookmarkLink"><img src="template/lang/all/icons/favo.gif" width="12" height="15" alt="Seite als Bookmark speichern" title="Seite als Bookmark speichern" border="0" /></a>&nbsp; 
+			     
+			</td>
+			<td valign="bottom" style="padding-right:25px;">
+			
+			
+			
+			</td>		
+			<td width="150">
+			</td>
+		</tr>
+	</table>
+</div><br/>
+
+</div>
+</body>
+</html>

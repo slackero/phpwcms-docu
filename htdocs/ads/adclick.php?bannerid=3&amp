@@ -1,0 +1,358 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Webdesign &amp; Contao Know-How aus Stuttgart - www.weitzeldesign.com</title>
+<base href="http://www.weitzeldesign.com/" />
+<meta name="robots" content="index,follow" />
+<meta name="description" content="weitzeldesign, Stuutgart. Konzeption und Webdesign, Programmierung und Realisierung, Contao CMS." />
+<meta name="keywords" content="Webdesign Design Stuttgart CMS Contao Themes Templates TYPOlight Fotografie Schulungen" />
+<meta name="generator" content="Contao Open Source CMS" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<link type="text/css" rel="stylesheet" href="system/scripts/stylesheet-36401851.css" />
+<!--[if static]><link type="text/css" rel="stylesheet" href="system/scripts/mediaboxAdvBlack21-c4d28867.css" /><![endif]-->
+<link type="text/css" rel="stylesheet" href="system/scripts/stylesheet-21289835.css" />
+<link type="application/rss+xml" rel="alternate" href="http://www.weitzeldesign.com/news-2010.xml" title="Neues 2010" />
+<link type="application/rss+xml" rel="alternate" href="https://ssl-account.com/weitzeldesign.com/neues-2011.xml" title="Neues 2011" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/mootools/1.4.5/mootools-yui-compressed.js"></script>
+<script type="text/javascript" src="plugins/mootools/1.4.5/mootools-more.js"></script>
+<script type="text/javascript" src="system/scripts/javascript-9c989e54.js"></script>
+<!--[if IE 6]>
+    <style type="text/css">@import url(weitzeldesign_ie.css);</style>
+<![endif]-->
+
+<script type="text/javascript" src="tl_files/scripts/show_hide.js"></script>
+<script type="text/javascript" src="tl_files/scripts/focus_form.js"></script>
+<script type="text/javascript" src="tl_files/scripts/customs.js"></script>
+
+<script type="text/javascript">
+  //Just in case...
+  if (typeof console == "undefined") {
+      this.console = {log: function() {} };
+  }
+
+  var uagent = navigator.userAgent.toLowerCase(); 
+  var mobilelist = ["midp","240x320","blackberry","netfront","nokia","panasonic","portalmmm","sharp","sie-","sonyericsson","symbian","windows ce","benq","mda","mot-","opera mini","philips","pocket pc","sagem","samsung","sda","sgh-","vodafone","xda","palm","iphone","ipod","android"];
+  for(var i=0;i<mobilelist.length;i++){
+   if (uagent.indexOf(mobilelist[i])!=-1) {
+    document.location = 'http://m.weitzeldesign.com/';
+   }
+  }
+ </script>
+
+<!--
+<link href='http://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400italic,700,700italic' rel='stylesheet' type='text/css' />
+-->
+</head>
+<body id="top" class="unknown other">
+
+<div id="wrapper">
+
+<div id="header">
+<div class="inside">
+&nbsp; 
+</div>
+</div>
+
+<div id="container">
+
+<div id="left">
+<div class="inside">
+
+<div id="logo"><a href="index.html" title="zur Startseite"><img src="tl_files/standard/weitzeldesign_logo.jpg" width="196" height="56" alt="weitzeldesign" /></a></div>
+<!-- indexer::stop -->
+<div class="mod_navigation mainnav block" id="extJs_module_28">
+
+<a href="#skipNavigation28" class="invisible">Navigation überspringen</a>
+
+<ul class="level_1">
+<li class="active first"><span class="active first">Startseite</span></li>
+<li class="sibling"><a href="interessant-fuer.html" title="Agenturen - Dienstleister - Grafiker - Handwerk - Vereine" class="sibling">Interessant für...</a></li>
+<li class="sibling"><a href="neues/2013.html" title="Neues" class="sibling">Neues</a></li>
+<li class="sibling"><a href="profil.html" title="Profil - Vita - Lehrtätigkeiten" class="sibling">Profil</a></li>
+<li class="sibling"><a href="kompetenzen.html" title="Kompetenzen - Konzeption - Gestaltung - Programmierung" class="sibling">Kompetenzen</a></li>
+<li class="sibling"><a href="referenzen.html" title="Referenzen Internet Medien Print Schulungen Fotografie" class="sibling">Referenzen</a></li>
+<li class="sibling"><a href="partner.html" title="Partner Netzwerk Team" class="sibling">Partner</a></li>
+<li class="sibling"><a href="presse.html" title="Presse Veröffentlichungen Netzwerk" class="sibling">Presse</a></li>
+<li class="sibling"><a href="jobs.html" title="Jobs Projekte Netzwerk Kooperation" class="sibling">Jobs</a></li>
+<li class="sibling"><a href="kontakt.html" title="Kontakt Anfragen Informationen" class="sibling">Kontakt</a></li>
+<li class="sibling last"><a href="impressum.html" title="Impressum Datenschutz Haftungshinweis" class="sibling last">Impressum</a></li>
+</ul>
+
+<a id="skipNavigation28" class="invisible">&nbsp;</a>
+
+</div>
+<!-- indexer::continue -->
+
+<!-- indexer::stop -->
+<div class="mod_form tableless block">
+
+<form action="" id="f4" method="post" enctype="application/x-www-form-urlencoded">
+<div class="formbody">
+<input type="hidden" name="FORM_SUBMIT" value="auto_tl_search" />
+<input type="hidden" name="REQUEST_TOKEN" value="cb3dbf0dd306a5c3feb97a55fda68c0a" />
+<input type="hidden" name="MAX_FILE_SIZE" value="15728640" />
+   
+  <input type="text" name="keywords" id="ctrl_13" class="text" value="Suchbegriff eingeben..." /><br />
+  <div class="submit_container">
+    <input type="image" src="tl_files/standard/suchen.gif" id="ctrl_14" class="submit" title="Suchen" alt="Suchen" /> 
+  </div>
+</div>
+</form>
+
+</div>
+<!-- indexer::continue -->
+
+<!-- indexer::stop -->
+<div id="lastupdate">
+Letzte Aktualisierung:<br />
+08.07.2016<br />
+1 Besucher online<br />
+</div>
+<!-- indexer::continue --> 
+</div>
+</div>
+
+<div id="main">
+<div class="inside">
+
+<div class="mod_article block" id="startseite-kopie">
+
+<h1 class="ce_headline">Willkommen bei weitzeldesign</h1>
+
+<div class="ce_text startbox block">
+
+<p>Willkommen bei weitzeldesign<br /> kompetenz in online-/offline-medien<br /> <br /> weitzeldesign bietet Ihnen <strong>Dienstleistungen </strong>&amp; <strong>Know-How</strong> in den Bereichen:</p>
+<ul class="liste">
+<li>Design</li>
+<li>Multimedia</li>
+<li>Internet - Webdesign &amp; Programmierung</li>
+<li>Interaktive Medien - CD-ROM | DVD</li>
+<li>Content Management Systeme (CMS)<br />Open Source CMS Contao (Design, Themes, Templates, Schulungen)</li>
+<li>Fotografie</li>
+<li>Workshops<br /><strong><br /></strong></li>
+</ul>
+<p><strong>Profitieren </strong>Sie von den langjährigen <strong>Praxiserfahrungen<br /></strong>durch eine Zusammenarbeit mit weitzeldesign.</p>
+</div>
+
+<div class="ce_text startbox block">
+
+<p>Als offizielles <strong>Contao Team-Mitglied (2010-2013), Contao-Premium-Partner </strong>und Mitglied der <strong>Contao Association</strong> steht Ihnen weitzeldesign als erfahrener Ansprechpartner für <strong>Konzeption</strong>, <strong>Design </strong>&amp; <strong>Realisierung</strong> sowie <strong>Wartung </strong>&amp; <strong>Schulung </strong>Ihrer Internetpräsenz zur Verfügung.</p>
+</div>
+
+<div class="ce_gallery block">
+
+<table>
+<tbody>
+<tr class="row_0 row_first row_last even">
+  <td class="col_0 col_first" style="width:33%">
+  <div class="image_container">
+    <img src="system/html/Contao_Premium-Partner_Web-a6576874.png" width="270" height="100" alt="Contao Premium-Partner Web" />
+  </div>
+  </td>
+  <td class="col_1" style="width:33%">
+  <div class="image_container">
+    <img src="system/html/CA-Logo-Member-RGB-c95e0e74.png" width="88" height="100" alt="CA-Logo-Member-RGB" />
+  </div>
+  </td>
+  <td class="col_2 col_last" style="width:33%">
+  <div class="image_container">
+    <img src="system/html/badge-v1-border-845a8b7c.png" width="152" height="100" alt="badge-v1-border" />
+  </div>
+  </td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+<!-- indexer::stop -->
+<div class="ce_download block" style="margin-top:10px; margin-bottom:10px;">
+
+<h2>Kompetenzen &amp; Erfahrungen CMS Contao</h2>
+
+<img src="system/themes/default/images/iconPDF.gif" width="18" height="18" alt="application/pdf" class="mime_icon" /> <a href="?file=tl_files/standard/weitzeldesign-whois-2016.pdf" title="weitzeldesign-whois-2016.pdf">weitzeldesign-whois-2016.pdf <span class="size">(873,9 KiB)</span></a>
+
+</div>
+<!-- indexer::continue -->
+
+<div class="ce_text startbox block">
+
+<h2>Sie haben ein neues Projekt in Planung?</h2>
+
+<p>Und benötigen ein Angebot, eine Beratung oder projektbegleitende Unterstützung?</p>
+<p>Nutzen Sie das <a title="Anfrageformular" href="kompetenzen/cms-contao/contao-anfrage.html">Anfrageformular </a>jetzt.</p>
+</div>
+
+<div class="ce_text startbox block">
+
+<h2>… mehr zum Open Source CMS Contao</h2>
+
+<p><a title="Erfahren Sie mehr zum Open Source CMS Contao und den Leistungen von weitzeldesign" href="kompetenzen/cms-contao.html">und den Leistungen von weitzeldesign</a></p>
+</div>
+
+<div class="ce_text startbox block">
+
+<h2>Weitere Information zum Buch von Thomas Weitzel</h2>
+
+<div class="image_container float_right" style="padding:0px 0px 20px 10px; float:right;">
+<img src="system/html/Cover-Contao-fuer-Webdesigner-3570c02b.jpg" width="107" height="150" alt="Contao für Webdesigner: Mit responsiver Beispielwebsite, Tutorials, Checklisten" title="Contao für Webdesigner: Mit responsiver Beispielwebsite, Tutorials, Checklisten" />
+</div>
+
+<p>„<strong>Contao für Webdesigner: Mit responsiver Beispielwebsite, Tutorials, Checklisten</strong>” ist als Fachbuch 2013 im Hanser Verlag, München erschienen. Weitere Informationen finden Sie auf der Website zum Buch: <a title="Website zum Buch Mit Contao Webseiten erfolgreich gestalten: Konzeption, Umsetzung, Beispielprojekte" onclick="window.open(this.href); return false;" href="http://www.contao-fuer-webdesigner.de">www.contao-fuer-webdesigner.de</a>.</p>
+</div>
+
+<div class="ce_text startbox block">
+
+<h2>Weitere Information zum Buch von Thomas Weitzel</h2>
+
+<div class="image_container float_right" style="padding:0px 0px 20px 10px; float:right;">
+<img src="system/html/Contao-Buchcover-49c40af6.jpg" width="148" height="150" alt="Mit Contao Webseiten erfolgreich gestalten: Konzeption, Umsetzung, Beispielprojekte" />
+</div>
+
+<p>„<strong>Mit Contao Webseiten erfolgreich gestalten: Konzeption, Umsetzung, Beispielprojekte</strong>” ist als Fachbuch 2010 im Addison-Wesley Verlag, München erschienen. Weitere Informationen finden Sie auf der Website zum Buch: <a title="Website zum Buch Mit Contao Webseiten erfolgreich gestalten: Konzeption, Umsetzung, Beispielprojekte" onclick="window.open(this.href); return false;" href="http://www.think-contao.de">www.think-contao.de</a>.</p>
+</div>
+
+</div>
+ 
+</div>
+ 
+<div id="clear"></div>
+</div>
+
+</div>
+
+<div id="footer">
+<div class="inside">
+<!-- indexer::stop -->
+<!-- Template for "only counting", no display in Frontend. -->
+<span class="visitor_count invisible"><!-- counted --></span>
+<!-- indexer::continue --> 
+</div>
+</div>
+
+</div>
+
+<script type="text/javascript" src="plugins/mediabox/1.4.6/js/mediabox.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+Mediabox.scanPage = function() {
+  var links = $$('a').filter(function(el) {
+    return el.rel && el.rel.test(/^lightbox/i);
+  });
+  $$(links).mediabox({/* Put custom options here */}, null, function(el) {
+    var rel0 = this.rel.replace(/[[]|]/gi,' ');
+    var relsize = rel0.split(' ');
+    return (this == el) || ((this.rel.length > 8) && el.rel.match(relsize[1]));
+  });
+};
+window.addEvent('domready', Mediabox.scanPage);
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+(function($) {
+  window.addEvent('domready', function() {
+    new Accordion($$('div.toggler'), $$('div.accordion'), {
+      opacity: false,
+      alwaysHide: true,
+      onActive: function(tog, el) {
+        el.setProperty('aria-hidden', 'false');
+        tog.addClass('active');
+        tog.getNext('div').fade('in');
+        tog.setProperty('aria-expanded', 'true');
+        return false;
+      },
+      onBackground: function(tog, el) {
+        el.setProperty('aria-hidden', 'true');
+        tog.removeClass('active');
+        tog.getNext('div').fade('out');
+        tog.setProperty('aria-expanded', 'false');
+        return false;
+      }
+    });
+    $$('div.toggler').each(function(el) {
+      el.setProperty('role', 'tab');
+      el.setProperty('tabindex', 0);
+      el.addEvents({
+        'keypress': function(event) {
+          if (event.code == 13) {
+            this.fireEvent('click');
+          }
+        },
+        'focus': function() {
+          this.addClass('hover');
+        },
+        'blur': function() {
+          this.removeClass('hover');
+        },
+        'mouseenter': function() {
+          this.addClass('hover');
+        },
+        'mouseleave': function() {
+          this.removeClass('hover');
+        }
+      });
+    });
+    $$('div.ce_accordion').each(function(el) {
+      el.setProperty('role', 'tablist');
+    });
+    $$('div.accordion').each(function(el) {
+      el.setProperty('role', 'tabpanel');
+    });
+  });
+})(document.id);
+/* ]]> */
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.addEvent('domready', function()
+{
+   new Tips($$('.tooltip'),
+      {
+        showDelay: 0,    //Verzögerung bei MouseOver
+        hideDelay: 100,   //Verzögerung bei MouseOut
+        className: 'tool', //CSS-Klassennamen --> CSS-Definitionen
+        offsets: {'x': 20, 'y': -100 }, // Versatz des Tooltips
+        fixed: false, // false = Tooltip bewegt sich mit dem Mauszeiger, true=Tooltip bewegt sich nicht
+      });
+});
+//--><!]]>
+</script>
+<!-- indexer::stop -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://www.st.weitzeldesign.com/piwik/" : "http://www.st.weitzeldesign.com/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+	var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 2);
+                piwikTracker.setDocumentTitle("Startseite");    
+        piwikTracker.setDownloadExtensions("7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe|jpeg|js|mp2|mp3|mp4|mpe|mpeg|mov|movie|msi|msp|pdf|phps|png|ppt|qtm|ram|rar|sea|sit|tar|tgz|orrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip");        
+        piwikTracker.trackPageView();
+	piwikTracker.enableLinkTracking();
+} catch( err ) {}
+/* ]]> */
+</script>
+<noscript><p class="invisible"><img src="http://www.st.weitzeldesign.com/piwik/piwik.php?idsite=2" alt="" /></p></noscript>
+<!-- indexer::continue -->
+
+<script type="text/javascript">
+/* <![CDATA[ */
+new Request({
+  url:'system/html/cron.txt',
+  onComplete: function(txt) {
+    if (!txt) txt = 0;
+    if (parseInt(txt) < (Math.round(+new Date()/1000) - 300)) {
+      new Request({url:'cron.php'}).get();
+    }
+  }
+}).get();
+/* ]]> */
+</script>
+
+</body>
+</html>

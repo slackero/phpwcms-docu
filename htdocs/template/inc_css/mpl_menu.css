@@ -1,0 +1,305 @@
+/* 
+========================================================================= 
+Stand CSS PHPWCMS-DOKU: 11.10.2007  
+Merci 2 Master of NavUL for the great example: FlipFlop
+Mario Perez Leal (peri)
+========================================================================= 
+*/
+   
+.leftnav {
+	position:relative;
+   margin: 0;
+   padding: 0;
+   border: 0;
+   text-decoration: none;
+   /* ++ e.g. 11px font and 19px height // z.B. 11px font und 19px hoch */
+   font: normal normal 11px/19px Verdana, Geneva, Arial, Helvetica, sans-serif;
+   width: 150px;  /* ++ Width of Menu Items // Breite der Navigation*/
+	/*   float:left; */
+}
+
+.leftnav em { 
+	font-style: normal; 
+}
+
+.leftnav ul {
+   margin: 0;
+   padding-left: 10px;
+   border: 0;
+   list-style-type: none;
+   width: 150px;  /* ++ Width of Menu Items // Breite der Navigation */
+}
+
+.leftnav ul li { 
+	position: relative; 
+}
+
+
+
+/* >> ===== LEVEL 0 =============================================== */
+
+
+/* =====  Standard link  ===== */
+.leftnav ul li a,
+.leftnav ul li a:link,
+.leftnav ul li a:visited,
+.leftnav ul li a:active {
+   display: block;
+   text-decoration: none;
+   text-transform: none;
+   color: #517FB6;
+   background: transparent url(../img/menu/nn.gif) 0 6px no-repeat;
+   padding: 1px 0 0 10px;
+   \width: 150px;  /* IE5x Opera <= 5 */
+   widt\h: 150px;  /* = (Width of Menu Items) - (padding-right + padding-left) */
+}
+
+/* =====  Active if sub  ===== */
+.leftnav ul li.sub_ul_true a,
+.leftnav ul li.sub_ul_true a:link,
+.leftnav ul li.sub_ul_true a:visited,
+.leftnav ul li.sub_ul_true a:active {
+   color: #517FB6;
+   font-weight: normal;
+   background: transparent url(../img/menu/nn.gif) 0 6px no-repeat;
+
+}
+
+/* =====  Link tracing ===== */
+.leftnav ul li.act_path a,
+.leftnav ul li.act_path a:link,
+.leftnav ul li.act_path a:visited,
+.leftnav ul li.act_path a:active {
+   color: #517FB6;
+   font-weight: bold;
+   background: transparent url(../img/menu/nn.gif) 0 6px no-repeat;
+}
+
+/* =====  Active link  ===== */
+.leftnav ul li.active a,
+.leftnav ul li.active a:link,
+.leftnav ul li.active a:visited,
+.leftnav ul li.active a:active {
+   color: #517FB6;
+   font-weight: bold;
+   background: transparent url(../img/menu/nn.gif) 0 6px no-repeat;
+}
+
+/* =====  Hover ===== */
+.leftnav ul li a:hover,
+.leftnav ul li.sub_no a:hover,
+.leftnav ul li.sub_ul a:hover,
+.leftnav ul li.active a:hover  {
+   color: #3176ba;
+   background: transparent url(../img/menu/nh.gif) 0 6px no-repeat;
+}
+
+.leftnav ul li.sub_ul_true a:hover{
+   color: #3176ba;
+   font-weight: normal;
+   background: transparent url(../img/menu/na.gif) 0 6px no-repeat;
+}
+
+
+
+/* >> ===== LEVEL 01 ============================================= */
+
+.leftnav ul ul li.sub_no a,
+.leftnav ul ul li.sub_no a:link,
+.leftnav ul ul li.sub_no a:visited,
+.leftnav ul ul li.sub_no a:active,
+.leftnav ul ul li.sub_ul a,
+.leftnav ul ul li.sub_ul a:link,
+.leftnav ul ul li.sub_ul a:visited,
+.leftnav ul ul li.sub_ul a:active {
+   display: block;
+   text-decoration: none;
+   text-transform: none;
+   font-weight: normal;
+   color: #517FB6;
+   background: transparent url(../img/menu/nsn.gif) 0 8px no-repeat;
+   padding: 1px 0 0 15px;
+   \width: 140px;  /* IE5x Opera <= 5 */
+   widt\h: 140px;  /* = (Width of Menu Items) - (padding-right + left) */
+}
+
+.leftnav ul ul li.sub_ul_true a,
+.leftnav ul ul li.sub_ul_true a:link,
+.leftnav ul ul li.sub_ul_true a:visited,
+.leftnav ul ul li.sub_ul_true a:active {
+   color: #517FB6;
+   font-weight: normal;
+   background: transparent url(../img/menu/nsn.gif) 0 8px no-repeat;
+}
+
+.leftnav ul ul li.act_path a,
+.leftnav ul ul li.act_path a:link,
+.leftnav ul ul li.act_path a:visited,
+.leftnav ul ul li.act_path a:active {
+   color: #517FB6;
+   font-weight: bold;
+   background: transparent url(../img/menu/nsh.gif) 0 8px no-repeat;
+}
+
+.leftnav ul ul li.active a,
+.leftnav ul ul li.active a:link,
+.leftnav ul ul li.active a:visited,
+.leftnav ul ul li.active a:active {
+   color: #517FB6;
+   font-weight: bold;
+   background: transparent url(../img/menu/nsh.gif) 0 8px no-repeat;
+}
+
+.leftnav ul ul li a:hover {
+   color: #2C79D5;
+   background: transparent url(../img/menu/nsh.gif) 0 8px no-repeat;
+}
+.leftnav ul ul li.sub_no a:hover,
+.leftnav ul ul li.sub_ul a:hover,
+.leftnav ul ul li.active a:hover {
+   background: transparent url(../img/menu/nsh.gif) 0 8px no-repeat;
+}
+
+.leftnav ul ul li.sub_ul_true a:hover{
+   color: #3176ba;
+   font-weight: normal;
+   background: transparent url(../img/menu/na.gif) 0 6px no-repeat;
+}
+   
+   
+/* >> ===== LEVEL 02 ============================================= */
+
+.leftnav ul ul ul li.sub_no a,
+.leftnav ul ul ul li.sub_no a:link,
+.leftnav ul ul ul li.sub_no a:visited,
+.leftnav ul ul ul li.sub_no a:active,
+.leftnav ul ul ul li.sub_ul a,
+.leftnav ul ul ul li.sub_ul a:link,
+.leftnav ul ul ul li.sub_ul a:visited,
+.leftnav ul ul ul li.sub_ul a:active  {
+   display: block;
+   text-decoration: none;
+   text-transform: none;
+   font-weight: normal;
+   color: #517FB6;
+   border-bottom: 1px dotted #d4e3f3; /* IE6 Bug */
+   background: transparent url(../img/menu/nsn.gif) 0 7px no-repeat;
+   padding: 1px 0 0 10px;
+   \width: 130px;  /* IE5x Opera <= 5 */
+   widt\h: 130px;  /* = (Width of Menu Items) - (padding-right + left) */
+}
+
+
+.leftnav ul ul ul li.sub_ul_true a,
+.leftnav ul ul ul li.sub_ul_true a:link,
+.leftnav ul ul ul li.sub_ul_true a:visited,
+.leftnav ul ul ul li.sub_ul_true a:active {
+   color: #517FB6;
+   font-weight: normal;
+   background: transparent url(../img/menu/nsn.gif) 0 7px no-repeat;
+}
+
+
+.leftnav ul ul ul li.act_path a,
+.leftnav ul ul ul li.act_path a:link,
+.leftnav ul ul ul li.act_path a:visited,
+.leftnav ul ul ul li.act_path a:active {
+   color: #517FB6;
+   font-weight: bold;
+   background: transparent url(../img/menu/nsh.gif) 0 7px no-repeat;
+}
+
+.leftnav ul ul ul li.active a,
+.leftnav ul ul ul li.active a:link,
+.leftnav ul ul ul li.active a:visited,
+.leftnav ul ul ul li.active a:active {
+   color: #517FB6;
+   font-weight: bold;
+   background: transparent url(../img/menu/nsh.gif) 0 7px no-repeat;
+}
+
+.leftnav ul ul ul li a:hover,
+.leftnav ul ul ul li.sub_no a:hover,
+.leftnav ul ul ul li.sub_ul a:hover,
+.leftnav ul ul ul li.sub_ul_true a:hover,
+.leftnav ul ul ul li.active a:hover  {
+   color: #2C79D5;
+   background: #f0f5f9 url(../img/menu/nsh.gif) 0 7px no-repeat;
+}
+
+.sub_ul,.sub_no .sub_ul_true, .sub_no{
+   margin:0;
+   padding:0;
+}
+
+
+
+/* >> ===== LEVEL 03 ============================================= */
+
+.leftnav ul ul ul ul li.sub_no a,
+.leftnav ul ul ul ul li.sub_no a:link,
+.leftnav ul ul ul ul li.sub_no a:visited,
+.leftnav ul ul ul ul li.sub_no a:active,
+.leftnav ul ul ul ul li.sub_ul a,
+.leftnav ul ul ul ul li.sub_ul a:link,
+.leftnav ul ul ul ul li.sub_ul a:visited,
+.leftnav ul ul ul ul li.sub_ul a:active  {
+   display: block;
+   text-decoration: none;
+   text-transform: none;
+   font-weight: normal;
+   color: #517FB6;
+   border-bottom: 1px dotted #d4e3f3; /* IE6 Bug */
+   background: transparent url(../img/menu/nsn.gif) 0 7px no-repeat;
+   padding: 1px 0 0 10px;
+   \width: 120px;  /* IE5x Opera <= 5 */
+   widt\h: 120px;  /* = (Width of Menu Items) - (padding-right + left) */
+}
+
+
+.leftnav ul ul ul ul li.sub_ul_true a,
+.leftnav ul ul ul ul li.sub_ul_true a:link,
+.leftnav ul ul ul ul li.sub_ul_true a:visited,
+.leftnav ul ul ul ul li.sub_ul_true a:active {
+   color: #517FB6;
+   font-weight: normal;
+   background: transparent url(../img/menu/nsn.gif) 0 7px no-repeat;
+}
+
+
+.leftnav ul ul ul ul li.act_path a,
+.leftnav ul ul ul ul li.act_path a:link,
+.leftnav ul ul ul ul li.act_path a:visited,
+.leftnav ul ul ul ul li.act_path a:active {
+   color: #517FB6;
+   font-weight: bold;
+   background: transparent url(../img/menu/nsh.gif) 0 7px no-repeat;
+}
+
+.leftnav ul ul ul ul li.active a,
+.leftnav ul ul ul ul li.active a:link,
+.leftnav ul ul ul ul li.active a:visited,
+.leftnav ul ul ul ul li.active a:active {
+   color: #517FB6;
+   font-weight: bold;
+   background: transparent url(../img/menu/nsh.gif) 0 7px no-repeat;
+}
+
+.leftnav ul ul ul ul li a:hover,
+.leftnav ul ul ul ul li.sub_no a:hover,
+.leftnav ul ul ul ul li.sub_ul a:hover,
+.leftnav ul ul ul ul li.sub_ul_true a:hover,
+.leftnav ul ul ul ul li.active a:hover  {
+   color: #2C79D5;
+   background: #f0f5f9 url(../img/menu/nsh.gif) 0 7px no-repeat;
+}
+
+.sub_ul,.sub_no .sub_ul_true, .sub_no{
+   margin:0;
+   padding:0;
+}
+
+/* Holly Hack. IE Requirement \*/
+* html .leftnav ul li { float: left; height: 1%; }
+* html .leftnav ul li a { height: 1%; }
+

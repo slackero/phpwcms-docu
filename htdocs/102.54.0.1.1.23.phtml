@@ -1,0 +1,681 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!--
+	phpwcms | free open source content management system
+	created by Oliver Georgi (oliver at phpwcms dot de) and licensed under GNU/GPL.
+	phpwcms is copyright 2003-2006 of Oliver Georgi. Extensions are copyright of\
+	their respective owners. Visit project page for details: http://www.phpwcms.org/
+//-->
+<title>phpwcms documentation | Gästebuch</title>
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+  <meta http-equiv="content-style-type" content="text/css" />
+  <script src="template/inc_js/frontend.js" type="text/javascript"></script>
+  <style type="text/css" media="all">
+  /* <![CDATA[ */
+    body {
+      margin: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+      padding-left: 0;
+      padding-right: 0;
+
+      background-color: #FFFFFF;
+      color: #000000;
+    }
+    a, a:link, a:active, a:visited, a:hover { color: #FF9900; }
+    a:visited { color: #FF9900; }
+    a:active { color: #FF9900; }
+  /* ]]> */
+  </style>
+  <style type="text/css">
+  /* <![CDATA[ */
+    @import url("template/inc_css/frontend.css");
+    @import url("template/inc_css/nlu_navi1_docu.css");
+  /* ]]> */
+  </style>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-361662-1";
+urchinTracker();
+</script>
+<META NAME="Title" CONTENT="Die phpWCMS Dokumentation">
+<meta name="author" content="Oliver Frohnert">
+<meta name="Publisher" content="Oliver Frohnert">
+<meta name="Copyright" content="Oliver Frohnert">
+<meta name="keywords" content="frohnert,documentation, dokumentation, phpwcms, cms, opensource, open source">
+<meta name="description" content="Das Dokumentations Projekt für das Open Source CMS phpWCMS">
+<meta name="Audience" content="Alle">
+<meta name="Content-language" content="DE">
+<META NAME="robots"      CONTENT="index,follow">
+<META NAME="expires" CONTENT="0">
+<meta name="revisit-after" content="7 days">
+<meta name="resource-type" content="document">
+<meta name="distribution" content="Global">
+<meta name="generator" content="PHPWCMS">
+<META name="verify-v1" content="1ZpxZ7AZsjm7PxjqXQVus0eiUYqOsp5URTJn9q4KNz8=" />
+  <!--[if lt IE 7]>
+  <style type="text/css">
+    body { behavior: url("template/inc_css/specific/csshover2.htc"); }
+    img { behavior: url("template/inc_css/specific/pngbehavior.htc"); }
+  </style>
+  <![endif]-->
+</head>
+<body>
+<table border="0" cellspacing="0" cellpadding="0" width="760" bgcolor="#ffffff" class="maintable" align="center">
+<tr>
+<td colspan="2" style="height:60px;"  bgcolor="#ffffff"><a name="top"></a><table width="760" height="135" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="1334" height="122" colspan="6"><IMG src="/template/lang/de/header.jpg" alt="" border="0">
+</td>
+  </tr>
+  <tr>
+	<td height="27" background="template/lang/all/top_menu.jpg"><table width="570" border="0" align="left" cellpadding="0" cellspacing="0">
+      <tr>
+        <td align="center" width="254"><a href="deutsche_version.phtml"><img src="picture/flags/de.gif" width="16" height="10" hspace="10" border="0"  alt="Deutsche Version" title="Deutsche Version"></a>
+<a href="english_version.phtml"><img src="picture/flags/gb.gif" width="16" height="10" hspace="10" border="0"  alt="English Version" title="English Version"></a></td>
+        <td valign="middle"><div align="center"><a href="replacement_tags_de.phtml"><img src="content/gt/8c10fcb16c44a7b9c26a5a932c5e4ae9.png" alt="Replacement Tags" title="Replacement Tags" width="115" height="13" border="0" /></a></div></td>
+        <td width="30" valign="middle"><div align="center"><img src="template/lang/all/sep.gif" width="5" height="5" border="0"></div></td>
+        <td valign="middle"><div align="center"><a href="content_parts_de.phtml"><img src="content/gt/02725c45a346fbf433a4c83e02d8dc5a.png" alt="Content Parts" title="Content Parts" width="94" height="13" border="0" /></a></div></td>
+        <td width="30" valign="middle"><div align="center"><img src="template/lang/all/sep.gif" width="5" height="5" border="0"></div></td>
+        <td valign="middle"><div align="center"><a href="links_de.phtml"><img src="content/gt/2c41bfb28d6dd3d4bbc8bb7688fd62ee.png" alt="Links" title="Links" width="36" height="13" border="0" /></a></div></td>
+        <td width="30" valign="middle"><div align="center"><img src="template/lang/all/sep.gif" width="5 " height="5" border="0"></div></td>
+        <td valign="middle"><div align="center"><a href="impressum.phtml"><img src="content/gt/d7380cf01602233e53be03b55123cf90.png" alt="Impressum" title="Impressum" width="64" height="13" border="0" /></a></div></td>
+     </tr>
+    </table>    </td>
+  </tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="185" background="img/menu.gif"><table width="180" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="180" height="20">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="padding-left: 1px;"><div class="nlu_navi1_docu">
+<ul>
+	<li class="sub_no"><a href="news_de.phtml">News</a></li>
+	<li class="sub_no"><a href="inst_de.phtml">Installation &amp; Upgrade</a></li>
+	<li class="sub_no"><a href="die_docu.phtml">Die Docu</a></li>
+	<li class="sub_no"><a href="add_on.phtml">Add Ons</a></li>
+	<li class="sub_no"><a href="fehlermeldungen.phtml">Fehlermeldungen</a></li>
+	<li class="sub_no"><a href="suche.phtml">Suche</a></li>
+	<li class="sub_ul active"><a href="kontakt.phtml">Kontakt</a>
+	<ul>
+		<li class="sub_no"><a href="impressum.phtml">Impressum</a></li>
+		<li class="sub_no active"><a href="gaestebuch.phtml">Gästebuch</a></li>
+	</ul>
+	</li>
+	<li class="sub_no"><a href="faq_de.phtml">FAQ</a></li>
+</ul>
+</div></td>
+  </tr>
+   <tr>
+    <td style="padding:10px; color:#000000;">
+<img src="picture/seperate.gif" border="0" alt="" /><br /><br />
+<img src="content/gt/4ed113c59a3746cabc12bacb98382a26.png" alt="Letzte Finale Version:" title="Letzte Finale Version:" width="149" height="13" border="0" /><br /><br />
+<img src="content/gt/8da415b6626786310c726135c1d9ce1a.png" alt="phpwcms 1.3.0" title="phpwcms 1.3.0" width="83" height="13" border="0" /><br />
+<img src="content/gt/bec27e6d56965cbe357a54097865c5f0.png" alt="Vö: 07.03.2007" title="Vö: 07.03.2007" width="89" height="13" border="0" /><br /><br />
+<a href="http://www.phpwcms.de/forum/viewtopic.php?t=14006"><img src="content/gt/17ec582052b0d3ac3eddfbb9e5ff97f1.png" alt="weiter..." title="weiter..." width="52" height="13" border="0" /></a><br /><br />
+<img src="picture/seperate.gif" border="0" alt="" /><br /><br />
+</TD>
+  </tr>
+  <tr>
+    <td align="center"><a href='./externals/ads/adclick.php?bannerid=10&amp;zoneid=0&amp;source=&amp;dest=http%3A%2F%2Fwww.phpmyfaq.de' target='_blank' onMouseOver="self.status='phpmyfaq - the faq system'; return true;" onMouseOut="self.status='';return true;"><img src='./externals/ads/adimage.php?filename=phpmyfaq.gif&amp;contenttype=gif' width='130' height='430' alt='phpmyfaq - the faq system' title='phpmyfaq - the faq system' border='0'></a><br /><a href='./externals/ads/adclick.php?bannerid=10&amp;zoneid=0&amp;source=&amp;dest=http%3A%2F%2Fwww.phpmyfaq.de' target='_blank' onMouseOver="self.status='phpmyfaq - the faq system'; return true;" onMouseOut="self.status='';return true;">phpmyfaq - the faq system</a><div id="beacon_10" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src='./externals/ads/adlog.php?bannerid=10&amp;clientid=14&amp;zoneid=0&amp;source=&amp;block=0&amp;capping=0&amp;cb=f9e7ddfceb61f1d3a7605cea0e5eb654' width='0' height='0' alt='' style='width: 0px; height: 0px;'></div><br />WERBUNG<br /><br /><img src="picture/seperate.gif" border="0" alt="" /><P>
+</td>
+  </tr>
+<tr>
+    <td height="20">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td align="center" height="20">&nbsp</td>
+  </tr>
+</table>
+
+
+</body>
+</html>
+</td>
+<td valign="top" width="555" bgcolor="#ffffff" class="maincontent"><img src="img/leer.gif" border="0" width="10" height="1" alt="" />
+<br />
+<a href="deutsche_version.phtml">Deutsch</a> <span class="breadcrumb_spacer">&gt;</span> <a href="kontakt.phtml">Kontakt</a> <span class="breadcrumb_spacer">&gt;</span> Gästebuch
+<br />
+<HR>
+<br />
+<a name="jump54"></a><h1>Gästebuch</h1><h2>Wir würden uns über einen Eintrag  freuen...</h2><div style="margin:25px 0 0 0; padding:0 0 0 0; clear:both;"></div>
+  <form name="sign_guestbook" action="deutsche_version.phtml?id=102,54,0,1,1,23" method="post">
+<table border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F5F5F5" style="margin-bottom:10px;">
+  <tr bgcolor="#E1E1E1">
+    <td colspan="2"><strong>&nbsp;&nbsp;sign my guestbook</strong> <span style="font-size:10px;color:#CC3300;">(fields
+        marked * are obligatory)</span></td>
+  </tr>
+  <tr bgcolor="#E1E1E1">
+    <td colspan="2"><img src="img/leer.gif" width="1" height="1" alt="" /></td>
+  </tr>
+  
+  <tr>
+    <td colspan="2"><img src="img/leer.gif" width="1" height="3" alt="" /></td>
+  </tr>
+  <tr>
+    <td align="right" class="v10">email<span style="color:#CC3300;">*</span>:&nbsp;</td>
+    <td><input name="guestbook_email" type="text" id="guestbook_email" style="width: 350px" class="v12" value="" size="50" maxlength="250" />&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="right" class="v10">name<span style="color:#CC3300;">*</span>:&nbsp;</td>
+    <td><input name="guestbook_name" type="text" id="guestbook_name" style="width: 350px" class="v12" value=""  size="50" maxlength="500" /></td>
+  </tr>
+  <tr>
+    <td align="right" class="v10">website:&nbsp;</td>
+    <td><input name="guestbook_url" type="text" id="guestbook_url" style="width: 350px" class="v12" value="" size="50" maxlength="1000" /></td>
+  </tr>
+  <tr>
+    <td align="right" valign="top" class="v10">&nbsp;&nbsp;message:&nbsp;</td>
+    <td><textarea name="guestbook_msg" cols="50" rows="6" id="guestbook_msg" class="v12" style="width: 350px"></textarea></td>
+  </tr>
+  <tr>
+    <td align="right" valign="top" class="v10">display:&nbsp;</td>
+    <td><input name="guestbook_show" type="radio" value="0" checked>show email<br /><input name="guestbook_show" type="radio" value="1">hide email<br /><input type="radio" name="guestbook_show" value="2">show email as &quot;info at mail dot com&quot;</td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="img/leer.gif" width="1" height="4" alt="" /></td>
+  </tr>
+  <tr>
+  	<td align="right" class="v10">code<span style="color:#CC3300;">*</span>:&nbsp;</td>
+  	<td><table cellpadding="0" cellspacing="0" border="0">
+		<tr>
+			<td><input name="guestbook_captcha" type="text" id="guestbook_captcha" style="width: 100px" class="v12" value="" size="10" maxlength="10" />&nbsp;&nbsp;</td>
+			<td><img src="img/captcha.php?regen=y&amp;1177256166" alt="Captcha" border="0" /></td>
+		</tr>
+		</table></td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="img/leer.gif" width="1" height="10" alt="" /></td>
+  </tr>
+  <tr>
+    <td align="right">&nbsp;</td>
+    <td><input name="guestbook_send" type="submit" id="guestbook_send" value="sign guestbook" class="v11" /></td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="img/leer.gif" width="1" height="6" alt="" /></td>
+  </tr>
+</table>
+<input type="hidden" name="3b7d398483c5783efc74d498518dde19" value="28000" /></form> 
+<table width="100%"  border="0" cellspacing="0" cellpadding="0" style="margin-top:5px;">
+  <tr>
+    <td><strong><a href="102.54.0.1.1.0.phtml">&lt;&lt;</a> <a href="102.54.0.1.1.22.phtml">&lt;</a></strong> <a href="102.54.0.1.1.21.phtml">22</a>&nbsp;<a href="102.54.0.1.1.22.phtml">23</a>&nbsp;<strong>24</strong>&nbsp;<a href="102.54.0.1.1.24.phtml">25</a>&nbsp;<a href="102.54.0.1.1.25.phtml">26</a> <strong><a href="102.54.0.1.1.24.phtml">&gt;</a>
+        <a href="102.54.0.1.1.54.phtml">&gt;&gt;</a></strong></td>
+    <td align="right"><form name="guestbookarchive" id="guestbookarchive" method="post" action="index.php?id=102,54,0,1,1,23"><select name="showarchive" id="showarchive" onchange="document.guestbookarchive.submit();"><option value="">all entries</option>
+<option value="2007/04">2007/04</option>
+<option value="2007/03">2007/03</option>
+<option value="2006/10">2006/10</option>
+<option value="2006/03">2006/03</option>
+<option value="2006/02">2006/02</option>
+<option value="2006/01">2006/01</option>
+<option value="2005/12">2005/12</option>
+<option value="2005/11">2005/11</option>
+<option value="2005/10">2005/10</option>
+<option value="2005/09">2005/09</option>
+<option value="2005/08">2005/08</option>
+<option value="2005/07">2005/07</option>
+<option value="2005/06">2005/06</option>
+<option value="2005/05">2005/05</option>
+<option value="2005/03">2005/03</option>
+<option value="2005/02">2005/02</option>
+<option value="2005/01">2005/01</option>
+<option value="2004/12">2004/12</option>
+<option value="2004/11">2004/11</option>
+<option value="2004/10">2004/10</option>
+<option value="2004/09">2004/09</option>
+<option value="2004/08">2004/08</option>
+</select><input type="hidden" name="archivedate" value="%Y/%m" />&nbsp;<input name="archivesubmit" class="guestbookArchiveSubmit" type="submit" value="go" /></form>&nbsp;<form name="guestbookjump" id="guestbookjump" method="post" action="index.php?id=102,54,0,1,1,23"><select name="showguestbookpage" id="showpage" onchange="document.guestbookjump.submit();"><option value="1">page
+      1</option>
+<option value="2">page
+      2</option>
+<option value="3">page
+      3</option>
+<option value="4">page
+      4</option>
+<option value="5">page
+      5</option>
+<option value="6">page
+      6</option>
+<option value="7">page
+      7</option>
+<option value="8">page
+      8</option>
+<option value="9">page
+      9</option>
+<option value="10">page
+      10</option>
+<option value="11">page
+      11</option>
+<option value="12">page
+      12</option>
+<option value="13">page
+      13</option>
+<option value="14">page
+      14</option>
+<option value="15">page
+      15</option>
+<option value="16">page
+      16</option>
+<option value="17">page
+      17</option>
+<option value="18">page
+      18</option>
+<option value="19">page
+      19</option>
+<option value="20">page
+      20</option>
+<option value="21">page
+      21</option>
+<option value="22">page
+      22</option>
+<option value="23">page
+      23</option>
+<option value="24" selected="selected">page
+      24</option>
+<option value="25">page
+      25</option>
+<option value="26">page
+      26</option>
+<option value="27">page
+      27</option>
+<option value="28">page
+      28</option>
+<option value="29">page
+      29</option>
+<option value="30">page
+      30</option>
+<option value="31">page
+      31</option>
+<option value="32">page
+      32</option>
+<option value="33">page
+      33</option>
+<option value="34">page
+      34</option>
+<option value="35">page
+      35</option>
+<option value="36">page
+      36</option>
+<option value="37">page
+      37</option>
+<option value="38">page
+      38</option>
+<option value="39">page
+      39</option>
+<option value="40">page
+      40</option>
+<option value="41">page
+      41</option>
+<option value="42">page
+      42</option>
+<option value="43">page
+      43</option>
+<option value="44">page
+      44</option>
+<option value="45">page
+      45</option>
+<option value="46">page
+      46</option>
+<option value="47">page
+      47</option>
+<option value="48">page
+      48</option>
+<option value="49">page
+      49</option>
+<option value="50">page
+      50</option>
+<option value="51">page
+      51</option>
+<option value="52">page
+      52</option>
+<option value="53">page
+      53</option>
+<option value="54">page
+      54</option>
+<option value="55">page
+      55</option>
+</select>&nbsp;<input name="jumpsubmit" class="guestbookJumpSubmit" type="submit" value="go" /></form></td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="img/leer.gif" width="1" height="3" alt="" /></td>
+  </tr>
+</table>
+
+<table width="100%"  border="0" cellspacing="0" cellpadding="2">
+  
+  <tr bgcolor="#F5F5F5">
+    <td width="99%">231 | 26/03/2007 05:15</td>
+  </tr>
+  <tr>
+    <td colspan="2"><a href="mailto:saaqwsssaa@gawab.com"><strong>sddfawer</strong></a> <a href="http://bolinoi.tripod.com/tamadol.html" target="_blank">visit
+      website</a> saaqwsssaa@gawab.com<br />
+      Hello!! Good Site! Respect for your work! <br />
+ tranadol  <br />
+ tramadil  <br />
+ tramzdol  <br />
+ tamadol  <br />
+ phentermin  <br />
+ phentemine  <br />
+ phetnermine  <br />
+ phenternine  <br />
+ phetermine  <br />
+ levigra  <br />
+ levtira  <br />
+ lavitra  <br />
+ site map  <br />
+ phentermine site  <br />
+ alrazolam  <br />
+ alprazalam  <br />
+ my url  <br />
+ tramadol site map  <br />
+ buy tenuate online  <br />
+ alpazolam </td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="img/leer.gif" width="1" height="3" alt="" /></td>
+  </tr>
+  
+  <tr bgcolor="#F5F5F5">
+    <td width="99%">232 | 25/03/2007 23:29</td>
+  </tr>
+  <tr>
+    <td colspan="2"><a href="mailto:vcbtgsfgv@mail.com"><strong>hgnbvbn</strong></a>  vcbtgsfgv@mail.com<br />
+      Hi.. good topic... respect <br />
+ Phentermine  <br />
+ Buy phentermine  <br />
+ Buy phentermine online  <br />
+ Order phentermine  <br />
+ Purchase phentermine  <br />
+ Cheap phentermine  <br />
+ Discount phentermine  <br />
+ Online phentermine  <br />
+ Generic phentermine  <br />
+ Phentermine no prescription  <br />
+ Best phentermine  <br />
+ Buy phentermine cod  <br />
+ Buy cheap phentermine  <br />
+ Herbal phentermine  <br />
+ phentermine 37.5 mg  <br />
+ phentermine diet pills  <br />
+ phentermine free shipping  <br />
+ phentermine mastercard  <br />
+ phentermine rx  <br />
+ phentermine weight loss </td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="img/leer.gif" width="1" height="3" alt="" /></td>
+  </tr>
+  
+  <tr bgcolor="#F5F5F5">
+    <td width="99%">233 | 25/03/2007 21:28</td>
+  </tr>
+  <tr>
+    <td colspan="2"><a href="mailto:pokemon99@gawab.com"><strong>artgrant</strong></a> <a href="http://mywebpage.netscape.com/anim7788/art+grant/index.htm" target="_blank">visit
+      website</a> pokemon99@gawab.com<br />
+      http://mywebpage.netscape.com/anim7788/art+grant/index.htm<br />
+art grant</td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="img/leer.gif" width="1" height="3" alt="" /></td>
+  </tr>
+  
+  <tr bgcolor="#F5F5F5">
+    <td width="99%">234 | 25/03/2007 18:01</td>
+  </tr>
+  <tr>
+    <td colspan="2"><a href="mailto:pharma777@bk.ru"><strong>PREVEDMEDVEDrt</strong></a> <a href="http://www.st-pancras.e-sussex.sch.uk/MARSSATSDISC/00000121.htm?buy-cialis" target="_blank">visit
+      website</a> pharma777@bk.ru<br />
+      buy cialis <br />
+buy carisoprodol <br />
+buy fioricet <br />
+buy levitra <br />
+buy phentermine <br />
+buy soma <br />
+buy tramadol <br />
+buy viagra <br />
+buy xanax <br />
+buy propecia</td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="img/leer.gif" width="1" height="3" alt="" /></td>
+  </tr>
+  
+  <tr bgcolor="#F5F5F5">
+    <td width="99%">235 | 25/03/2007 14:40</td>
+  </tr>
+  <tr>
+    <td colspan="2"><a href="mailto:post@all.isearch4all.net"><strong>braga132</strong></a> <a href="http://www.all.isearch4all.net" target="_blank">visit
+      website</a> post@all.isearch4all.net<br />
+      Hi,<br />
+<br />
+Windows Vista Ultimate Upgrade free download<br />
+More cheaply will not find<br />
+<br />
+Prices:<br />
+Ebay.us - 5  Item 120100537431<br />
+Ebay.co.uk - GBR 75 Item 120100548459<br />
+Ebay.de - 110 Euro  Item 120100527069<br />
+<br />
+www.all.isearch4all.net too!</td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="img/leer.gif" width="1" height="3" alt="" /></td>
+  </tr>
+  
+  <tr bgcolor="#F5F5F5">
+    <td width="99%">236 | 25/03/2007 07:26</td>
+  </tr>
+  <tr>
+    <td colspan="2"><a href="mailto:sheveredi_chunki@mail.ru"><strong>barrafaelifreexx</strong></a> <a href="http://bar-refaeli.limewireprofree.info/" target="_blank">visit
+      website</a> sheveredi_chunki@mail.ru<br />
+      http://elizabeth-edwards.limewireprofree.info/	ELIZABETH EDWARDS, ELIZABETH EDWARDS, EDWARDS ELIZABETH GRACE SAVING, BOOK EDWARDS ELIZABETH <br />
+http://tubby-smith.limewireprofree.info/	TUBBY SMITH, TUBBY SMITH CONTRACT, TUBBY SMITH, TUBBY SMITH BASKETBALL CAMP, FIRE TUBBY SMITH, SMITH SUCK TUBBY, CAT FIRE SMITH TUBBY WILD, TUBBY SMITH AND KENTUCKY <br />
+http://john-edwards.limewireprofree.info/	JOHN EDWARDS, EDWARDS HOUSE JOHN PICTURE, JOHN EDWARDS PRESIDENT, JOHN EDWARDS CAMPAIGN, SENATOR JOHN EDWARDS, EDWARDS HOUSE JOHN, JOHN EDWARDS PSYCHIC, BLOGGERS EDWARDS JOHN, JOHN EDWARDS PSYCHIC MEDIUM, JOHN EDWARDS 2008, EDWARDS HOME JOHN NEW <br />
+http://giant-squid.limewireprofree.info/	GIANT SQUID, GIANT SQUID, GIANT SQUID VIDEO, GIANT SQUID IN JAPAN, GIANT SQUID PICTURE, GIANT SQUID CAUGHT, 2006 GIANT SQUID VIDEO, GIANT SQUID FOUND, GIANT IN NEW SQUID ZEALAND, GIANT JAPAN SQUID, CAUGHT GIANT IN NEW SQUID ZEALAND <br />
+http://angie-everhart.limewireprofree.info/	ANGIE EVERHART, ANGIE EVERHART, ANGIE EVERHART VIDEO, ANGIE EVERHART TRIPLEKISS, ANGIE EVERHART <strong>***</strong> SCENE, ANGIE EVERHART PLAYBOY, ANGIE CELEBBLOG EVERHART NUDE, ANGIE EVERHART LESBIAN TRIPLEKISS, ANGIE EVERHART NUDE VIDEO, ANGIE EVERHART PIC TRIPLEKISS, ANGIE EVERHART PHOTO <br />
+http://don-king.limewireprofree.info/	DON KING, DON KING PIC, DON KING PRODUCTION, DON KING PROMOTION, DON KING KING OMAR TORRENT, DON KING KONG, ARMAGEDDON DON KING KING OMAR, DON KING, ARMAGEDDON DON EDITION KING KING OMAR, DON ARONOW THE KING OF THUNDERBOAT ROW, DON KING KING OMAR TOUR <br />
+http://vivica-fox.limewireprofree.info/	VIVICA FOX, FOX PIC VIVICA, BIOGRAPHY FOX VIVICA, FOX VIVICA, FOX PICTURE VIVICA, FOX NUDE VIVICA, FOX SCENE <strong>***</strong> VIVICA, 50 CENT FOX VIVICA, FOX NUDE PHOTO VIVICA, FOX HOT VIVICA, FOX NUDE PIC VIVICA <br />
+http://angie-dickinson.limewireprofree.info/	ANGIE DICKINSON <br />
+http://angie-harmon.limewireprofree.info/	ANGIE HARMON, ANGIE HARMON NUDE, ANGIE FREE HARMON PICTURE VIDEO, ANGIE HARMON PIC, ANGIE HARMON PHOTO, ANGIE HARMON PICTURE, ANGIE HARMON HOT, ANGIE HARMON NUDE PIC, ANGIE HARMON NAKED, ANGIE HARMON, 20 ANGIE HARMON <br />
+http://squid.limewireprofree.info/	SQUID, SQUID PICTURE, GIANT SQUID VIDEO, GIANT LIVE SQUID VIDEO, 2006 GIANT SQUID VIDEO, SQUID, SQUID NEW ZEALAND, GIANT SQUID IN JAPAN, COLOSSAL SQUID, THE SQUID AND THE WHALE, GIANT SQUID <br />
+http://bone-cancer.limewireprofree.info/	BONE CANCER, BONE CANCER, BONE CANCER SYMPTOM, BONE MARROW CANCER, SIGN OF BONE CANCER, SECONDARY BONE CANCER, BONE CANCER SYPTOMS, BONE CANCER RATE SURVIVAL, METASTATIC BONE CANCER, BONE CANCER PROGNOSIS, TYPE BONE CANCER <br />
+http://elizabeth-banks.limewireprofree.info/	ELIZABETH BANKS, ELIZABETH BANKS, ELIZABETH BANKS NUDE, ELIZABETH BANKS PIC, ELIZABETH BANKS PHOTO, ELIZABETH BANKS NAKED, BANK ELIZABETH NUDE PIC, BANK OF ST ELIZABETH, ELIZABETH CITY BANKS, ELIZABETH BANKS PICTURE, ELIZABETH STATE BANK <br />
+http://dina-lohan.limewireprofree.info/	DINA LOHAN, DINA LOHAN PIC, DINA LOHAN <br />
+http://john-kerry.limewireprofree.info/	JOHN KERRY, JOHN KERRY PICTURE, UNFIT FOR COMMAND SWIFT BOAT VETERAN SPEAK OUT AGAINST JOHN KERRY, JOHN F KERRY, JOHN KERRY IRAQ, DUTY JOHN KERRY LP NAM TOUR VIET WAR, SENATOR JOHN KERRY MASSACHUSETTS, JOHN KERRY PHOTO, DUTY JOHN KERRY NAM TOUR VIET WAR, PRESIDENT JOHN KERRY, JOHN KERRY BOOK <br />
+http://bar-refaeli.limewireprofree.info/	BAR REFAELI, BAR REFAELI, BAR DICAPRIO LEONARDO REFAELI, BAR PIC REFAELI, BAR NUDE REFAELI, BAR NAKED REFAELI, BAR PHOTO REFAELI, BAR DICAPRIO FOTO REFAELI, BAR DICAPRIO REFAELI, BAR NUDE PIC REFAELI, BAR REFAELI TOPLESS <br />
+http://continents.limewireprofree.info/	CONTINENTS, CONTINENT, CONTINENT OF THE WORLD, FOUR CONTINENT CHAMPIONSHIP, ATLANTIS CONTINENT, ART CONTINENT FIVE FROM GRAFFITI STREET WORLD, MAP OF SEVEN CONTINENT, 7 CONTINENT, FOUR CONTINENT FIGURE SKATING, SEVEN CONTINENT, ATOMIC BOMB CONTINENT DAISY DOCTOR FIVE INFERTILITY OSCAR RELIGION ROM TALE THREE TWO WAITING <br />
+http://jesse-metcalfe.limewireprofree.info/	JESSE METCALFE, JESSE METCALFE, JESSE METCALFE GIRLFRIEND, JESSE METCALFE PHOTO, JESSE METCALFE SITE, JESSE METCALFE NUDE, JESSE METCALFE SHIRTLESS, JESSE METCALFE PICTURE, COYLE JESSE METCALFE NADINE, JESSE LAYOUT METCALFE MYSPACE, JESSE METCALFE GAY <br />
+http://are-you-smarter-than-a-5th-grader.limewireprofree.info/	ARE YOU SMARTER THAN A 5TH GRADER, 5TH CONTESTANT GRADER SMARTER THAN, 5TH GRADER R SMARTER THAN U, 5TH GRADER SMARTER THAN <br />
+http://lena-katina.limewireprofree.info/	LENA KATINA, LENA KATINA PIC, LENA KATINA NUDE, YULIA VOLKOVA AND LENA KATINA, LENA KATINA, TATU LENA KATINA <br />
+http://october-road.limewireprofree.info/	OCTOBER ROAD, OCTOBER ROAD SERIES TV, JAMES TAYLOR OCTOBER ROAD, ABC OCTOBER ROAD, 2003 3 OCTOBER PART ROAD TRIP, OCTOBER ROAD SHOW TV, OCTOBER ROAD <br />
+ <br />
+http://cheryl-burke.dealornondeal.info/	CHERYL BURKE, BURKE CHERYL PIC, 2007 BURKE CHERYL DANCING STAR, BURKE CHERYL MAGAZINE STUFF, BURKE CHERYL PHOTO SHOOT, BURKE CHERYL HAIR STYLE, BURKE CHERYL HAIR, BURKE CHERYL NUDE PHOTO, BURKE CHERYL EMMITT SMITH, BURKE CHERYL PICTURE, BURKE CHERYL <br />
+http://paulina-porizkova.dealornondeal.info/	PAULINA PORIZKOVA, PAULINA PORIZKOVA PHOTO, PAULINA PORIZKOVA THURSDAY, PAULINA PORIZKOVA NUDE, PAULINA PORIZKOVA NAKED, PAULINA PORIZKOVA PIC, PAULINA PORIZKOVA PICTURE, PAULINA PORIZKOVA, DANCING PAULINA PORIZKOVA STAR, PAULINA PORIZKOVA PLAYBOY <br />
+http://airbus-a380.dealornondeal.info/	AIRBUS A380, A380 AIRBUS PLANE PROBLEM, A380 AIRBUS AIRLINE CUSTOMER FLIGHT, BOEING AIRBUS A380, AIRBUS A380 PRICE, AIRBUS A380 PICTURE, PROBLEM WITH AIRBUS A380, AIRPLANE AIRBUS A380, INSIDE THE AIRBUS A380, AIRBUS A380 VIDEO, INSIDE PICTURE OF A380 AIRBUS <br />
+http://leeza-gibbons.dealornondeal.info/	LEEZA GIBBONS, LEEZA GIBBONS, LEEZA GIBBONS PICTURE, LEEZA GIBBONS MAKE UP, LEEZA GIBBONS NUDE, LEEZA GIBBONS PIC, LEEZA GIBBONS PHOTO, LEEZA GIBBONS SHEER COVER, DANCING GIBBON LEEZA STAR, EVENT GIBBON LEEZA PHOTO, LEEZA GIBBONS UPSKIRT <br />
+http://shandi-finnessey.dealornondeal.info/	SHANDI FINNESSEY, FINNESSEY NUDE PIC SHANDI, FINNESSEY PHOTO SHANDI, FINNESSEY SHANDI, FINNESSEY LINGO SHANDI, FINNESSEY PIC SHANDI, FINNESSEY GSN MAXIM SHANDI, FINNESSEY IRAQ MAXIM SHANDI, FINNESSEY MISS SHANDI USA, FINNESSEY SHANDI WALLPAPER, FINNESSEY MAXIM SHANDI <br />
+http://dancing-with-the-stars.dealornondeal.info/	DANCING WITH THE STARS, 4 CAST DANCING SEASON STAR, DANCING IAN STAR ZIERING, CAST DANCING NEW STAR, 2007 DANCING STAR, DANCING STAR TOUR, 4 DANCING SEASON STAR, DANCING WITH THE STAR NEW SEASON, 2007 CAST DANCING STAR, 2007 DANCING STAR WINNER, NEW DANCING WITH THE STAR <br />
+http://heather-mills.dealornondeal.info/	HEATHER MILLS, BOOK GERMAN HEATHER MILL PICTURE, PICTURE OF HEATHER MILLS, HEATHER MILL PORN, PICTURE OF HEATHER MILLS WEDDING DRESS, HEATHER MILLS NAKED, HEATHER MILLS MCCARTNEY PHOTO, ARTIFICIAL HEATHER LIMB MILL, HEATHER MILLS NUDE PHOTO, HEATHER MILLS MCCARTNEY, HEATHER MILLS NUDE <br />
+http://phil-spector.dealornondeal.info/	PHIL SPECTOR, COLLECTION PHIL SPECTOR, PHIL SPECTOR PICTURE, PHIL SPECTOR TORRENT, PHIL SPECTOR BACK TO MONO, PHIL SPECTOR TRIAL, CHRISTMAS FROM GIFT PHIL SPECTOR, PHIL SPECTOR PHOTO, PHIL SPECTOR WALL OF SOUND, PHIL SPECTOR, PHIL SPECTOR MURDER <br />
+http://joyce-dewitt.dealornondeal.info/	JOYCE DEWITT, DEWITT JOYCE NUDE PIC, DEWITT JOYCE PIC, DEWITT JOYCE NAKED, DEWITT JOYCE PICTURE, DEWITT JOYCE PHOTO, DEWITT JOYCE NUDE, DEWITT JOYCE TOPLESS, DEWITT JOYCE <br />
+http://laila-ali.dealornondeal.info/	LAILA ALI, LAILA ALI BIOGRAPHY, LAILA ALI BIO, BOXER LAILA ALI BIOGRAPHY, BOXER LAILA ALI, LAILA ALI BOXING, ALI LAILA NUDE PIC, LAILA ALI PICTURE, ALI GAY LAILA, ALI LAILA LATIFAH QUEEN, LAILA ALI FIGHT <br />
+http://naomi-campbell.dealornondeal.info/	NAOMI CAMPBELL, CAMPBELL NAOMI PIC, CAMPBELL NAOMI NUDE, CAMPBELL NAOMI PICTURE, CAMPBELL NAKED NAOMI, CAMPBELL NAOMI NUDE PIC, CAMPBELL NAOMI PERFUME, CAMPBELL NAOMI WALLPAPER, CAMPBELL NAOMI PLAYBOY, CAMPBELL HOWARD NAOMI TERRANCE, CAMPBELL NAOMI <strong>***</strong> <br />
+http://hillary-rodham-clinton.dealornondeal.info/	HILLARY RODHAM CLINTON, NUDE HILLARY RODHAM CLINTON, HILLARY RODHAM CLINTON PIC, BLACK PANTHER HILLARY RODHAM CLINTON, HILLARY RODHAM CLINTON, CLINTON HILLARY RODHAM TOLD, CLINTON EXTREME HILLARY MAKEOVER RODHAM, CLINTON FIRST HILLARY PARTNER RODHAM, SENATOR HILLARY RODHAM CLINTON, HILLARY RODHAM CLINTON PHOTO, PICTURE OF HILLARY RODHAM CLINTON <br />
+http://paula-patton.dealornondeal.info/	PAULA PATTON, PAULA PATTON, BIO PATTON PAULA, PATTON PAULA PICTURE ROBIN THICKE, BIO BIOGRAPHY PATTON PAULA, PATTON PAULA PHOTO, PATTON PAULA PICTURE, BIOGRAPHY PATTON PAULA, 2005 BIOGRAPHY PATTON PAULA, ACTRESS PAULA PATTON, PATTON PAULA PHOTO ROBIN THICKE <br />
+http://saddam-hussein.dealornondeal.info/	SADDAM HUSSEIN, SADDAM HUSSEIN EXECUTION, SADDAM HUSSEIN, BY DEATH HANGING HUSSEIN PICTURE SADDAM, DEFIED GENERAL HUSSEIN IRAQI SADDAM SADDAMS SECRET SURVIVED, EXECUTION HUSSEIN SADDAM TAPE, SADDAM HUSSEIN PICTURE, SADDAM HUSSEIN BIOGRAPHY, EXECUTION HUSSEIN SADDAM WATCH, HANGING HUSSEIN SADDAM, EXECUTED HUSSEIN SADDAM <br />
+http://roger-corman.dealornondeal.info/	ROGER CORMAN, CORMAN ESSENTIAL POCKET ROGER, ROGER CORMAN, ROGER CORMAN FILM, CORMAN METAPHYSICS ROGER SHOESTRING, ROGER CORMAN PRESENT, ROGER CORMAN MOVIE <br />
+http://fa-cup.dealornondeal.info/	FA CUP, 2007 CUP FA, FA CUP SCHEDULE, FA CUP WINNER, FA CUP FIXTURE, FA CUP RESULT, FA CUP FINAL TICKET, ENGLISH FA CUP RESULT, 2007 CUP FA FINAL, ENGLISH FA CUP, FA CUP SOCCER <br />
+http://missing-boy-scout.dealornondeal.info/	MISSING BOY SCOUT <br />
+http://cricket-live-score.dealornondeal.info/	CRICKET LIVE SCORE, CRICKET LIVE SCORE SULEKHA, 17102005 CRICKET LIVE QUEENSLAND SCORE TASMANIA VS, AFRICA CRICKET LIVE PAKISTAN SCORE SOUTH VS, CRICKET LIVE SCORE UPDATE, LIVE CRICKET MATCH SCORE, SIFY LIVE CRICKET SCORE, CRICKET INDIAN LIVE SCORE, LIVE CRICKET SCORE BOARD, CRICKET INDIA LIVE MATCH SCORE, CRICBUZZ CRICKET LIVE SCORE <br />
+http://two-and-a-half-men.dealornondeal.info/	TWO AND A HALF MEN, TWO AND A HALF MAN, TWO AND A HALF MAN DVD, DOMAIN HALF MAN MYSPACE.COM TWO, TWO AND ONE HALF MAN, TWO AND HALF MAN TORRENT, TWO AND A HALF MAN IMDB, TWO AND A HALF MAN COFFEE MUG, TWO AND A HALF MAN VIDEO, TWO AND A HALF MAN EPISODE GUIDE, TWO AND A HALF MAN THEME SONG <br />
+http://peekvid.dealornondeal.info/	PEEKVID, MOVIE PEEKVID, MOVIE ONLINE PEEKVID, PEEKVID SHOW TV, ASIAN MOVIE ONLINE PEEKVID, EPISODE PEEKVID SHOW TV, PEEKVID TV, .COM PEEKVID, LIKE PEEKVID SITE WEB, BETA PEEKVID, LIKE PEEKVID <br />
+http://24-peekvid.dealornondeal.info/	24 PEEKVID <br />
+http://prison-break-peekvid.dealornondeal.info/	PRISON BREAK PEEKVI <br />
+http://oc-peekvid.dealornondeal.info/	THE OC PEEKVID <br />
+http://american-dad-peekvid.dealornondeal.info/	AMERICAN DAD PEEKVID <br />
+http://family-guy-peekvid.dealornondeal.info/	FAMILY GUY PEEKVID</td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="img/leer.gif" width="1" height="3" alt="" /></td>
+  </tr>
+  
+  <tr bgcolor="#F5F5F5">
+    <td width="99%">237 | 25/03/2007 04:24</td>
+  </tr>
+  <tr>
+    <td colspan="2"><a href="mailto:tracytest02132007@yahoo.com"><strong>Femaledomination</strong></a> <a href="http://www.femdomstuff.com/blog/" target="_blank">visit
+      website</a> tracytest02132007@yahoo.com<br />
+      FemDom Stuff blog.</td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="img/leer.gif" width="1" height="3" alt="" /></td>
+  </tr>
+  
+  <tr bgcolor="#F5F5F5">
+    <td width="99%">238 | 24/03/2007 22:15</td>
+  </tr>
+  <tr>
+    <td colspan="2"><a href="mailto:fhyikbderrt@mutradroil.com"><strong>fhyikbderrt</strong></a> <a href="http://blackjack-system.casino-slotgames.com/" target="_blank">visit
+      website</a> fhyikbderrt@mutradroil.com<br />
+      http://ringtones.osarex.com/real-ringtones.html real ringtones real ringtones <br />
+http://ringtones.osarex.com/music-ringtones.html music ringtones music ringtones <br />
+http://matchmaking.osarex.com/exclusive-matchmaking.html exclusive matchmaking exclusive matchmaking <br />
+http://matchmaking.osarex.com/astrology-matchmaking.html astrology matchmaking astrology matchmaking <br />
+http://invention.osarex.com/kid-invention.html kid invention kid invention <br />
+http://invention.osarex.com/invention-project.html invention project invention project <br />
+http://bingo-tournament.casino-slotgames.com/ bingo tournament bingo tournament <br />
+http://blackjack-system.casino-slotgames.com/ blackjack system blackjack system</td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="img/leer.gif" width="1" height="3" alt="" /></td>
+  </tr>
+  
+  <tr bgcolor="#F5F5F5">
+    <td width="99%">239 | 24/03/2007 19:42</td>
+  </tr>
+  <tr>
+    <td colspan="2"><a href="mailto:safgasov@bdsn.com"><strong>repillicio</strong></a> <a href="http://trad.org/Members/kakabad/aaa-designer-handbag-replica.html" target="_blank">visit
+      website</a> safgasov@bdsn.com<br />
+      Hi!<br />
+Sorry for this message, this is just a testing, but do not delete it - i&#039;ll try to find it!<br />
+<br />
+<br />
+<br />
+~~~~~~~~~~~~~~~~~~~~~~~~~<br />
+http://trad.org/Members/kakabad/aaa-designer-handbag-replica.html aaa designer handbag replica<br />
+http://trad.org/Members/kakabad/best-replica-rolex.html best replica rolex<br />
+http://trad.org/Members/kakabad/company-jewelry-replica-tiffany.html company jewerly replica tiffany<br />
+http://trad.org/Members/kakabad/designer-replica-watch-wholesale.html designer replica watch wholesale<br />
+http://trad.org/Members/kakabad/electric-replica-sun-glasses.html electric replica sun glasses<br />
+http://trad.org/Members/kakabad/fake-glasses-oakley-replica-sun.html fake glasses oakley replica sun<br />
+http://trad.org/Members/kakabad/hummer-replica-kit.html hummer replica kit<br />
+http://trad.org/Members/kakabad/jersey-replica-sox-white.html jersey replica sox white<br />
+http://trad.org/Members/kakabad/replica-football-jersey.html replica football jersey<br />
+http://trad.org/Members/kakabad/replica-silver-jewelry.html replica silver jewerly<br />
+http://trad.org/Members/kakabad/replica-toy-gun.html replica toy gun<br />
+http://trad.org/Members/kakabad/roger-dubuis-replica-watch.html roger dubuis replica watch<br />
+<br />
+aaa designer handbag replica<br />
+best replica rolex<br />
+company jewerly replica tiffany<br />
+designer replica watch wholesale<br />
+electric replica sun glasses<br />
+fake glasses oakley replica sun<br />
+hummer replica kit<br />
+jersey replica sox white<br />
+replica football jersey<br />
+replica silver jewerly<br />
+replica toy gun<br />
+roger dubuis replica watch</td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="img/leer.gif" width="1" height="3" alt="" /></td>
+  </tr>
+  
+  <tr bgcolor="#F5F5F5">
+    <td width="99%">240 | 24/03/2007 18:56</td>
+  </tr>
+  <tr>
+    <td colspan="2"><a href="mailto:boom@bagiart.info"><strong>digresgilll</strong></a> <a href="http://bagiart.info/" target="_blank">visit
+      website</a> boom@bagiart.info<br />
+      http://bagiart.info/ <br />
+Degradation of Britney Spears <br />
+Awful show. Pamela Anderson vs Amanda Lepore <br />
+Terrible secrets of Hollywood Stars[/URL] <br />
+Hot and Desired Girls <br />
+You can be <strong>***</strong>ual <br />
+Without refusal <br />
+Best Design <br />
+Most Popular New Cars <br />
+and other</td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="img/leer.gif" width="1" height="3" alt="" /></td>
+  </tr>
+  
+</table>
+
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td colspan="2"><HR></td>
+  </tr>
+  <tr>
+    <td width="50%">Artikel erstellt: 2004/08/16</td>
+    <td align="right" width="50%">Letzte Änderung:2007/01/26</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2" class="comment">Wenn Sie einen Fehler entdecken eine Ergänzung oder Frage haben benutzen Sie bitte folgendes <a href="#" onClick="javascript:window.open('./content/pages/nachricht.htm','frage','width=400, height=250, screenX=440,screenY=200,menubar=no,statusbar=yes,scrollbar=yes,resizable=no');" target="" style="max-width:148px; overflow:hidden;"><u>Formular</u></a>.<br /><br />
+Hat Ihnen oder Ihrem Kunden diese Docu weitergeholfen ? Dann würde ich mich freuen wenn Sie das Projekt unterstützen würden. Bitte nutzen Sie dafür diesen <a href="#paypal">PayPal</a> Link. Jeder Betrag ist möglich und hilft der Weiterentwicklung und Aktualisierung dieser Dokumentation.<br />
+Diese Seite nutzt die version:</td>
+  </tr>
+  <tr>
+
+    <td colspan="2"><img src="img/leer.gif" border="0" width="10" height="10" alt="" /></td>
+  </tr>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="height:10px;"  bgcolor="#ffffff" class="footer"><table width="100%" height="20" background="img/footer.gif" cellpadding="0" cellspacing="0" border="0">
+	<tr><td width="180" align="center" valign="middle">8 User online</td>
+	<td>
+	<table width="100%"cellpadding="0" cellspacing="0" border="0">
+   <tr>
+    <td align="center"><a href="javascript:history.back();" target="_top" title="go back"><img src="picture/back_.gif" border="0" alt="Zurueck"><img src="content/gt/13c1f733e9ee7693bf810fd5f035d0b7.png" alt="Zurück" title="Zurück" width="45" height="13" border="0" /></a></td>
+	<td align="center"><a href="sitemap_de.phtml"><img src="picture/sitemap_.gif" border="0"  alt="Sitemap"><img src="content/gt/38062c01670c74843cc0b291d94966c6.png" alt="Sitemap" title="Sitemap" width="50" height="13" border="0" /></a></td>
+	<td align="center"><a href="102.54.1.1.1.23.phtml" target="_blank"><img src="picture/print_.gif" border="0" alt="Drucken"><img src="content/gt/811a35c6cb2c5555a2f32d85b1bb5deb.png" alt="Drucken" title="Drucken" width="52" height="13" border="0" /></a></td>
+	<td align="center"><a href="gaestebuch.phtml"><img src="picture/icon_gaestebuch.gif" border="0" align="top" alt="Gästebuch"><img src="content/gt/1257c79a2b085b5641453b0f6e0fe1fd.png" alt="Gästebuch" title="Gästebuch" width="66" height="13" border="0" /></a></td>
+	<td align="center"><a href="#" onclick="BookMark_Page();return false;" title=""><img src="picture/favoriten_.gif" border="0"  alt="Lesezeichen"><img src="content/gt/7ce0fe74ab60b3da559a77c54fb85a80.png" alt="Lesezeichen" title="Lesezeichen" width="78" height="13" border="0" /></a></td>
+    </tr>
+</table></td>
+	</tr>
+</table>
+<img src="img/leer.gif" border="0" width="760" height="10" alt="" /><br />
+<script type="text/javascript"><!--
+google_ad_client = "pub-5747379735451868";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text_image";
+google_ad_channel ="1196150249";
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></td>
+</tr>
+</table>
+
+</body>
+</html>

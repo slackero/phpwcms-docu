@@ -1,0 +1,85 @@
+body, html {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 11px;
+}
+
+td, tr, th, p, li {
+	font-size: 11px
+}
+
+ul { margin: 0 0 0 20px; }
+li { list-style: disc; }
+
+a, a:link, a:visited, a:active {
+	color: #000000;
+	text-decoration: underline
+}
+a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+
+.articleSummary {
+	font-size: 11px;
+	color: #000000;
+	line-height: 125%;
+}
+
+.contentHead {
+	font-size: 16px;
+	font-weight: bold;
+	color: #000000;
+	line-height: 110%;
+}
+
+.contentSubHead {
+	font-size: 13px;
+	color: #000000;
+	line-height: 110%;
+}
+
+.v10 {  font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 11px; }
+.v11 {  font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 11px; }
+.v12 {  font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 12px; }
+
+.formButton	{ font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 11px; font-weight: bold; color: #FFFFFF; background-color: #92A1AF; }
+.formLabel	{ font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 11px; }
+
+.formTextArea { font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 11px;	}
+.inputText	{ font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 11px; font-weight: bold;}
+
+.nav_table, .nav_table a, .nav_table a:link, .nav_table a:active, .nav_table a:visited, .nav_table a:hover {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	color: #4A5966;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.nav_table_active, .nav_table_active a, .nav_table_active a:link, .nav_table_active a:active, .nav_table_active a:visited, .nav_table_active a:hover {
+	font-size: 11px;
+	color: #4A5966;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.image_td{
+	margin: 10px;
+	padding: 5px;	
+}
+
+.imgDIVinTextLeft {
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	padding: 5px;
+}
+
+.phpwcmsSearchResult h3 {
+	margin: 10px 0 1px 0;
+	font-size: 12px;
+	font-weight: bold;
+}
+.phpwcmsSearchResult p {
+	margin: 0;
+}

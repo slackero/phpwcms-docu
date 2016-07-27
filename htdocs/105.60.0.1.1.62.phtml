@@ -1,0 +1,329 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!--
+	phpwcms | free open source content management system
+	created by Oliver Georgi (oliver at phpwcms dot de) and licensed under GNU/GPL.
+	phpwcms is copyright 2003-2007 of Oliver Georgi. Extensions are copyright of
+	their respective owners. Visit project page for details: http://www.phpwcms.org/
+//-->
+<title>phpwcms documentation | Guestbook</title>
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+  <meta http-equiv="content-style-type" content="text/css" />
+  <script src="template/inc_js/frontend.js" type="text/javascript"></script>
+  <style type="text/css" media="all">
+  <!-- 
+    body {
+      margin: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+      padding-left: 0;
+      padding-right: 0;
+
+      background-color: #FFFFFF;
+      color: #000000;
+    }
+    a, a:link, a:active, a:visited, a:hover { color: #FF9900; }
+    a:visited { color: #FF9900; }
+    a:active { color: #FF9900; }
+  //-->
+  </style>
+  <style type="text/css">
+  <!-- 
+    @import url("template/inc_css/frontend.css");
+    @import url("template/inc_css/nlu_navi1_docu.css");
+    @import url("template/inc_css/tabellen.css");
+  //-->
+  </style>
+<meta name="Title" content="The phpWCMS Documentation" />
+<meta name="author" content="Oliver Frohnert" />
+<meta name="Publisher" content="Oliver Frohnert" />
+<meta name="Copyright" content="Oliver Frohnert" />
+<meta name="keywords" content="frohnert,documentation, dokumentation, phpwcms, cms. opensource, open source" />
+<meta name="description" content="A Documentation Project for the  Open Source CMS phpWCMS" />
+<meta name="Audience" content="Alle" />
+<meta name="Content-language" content="EN" />
+<meta name="robots"      content="index,follow" />
+<meta name="expires" content="0" />
+<meta name="revisit-after" content="7 days" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="Global" />
+<meta name="generator" content="PHPWCMS" />
+<meta name="verify-v1" content="1ZpxZ7AZsjm7PxjqXQVus0eiUYqOsp5URTJn9q4KNz8=" />
+  <!--[if lt IE 7]>
+  <style type="text/css">
+    body { behavior: url("template/inc_css/specific/csshover2.htc"); }
+    img { behavior: url("template/inc_css/specific/pngbehavior.htc"); }
+  </style>
+  <![endif]-->
+</head>
+<body>
+<table border="0" cellspacing="0" cellpadding="0" width="760" bgcolor="#ffffff" class="maintable" align="center" summary="">
+<tr>
+<td colspan="2" style="height:60px;"  bgcolor="#ffffff"><a name="top"></a><table width="760" height="135" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="1334" height="122" colspan="6"><IMG src="/template/lang/en/header.jpg" alt="" border="0"></td>
+  </tr>
+  <tr>
+	<td height="27" background="template/lang/all/top_menu.jpg"><table width="570" border="0" align="left" cellpadding="0" cellspacing="0">
+      <tr>
+        <td align="center" width="254"><a href="deutsche_version.phtml"><img src="picture/flags/de.gif" width="16" height="10" hspace="10" border="0"  alt="Deutsche Version" title="Deutsche Version"></a>
+<a href="english_version.phtml"><img src="picture/flags/gb.gif" width="16" height="10" hspace="10" border="0"  alt="English Version" title="English Version"></a></td>
+        <td valign="middle"><div align="center"><a href="replacement_tags_en.phtml"><img src="content/gt/8c10fcb16c44a7b9c26a5a932c5e4ae9.png" alt="Replacement Tags" title="Replacement Tags" width="115" height="13" border="0" /></a></div></td>
+        <td width="30" valign="middle"><div align="center"><img src="template/lang/all/sep.gif" width="5" height="5" border="0"></div></td>
+        <td valign="middle"><div align="center"><a href="content_parts_en.phtml"><img src="content/gt/02725c45a346fbf433a4c83e02d8dc5a.png" alt="Content Parts" title="Content Parts" width="94" height="13" border="0" /></a></div></td>
+        <td width="30" valign="middle"><div align="center"><img src="template/lang/all/sep.gif" width="5" height="5" border="0"></div></td>
+        <td valign="middle"><div align="center"><a href="links_de.phtml"><img src="content/gt/2c41bfb28d6dd3d4bbc8bb7688fd62ee.png" alt="Links" title="Links" width="36" height="13" border="0" /></a></div></td>
+        <td width="30" valign="middle"><div align="center"><img src="template/lang/all/sep.gif" width="5 " height="5" border="0"></div></td>
+        <td valign="middle"><div align="center"><a href="imprint.phtml"><img src="content/gt/8b40044a8de89d790c10c1671094a297.png" alt="Imprint" title="Imprint" width="48" height="13" border="0" /></a></div></td>
+     </tr>
+    </table>    </td>
+  </tr>
+</table></td>
+</tr>
+<tr>
+<td valign="top" width="185" style="background-image:url(img/menu.gif)"><table width="180" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="180" height="20">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="padding-left: 1px;"><div class="nlu_navi1_docu">
+<ul>
+	<li class="sub_no"><a href=".//index.php?english_version">Home</a></li>
+	<li class="sub_no"><a href="news_en.phtml">News</a></li>
+	<li class="sub_no sub_ul_true"><a href="installation_en.phtml">Installation &amp; Upgrade<img src="picture/myRT1/newR.gif" alt="07/31/2007" border="0"></a></li>
+	<li class="sub_no sub_ul_true"><a href="the_docu.phtml">The Docu<img src="picture/myRT1/newR.gif" alt="7/30/2007" border="0"><img src="picture/myRT1/editR.gif" alt="7/30/2007" border="0"></a></li>
+	<li class="sub_no sub_ul_true"><a href="add_on_en.phtml">Add On&#039;s</a></li>
+	<li class="sub_no"><a href="error_messages.phtml">Error messages</a></li>
+	<li class="sub_no"><a href="search.phtml">Search</a></li>
+	<li class="sub_no"><a href="Usefull_Links_and_Tools.phtml">Usefull Links &amp; Tools</a></li>
+	<li class="sub_ul"><a href="contact.phtml">Contact</a>
+	<ul>
+		<li class="sub_no"><a href="imprint.phtml">Imprint</a></li>
+		<li class="sub_no active"><a href="guestbook.phtml">Guestbook</a></li>
+	</ul>
+	</li>
+	<li class="sub_no"><a href="faq_en.phtml">FAQ</a></li>
+</ul>
+</div></td>
+  </tr>
+ <tr>
+    <td style="padding:10px; color:#000000;">
+<img src="picture/seperate.gif" border="0" alt="" /><br /><br />
+<img src="content/gt/c21c1becaf44b7db9eb0e69f9f62318f.png" alt="Latest Final Version:" title="Latest Final Version:" width="142" height="13" border="0" /><br /><br />
+<img src="content/gt/e91a9fb3d2c66ffdf2b7ffd0222a1a9b.png" alt="phpwcms 1.3.3" title="phpwcms 1.3.3" width="83" height="13" border="0" /><br />
+<img src="content/gt/16f7a9a420c286d140125832bebd962d.png" alt="RELEASED: 02.05.2007" title="RELEASED: 02.05.2007" width="131" height="13" border="0" /><br /><br />
+<a href="http://www.phpwcms.de/forum/viewtopic.php?t=14617"><img src="content/gt/9661ea0c3a00342c05e40467dd5ec5e5.png" alt="more..." title="more..." width="40" height="13" border="0" /></a><br /><br />
+<img src="picture/seperate.gif" border="0" alt="" /><br /><br />
+<img src="content/gt/0ad80f95649d2e6dac7edc8c0bed913d.png" alt="New &amp;" title="New &amp;" width="38" height="13" border="0" /><br /><img src="content/gt/74f34cd2b030d695374269d170351910.png" alt="Edit Articles:" title="Edit Articles:" width="93" height="13" border="0" /><br /><br />
+<div class="related"><p><a href="229.376.0.0.1.0.phtml">Usefull Links &amp; Tools</a><p><a href="323.257.0.0.1.0.phtml">Create new structure</a><p><a href="77.39.0.0.1.0.phtml">Replacement Tags for Links</a><p><a href="79.37.0.0.1.0.phtml">System Replacement Tags</a><p><a href="163.133.0.0.1.0.phtml">Content Part &quot;File List&quot;</a><p><a href="169.137.0.0.1.0.phtml">Content Part &quot;Sitemap&quot;</a><p><a href="126.78.0.0.1.0.phtml">Content Part &quot;Plain Text&quot;</a><p><a href="339.282.0.0.1.0.phtml">Content Part &quot;RSS Feed&quot;</a><p><a href="156.355.0.0.1.0.phtml">Content Part &quot;List (Table)&quot;</a><p><a href="392.354.0.0.1.0.phtml">Update from RC 1.1 till 1.2.9 to 1.3.x</a><p><a href="286.216.0.0.1.0.phtml">phpWCMS docu News</a><p><a href="207.352.0.0.1.0.phtml">Installation Manual</a><p><a href="153.112.0.0.1.0.phtml">Content Part &quot;Code&quot;</a><p><a href="155.347.0.0.1.0.phtml">Content Part &quot;Images&quot;</a><p><a href="162.349.0.0.1.0.phtml">Content Part &quot;Multimedia&quot;</a></div>
+<br /><br />
+<img src="picture/seperate.gif" border="0" alt="" /><br /><br />
+<br /><br />
+</TD>
+  </tr>
+   <tr>
+    <td align="center">
+
+<br /><br /><img src="picture/seperate.gif" border="0" alt="" /><P>
+</td>
+  </tr>
+<tr>
+    <td height="20">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td height="20">&nbsp;</td>
+  </tr>
+</table>
+
+
+</body>
+</html>
+</td>
+<td valign="top" width="555" bgcolor="#ffffff" class="maincontent"><img src="img/leer.gif" border="0" width="10" height="1" alt="" />
+<br />
+<a href="english_version.phtml">English</a> <span class="breadcrumb_spacer">&gt;</span> <a href="contact.phtml">Contact</a> <span class="breadcrumb_spacer">&gt;</span> Guestbook
+<br />
+<HR>
+<br />
+<a name="jump60"></a>
+<h1>Guestbook</h1>
+
+
+
+<div style="margin:25px 0 0 0;padding:0;" class="spaceBeforeCP"></div>
+  <form name="sign_guestbook" action="index.php?id=105,60,0,1,1,62" method="post">
+<table border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F5F5F5" style="margin-bottom:10px;">
+  <tr bgcolor="#E1E1E1">
+    <td colspan="2"><strong>&nbsp;&nbsp;sign my guestbook</strong> <span style="font-size:10px;color:#CC3300;">(fields
+        marked * are obligatory)</span></td>
+  </tr>
+  <tr bgcolor="#E1E1E1">
+    <td colspan="2"><img src="img/leer.gif" width="1" height="1" alt="" /></td>
+  </tr>
+  
+  <tr>
+    <td colspan="2"><img src="img/leer.gif" width="1" height="3" alt="" /></td>
+  </tr>
+  <tr>
+    <td align="right" class="v10">email<span style="color:#CC3300;">*</span>:&nbsp;</td>
+    <td><input name="guestbook_email" type="text" id="guestbook_email" style="width: 350px" class="v12" value="" size="50" maxlength="250" />&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="right" class="v10">name<span style="color:#CC3300;">*</span>:&nbsp;</td>
+    <td><input name="guestbook_name" type="text" id="guestbook_name" style="width: 350px" class="v12" value=""  size="50" maxlength="500" /></td>
+  </tr>
+  <tr>
+    <td align="right" class="v10">website:&nbsp;</td>
+    <td><input name="guestbook_url" type="text" id="guestbook_url" style="width: 350px" class="v12" value="" size="50" maxlength="1000" /></td>
+  </tr>
+  <tr>
+    <td align="right" valign="top" class="v10">&nbsp;&nbsp;message:&nbsp;</td>
+    <td><textarea name="guestbook_msg" cols="50" rows="6" id="guestbook_msg" class="v12" style="width: 350px"></textarea></td>
+  </tr>
+  <tr>
+    <td align="right" valign="top" class="v10">display:&nbsp;</td>
+    <td><input name="guestbook_show" type="radio" value="0" checked>show email<br /><input name="guestbook_show" type="radio" value="1">hide email<br /><input type="radio" name="guestbook_show" value="2">show email as &quot;info at mail dot com&quot;</td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="img/leer.gif" width="1" height="4" alt="" /></td>
+  </tr>
+  <tr>
+  	<td align="right" class="v10">code<span style="color:#CC3300;">*</span>:&nbsp;</td>
+  	<td><table cellpadding="0" cellspacing="0" border="0">
+		<tr>
+			<td><input name="guestbook_captcha" type="text" id="guestbook_captcha" style="width: 100px" class="v12" value="" size="10" maxlength="10" />&nbsp;&nbsp;</td>
+			<td><img src="img/captcha.php?regen=y&amp;length=5&amp;1187319593" alt="Captcha" border="0" id="gbCaptchaImage" /></td>
+		</tr>
+		</table></td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="img/leer.gif" width="1" height="10" alt="" /></td>
+  </tr>
+  <tr>
+    <td align="right">&nbsp;</td>
+    <td><input name="guestbook_send" type="submit" id="guestbook_send" value="sign guestbook" class="v11" /></td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="img/leer.gif" width="1" height="6" alt="" /></td>
+  </tr>
+</table>
+<input type="hidden" name="98a5553e7058865fd321c559d86ec5a6" value="16072" /></form> 
+<table width="100%"  border="0" cellspacing="0" cellpadding="0" style="margin-top:5px;">
+  <tr>
+    <td><strong><a href="105.60.0.1.1.0.phtml">&lt;&lt;</a> <a href="105.60.0.1.1.61.phtml">&lt;</a></strong> <a href="105.60.0.1.1.11.phtml">12</a>&nbsp;<a href="105.60.0.1.1.12.phtml">13</a>&nbsp;<a href="105.60.0.1.1.13.phtml">14</a>&nbsp;<a href="105.60.0.1.1.14.phtml">15</a>&nbsp;<a href="105.60.0.1.1.15.phtml">16</a> <strong>&gt;
+        &gt;&gt;</strong></td>
+    <td align="right"><form name="guestbookarchive" id="guestbookarchive" method="post" action="index.php?id=105,60,0,1,1,62"><select name="showarchive" id="showarchive" onchange="document.guestbookarchive.submit();"><option value="">all entries</option>
+<option value="2007/08">2007/08</option>
+<option value="2006/10">2006/10</option>
+<option value="2006/03">2006/03</option>
+<option value="2006/02">2006/02</option>
+<option value="2006/01">2006/01</option>
+<option value="2005/12">2005/12</option>
+<option value="2005/11">2005/11</option>
+<option value="2005/10">2005/10</option>
+<option value="2005/09">2005/09</option>
+<option value="2005/08">2005/08</option>
+<option value="2005/07">2005/07</option>
+<option value="2005/06">2005/06</option>
+<option value="2005/05">2005/05</option>
+<option value="2005/03">2005/03</option>
+<option value="2005/02">2005/02</option>
+<option value="2005/01">2005/01</option>
+<option value="2004/12">2004/12</option>
+<option value="2004/11">2004/11</option>
+<option value="2004/10">2004/10</option>
+<option value="2004/09">2004/09</option>
+<option value="2004/08">2004/08</option>
+</select><input type="hidden" name="archivedate" value="%Y/%m" />&nbsp;<input name="archivesubmit" class="guestbookArchiveSubmit" type="submit" value="go" /></form>&nbsp;<form name="guestbookjump" id="guestbookjump" method="post" action="index.php?id=105,60,0,1,1,62"><select name="showguestbookpage" id="showpage" onchange="document.guestbookjump.submit();"><option value="1">page
+      1</option>
+<option value="2">page
+      2</option>
+<option value="3">page
+      3</option>
+<option value="4">page
+      4</option>
+<option value="5">page
+      5</option>
+<option value="6">page
+      6</option>
+<option value="7">page
+      7</option>
+<option value="8">page
+      8</option>
+<option value="9">page
+      9</option>
+<option value="10">page
+      10</option>
+<option value="11">page
+      11</option>
+<option value="12">page
+      12</option>
+<option value="13">page
+      13</option>
+<option value="14">page
+      14</option>
+<option value="15">page
+      15</option>
+<option value="16">page
+      16</option>
+</select>&nbsp;<input name="jumpsubmit" class="guestbookJumpSubmit" type="submit" value="go" /></form></td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="img/leer.gif" width="1" height="3" alt="" /></td>
+  </tr>
+</table>
+
+<table width="100%"  border="0" cellspacing="0" cellpadding="2">
+  
+</table>
+
+<img src="img/leer.gif" border="0" width="10" height="10" alt="" />
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td colspan="3"><HR></td>
+  </tr>
+  <tr>
+    <td width="30%">Article created: 2004/08/17</td>
+    <td align="center" width="35%"><a href="http://www.mister-wong.de/index.php?action=addurl&amp;bm_url=deutsche_version.phtml?aid=60&amp;bm_description=Guestbook" title="Wong It!" target="_blank"><img src="template/img/bookmarklets/wong.gif" alt="Wong It!" border="0" /></a> <a href="http://digg.com/submit?phase=2&amp;url=deutsche_version.phtml?aid=60&amp;title=Guestbook&amp;bodytext=&amp;topic=" title="DiggIt!" target="_blank"><img src="template/img/bookmarklets/digg.gif" alt="DiggIt!" border="0" /></a> <a href="http://del.icio.us/post?url=deutsche_version.phtml?aid=60&amp;title=Guestbook&amp;jump=no" title="Del.icio.us" target="_blank"><img src="template/img/bookmarklets/delicious.gif" alt="Del.icio.us" border="0" /></a> <a href="http://technorati.com/faves?add=http%3A%2F%2Fwww.phpwcms-docu.de%2F" title="TechnoratiFaves" target="_blank"><img src="template/img/bookmarklets/technorati.gif" alt="TechnoratiFaves" border="0" /></a> <a href="http://www.spurl.net/spurl.php?title=Guestbook&amp;url=deutsche_version.phtml?aid=60" title="Spurl!" target="_blank"><img src="template/img/bookmarklets/spurl.gif" alt="Spurl!" border="0" /></a> <a href="http://www.furl.net/savedialog.jsp?p=1&amp;t=Guestbook&amp;u=deutsche_version.phtml?aid=60&amp;c=&amp;r=" title="Furl It" target="_blank"><img src="template/img/bookmarklets/furl.gif" alt="Furl It" border="0" /></a> <a href="http://myweb2.search.yahoo.com/myresults/bookmarklet?t=Guestbook&amp;u=deutsche_version.phtml?aid=60&amp;d=&amp;ei=iso-8859-1" title="Save to Yahoo! My Web" target="_blank"><img src="template/img/bookmarklets/yahoo.gif" alt="Save to Yahoo! My Web" border="0" /></a> <a href="http://www.google.com/bookmarks/mark?op=add&amp;bkmk=deutsche_version.phtml?aid=60&amp;title=Guestbook&amp;annotation=" title="Google Bookmark" target="_blank"><img src="template/img/bookmarklets/google.gif" alt="Google Bookmark" border="0" /></a></td>
+    <td align="right" width="35%">Last Changes: 2007/05/01</td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="4" class="comment">In case you find any mistakes or have enhancments, please use this <a href="#" onClick="javascript:window.open('./content/pages/message.htm','frage','width=400, height=250, screenX=440,screenY=200,menubar=no,statusbar=yes,scrollbar=yes,resizable=no');" target="" style="max-width:148px; overflow:hidden;"><u>form</u></a> .<br /><br />
+Have you found this website a helpful resource in understanding the Phpwcms content management system? If so, would you consider making a donation?  Please click here: <a href="#paypal">PayPal</a>. We welcome any donation amount. Your contribution helps make this website an even better resource and helps underwrite the associated server expenses of accomodating a growing number of visitors.<br />
+This page use the version:</td>
+  </tr>
+  <tr>
+
+    <td colspan="3"><img src="img/leer.gif" border="0" width="10" height="10" alt="" /></td>
+  </tr>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="height:10px;"  bgcolor="#ffffff" class="footer"><table width="100%" height="20" background="img/footer.gif" cellpadding="0" cellspacing="0" border="0">
+	<tr><td width="180" align="center" valign="middle">2 User online</td>
+	<td>
+	<table width="100%"cellpadding="0" cellspacing="0" border="0">
+   <tr>
+    <td align="center"><a href="#" target="_top" title="go back" onclick="history.back();return false;" class="phpwcmsBackLink"><img src="picture/back_.gif" border="0" alt="Back"><img src="content/gt/a8cf006b46d2d29bf7161aa985b04a42.png" alt="Back" title="Back" width="31" height="13" border="0" /></a></td>
+	<td align="center"><a href="sitemap_en.phtml"><img src="picture/sitemap_.gif" border="0"  alt="Sitemap"><img src="content/gt/38062c01670c74843cc0b291d94966c6.png" alt="Sitemap" title="Sitemap" width="50" height="13" border="0" /></a></td>
+	
+	<td align="center"><a href="guestbook.phtml"><img src="picture/icon_gaestebuch.gif" border="0" align="top" alt="Guestbook"><img src="content/gt/a8891d2da470901a9086f978d5a7dc3d.png" alt="Guestbook" title="Guestbook" width="66" height="13" border="0" /></a></td>
+	<td align="center"><a href="#" onclick="BookMark_Page();return false;" title="" class="phpwcmsBookmarkLink"><img src="picture/favoriten_.gif" border="0"  alt="Bookmark"><img src="content/gt/a8d175704cefbe0ee8222b9bde55b692.png" alt="Bookmark" title="Bookmark" width="59" height="13" border="0" /></a></td>
+    </tr>
+</table></td>
+	</tr>
+</table>
+<img src="img/leer.gif" border="0" width="760" height="10" alt="" /></td>
+</tr>
+</table>
+
+</body>
+</html>

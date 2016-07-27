@@ -1,0 +1,701 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!--
+	phpwcms | free open source content management system
+	created by Oliver Georgi (oliver at phpwcms dot de) and licensed under GNU/GPL.
+	phpwcms is copyright 2003-2007 of Oliver Georgi. Extensions are copyright of
+	their respective owners. Visit project page for details: http://www.phpwcms.org/
+//-->
+<title>phpwcms-docu for  phpwcms :: web based content management system | Installation &amp; Upgrade{D:07/31/2007,30,newR.gif} | Installation Manual</title>
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+  <meta http-equiv="content-style-type" content="text/css" />
+  <script src="template/inc_js/frontend.js" type="text/javascript"></script>
+  <style type="text/css">
+  <!-- 
+    @import url("template/inc_css/mpl_frontend.css");
+    @import url("template/inc_css/mpl_menu.css");
+    @import url("template/inc_css/mpl_objects.css");
+    @import url("template/inc_css/mpl_docu_en.css");
+  //-->
+  </style>
+<meta name="Title" content="The phpWCMS Documentation" />
+<meta name="author" content="Oliver Frohnert, Mario Perez Leal" />
+<meta name="Publisher" content="Oliver Frohnert, Mario Perez Leal, creacion" />
+<meta name="Copyright" content="Oliver Frohnert, Mario Perez Leal, creacion" />
+<meta name="keywords" content="frohnert, perez leal, creacion, documentation, dokumentation, phpwcms, cms, opensource, open source, docu" />
+<meta name="description" content="A Documentation Project for the  Open Source CMS phpWCMS" />
+<meta name="Audience" content="Alle" />
+<meta name="Content-language" content="EN" />
+<meta name="robots"      content="index,follow" />
+<meta name="expires" content="0" />
+<meta name="revisit-after" content="7 days" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="Global" />
+<meta name="generator" content="PHPWCMS" />
+<meta name="verify-v1" content="1ZpxZ7AZsjm7PxjqXQVus0eiUYqOsp5URTJn9q4KNz8=" />
+  <link rel="stylesheet" href="template/slimbox/css/slimbox.css" type="text/css" media="screen" />
+  <script src="template/inc_js/mootools/mootools.js" type="text/javascript"></script>
+  <script src="template/slimbox/js/slimbox.js" type="text/javascript"></script>
+  <!--[if lt IE 7]>
+  <style type="text/css">
+    body { behavior: url("template/inc_css/specific/csshover2.htc"); }
+    img { behavior: url("template/inc_css/specific/pngbehavior.htc"); }
+  </style>
+  <![endif]-->
+</head>
+<body id="myid_207">
+<div id="container"><a name="top" id="top"></a>
+
+
+	<div id="head">
+		
+	<div id="mainnavi">
+		<div class="fleft"><a href="./index.php?english_version">Home</a> | <a href="news_en.phtml">News</a> | <span style="text-decoration:none;font-weight:bold;"><a href="the_docu.phtml">The Docu</a></span> | <a href="Usefull_Links_and_Tools.phtml">Links &amp; Tools</a> | <a href="contact.phtml">Contact</a> | <a href="faq_en.phtml">FAQ</a> | <a href="http://forum.phpwcms.org/" target="_blank">Forum</a> | <a href="howto_en.phtml">HowTo</a></div>				
+		<div class="sys">Monday, 29. March 2010<img src="img/leer.gif" border="0" width="5" height="1" alt="" />|<img src="img/leer.gif" border="0" width="5" height="1" alt="" />3 User online<img src="img/leer.gif" border="0" width="10" height="1" alt="" />
+		<a href="deutsche_version.phtml" title="Deutsche Version"><img src="picture/../template/lang/all/flag_de.gif" border="0" alt="" /></a>
+		<a href="english_version.phtml"  title="English version"><img src="picture/../template/lang/all/flag_en.gif" border="0" alt="" /></a>
+		</div>
+	</div>
+	
+	<a href="./" title="phpwcms-docu Startseite aufrufen" class="homelink">
+	<span>&raquo; phpwcms-docu startpage</span></a>
+	<h2>phpwcms-docu - Documentation for the Web Content Management System phpwcms</h2>
+	<p>This website is targeted both to the beginner and the lateral entry following the goal to simplify the 
+work with phpwcms and to focus on the essentials things.</p>
+	</div>
+
+	
+	<div id="left">
+	<div class="leftnav" style="margin-top:24px;">
+	
+<div id="ul_div_311">
+<ul>
+	<li class="sub_no"><a href="download-dev-versions.phtml">Download Dev Versions</a></li>
+	<li class="sub_ul active"><a href="installation_en.phtml">Installation &amp; Upgrade</a>
+	<div id="ul_div_207">
+	<ul>
+		<li class="sub_no sub_ul_true"><a href="upgrade_phpwcms_english.phtml">Upgrade</a></li>
+		<li class="sub_no"><a href="dbbackup_en.phtml">Database backup</a></li>
+		<li class="sub_no"><a href="dbrestore_en.phtml">Restoring the database</a></li>
+		<li class="sub_no sub_ul_true"><a href="config_files.phtml">Config Files</a></li>
+	</ul>
+	</div>
+	</li>
+	<li class="sub_no sub_ul_true"><a href="article.phtml">Articles</a></li>
+	<li class="sub_no sub_ul_true"><a href="file.phtml">File</a></li>
+	<li class="sub_no sub_ul_true"><a href="module_en.phtml">Modules</a></li>
+	<li class="sub_no sub_ul_true"><a href="communication.phtml">Communication </a></li>
+	<li class="sub_no"><a href="chat_en.phtml">Chat</a></li>
+	<li class="sub_no"><a href="profile.phtml">Profile</a></li>
+	<li class="sub_no sub_ul_true"><a href="admin_en_.phtml">Admin</a></li>
+	<li class="sub_no sub_ul_true"><a href="add-ons-and-templates.phtml">Add On&#039;s and Templates</a></li>
+	<li class="sub_no"><a href="./index.php?replacement_tags_en">Replacement Tags</a></li>
+	<li class="sub_no"><a href="./index.php?content_parts_en">Content Parts</a></li>
+</ul>
+</div>
+
+		
+	</div> 
+	</div> 
+	  
+	<div id="right">
+		<div style="margin-top:24px;">			
+		<form action="index.php?search" method="post" name="searchFE" onsubmit="s=document.getElementById('customSearchInput');if(s.value=='Search')return false;">
+			<table width="100%" border="0" cellpadding="0" cellspacing="0">
+			<tr>
+					<td><input type="text" name="search_input_field" size="20" maxlength="200" id="customSearchInput" class="customSearchInput" value="" onfocus="if(this.value=='Search')this.value='';" onblur="if(this.value=='')this.value='Search';"/></td>
+					<td><input type="image" name="search_go" onfocus="this.blur();" title="Search" src="/template/lang/all/submit.gif" /></td>
+				</tr>
+			</table>
+			</form>
+			
+			      <script type="text/javascript" language="javascript">
+			  <!-- 
+			        document.getElementById("customSearchInput").value="Search";
+			  //-->
+			      </script>
+				  
+<!-- <p style="margin-top:10px;">Change font size: <a href="[FontSize-]"><img src="template/lang/all/icons/reduce.gif" width="18" height="17" alt="" title="Small" border="0" /></a>
+			<a href="[FontSize+]"><img src="template/lang/all/icons/extend.gif" width="18" height="17" alt="" title="Bigger" border="0" /></a>
+			</p> -->
+			
+	<p style="margin-top:10px;">Please choose: 
+	
+	 </p>
+
+<div style="border-bottom:1px dotted #dae7f6; margin-top:10px; margin-bottom:15px;"></div>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_xclick" />
+<input type="hidden" name="business" value="support@docu.fhss.de" />
+<input type="hidden" name="item_name" value="phpwcms-docu.de" />
+<input type="hidden" name="buyer_credit_promo_code" value="" />
+<input type="hidden" name="buyer_credit_product_category" value="" />
+<input type="hidden" name="buyer_credit_shipping_method" value="" />
+<input type="hidden" name="buyer_credit_user_address_change" value="" />
+<input type="hidden" name="no_shipping" value="0" />
+<input type="hidden" name="no_note" value="1" />
+<input type="hidden" name="currency_code" value="EUR" />
+<input type="hidden" name="tax" value="0" />
+<input type="hidden" name="lc" value="DE" />
+<input type="hidden" name="bn" value="PP-DonationsBF" />
+<input type="image" src="template/img/paypal.gif" name="submit" title="Make a donation ..." alt="Make a donation ..." />
+<img alt="" border="0" src="https://www.paypal.com/de_DE/i/scr/pixel.gif" width="1" height="1" />
+</form>
+<div style="border-bottom:1px dotted #dae7f6; margin-top:10px; margin-bottom:15px;"></div>
+<!-- <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fwww.phpwcms-docu.de%2Findex.php%3Fdeutsche_version" title="W3C Standard XHTML" target="_blank"><img src="picture/w3c/w3c_xhtml.gif" border="0" alt="" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http://www.phpwcms-docu.de" title="W3C Standard CSS" target="_blank"><img src="picture/w3c/w3c_css.gif" border="0" alt="" /></a><br />			
+<div style="border-bottom:1px dotted #dae7f6; margin-top:10px; margin-bottom:15px;"></div> -->
+		
+<div style="margin-top:10px; margin-bottom:15px;"></div>
+<script type="text/javascript"><!--
+google_ad_client = "pub-5747379735451868";
+//160x600, Erstellt 22.12.07
+google_ad_slot = "1002097208";
+google_ad_width = 160;
+google_ad_height = 600;
+//--></script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<div style="border-bottom:1px dotted #dae7f6; margin-top:10px; margin-bottom:15px;"></div>	
+</div>
+
+	</div> 
+	
+	<div id="content">
+	<div id="bread">You are here: <a href="english_version.phtml">English</a> <span class="breadcrumb_spacer">&gt;</span> <a href="the_docu.phtml">The Docu</a> <span class="breadcrumb_spacer">&gt;</span> Installation &amp; Upgrade</div>
+		
+		<a name="jump352"></a><!-- Livedate: 29.04.2007 09:56:08 / Killdate: 26.04.2017 23:59:59 -->
+<h1>Installation Manual</h1>
+<h3>(Stand: Version 1.3.3)</h3>
+
+<h3>Before you begin</h3><p>What requirement do you have to fulfill for working with phpwcms?</p>
+<ol>
+    <li>Webspace</li>
+    <li>PHP up from version 4.2.1, better would be up from 4.3.4</li>
+    <li>MySQL</li>
+    <li>GD 1 or GD2 (optional)</li>
+    <li>Image Magick / Ghostscript (recommended)</li>
+</ol><div style="border-bottom:1px dotted #d2e2f5; margin-top:10px; margin-bottom:15px;"></div><h3>Upload of phpwcms</h3><div class="articleText"><p>After downloading phpwcms from the <a href="http://sourceforge.net/project/showfiles.php?group_id=94396" target="_blank">project site</a> and depacking, you can download all files and folders with an ftp program onto your webspace. After uploading, the content of the folder should look like this image.</p></div><table width="150" border="0" cellspacing="0" cellpadding="0" align="center">
+<tr><td><img src="img/leer.gif" width="1" height="5" border="0" alt="" /></td></tr>
+<tr><td class="image_td2"><a href="content/images/b7d62d0f55a1a17357b65e9d479fabec.png" rel="lightbox" title="Image 1 - Folder View" target="_blank"><img src="content/images/a5931152b5230b9b35e4cdde643ad02d.png" width="150" height="65" border="0" class="image_img" alt="files.png" /></a></td></tr>
+<tr><td align="center" class="image_caption">Image 1 - Folder View</td></tr>
+</table><div style="border-bottom:1px dotted #d2e2f5; margin-top:10px; margin-bottom:15px;"></div><h3>Adjusting the file and folder rights</h3><p>Now you have to adjust the rights that are necessary for a proper function of phpwcms to the following files and folders. You can use your preferred ftp program to set them.</p>
+<fieldset style="">     <legend style="color: black;"><strong> &raquo;  Chmod Rights</strong></legend>
+<table cellspacing="0" cellpadding="6" border="0">
+    <tbody>
+        <tr>
+            <td>
+            <table border="0" align="center">
+                <tbody>
+                    <tr>
+                        <td width="25" valign="top">Folder</td>
+                        <td width="10">&nbsp;</td>
+                        <td>upload</td>
+                        <td width="10">&nbsp;</td>
+                        <td valign="top">777</td>
+                    </tr>
+                    <tr>
+                        <td width="25" valign="top">Folder</td>
+                        <td width="10">&nbsp;</td>
+                        <td>filearchive</td>
+                        <td width="10">&nbsp;</td>
+                        <td valign="top">777</td>
+                    </tr>
+                    <tr>
+                        <td width="25" valign="top">Folder</td>
+                        <td width="10">&nbsp;</td>
+                        <td>filearchive/can_be_deleted</td>
+                        <td width="10">&nbsp;</td>
+                        <td valign="top">777</td>
+                    </tr>
+                    <tr>
+                        <td width="25" valign="top">Folder</td>
+                        <td width="10">&nbsp;</td>
+                        <td>template</td>
+                        <td width="10">&nbsp;</td>
+                        <td valign="top">777</td>
+                    </tr>
+                    <tr>
+                        <td width="25" valign="top">Folder</td>
+                        <td width="10">&nbsp;</td>
+                        <td><span style="color: rgb(255, 0, 0);">template/template_lang</span></td>
+                        <td width="10">&nbsp;</td>
+                        <td valign="top">777</td>
+                    </tr>
+                    <tr>
+                        <td width="25" valign="top">Folder</td>
+                        <td width="10">&nbsp;</td>
+                        <td>content</td>
+                        <td width="10">&nbsp;</td>
+                        <td valign="top">777</td>
+                    </tr>
+                    <tr>
+                        <td width="25" valign="top">Folder</td>
+                        <td width="10">&nbsp;</td>
+                        <td>content/ads</td>
+                        <td width="10">&nbsp;</td>
+                        <td valign="top">777</td>
+                    </tr>
+                    <tr>
+                        <td width="25" valign="top">Folder</td>
+                        <td width="10">&nbsp;</td>
+                        <td>content/images</td>
+                        <td width="10">&nbsp;</td>
+                        <td valign="top">777</td>
+                    </tr>
+                    <tr>
+                        <td width="25" valign="top">Folder</td>
+                        <td width="10">&nbsp;</td>
+                        <td>content/gt</td>
+                        <td width="10">&nbsp;</td>
+                        <td valign="top">777</td>
+                    </tr>
+                    <tr>
+                        <td width="25" valign="top">Folder</td>
+                        <td width="10">&nbsp;</td>
+                        <td>content/form</td>
+                        <td width="10">&nbsp;</td>
+                        <td valign="top">777</td>
+                    </tr>
+                    <tr>
+                        <td width="25" valign="top">Folder</td>
+                        <td width="10">&nbsp;</td>
+                        <td>content/rss</td>
+                        <td width="10">&nbsp;</td>
+                        <td valign="top">777</td>
+                    </tr>
+                    <tr>
+                        <td width="25" valign="top">Folder</td>
+                        <td width="10">&nbsp;</td>
+                        <td>content/tmp</td>
+                        <td width="10">&nbsp;</td>
+                        <td valign="top">777</td>
+                    </tr>
+                    <tr>
+                        <td width="25" valign="top">Folder</td>
+                        <td width="10">&nbsp;</td>
+                        <td>content/pages</td>
+                        <td width="10">&nbsp;</td>
+                        <td valign="top">777</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td width="10"></td>
+                        <td valign="top"></td>
+                    </tr>
+                    <tr>
+                        <td width="25" valign="top">&nbsp;</td>
+                        <td width="10">&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td width="10">&nbsp;</td>
+                        <td valign="top">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td width="25" valign="top">File</td>
+                        <td width="10">&nbsp;</td>
+                        <td>setup/setup.conf.inc.php</td>
+                        <td width="10">&nbsp;</td>
+                        <td valign="top">666</td>
+                    </tr>
+                    <tr>
+                        <td width="25" valign="top">File</td>
+                        <td width="10">&nbsp;</td>
+                        <td>template/inc_css/frontend.css</td>
+                        <td width="10">&nbsp;</td>
+                        <td valign="top">666</td>
+                    </tr>
+                    <tr>
+                        <td width="25" valign="top">File</td>
+                        <td width="10">&nbsp;</td>
+                        <td>config/phpwcms/conf.indexpage.inc.php</td>
+                        <td width="10">&nbsp;</td>
+                        <td valign="top">666</td>
+                    </tr>
+                    <tr>
+                        <td width="25" valign="top">File</td>
+                        <td width="10">&nbsp;</td>
+                        <td>template/inc_default/startup.php</td>
+                        <td width="10">&nbsp;</td>
+                        <td valign="top">666</td>
+                    </tr>
+                </tbody>
+            </table>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</fieldset><div align="right"><a href="#top"><img src="img/article/top_link_0.gif" border="0" alt="" /></a></div><div style="border-bottom:1px dotted #d2e2f5; margin-top:10px; margin-bottom:15px;"></div><h3>Start of the installation</h3><table width="100%" cellpadding="0" cellspacing="0" border="0" class="imgTextRight">
+<tr>
+<td valign="top" width="10%" class="image_td2"><table width="150" border="0" cellspacing="0" cellpadding="0" >
+<tr><td class="image_td2"><a href="content/images/f23796f8d219ab5893c9cd435f9a7d12.png" rel="lightbox" title="Image 2 - Agree to the License Agreement" target="_blank"><img src="content/images/b86a8ccf8d47babf163dd684ded16cd0.png" width="150" height="114" border="0" class="image_img" alt="install_01.png" /></a></td></tr>
+<tr><td align="center" class="image_caption">Image 2 - Agree to the License Agreement</td></tr>
+</table></td>
+<td valign="top" class="articleText"><p>Now you call the install script in your browser via the following path: <br />
+<strong>http://www.your-domain.tld/setup/index.php</strong><br />
+<br />
+We assume that you have uploaded phpwcms into the root directory of your webspace.<br />
+<br />
+If that is not the case, the path has to look like this:<br />
+<strong>http://www.your-domain.tld/your_subfolder/setup/index.php<br />
+</strong><br />
+After reading the license agreement simply press the button<br />
+&quot;<strong>I agree the GPL, continue</strong>&quot;. (Image 2) <br />
+<br />
+Now you come to the next step.<br />
+<br />
+Advice: Behind different points you will see the following symbol. This is an additional help button that will point you to external pages.</p>
+</td>
+</tr>
+</table><div align="right"><a href="#top"><img src="img/article/top_link_0.gif" border="0" alt="" /></a></div><div style="border-bottom:1px dotted #d2e2f5; margin-top:10px; margin-bottom:15px;"></div><h3>Checking of the server settings</h3><table width="100%" cellpadding="0" cellspacing="0" border="0" class="imgTextRight">
+<tr>
+<td valign="top" width="10%" class="image_td2"><table width="150" border="0" cellspacing="0" cellpadding="0" >
+<tr><td class="image_td2"><a href="content/images/62b12ecd73b269cfccf5057b7a48bc34.png" rel="lightbox" title="Image 3 - Checking of the Server Settings" target="_blank"><img src="content/images/f772f851c2236672b32c5e6c342f9dac.png" width="150" height="98" border="0" class="image_img" alt="install_02.png" /></a></td></tr>
+<tr><td align="center" class="image_caption">Image 3 - Checking of the Server Settings</td></tr>
+</table></td>
+<td valign="top" class="articleText"><p>2. Now lets check your server settings (Image 3). <br />
+Here you can check the server settings once more.<br />
+<br />
+Amongst others you see which GD Libary (<a target="_blank" href="http://de.wikipedia.org/wiki/GD_Library">Was ist die GD Libary</a>) is installed on your server and which graphic formats are supported. In this case these are gif, jpg and png.<br />
+<br />
+Press &quot;<strong>Start Setup of phpwcms</strong>&quot; to start the installation.<br />
+<br />
+For the next step you need your access data for the SQL database. You will get the data from your provider.</p></td>
+</tr>
+</table><div align="right"><a href="#top"><img src="img/article/top_link_0.gif" border="0" alt="" /></a></div><div style="border-bottom:1px dotted #d2e2f5; margin-top:10px; margin-bottom:15px;"></div>
+<table border="0" cellspacing="0" width="10%" cellpadding="0" align="left" class=" imgListTableLeft" summary="">
+<tr>
+	<td class="imagelisttd2"><a href="content/images/6bb0de31e9eb496a8f63a64b5227f90c.png" rel="lightbox[y2hAH]" title="Image 4 - Database Settings" target="_blank"><img src="content/images/4fe58c5d4c3001f3c222131af605f522.png" width="150" height="62" border="0" class="imagelistimg" alt="install_03.png" /></a></td>
+</tr>
+<tr>
+	<td class="imglistcaption">Image 4 - Database Settings</td>
+</tr>
+
+<tr>
+	<td class="imagelistSpacerRow"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr>
+	<td class="imagelisttd2"><a href="content/images/bdf819af2b1230e29b865b1fe731080d.png" rel="lightbox[y2hAH]" title="Image 5 - Charset" target="_blank"><img src="content/images/feee5b597312195c9b77d1f7b5821e0a.png" width="150" height="85" border="0" class="imagelistimg" alt="install_04.png" /></a></td>
+</tr>
+<tr>
+	<td class="imglistcaption">Image 5 - Charset</td>
+</tr>
+
+<tr>
+	<td class="imagelistSpacerRow"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr>
+	<td class="imagelisttd2"><a href="content/images/94a0b6ad2f706ae88d5fd3ddb3d8b068.png" rel="lightbox[y2hAH]" title="Image 6 - Creation of the Tables" target="_blank"><img src="content/images/87343019d27e34ae5f350553eadc83ef.png" width="150" height="99" border="0" class="imagelistimg" alt="install_04a.png" /></a></td>
+</tr>
+<tr>
+	<td class="imglistcaption">Image 6 - Creation of the Tables</td>
+</tr>
+
+<tr>
+	<td class="imagelistSpacerRow"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr>
+	<td class="imagelisttd2"><a href="content/images/2b627bf4ce4173a90b25e74eaee99d9a.png" rel="lightbox[y2hAH]" title="Image 7 - Confirm Creation of the Tables" target="_blank"><img src="content/images/4b3e983e41f2492810789cf3e9c8a6dd.png" width="150" height="164" border="0" class="imagelistimg" alt="install_05.png" /></a></td>
+</tr>
+<tr>
+	<td class="imglistcaption">Image 7 - Confirm Creation of the Tables</td>
+</tr>
+
+<tr>
+	<td class="imagelistSpacerRow"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr>
+	<td class="imagelisttd2"><a href="content/images/e70ab4874b9bef34df82e99c2e65870a.png" rel="lightbox[y2hAH]" title="Image 8 - Tables were created" target="_blank"><img src="content/images/042b0706a48f06dfd71dc5e4c9ffd3ae.png" width="150" height="99" border="0" class="imagelistimg" alt="install_06.png" /></a></td>
+</tr>
+<tr>
+	<td class="imglistcaption">Image 8 - Tables were created</td>
+</tr>
+</table>
+<h3>Datatabase settings</h3><h4>and creation of the tables for phpwcms</h4><p>3. MySQL database settings (Image 4)<br />
+<br />
+Fill the fields for your database:<br />
+<br />
+<strong>MySQL host:</strong> Mostly &quot;localhost&quot;. It can also be an IP address. Check the right settings with your provider.<br />
+<br />
+<strong>DB user:</strong> Insert here the username for the database.<br />
+<br />
+<strong>DB password:</strong> Insert here the password for the database.<br />
+<br />
+<strong>DB database:</strong> Insert here the database name.<br />
+<br />
+<strong>DB table prefix:</strong> Only fill this field when you want to execute several phpwcms installations in one database.<br />
+<br />
+<strong> use persistant database connection:</strong> <br />
+<br />
+Click then onto &quot;<strong>Continue</strong>&quot;.<br />
+<br />
+4. Charset &amp; MySQL (xxxx) collation settings (Image 5) <br />
+<br />
+Choose now the charset, then click onto &quot;<strong>Continue</strong>&quot;.<br />
+<br />
+5. Default phpwcms database schema (Image 6) <br />
+<br />
+Check &quot;<strong>create phpwcms db tables</strong>&quot;. With this setting you say phpwcms that it shall create the tables for itself in the database.  Click again onto &quot;<strong>Continue</strong>&quot;</p>
+<p>(Image 7) Here you see a textbox with the information what tables will be created. Press&nbsp; &quot;<strong>Continue</strong>&quot;&nbsp; for the creation of the necessary tables. If you have inserted the right database settings, you should see the following: &quot;<strong>Fine! All initial phpwcms tables were created or still exists</strong>&quot; (Image 8).&nbsp;<br />
+<br />
+&nbsp; Press &quot;<strong>Continue</strong>&quot; to come to the creation of the admin account.<br />
+&nbsp;&nbsp;</p><div style="clear:both;"></div><div style="margin:15px 0 0 0;padding:0;" class="spaceBeforeCP"></div>
+<table border="0" cellspacing="0" width="10%" cellpadding="0" align="left" class=" imgListTableLeft" summary="">
+<tr>
+	<td class="imagelisttd2"><a href="content/images/b67fa8ce5f16ecf3ff2836aaa26f2055.png" rel="lightbox[OhiPj]" title="Image 09 - Create Administrator" target="_blank"><img src="content/images/b0e570f6f046bdf168305e90378ec3f6.png" width="150" height="131" border="0" class="imagelistimg" alt="install_07.png" /></a></td>
+</tr>
+<tr>
+	<td class="imglistcaption">Image 09 - Create Administrator</td>
+</tr>
+
+<tr>
+	<td class="imagelistSpacerRow"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr>
+	<td class="imagelisttd2"><a href="content/images/1d587f4fd31cbbc1816ca7ebd3991668.png" rel="lightbox[OhiPj]" title="Image 10 - Confirm Administrator" target="_blank"><img src="content/images/743bdc3a8ea33c5d09fc9a8f871626f2.png" width="150" height="114" border="0" class="imagelistimg" alt="install_08.png" /></a></td>
+</tr>
+<tr>
+	<td class="imglistcaption">Image 10 - Confirm Administrator</td>
+</tr>
+</table>
+<div style="border-bottom:1px dotted #d2e2f5; margin-top:10px; margin-bottom:15px;"></div><h3>Creation of the Superuser</h3><p>6. Superuser settings (Image 9)<br />
+<br />
+Now the Superuser / Administrator account will be created. <br />
+<br />
+You will see the following fields:<br />
+<br />
+<strong>name</strong>: The inserted name will be used as the author in articles. Standard is &quot;Webmaster&quot;<br />
+<br />
+<strong>Admin login</strong>: Insert here your login name. Standard is &quot;admin&quot;<br />
+<br />
+<strong>Admin password</strong>: Insert here your personal password.<br />
+<br />
+<strong>Repeat password</strong>: Confirm here your inserted password. That avoids spelling errors.<br />
+<br />
+<strong>Admin email</strong>: Insert here your email address. Standard is &quot;noreply@yourdomain.tld&quot;<br />
+<br />
+Press again &quot;<strong>Continue</strong>&quot; and you will get a confirmation message that the superuser / administrator has been created: &quot;<strong>Done! Account for user Admin was created</strong>&quot;(Bild 10).<br />
+<br />
+Press &quot;<strong>Continue</strong>&quot; to get to the path and email settings.</p><div align="right"><a href="#top"><img src="img/article/top_link_0.gif" border="0" alt="" /></a></div><div style="border-bottom:1px dotted #d2e2f5; margin-top:10px; margin-bottom:15px;"></div><h3>Path and email settings</h3><table width="100%" cellpadding="0" cellspacing="0" border="0" class="imgTextRight">
+<tr>
+<td valign="top" width="10%" class="image_td2"><table width="150" border="0" cellspacing="0" cellpadding="0" >
+<tr><td class="image_td2"><a href="content/images/00467d7c742eeac20e8e7d173c16a706.png" rel="lightbox" title="Image 11- Path and Email Settings" target="_blank"><img src="content/images/6bf982ef637046e9e4736c6b59f4b3f0.png" width="150" height="92" border="0" class="image_img" alt="install_09.png" /></a></td></tr>
+<tr><td align="center" class="image_caption">Image 11- Path and Email Settings</td></tr>
+</table></td>
+<td valign="top" class="articleText"><p>7. Path settings (Image 11)<br />
+<br />
+Here you can check once more your path / your domain. There should only be inserted the domain. Ex. <strong>www.tld-domain.tld/</strong>. <font color="#ff0000">Please pay attention for a &quot;<strong>/</strong>&quot; at the end.</font> <br />
+<br />
+Then you can set the kind of email sending in phpwcms.<br />
+<br />
+You have the possibility to choose between &quot;<strong>PHP (mail), sendmail &amp; SMTP</strong>&quot;. For now it is sufficient to let the settings as they are. The only change are for the following fields:<br />
+<br />
+<strong>from/reply-to email</strong>: The email address that will be shown as sender when you create a new user and want to send the new user the login data via phpwcms.<br />
+Standard is &quot;noreply@ followed by your domain name&quot;<br />
+<br />
+from/reply-to name: Insert here the name of the sender.<br />
+Standard is &quot;phpwcms webmaster&quot;<br />
+<br />
+<br />
+Press again &quot;<strong>Continue</strong>&quot; to go to the path and folder settings.</p></td>
+</tr>
+</table><div align="right"><a href="#top"><img src="img/article/top_link_0.gif" border="0" alt="" /></a></div><div style="border-bottom:1px dotted #d2e2f5; margin-top:10px; margin-bottom:15px;"></div><h3>Path and Folder Settings</h3><table width="100%" cellpadding="0" cellspacing="0" border="0" class="imgTextRight">
+<tr>
+<td valign="top" width="10%" class="image_td2"><table width="150" border="0" cellspacing="0" cellpadding="0" >
+<tr><td class="image_td2"><a href="content/images/b14949906e3e7beb215cef4e39d70ec8.png" rel="lightbox" title="Image 12 - Path and Folder Settings" target="_blank"><img src="content/images/0754ccb90ef26dec34c8dabb26fd9bbd.png" width="150" height="105" border="0" class="image_img" alt="install_10.png" /></a></td></tr>
+<tr><td align="center" class="image_caption">Image 12 - Path and Folder Settings</td></tr>
+</table></td>
+<td valign="top" class="articleText"><p>Here you don't have to change anything.<br />
+<br />
+<font color="#ff0000">Advice: Please pay attention that with an installation in a subfolder only the name of the subfolder is shown in the field &quot;<strong>phpwcms root</strong>&quot;.</font><br />
+<br />
+Press then &quot;<strong>Continue</strong>&quot;.</p></td>
+</tr>
+</table><div align="right"><a href="#top"><img src="img/article/top_link_0.gif" border="0" alt="" /></a></div><div style="border-bottom:1px dotted #d2e2f5; margin-top:10px; margin-bottom:15px;"></div><h3>Content Settings</h3><table width="100%" cellpadding="0" cellspacing="0" border="0" class="imgTextRight">
+<tr>
+<td valign="top" width="10%" class="image_td2"><table width="150" border="0" cellspacing="0" cellpadding="0" >
+<tr><td class="image_td2"><a href="content/images/ae71ae735c90f3f6b8b2498988700782.png" rel="lightbox" title="Image 13 - Content Settings" target="_blank"><img src="content/images/69d7562c94034c09d8a620ca7ffc1038.png" width="150" height="110" border="0" class="image_img" alt="install_11.png" /></a></td></tr>
+<tr><td align="center" class="image_caption">Image 13 - Content Settings</td></tr>
+</table></td>
+<td valign="top" class="articleText"><div align="left">Here you can make some settings - but is is not necessary for now.<br />
+<br />
+&quot;<strong>upload file size</strong>&quot; sets the maximum size of a file that can be uploaded using &quot;File&quot;.<br />
+<br />
+&quot;<strong>content width</strong>&quot; sets the width of the main content area.<br />
+<br />
+&quot;<strong>list image</strong>&quot; sets the size of the thumbnails.<br />
+<br />
+&quot;<strong>preview image</strong>&quot; sets the size of images in normal view.<br />
+<br />
+&quot;<strong>logout time</strong>&quot; sets the automatic logout function after a period of inactivity. Standard is 1800 seconds, that means 30 minutes.<br />
+&nbsp;</div>
+<div align="left">&quot;<strong>page compression</strong>&quot; sets the usage of a page compression.<br />
+<br />
+These settings are later changeable in &quot;<strong>config/phpwcms/conf.inc.php</strong>&quot;.<br />
+<br />
+Press&nbsp; &quot;<strong>Send content values</strong>&quot; to go to the last step.</div>
+</td>
+</tr>
+</table><div align="right"><a href="#top"><img src="img/article/top_link_0.gif" border="0" alt="" /></a></div><div style="border-bottom:1px dotted #d2e2f5; margin-top:10px; margin-bottom:15px;"></div><h3>Create and Upload conf.inc.php</h3><table width="100%" cellpadding="0" cellspacing="0" border="0" class="imgTextRight">
+<tr>
+<td valign="top" width="10%" class="image_td2"><table width="150" border="0" cellspacing="0" cellpadding="0" >
+<tr><td class="image_td2"><a href="content/images/f3a871e3d284bcbb91a751cb2c9570e6.png" rel="lightbox" title="Image 14 - Ready to start" target="_blank"><img src="content/images/90171cf62867d7833f82c578695ac8dc.png" width="150" height="154" border="0" class="image_img" alt="install_12.png" /></a></td></tr>
+<tr><td align="center" class="image_caption">Image 14 - Ready to start</td></tr>
+</table></td>
+<td valign="top" class="articleText"><p>If all went smothly until now and there is not a path oder rights problem, all bars should be now&nbsp; green as shown in the image. <br />
+<br />
+If not, you will see all <a target="_self" href="./index.php?fehlermeldungen_inst">error messages</a> in the next part and how they can be solved.<br />
+<br />
+Press now &quot;<strong>Download the created config file</strong>&quot; und save the file to your harddisk. Then upload the file into the folder &quot;config/phpwcms/&quot; with your ftp program.<br />
+(Alternatively download the generated file /setup/setup.conf.inc.php and upload it to /config/phpwcms/conf.inc.php with a ftp program).<br />
+<br />
+<strong>For security reasons delete the complete setup folder. By not doing this you will have a big security risk.</strong><br />
+<br />
+Then press &quot;<a target="undefined" href="./the_docu.phtml"><strong>LOGIN</strong></a>&quot; in the upper right corner and login with your username and password.</p>
+<p><b>Note:</b>  For security reasons the name of the login file login.php can be renamed in conf.inc.php since the version V1.4.2-r341.</p></td>
+</tr>
+</table><div align="right"><a href="#top"><img src="img/article/top_link_0.gif" border="0" alt="" /></a></div>
+		 
+		
+		<br /><br />
+		<div class="sub">
+		Article created: Sunday, 29. July 2007 <br /> Last Changes: Monday, 12. October 2009	
+		</div>
+				
+	</div>
+	
+<div id="footer"><br /><br />
+<p style="height:30px;">&nbsp;</p>
+
+
+ <script type="text/javascript" language="javascript">
+<!--
+
+var showDefaultValue =  0
+
+function hideLayer(whichLayer) {
+	if (document.getElementById) {
+		// this is the way the standards work
+		document.getElementById(whichLayer).style.display = "none";
+	} else if (document.all) {
+		// this is the way old msie versions work
+		document.all[whichlayer].style.display = "none";
+	} else if (document.layers) {
+		// this is the way nn4 works
+		document.layers[whichLayer].display = "none";
+	}
+}
+
+function showLayer(whichLayer) {
+		//	alert(whichLayer);
+	if (document.getElementById) {
+		// this is the way the standards work
+		document.getElementById(whichLayer).style.display = "block";
+	}
+	else if (document.all) {
+		// this is the way old msie versions work
+		document.all[whichlayer].style.display = "block";
+	}
+	else if (document.layers) {
+		// this is the way nn4 works
+		document.layers[whichLayer].display = "block";
+	}
+}
+
+function toggleLayer(whichLayer) {
+	if(showDefaultValue == 0) {
+		hideLayer(whichLayer);
+		showDefaultValue = 1;
+	} else {
+		showLayer(whichLayer);
+		showDefaultValue = 0;
+	}
+}
+//-->
+</script>
+
+
+<div id="alles">
+<div id="klapper" onclick="toggleLayer('formular');">
+<table width="570" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><em style="color:#275EA8;" onmouseover="this.style.color='#4F96F4';" onmouseout="this.style.color='#275EA8';">You have suggestions or criticism to this article? Write us!</em></td>   
+<td align="right" style="padding-right:2px;"><img src="template/lang/all/icons/write.gif" width="16" height="21" alt="" border="0" /></td>
+</tr>
+</table>
+
+</div>
+<div id="formular">
+
+<form name="form" method="post" action="index.php?id=207,352,0,1,1,0" style="margin:0;padding:0;"><input type="hidden" name="customForm" value="1" /><input type="hidden" name="docucheck" value="1" />
+
+
+<div style="float:left;">
+<p><select name="Betreff" id="Betreff" class="size1">
+<option value="" class="deepblue"> Select </option>
+<option value="subject_1" class="inselect">Remarks</option>
+<option value="subject_2" class="inselect">Error message/ criticism</option>
+<option value="subject_3" class="inselect">Else ...</option>
+
+</select><br /></p>
+
+
+<p>Firstname:<br />
+<input type="text" name="Vorname" value="" class="size1" /></p>
+<p>Surname:*<br />
+<input type="text" name="Name" value="" class="size1" /></p>
+<p>E-Mail:*<br />
+<input type="text" name="E-Mail" value="" class="size1" /></p>
+</div>
+
+
+<div style="float:right;">Message:*<br />
+<textarea name="Nachricht" cols="40" rows="4"  class="size7"></textarea>
+</div>
+
+<p style="clear:both; text-align:right;"><input type="reset" name="reset" value="Reset" class="btstyle" style="width:100px;" />&nbsp;&nbsp;
+<input type="submit" name="submit" value="Send email" class="btstyle" style="width:110px;" /></p>
+<p style="margin:20px;" class="sub">* Required fields.<br />Your data is used exclusively for this inquiry.</p>
+
+</form>
+</div>
+</div>
+ <script type="text/javascript" language="javascript">
+<!--
+	// Lösung ohne Onload
+	toggleLayer('formular');
+//-->
+</script>
+<br />
+
+
+
+
+
+	<table width="97%" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td valign="bottom">	
+			&copy; phpwcms-docu 2004-2010
+			<img src="img/leer.gif" border="0" width="10" height="0" alt="" /><a href="imprint.phtml" class="phpwcmsIntLink"><img src="template/lang/all/icons/imprint.gif" width="9" height="15" alt="Impressum" title="Impressum" border="0" /></a>&nbsp; 
+			<a href="sitemap_en.phtml" class="phpwcmsIntLink"><img src="template/lang/all/icons/sitemap.gif" width="19" height="15" alt="Sitemap" title="Sitemap" border="0" /></a>&nbsp; 
+			 
+			
+			     
+			</td>
+			<td valign="bottom" style="padding-right:25px;">
+			
+			
+			
+			</td>		
+			<td width="150"><a href="http://www.all-inkl.com/index.php?partner=124181"><img src="template/img/allinc.gif" width="150" height="57" alt="" border="0" /></a>
+			</td>
+		</tr>
+	</table>
+</div><br/>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,353 @@
+ 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!--
+	phpwcms | free open source content management system
+	created by Oliver Georgi (oliver at phpwcms dot de) and licensed under GNU/GPL.
+	phpwcms is copyright 2003-2007 of Oliver Georgi. Extensions are copyright of
+	their respective owners. Visit project page for details: http://www.phpwcms.org/
+//-->
+<title>phpwcms-docu for  phpwcms :: web based content management system | Module | Module</title>
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+  <meta http-equiv="content-style-type" content="text/css" />
+  <script src="template/inc_js/frontend.js" type="text/javascript"></script>
+  <style type="text/css">
+  <!-- 
+    @import url("template/inc_css/mpl_docu.css");
+    @import url("template/inc_css/mpl_frontend.css");
+    @import url("template/inc_css/mpl_menu.css");
+    @import url("template/inc_css/mpl_objects.css");
+  //-->
+  </style>
+<script type="text/javascript" language="javascript">
+<!--
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+}
+//-->
+</script>
+<meta name="Title" content="Die phpWCMS Dokumentation" />
+<meta name="author" content="Oliver Frohnert, Mario Perez Leal" />
+<meta name="Publisher" content="Oliver Frohnert, Mario Perez Leal, creacion" />
+<meta name="Copyright" content="Oliver Frohnert, Mario Perez Leal, creacion" />
+<meta name="keywords" content="frohnert, perez leal, creacion, documentation, dokumentation, phpwcms, cms, opensource, open source, docu" />
+<meta name="description" content="Das Dokumentations Projekt für das Open Source CMS phpWCMS" />
+<meta name="Audience" content="Alle" />
+<meta name="Content-language" content="DE" />
+<meta name="robots" content="index,follow" />
+<meta name="expires" content="0" />
+<meta name="revisit-after" content="7 days" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="Global" />
+<meta name="generator" content="PHPWCMS" />
+<meta name="verify-v1" content="1ZpxZ7AZsjm7PxjqXQVus0eiUYqOsp5URTJn9q4KNz8=" />
+  <!--[if lt IE 7]>
+  <style type="text/css">
+    body { behavior: url("template/inc_css/specific/csshover2.htc"); }
+    img { behavior: url("template/inc_css/specific/pngbehavior.htc"); }
+  </style>
+  <![endif]-->
+</head>
+<body id="myid_84">
+<div id="container"><a name="top" id="top"></a>
+
+
+	<div id="head">
+		
+	<div id="mainnavi">
+		<div class="fleft"><a href="http://www.phpwcms-docu.de/index.php">Startseite</a> | <a href="news_de.phtml">News</a> | <span style="text-decoration:none;font-weight:bold;"><a href="die_docu.phtml">Die Docu</a></span> | <a href="Nuetzliche_Links_und_Tools.phtml">Links &amp; Tools</a> | <a href="downloads.phtml">Downloads</a> | <a href="kontakt.phtml">Kontakt</a> | <a href="faq_de.phtml">FAQ</a> | <a href="http://forum.phpwcms.org/" target="_blank">Forum</a></div>				
+		<div class="sys">Montag, 13. April 2009<img src="img/leer.gif" border="0" width="5" height="1" alt="" />|<img src="img/leer.gif" border="0" width="5" height="1" alt="" />4 User online<img src="img/leer.gif" border="0" width="10" height="1" alt="" />
+		<a href="deutsche_version.phtml" title="Deutsche Version"><img src="picture/../template/lang/all/flag_de.gif" border="0" alt="" /></a>
+		<a href="english_version.phtml"  title="English version"><img src="picture/../template/lang/all/flag_en.gif" border="0" alt="" /></a>
+		</div>
+	</div>
+	
+	<a href="http://www.phpwcms-docu.de/" title="phpwcms-docu Startseite aufrufen" class="homelink">
+	<span>&raquo; Zur phpwcms-docu Startseite</span></a>
+	<h2>phpwcms-docu - Die Dokumentation f&uuml;r f&uuml;r das CMS phpWCMS</h2>
+	<p>phpwcms-docu ist eine Art Kompass, der Ihnen die M&ouml;glichkeiten von phpWcms aufzeigt und Sie erfolgreich, ohne gro&szlig;e Umwege, zu Ihrer fertigen Web-Anwendung f&uuml;hren soll.
+	</p>
+	</div>
+
+	
+	<div id="left">
+	<div class="leftnav" style="margin-top:24px;">
+	
+<div id="ul_div_309">
+<ul>
+	<li class="sub_no"><a href="download-dev-versionen.phtml">Download Dev Versionen</a></li>
+	<li class="sub_no sub_ul_true"><a href="installation_und_upgrade_von_phpwcms.phtml">Installation &amp; Upgrade</a></li>
+	<li class="sub_no sub_ul_true"><a href="verwaltung_artikel.phtml">Artikel</a></li>
+	<li class="sub_no sub_ul_true"><a href="dateizentrale.phtml">Datei</a></li>
+	<li class="sub_ul active"><a href="verwaltung_module.phtml">Module</a>
+	<div id="ul_div_84">
+	<ul>
+		<li class="sub_no sub_ul_true"><a href="modul_gt.phtml">Graphical Text</a></li>
+		<li class="sub_no"><a href="Glossar_Modul.phtml"><span style="text-decoration:line-through;font-size:10px;">Glossar Modul</span></a></li>
+		<li class="sub_no"><a href="Bannerwerbung.phtml"><span style="text-decoration:line-through;font-size:10px;">Bannerwerbung</span></a></li>
+		<li class="sub_no"><a href="shop_produkte.phtml"><span style="text-decoration:line-through;font-size:10px;">Shop/Produkte</span></a></li>
+	</ul>
+	</div>
+	</li>
+	<li class="sub_no sub_ul_true"><a href="Kommunikation.phtml">Kommunikation</a></li>
+	<li class="sub_no"><a href="verwaltung_nachricht.phtml">Nachricht</a></li>
+	<li class="sub_no"><a href="verwaltung_chat.phtml">Chat</a></li>
+	<li class="sub_no"><a href="verwaltung_profil.phtml">Profil</a></li>
+	<li class="sub_no sub_ul_true"><a href="verwaltung_admin.phtml">Admin</a></li>
+	<li class="sub_no sub_ul_true"><a href="add-on-und-vorlagen.phtml">Add Ons und Vorlagen</a></li>
+	<li class="sub_no"><a href="http://www.phpwcms-docu.de/index.php?replacement_tags_de">Replacement Tags</a></li>
+	<li class="sub_no"><a href="http://www.phpwcms-docu.de/index.php?content_parts_de">Content Parts</a></li>
+</ul>
+</div>
+
+		
+		
+		
+
+	</div> 
+	</div> 
+	  
+	<div id="right">
+		<div style="margin-top:24px;">			
+		<form action="index.php?suche" method="post" name="searchFE" onsubmit="s=document.getElementById('customSearchInput');if(s.value=='Suchen')return false;">
+			<table width="100%" border="0" cellpadding="0" cellspacing="0">
+			<tr>
+					<td><input type="text" name="search_input_field" size="20" maxlength="200" id="customSearchInput" class="customSearchInput" value="" onfocus="if(this.value=='Suchen')this.value='';" onblur="if(this.value=='')this.value='Suchen';" /></td>
+					<td><input type="image" name="search_go" onfocus="this.blur();" title="Suchen" src="/template/lang/all/submit.gif" /></td>
+				</tr>
+			</table>
+			</form>
+			
+			      <script type="text/javascript" language="javascript">
+			  <!-- 
+			        document.getElementById("customSearchInput").value="Suchen";
+			  //-->
+			      </script>
+				  
+			<!-- <p style="margin-top:10px;">Schriftgrad &auml;ndern: <a href="[FontSize-]"><img src="template/lang/all/icons/reduce.gif" width="18" height="17" alt="" title="Verkleinern" border="0" /></a>
+			<a href="[FontSize+]"><img src="template/lang/all/icons/extend.gif" width="18" height="17" alt="" title="Vergr&ouml;&szlig;ern" border="0" /></a>
+			</p> -->
+			
+	<p style="margin-top:10px;">Bitte w&auml;hlen Sie: 
+	<a href="index.php?verwaltung_module&amp;print=2" target="_blank"><img src="template/lang/all/icons/pdf.gif" width="18" height="18" alt="PDF erstellen" title="PDF erstellen" border="0" /></a>
+	 </p>
+<div style="border-bottom:1px dotted #dae7f6; margin-top:10px; margin-bottom:15px;"></div>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_xclick" />
+<input type="hidden" name="business" value="support@docu.fhss.de" />
+<input type="hidden" name="item_name" value="phpwcms-docu.de" />
+<input type="hidden" name="buyer_credit_promo_code" value="" />
+<input type="hidden" name="buyer_credit_product_category" value="" />
+<input type="hidden" name="buyer_credit_shipping_method" value="" />
+<input type="hidden" name="buyer_credit_user_address_change" value="" />
+<input type="hidden" name="no_shipping" value="0" />
+<input type="hidden" name="no_note" value="1" />
+<input type="hidden" name="currency_code" value="EUR" />
+<input type="hidden" name="tax" value="0" />
+<input type="hidden" name="lc" value="DE" />
+<input type="hidden" name="bn" value="PP-DonationsBF" />
+<input type="image" src="template/img/paypal.gif" name="submit" title="Eine kleine Spende ist gerne willkommen ..." alt="Eine kleine Spende ist gerne willkommen ..." />
+<img alt="" border="0" src="https://www.paypal.com/de_DE/i/scr/pixel.gif" width="1" height="1" />
+</form>
+<div style="border-bottom:1px dotted #dae7f6; margin-top:10px; margin-bottom:15px;"></div>
+<!-- <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fwww.phpwcms-docu.de%2Findex.php%3Fdeutsche_version" title="W3C Standard XHTML" target="_blank"><img src="picture/w3c/w3c_xhtml.gif" border="0" alt="" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http://www.phpwcms-docu.de" title="W3C Standard CSS" target="_blank"><img src="picture/w3c/w3c_css.gif" border="0" alt="" /></a><br />			
+<div style="border-bottom:1px dotted #dae7f6; margin-top:10px; margin-bottom:15px;"></div> -->
+<h3>Partnersites</h3>
+
+
+
+
+
+
+<div style="border-bottom:1px dotted #dae7f6; margin-top:10px; margin-bottom:15px;"></div>
+
+<div style="margin-top:10px; margin-bottom:15px;"></div>
+<script type="text/javascript"><!--
+google_ad_client = "pub-5747379735451868";
+//160x600, Erstellt 22.12.07
+google_ad_slot = "1002097208";
+google_ad_width = 160;
+google_ad_height = 600;
+//--></script>
+<script type="text/javascript"src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+<div style="border-bottom:1px dotted #dae7f6; margin-top:10px; margin-bottom:15px;"></div>
+</div>
+
+	</div> 
+	
+	<div id="content">
+	<div id="bread">Sie sind hier: <a href="deutsche_version.phtml">Deutsch</a> <span class="breadcrumb_spacer">&gt;</span> <a href="die_docu.phtml">Die Docu</a> <span class="breadcrumb_spacer">&gt;</span> Module</div>
+		
+		<a name="jump86"></a><!-- Livedate: 15.08.2004 15:10:20 / Killdate: 31.12.2010 23:59:59 -->
+
+<div style="margin:25px 0 0 0;padding:0;" class="spaceBeforeCP"></div><h3>Module</h3><p>Die Funktionalit&auml;t von phpwcms l&auml;&szlig;t sich durch Module weiter ausbauen. Derzeit werden diese von Oliver Georgi selbst umgesetzt. Selbstverst&auml;ndlich gibt es jedoch weitere &quot;Mods&quot;.<br />
+<b><br />
+</b>Eine Liste von inoffiziellen Erweiterungen finden Sie im phpwcms Forum unter:<br />
+<a href="http://forum.phpwcms.org/viewforum.php?f=8" target="_blank">hacks &amp; enhancements</a> (engl.)</p>
+<p>&nbsp;</p>
+<p><b>Offizielle Module, in phpwcms enthalten:</b></p>
+<ul>
+    <li>Graphical Text</li>
+    <li>Glossar</li>
+    <li>Bannerwerbung</li>
+    <li>Shop / Produkte (ab Version 1.3.5)</li>
+</ul>
+		 
+		
+		<br /><br />
+		<div class="sub">
+		Artikel erstellt am: Sonntag, 15. August 2004 <br /> Letzte &Auml;nderung: Samstag, 20. Oktober 2007	
+		</div>
+				
+	</div>
+	
+<div id="footer"><br /><br />
+<p style="height:30px;">&nbsp;</p>
+
+
+ <script type="text/javascript" language="javascript">
+<!--
+
+var showDefaultValue =  0
+
+function hideLayer(whichLayer) {
+	if (document.getElementById) {
+		// this is the way the standards work
+		document.getElementById(whichLayer).style.display = "none";
+	} else if (document.all) {
+		// this is the way old msie versions work
+		document.all[whichlayer].style.display = "none";
+	} else if (document.layers) {
+		// this is the way nn4 works
+		document.layers[whichLayer].display = "none";
+	}
+}
+
+function showLayer(whichLayer) {
+		//	alert(whichLayer);
+	if (document.getElementById) {
+		// this is the way the standards work
+		document.getElementById(whichLayer).style.display = "block";
+	}
+	else if (document.all) {
+		// this is the way old msie versions work
+		document.all[whichlayer].style.display = "block";
+	}
+	else if (document.layers) {
+		// this is the way nn4 works
+		document.layers[whichLayer].display = "block";
+	}
+}
+
+function toggleLayer(whichLayer) {
+	if(showDefaultValue == 0) {
+		hideLayer(whichLayer);
+		showDefaultValue = 1;
+	} else {
+		showLayer(whichLayer);
+		showDefaultValue = 0;
+	}
+}
+//-->
+</script>
+
+
+<div id="alles">
+<div id="klapper" onclick="toggleLayer('formular');">
+<table width="570" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><em style="color:#275EA8;" onmouseover="this.style.color='#4F96F4';" onmouseout="this.style.color='#275EA8';">Sie haben Anregungen oder Kritik zu diesem Artikel? Schreiben Sie uns!</em></td>   
+<td align="right" style="padding-right:2px;"><img src="template/lang/all/icons/write.gif" width="16" height="21" alt="" border="0" /></td>
+</tr>
+</table>
+
+</div>
+<div id="formular">
+
+<form name="form" method="post" action="index.php?id=84,86,0,1,1,0" style="margin:0;padding:0;"><input type="hidden" name="customForm" value="1" /><input type="hidden" name="docucheck" value="1" />
+
+
+<div style="float:left;">
+<p><select name="Betreff" id="Betreff" class="size1">
+<option value="" class="deepblue"> Bitte ausw&auml;hlen </option>
+<option value="subject_1" class="inselect">Anregungen</option>
+<option value="subject_2" class="inselect">Fehlermeldung/ Kritik</option>
+<option value="subject_3" class="inselect">Sonstiges</option>
+
+</select><br /></p>
+
+
+<p>Vorname:<br />
+<input type="text" name="Vorname" value="" class="size1" /></p>
+<p>Name:*<br />
+<input type="text" name="Name" value="" class="size1" /></p>
+<p>E-Mail:*<br />
+<input type="text" name="E-Mail" value="" class="size1" /></p>
+</div>
+
+
+<div style="float:right;">Mitteilung:*<br />
+<textarea name="Nachricht" cols="40" rows="4"  class="size7"></textarea>
+</div>
+
+<p style="clear:both; text-align:right;"><input type="reset" name="reset" value="Zur&uuml;cksetzen" class="btstyle" style="width:100px;" />&nbsp;&nbsp;
+<input type="submit" name="submit" value="Anfrage senden" class="btstyle" style="width:110px;" /></p>
+<p style="margin:20px;" class="sub">* Pflichtangaben. Ihre Daten werden ausschlie&szlig;lich für diese Anfrage verwendet.</p>
+
+</form>
+</div>
+</div>
+ <script type="text/javascript" language="javascript">
+<!--
+	// Lösung ohne Onload
+	toggleLayer('formular');
+//-->
+</script>
+<br />
+
+
+
+
+
+	<table width="97%" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td valign="bottom">	
+			&copy; phpwcms-docu 2004-2009
+			<img src="img/leer.gif" border="0" width="10" height="0" alt="" /><a href="impressum.phtml" class="phpwcmsIntLink"><img src="template/lang/all/icons/imprint.gif" width="9" height="15" alt="Impressum" title="Impressum" border="0" /></a>&nbsp; 
+			<a href="sitemap_de.phtml" class="phpwcmsIntLink"><img src="template/lang/all/icons/sitemap.gif" width="19" height="15" alt="Sitemap" title="Sitemap" border="0" /></a>&nbsp; 
+			<a href="gaestebuch.phtml" class="phpwcmsIntLink"><img src="template/lang/all/icons/gbook.gif" width="20" height="16" alt="Ins G&auml;stebuch eintragen" title="Ins G&auml;stebuch eintragen" border="0" /></a>&nbsp; 
+			<a href="#" onclick="BookMark_Page();return false;" title="" class="phpwcmsBookmarkLink"><img src="template/lang/all/icons/favo.gif" width="12" height="15" alt="Seite als Bookmark speichern" title="Seite als Bookmark speichern" border="0" /></a>&nbsp; 
+			     
+			</td>
+			<td valign="bottom" style="padding-right:25px;">
+			
+			
+			
+			</td>		
+			<td width="150"><a href="http://www.all-inkl.com/index.php?partner=124181"><img src="template/img/allinc.gif" width="150" height="57" alt="" border="0" /></a>
+			</td>
+		</tr>
+	</table>
+</div><br/>
+
+</div>
+</body>
+</html>

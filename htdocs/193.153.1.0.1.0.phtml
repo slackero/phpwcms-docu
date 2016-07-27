@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!--
+	phpwcms | free open source content management system
+	created by Oliver Georgi (oliver at phpwcms dot de) and licensed under GNU/GPL.
+	phpwcms is copyright 2003-2006 of Oliver Georgi. Extensions are copyright of\
+	their respective owners. Visit project page for details: http://www.phpwcms.org/
+//-->
+<title></title>
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+  <meta http-equiv="content-style-type" content="text/css" />
+  <script src="template/inc_js/frontend.js" type="text/javascript"></script>
+  <style type="text/css" media="all">
+  /* <![CDATA[ */
+    body {
+      margin: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+      padding-left: 0;
+      padding-right: 0;
+
+    }
+  /* ]]> */
+  </style>
+  <style type="text/css">
+  /* <![CDATA[ */
+    @import url("template/inc_css/frontend.css");
+    @import url("template/inc_css/nlu_navi1_docu.css");
+    @import url("template/inc_css/print_layout.css");
+  /* ]]> */
+  </style>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-361662-1";
+urchinTracker();
+</script>
+<META NAME="Title" CONTENT="Die phpWCMS Dokumentation">
+<meta name="author" content="Oliver Frohnert">
+<meta name="Publisher" content="Oliver Frohnert">
+<meta name="Copyright" content="Oliver Frohnert">
+<meta name="keywords" content="frohnert,documentation, dokumentation, phpwcms, cms, opensource, open source">
+<meta name="description" content="Das Dokumentations Projekt für das Open Source CMS phpWCMS">
+<meta name="Audience" content="Alle">
+<meta name="Content-language" content="DE">
+<META NAME="robots"      CONTENT="index,follow">
+<META NAME="expires" CONTENT="0">
+<meta name="revisit-after" content="7 days">
+<meta name="resource-type" content="document">
+<meta name="distribution" content="Global">
+<meta name="generator" content="PHPWCMS">
+<META name="verify-v1" content="1ZpxZ7AZsjm7PxjqXQVus0eiUYqOsp5URTJn9q4KNz8=" />
+  <!--[if lt IE 7]>
+  <style type="text/css">
+    body { behavior: url("template/inc_css/specific/csshover2.htc"); }
+    img { behavior: url("template/inc_css/specific/pngbehavior.htc"); }
+  </style>
+  <![endif]-->
+</head>
+<body>
+<img src="img/leer.gif" border="0" width="10" height="1" alt="" />
+<br />
+<a href="deutsche_version.phtml">Deutsch</a> <span class="breadcrumb_spacer">&gt;</span> <a href="inst_de.phtml">Installation &amp; Upgrade</a> <span class="breadcrumb_spacer">&gt;</span> Update phpWCMS RC 1.1
+<br />
+<HR>
+<br />
+<a name="jump153"></a><h1>Updaten von phpWCMS</h1><h2>Was ist zu beachten</h2><div style="margin:25px 0 0 0; padding:0 0 0 0; clear:both;"></div><h4>Sichern der vorhandenen Dateien</h4>Wenn Sie eine phpWCMS Installation updaten wollen&nbsp;gehen Sie wie folgt vor.<br /><br />Sichern Sie zuerst alle Dateien an denen Sie Veränderungen vorgenommen haben.<br />In der Regel handelt es sich um folgende Dateien bzw Ordner: <br /><br />
+<DIV class=kasten>include/inc_conf/conf.inc.php<br />include/inc_conf/conf.template_default.inc.php<br />include/inc_conf/conf.indexpage.inc.php (seit 1.1-RC4 28.08.2004) template/inc_default/startup.html<br />template/inc_css/frontend.css<br />template/inc_cntpart</DIV><br />am besten ist es jedoch&nbsp;alle Ordner&nbsp;zu sichern.<br /><HR>Nun entpacken Sie die neue Version von phpWCMS.<br /><br />Empfehlenswert ist es, die neue Version Ihres phpWCMS Systems mit den im Vorfeld gespeicherten Daten, (also das Backup des alten phpwcms- Systems) zu ersetzen.<br /><br />Wenn Sie jedoch eine ältere Version von phpWCMS installiert hatten (z.B. RC2) <STRONG>editieren Sie die (include/inc_conf/)conf.inc.php von Hand</STRONG>.<br /><br />
+<DIV class=kasten>include/inc_conf/conf.inc.php<br />include/inc_conf/conf.template_default.inc.php<br />include/inc_conf/conf.indexpage.inc.php (seit 1.1-RC4 28.08.2004) template/inc_default/startup.html<br />template/inc_css/frontend.css<br />template/inc_cntpart</DIV><br />
+<HR>
+<br />Im Zuge ständiger Erweiterungen wurden folgende Dateien stetig verändert und weiterentwickelt. <STRONG><FONT color=#ff0000>Vergleichen</FONT> Sie somit&nbsp;bitte auch</STRONG> die anderen Dateien wie <STRONG>conf.template_default.inc.php, frontend.css, </STRONG>da dort auch neue Einträge hinzugekommen sind.<br /><br />
+<HR>
+<br /><STRONG><FONT color=#cc0033><EM>TIP:</EM></FONT></STRONG><br />Zum optimalen Vergleich 2er Dateien empfehlen wir Ihnen das Freeware-Tool Winmerge. Ein besonderes Feature dieses Tools besteht darin 2 Dateien miteinander zu verbinden um somit einen optimalen textlichen Abgleich zu verschaffen.<br /><br /><a href="http://winmerge.sourceforge.net/" target="_blank">Hier gehts zum Download</a><br /><HR>Nun laden Sie die entpackte und editierte neue Version hoch und überschreiben Ihre vorhandene phpWCMS Installation.<br /><HR>Jetzt sollten Sie ein Datenbank Backup machen. Wenn Sie dies noch nicht gemacht haben, oder nicht wissen wie man eine Sicherung der Datenbank erstellt, folgen Sie bitte dem Link.<br /><br /><table border="0" cellspacing="0" cellpadding="0">
+<tr valign="top"><td nowrap="nowrap"><img src="img/article/intlink_1.gif" alt="" /><img src="img/leer.gif" width="1" height="11" alt="" /></td>
+<td><a href="198.159.0.0.1.0.phtml" target="_self" class="articleLinkInternal">Datenbank sichern</a></td></tr></table>
+<br />Falls Sie schon eine Sicherung der Datenbank gemacht haben lesen Sie einfach weiter.<HR><table width="158" border="0" cellspacing="0" cellpadding="0" align="left">
+<tr><td class="image_td"><a href="zoom/N2FlOWZjOTdmNjRiNDhlYmMzMmM5NDZmZjVlOGZhMjEucG5nP3dpZHRoPSI4MDAiIGhlaWdodD0iNjI3Ig.html" onclick="checkClickZoom();clickZoom('zoom/N2FlOWZjOTdmNjRiNDhlYmMzMmM5NDZmZjVlOGZhMjEucG5nP3dpZHRoPSI4MDAiIGhlaWdodD0iNjI3Ig.html','previewpic','width.html');return false;.html"><img src="content/images/0a8083b208c01b247cb9eeee2438aa5e.png" width="150" height="118" border="0" class="image_img" alt="upgrade1.png" /></a></td><td><img src="img/leer.gif" width="8" height="1" border="0" alt="" /></td></tr>
+</table><div class="articleText">Nun kommen Sie zum eigentlichen Updateprozess. Rufen sie dazu die <strong><em>upgrade.php</em></strong> auf. Diese finden Sie im Setup Ordner Ihrer phpWCMS Installation. (<em>http://www.ihre_domain.com/setup/updgrade.php</em> oder <em>http://www.ihre_domain.com/unterordner/setup/upgrade.php</em>)<br/><br/>Wenn Sie die <strong><em>upgrade.php </em></strong>aufgerufen haben sehen Sie folgende &Uuml;bersicht (Siehe Bild links)<br/><br/><br/>Im oberen Linken Bereich sehen folgende Felder:<br/><br/><strong>db host: </strong>Ihr Datenbank Host (meist localhost)<br/><br/><strong>db name: </strong>Ihr Datenbankname<br/><br/><strong>db user: </strong>Der Datenbankbenutzer<br/><br/><strong>db prepend: </strong><br/><br/><strong>select sql file:</strong> Hier w&auml;hlen Sie die SQL Datei aus mit der phpWCMS aktualisiert werden soll.</div><div style="margin:20px 0 0 0; padding:0 0 0 0; clear:both;"></div><table width="158" border="0" cellspacing="0" cellpadding="0" align="left">
+<tr><td class="image_td"><a href="zoom/YTM1ZjQ4YmUyZGZkNzkzODcxM2I3OGE3MTk3ODJkMjYucG5nP3dpZHRoPSI4MDAiIGhlaWdodD0iNTkyIg.html" onclick="checkClickZoom();clickZoom('zoom/YTM1ZjQ4YmUyZGZkNzkzODcxM2I3OGE3MTk3ODJkMjYucG5nP3dpZHRoPSI4MDAiIGhlaWdodD0iNTkyIg.html','previewpic','width.html');return false;.html"><img src="content/images/1556880242b636ae68869177a7580c1f.png" width="150" height="111" border="0" class="image_img" alt="upgrade2.png" /></a></td><td><img src="img/leer.gif" width="8" height="1" border="0" alt="" /></td></tr>
+</table><div class="articleText"><table height="129" cellspacing="0" cellpadding="0" width="70%" border="0"><tbody><tr><td valign="top">Dr&uuml;cken Sie nun auf das Auswahlfeld <strong><em>select sql file.<br/><br/></em></strong>Nun sehen Sie folgende auswahl:<br/><br/><strong>phpwcms_1.1-RC4_31-05-2004.sql<br/>phpwcms_1.1-RC4_25-08-2004.sql<br/>phpwcms_1.1-RC4_22-04-2004.sql<br/>phpwcms_update_older.sql<br/>phpwcms_1.1-RC4_13-08-2004.sql<br/>phpwcms_1.1-RC4_08-06-2004.sql</strong></td></tr></tbody></table><strong><br/><br/></strong>W&auml;hlen Sie aus dieser Liste das erste Datum nach dem Release das Sie installiert haben. In diesem Falle w&auml;re das <strong>phpwcms_1.1-RC4_13-08-2004.sql<br/></strong><br/>Falls Sie eine Version installiert haben, die &auml;lter ist als die Datumsangaben in den SQL Dateien, starten Sie&nbsp;bitte&nbsp;mit <strong>phpwcms_update_older.sql.</strong></div><div style="margin:20px 0 0 0; padding:0 0 0 0; clear:both;"></div><table width="158" border="0" cellspacing="0" cellpadding="0" align="left">
+<tr><td class="image_td"><a href="zoom/MTc3NDE0N2NhNjMzMDRkODFjYWQwNjZmZDJjY2ZmYjcucG5nP3dpZHRoPSI4MDAiIGhlaWdodD0iNjI3Ig.html" onclick="checkClickZoom();clickZoom('zoom/MTc3NDE0N2NhNjMzMDRkODFjYWQwNjZmZDJjY2ZmYjcucG5nP3dpZHRoPSI4MDAiIGhlaWdodD0iNjI3Ig.html','previewpic','width.html');return false;.html"><img src="content/images/0a8b9ac18b746b484d4db76c280eb01d.png" width="150" height="118" border="0" class="image_img" alt="upgrade3.png" /></a></td><td><img src="img/leer.gif" width="8" height="1" border="0" alt="" /></td></tr>
+</table><div class="articleText">Jetzt sehen Sie in der Textbox welche Eintr&auml;ge in der Datenbank vorgenommen werden. Dr&uuml;cken Sie auf <strong><em>Start Upgrade</em></strong> um die Neuerungen zu &uuml;bernehmen.<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></div><div style="margin:20px 0 0 0; padding:0 0 0 0; clear:both;"></div><table width="158" border="0" cellspacing="0" cellpadding="0" align="left">
+<tr><td class="image_td"><a href="zoom/OWU1N2JhMTQ4MmJlZmRjMDQzYzVkYTc2N2M1MjdiZjUucG5nP3dpZHRoPSI4MDAiIGhlaWdodD0iNTk3Ig.html" onclick="checkClickZoom();clickZoom('zoom/OWU1N2JhMTQ4MmJlZmRjMDQzYzVkYTc2N2M1MjdiZjUucG5nP3dpZHRoPSI4MDAiIGhlaWdodD0iNTk3Ig.html','previewpic','width.html');return false;.html"><img src="content/images/810f90e971a56b586752a0bd39c97a77.png" width="150" height="112" border="0" class="image_img" alt="upgrade4.png" /></a></td><td><img src="img/leer.gif" width="8" height="1" border="0" alt="" /></td></tr>
+</table><div class="articleText"><table cellspacing="0" cellpadding="0" width="70%" border="0"><tbody><tr><td>Nachdem die Datenbank-Aktualisierung durchgef&uuml;hrt wurde, sehen Sie hier eine &Uuml;bersicht der Aktualisierungen die vorgenommen wurden.<br/><br/>Um weitere Aktualisierungen durchzuf&uuml;hren klicken Sie einfach auf <strong><em>Choose another SQL file</em></strong>. Dann gelangen Sie zum Startbildschirm der Upgradefunktion zur&uuml;ck. Von dort aus k&ouml;nnen Sie wie&nbsp;gerade beschrieben weitere Updates, falls n&ouml;tig und vorhanden, einspielen.<br/><br/><br/><br/><br/></td></tr></tbody></table></div><div style="margin:20px 0 0 0; padding:0 0 0 0; clear:both;"></div><table width="158" border="0" cellspacing="0" cellpadding="0" align="left">
+<tr><td class="image_td"><a href="zoom/OTM1ZTI3NmU4MjAwOTk5N2JlZDM1NTJjNjRhNzBlZTUucG5nP3dpZHRoPSI4MDAiIGhlaWdodD0iNTk3Ig.html" onclick="checkClickZoom();clickZoom('zoom/OTM1ZTI3NmU4MjAwOTk5N2JlZDM1NTJjNjRhNzBlZTUucG5nP3dpZHRoPSI4MDAiIGhlaWdodD0iNTk3Ig.html','previewpic','width.html');return false;.html"><img src="content/images/a8e003cb08677469d08cd11b378c9228.png" width="150" height="112" border="0" class="image_img" alt="upgrade5.png" /></a></td><td><img src="img/leer.gif" width="8" height="1" border="0" alt="" /></td></tr>
+</table><div class="articleText"><table height="130" cellspacing="0" cellpadding="0" width="70%" border="0"><tbody><tr><td>Falls Sie diesen Fehler angezeigt bekommen, haben Sie entweder eine aktuelle Version in der keine Updates n&ouml;tig sind oder ein falsches SQL File ausgew&auml;hlt.<br/><br/>Bitte klicken Sie dann wieder auf <strong><em>Choose another SQL file</em></strong> um das n&auml;chste Update - falls vorhanden - auszuw&auml;hlen.<br/><br/><br/></td></tr></tbody></table></div><div align="right"><a href="#top"><img src="img/article/top_link_0.gif" border="0" alt="" /></a></div>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td colspan="2"><HR></td>
+  </tr>
+  <tr>
+    <td width="50%">Artikel erstellt: 2004/09/02</td>
+    <td align="right" width="50%">Letzte Änderung:2005/05/29</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2" class="comment">Wenn Sie einen Fehler entdecken eine Ergänzung oder Frage haben benutzen Sie bitte folgendes <a href="#" onClick="javascript:window.open('./content/pages/nachricht.htm','frage','width=400, height=250, screenX=440,screenY=200,menubar=no,statusbar=yes,scrollbar=yes,resizable=no');" target="" style="max-width:148px; overflow:hidden;"><u>Formular</u></a>.<br /><br />
+Hat Ihnen oder Ihrem Kunden diese Docu weitergeholfen ? Dann würde ich mich freuen wenn Sie das Projekt unterstützen würden. Bitte nutzen Sie dafür diesen <a href="#paypal">PayPal</a> Link. Jeder Betrag ist möglich und hilft der Weiterentwicklung und Aktualisierung dieser Dokumentation.<br />
+Diese Seite nutzt die version:</td>
+  </tr>
+  <tr>
+
+    <td colspan="2"><img src="img/leer.gif" border="0" width="10" height="10" alt="" /></td>
+  </tr>
+</table>
+
+</body>
+</html>

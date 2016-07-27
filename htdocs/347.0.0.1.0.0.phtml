@@ -1,0 +1,454 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!--
+	phpwcms | free open source content management system
+	created by Oliver Georgi (oliver at phpwcms dot de) and licensed under GNU/GPL.
+	phpwcms is copyright 2003-2007 of Oliver Georgi. Extensions are copyright of
+	their respective owners. Visit project page for details: http://www.phpwcms.org/
+//-->
+<title>phpwcms documentation | Die conf.inc.php</title>
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+  <meta http-equiv="content-style-type" content="text/css" />
+  <script src="template/inc_js/frontend.js" type="text/javascript"></script>
+  <style type="text/css" media="all">
+  <!-- 
+    body {
+      margin: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+      padding-left: 0;
+      padding-right: 0;
+
+      background-color: #FFFFFF;
+      color: #000000;
+    }
+    a, a:link, a:active, a:visited, a:hover { color: #FF9900; }
+    a:visited { color: #FF9900; }
+    a:active { color: #FF9900; }
+  //-->
+  </style>
+  <style type="text/css">
+  <!-- 
+    @import url("template/inc_css/frontend.css");
+    @import url("template/inc_css/nlu_navi1_docu.css");
+    @import url("template/inc_css/tabellen.css");
+  //-->
+  </style>
+<meta name="Title" content="Die phpWCMS Dokumentation" />
+<meta name="author" content="Oliver Frohnert" />
+<meta name="Publisher" content="Oliver Frohnert" />
+<meta name="Copyright" content="Oliver Frohnert" />
+<meta name="keywords" content="frohnert,documentation, dokumentation, phpwcms, cms, opensource, open source" />
+<meta name="description" content="Das Dokumentations Projekt für das Open Source CMS phpWCMS" />
+<meta name="Audience" content="Alle" />
+<meta name="Content-language" content="DE" />
+<meta name="robots"      content="index,follow" />
+<meta name="expires" content="0" />
+<meta name="revisit-after" content="7 days" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="Global" />
+<meta name="generator" content="PHPWCMS" />
+<meta name="verify-v1" content="1ZpxZ7AZsjm7PxjqXQVus0eiUYqOsp5URTJn9q4KNz8=" />
+  <!--[if lt IE 7]>
+  <style type="text/css">
+    body { behavior: url("template/inc_css/specific/csshover2.htc"); }
+    img { behavior: url("template/inc_css/specific/pngbehavior.htc"); }
+  </style>
+  <![endif]-->
+</head>
+<body>
+<table border="0" cellspacing="0" cellpadding="0" width="760" bgcolor="#ffffff" class="maintable" align="center" summary="">
+<tr>
+<td colspan="2" style="height:60px;"  bgcolor="#ffffff"><a name="top"></a><table width="760" height="135" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="1334" height="122" colspan="6"><IMG src="/template/lang/de/header.jpg" alt="" border="0">
+</td>
+  </tr>
+  <tr>
+	<td height="27" background="template/lang/all/top_menu.jpg"><table width="570" border="0" align="left" cellpadding="0" cellspacing="0">
+      <tr>
+        <td align="center" width="254"><a href="deutsche_version.phtml"><img src="picture/flags/de.gif" width="16" height="10" hspace="10" border="0"  alt="Deutsche Version" title="Deutsche Version"></a>
+<a href="english_version.phtml"><img src="picture/flags/gb.gif" width="16" height="10" hspace="10" border="0"  alt="English Version" title="English Version"></a></td>
+        <td valign="middle"><div align="center"><a href="replacement_tags_de.phtml"><img src="content/gt/8c10fcb16c44a7b9c26a5a932c5e4ae9.png" alt="Replacement Tags" title="Replacement Tags" width="115" height="13" border="0" /></a></div></td>
+        <td width="30" valign="middle"><div align="center"><img src="template/lang/all/sep.gif" width="5" height="5" border="0"></div></td>
+        <td valign="middle"><div align="center"><a href="content_parts_de.phtml"><img src="content/gt/02725c45a346fbf433a4c83e02d8dc5a.png" alt="Content Parts" title="Content Parts" width="94" height="13" border="0" /></a></div></td>
+        <td width="30" valign="middle"><div align="center"><img src="template/lang/all/sep.gif" width="5" height="5" border="0"></div></td>
+        <td valign="middle"><div align="center"><a href="links_de.phtml"><img src="content/gt/2c41bfb28d6dd3d4bbc8bb7688fd62ee.png" alt="Links" title="Links" width="36" height="13" border="0" /></a></div></td>
+        <td width="30" valign="middle"><div align="center"><img src="template/lang/all/sep.gif" width="5 " height="5" border="0"></div></td>
+        <td valign="middle"><div align="center"><a href="impressum.phtml"><img src="content/gt/d7380cf01602233e53be03b55123cf90.png" alt="Impressum" title="Impressum" width="64" height="13" border="0" /></a></div></td>
+     </tr>
+    </table>    </td>
+  </tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="185" style="background-image:url(img/menu.gif)"><table width="180" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="180" height="20">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="padding-left: 1px;"><div class="nlu_navi1_docu">
+<ul>
+	<li class="sub_no"><a href="deutsche_version.phtml?deutsche_vers">Startseite</a></li>
+	<li class="sub_no"><a href="news_de.phtml">News</a></li>
+	<li class="sub_ul"><a href="installation_und_upgrade_von_phpwcms.phtml">Installation &amp; Upgrade<img src="picture/myRT1/neuR.gif" alt="7/27/2007" border="0"></a>
+	<ul>
+		<li class="sub_no sub_ul_true"><a href="upgrade_phpwcms_deutsch.phtml">Upgrade<img src="picture/myRT1/neuR.gif" alt="7/27/2007" border="0"></a></li>
+		<li class="sub_no"><a href="db_sichern.phtml">DB sichern</a></li>
+		<li class="sub_no"><a href="db_wiederherstellen.phtml">DB wiederherstellen</a></li>
+		<li class="sub_ul"><a href="config_dateien.phtml">Config Dateien</a>
+		<ul>
+			<li class="sub_ul"><a href="conf.inc.php_de.phtml">conf.inc.php</a>
+			<ul>
+				<li class="sub_no active"><a href="347.0.0.1.0.0.phtml">RC 1.1</a></li>
+			</ul>
+			</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li class="sub_no sub_ul_true"><a href="die_docu.phtml">Die Docu<img src="picture/myRT1/neuR.gif" alt="07/18/2007" border="0"></a></li>
+	<li class="sub_no sub_ul_true"><a href="add_on.phtml">Add Ons</a></li>
+	<li class="sub_no"><a href="fehlermeldungen.phtml">Fehlermeldungen</a></li>
+	<li class="sub_no"><a href="suche.phtml">Suche</a></li>
+	<li class="sub_no"><a href="Nuetzliche_Links_und_Tools.phtml">Nützliche Links &amp; Tools</a></li>
+	<li class="sub_no sub_ul_true"><a href="kontakt.phtml">Kontakt</a></li>
+	<li class="sub_no"><a href="faq_de.phtml">FAQ</a></li>
+</ul>
+</div></td>
+  </tr>
+   <tr>
+    <td style="padding:10px; color:#000000;">
+<img src="picture/seperate.gif" border="0" alt="" /><br /><br />
+<img src="content/gt/4ed113c59a3746cabc12bacb98382a26.png" alt="Letzte Finale Version:" title="Letzte Finale Version:" width="149" height="13" border="0" /><br /><br />
+<img src="content/gt/e91a9fb3d2c66ffdf2b7ffd0222a1a9b.png" alt="phpwcms 1.3.3" title="phpwcms 1.3.3" width="83" height="13" border="0" /><br />
+<img src="content/gt/2a27ef3b6d9c74f4c2f49b2ec33593ef.png" alt="Vö: 02.05.2007" title="Vö: 02.05.2007" width="89" height="13" border="0" /><br /><br />
+<a href="http://www.phpwcms.de/forum/viewtopic.php?t=14617"><img src="content/gt/17ec582052b0d3ac3eddfbb9e5ff97f1.png" alt="weiter..." title="weiter..." width="52" height="13" border="0" /></a><br /><br />
+<img src="picture/seperate.gif" border="0" alt="" /><br /><br />
+<img src="content/gt/6e0928b3ee4c8e24d81ad83498aa7cba.png" alt="Neue Artikel:" title="Neue Artikel:" width="88" height="13" border="0" /><br /><br />
+<div class="related"><p><a href="416.392.0.0.1.0.phtml">Newsletter Abonnenten</a><p><a href="292.228.0.0.1.0.phtml">Newsletter Abonnement</a><p><a href="86.183.0.0.1.0.phtml">Chat</a><p><a href="122.72.0.0.1.0.phtml">Dateien hochladen</a><p><a href="180.220.0.0.1.0.phtml">Nachricht verfassen</a><p><a href="121.71.0.0.1.0.phtml">Verzeichnis erstellen und bearbeiten</a><p><a href="3.333.0.0.1.0.phtml">phpwcms Installationsanleitung</a><p><a href="174.88.0.0.1.0.phtml">Spracheinstellungen für Replacement Tags</a><p><a href="33.154.0.0.1.0.phtml">Nützliche Links &amp; Tools</a><p><a href="316.251.0.0.1.0.phtml">Neue Seitenstruktur erstellen / bearbeiten</a><p><a href="95.43.0.0.1.0.phtml">Replacement Tags für Links</a><p><a href="91.41.0.0.1.0.phtml">System Replacement Tags</a><p><a href="148.151.0.0.1.0.phtml">Content Part &quot;Sitemap&quot;</a><p><a href="141.128.0.0.1.0.phtml">Content Part &quot;Dateiliste&quot;</a><p><a href="335.277.0.0.1.0.phtml">Content Part &quot;RSS Feed&quot;</a></div>
+<br /><br />
+<img src="picture/seperate.gif" border="0" alt="" /><br /><br />
+</TD>
+  </tr>
+  <tr>
+    <td align="center">
+
+
+
+<br />WERBUNG<br /><br /><img src="picture/seperate.gif" border="0" alt="" /><P>
+</td>
+  </tr>
+<tr>
+    <td height="20">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td align="center" height="20">&nbsp</td>
+  </tr>
+</table>
+
+
+</body>
+</html>
+</td>
+<td valign="top" width="555" bgcolor="#ffffff" class="maincontent"><img src="img/leer.gif" border="0" width="10" height="1" alt="" />
+<br />
+<a href="deutsche_version.phtml">Deutsch</a> <span class="breadcrumb_spacer">&gt;</span> <a href="installation_und_upgrade_von_phpwcms.phtml">Installation &amp; Upgrade<img src="picture/myRT1/neuR.gif" alt="7/27/2007" border="0"></a> <span class="breadcrumb_spacer">&gt;</span> <a href="config_dateien.phtml">Config Dateien</a> <span class="breadcrumb_spacer">&gt;</span> <a href="conf.inc.php_de.phtml">conf.inc.php</a> <span class="breadcrumb_spacer">&gt;</span> RC 1.1
+<br />
+<HR>
+<br />
+<a name="jump292"></a>
+<h1>Die conf.inc.php</h1>
+
+<div style="margin:25px 0 0 0;padding:0;" class="spaceBeforeCP"></div>Die conf.inc.php enthält alle Systemeinstellungen. Die Werte können Sie nach Ihren Wünschen anpassen.<div align="right"><a href="#top"><img src="img/article/top_link_0.gif" border="0" alt="" /></a></div><HR><div style="margin:15px 0 0 0;padding:0;" class="spaceBeforeCP"></div><TABLE cellSpacing=1 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD bgColor=#cccccc>
+<TABLE cellSpacing=1 cellPadding=5 border=0>
+<TBODY>
+<TR>
+<TD colSpan=3>Zeile 26-31 -&gt; Datenbank Einstellungen</TD></TR>
+<TR>
+<TD bgColor=#ffffff>26</TD>
+<TD bgColor=#ffffff>$phpwcms["db_host"] = "localhost";</TD>
+<TD bgColor=#ffffff>Tragen Sie hier den Host Ihrer Datenbank ein.</TD></TR>
+<TR>
+<TD bgColor=#ffffff>27</TD>
+<TD bgColor=#ffffff>$phpwcms["db_user"] = "";</TD>
+<TD bgColor=#ffffff>Tragen Sie hier den Benutzernamen der Datenbank ein</TD></TR>
+<TR>
+<TD bgColor=#ffffff>28</TD>
+<TD bgColor=#ffffff>$phpwcms["db_pass"] = "";</TD>
+<TD bgColor=#ffffff>Tragen Sie hier das Passwort zu Ihrer Datenbank ein.</TD></TR>
+<TR>
+<TD bgColor=#ffffff>29</TD>
+<TD bgColor=#ffffff>$phpwcms["db_table"] = "";</TD>
+<TD bgColor=#ffffff>Tragen Sie hier den Tabellennamen ein.</TD></TR>
+<TR>
+<TD bgColor=#ffffff>30</TD>
+<TD bgColor=#ffffff>$phpwcms["db_prepend"] = "";</TD>
+<TD bgColor=#ffffff>Falls bei der Installation ein Präfix für die Datenbank-Tabellen angegeben wurde, muss dieses nun hier stehen.</TD></TR>
+<TR>
+<TD bgColor=#ffffff>31</TD>
+<TD bgColor=#ffffff>$phpwcms["db_pers"] = 1;</TD>
+<TD bgColor=#ffffff>Soll&nbsp;die&nbsp;Datenbankverbindung durchgehend bestehen bleiben (Default: 1)&nbsp;oder vor jedem&nbsp;Anfrage neu erstellt und anschliessend wieder getrennt werden (0). Empfohlen wird diesen Wert auf 1 gesetzt zu lassen.</TD></TR>
+<TR>
+<TD bgColor=#ffffff colSpan=3>&nbsp;</TD></TR>
+<TR>
+<TD colSpan=3>Zeile 34-45 -&gt; Webseiten Einstellungen</TD></TR>
+<TR>
+<TD bgColor=#ffffff>34</TD>
+<TD bgColor=#ffffff>$phpwcms["site"] = "http://www.phpwcms.de/";</TD>
+<TD bgColor=#ffffff>Tragen Sie hier Ihren Domainnamen dieser muss immer mit einem <STRONG>/ </STRONG>enden.</TD></TR>
+<TR>
+<TD bgColor=#ffffff>35</TD>
+<TD bgColor=#ffffff>$phpwcms["admin_email"] = "";</TD>
+<TD bgColor=#ffffff>Tragen Sie hier die E-Mail Adresse des Administrators / Webmasters ein</TD></TR>
+<TR bgColor=#ffffff>
+<TD colSpan=3>&nbsp;</TD></TR>
+<TR>
+<TD colSpan=3>Zeile 38-46 -&gt; Pfade</TD></TR>
+<TR>
+<TD bgColor=#ffffff>38</TD>
+<TD bgColor=#ffffff>$phpwcms["root"] = "";</TD>
+<TD bgColor=#ffffff>Wenn Sie phpWCMS in ein Unterverzeichnis installieren tragen Sie hier den Namen des Unterverzeichnisses ein.</TD></TR>
+<TR>
+<TD bgColor=#ffffff>39</TD>
+<TD bgColor=#ffffff>$phpwcms["file_path"] = "phpwcms_filestorage";</TD>
+<TD bgColor=#ffffff>Pfad zum Filestorage Verzeichnis. In diesem werden die Ordner und Dateien der einzelnen Benutzer von phpWCMS angelegt</TD></TR>
+<TR>
+<TD bgColor=#ffffff>40</TD>
+<TD bgColor=#ffffff>$phpwcms["file_tmp"] = "phpwcms_tmp";</TD>
+<TD bgColor=#ffffff>Name&nbsp;des tmp Ordner</TD></TR>
+<TR>
+<TD bgColor=#ffffff>41</TD>
+<TD bgColor=#ffffff>$phpwcms["templates"] = "phpwcms_template";</TD>
+<TD bgColor=#ffffff>Name&nbsp;zum Template Ordners</TD></TR>
+<TR>
+<TD bgColor=#ffffff>42</TD>
+<TD bgColor=#ffffff>$phpwcms["dir_thlist"] = "thumb_list";</TD>
+<TD bgColor=#ffffff>Name de&nbsp;Thumbnail Ordners</TD></TR>
+<TR>
+<TD bgColor=#ffffff>43</TD>
+<TD bgColor=#ffffff>$phpwcms["dir_preview"] = "thumb_preview";</TD>
+<TD bgColor=#ffffff>Name des&nbsp;Preview Ordners</TD></TR>
+<TR>
+<TD bgColor=#ffffff>44</TD>
+<TD bgColor=#ffffff>$phpwcms["content_path"] = "content";</TD>
+<TD bgColor=#ffffff>Name des&nbsp;Content Ordners </TD></TR>
+<TR>
+<TD bgColor=#ffffff>45</TD>
+<TD bgColor=#ffffff>$phpwcms["cimage_path"] = "images";</TD>
+<TD bgColor=#ffffff>Name des (Content)&nbsp;Image Ordners</TD></TR>
+<TR>
+<TD bgColor=#ffffff>46</TD>
+<TD bgColor=#ffffff>$phpwcms["ftp_path"] = "phpwcms_ftp";</TD>
+<TD bgColor=#ffffff>Name des ftp Ordners</TD></TR>
+<TR bgColor=#ffffff>
+<TD colSpan=3>&nbsp;</TD></TR>
+<TR>
+<TD colSpan=3>Zeile 49-55 -&gt; Content Einstellungen</TD></TR>
+<TR>
+<TD bgColor=#ffffff>49</TD>
+<TD bgColor=#ffffff>$phpwcms["file_maxsize"] = 52428800; //Bytes (50 x 1024 x 1024)</TD>
+<TD bgColor=#ffffff>Hier bestimmen Sie die maximale Dateigröße</TD></TR>
+<TR>
+<TD bgColor=#ffffff>50</TD>
+<TD bgColor=#ffffff>$phpwcms["content_width"] = 538;</TD>
+<TD bgColor=#ffffff>Hier bestimmen Sie die Breite des Contentbereiches in Pixeln</TD></TR>
+<TR>
+<TD bgColor=#ffffff>51</TD>
+<TD bgColor=#ffffff>$phpwcms["img_list_width"] = 100;</TD>
+<TD bgColor=#ffffff>Hier bestimmen Sie die maximale Höhe des Vorschaubildes in&nbsp;Pixeln&nbsp;</TD></TR>
+<TR>
+<TD bgColor=#ffffff>52</TD>
+<TD bgColor=#ffffff>$phpwcms["img_list_height"] = 75;</TD>
+<TD bgColor=#ffffff>Hier bestimmen Sie die maximale&nbsp;Breite des Vorschaubildes in&nbsp;Pixeln</TD></TR>
+<TR>
+<TD bgColor=#ffffff>53</TD>
+<TD bgColor=#ffffff>$phpwcms["img_prev_width"] = 538;</TD>
+<TD bgColor=#ffffff>Hier bestimmen Sie die maximale&nbsp;Breite&nbsp; in&nbsp;Pixeln</TD></TR>
+<TR>
+<TD bgColor=#ffffff>54</TD>
+<TD bgColor=#ffffff>$phpwcms["img_prev_height"] = 538;</TD>
+<TD bgColor=#ffffff>Hier bestimmen Sie die maximale Höhe des Vorschaubildes in&nbsp;Pixeln&nbsp;</TD></TR>
+<TR>
+<TD bgColor=#ffffff>55</TD>
+<TD bgColor=#ffffff>$phpwcms["max_time"] = 1800;</TD>
+<TD bgColor=#ffffff>Hier bestimmen Sie die Zeit nach der Sie automatisch aus dem Administrationsbereich ausgeloggt werden. Standard ist 1800 = 30 min</TD></TR>
+<TR bgColor=#ffffff>
+<TD colSpan=3>&nbsp;</TD></TR>
+<TR>
+<TD colSpan=3>Zeile 58-72 -&gt; verschiedenes</TD></TR>
+<TR>
+<TD bgColor=#ffffff>58</TD>
+<TD bgColor=#ffffff>$phpwcms["compress_page"] = 3;</TD>
+<TD bgColor=#ffffff>Hier können Sie die Seitenkompression einschalten.<br />Wert: 0 = aus / 1-9 = an / 9 = höchste Kompression</TD></TR>
+<TR>
+<TD bgColor=#ffffff>59</TD>
+<TD bgColor=#ffffff>$phpwcms["imagick"] = 0; //if 0 = GD, 1 = ImageMagick convert, 2 = ImageMagick 4.2.9</TD>
+<TD bgColor=#ffffff>Hier bestimmen Sie welche Grafikbibliothek Sie benutzen wollen (GD ist Bestandteil von PHP). Einige Provider bieten auch ImageMagick an. Dann haben Sie folgende Möglichkeiten: Wert 0 = GD1 / 1 = ImageMagick convert / 2 = ImageMagick 4.2.9</TD></TR>
+<TR>
+<TD bgColor=#ffffff>60</TD>
+<TD bgColor=#ffffff>$phpwcms["imagick_path"] = ""; //Path to ImageMagick</TD>
+<TD bgColor=#ffffff>Wenn Sie ImageMagick verwenden können Sie hier den Pfad eintragen. Meist ist es <STRONG>/usr/bin</STRONG> oder <STRONG>/usr/bin/convert</STRONG>.</TD></TR>
+<TR>
+<TD bgColor=#ffffff>61</TD>
+<TD bgColor=#ffffff>$phpwcms["use_gd2"] = 1; //if 0 = GD1, 1 = GD2</TD>
+<TD bgColor=#ffffff>Hier bestimmen Sie welche GD Bibliothek verwendet werden soll.<br />Wert: 0 = GD1 / 1 = GD2</TD></TR>
+<TR>
+<TD bgColor=#ffffff>62</TD>
+<TD bgColor=#ffffff>$phpwcms["rewrite_url"] = 0;</TD>
+<TD bgColor=#ffffff>Hier können Sie das REWRITE einschalten. Dazu muss jedoch im Hauptverzeichnis Ihrer phpWCMS Installation die <STRONG>_.htaccess</STRONG> in <STRONG>.htaccess</STRONG> umbenannt werden.<br />Wert: 0&nbsp;= aus / 1 = an</TD></TR>
+<TR>
+<TD bgColor=#ffffff>63</TD>
+<TD bgColor=#ffffff>$phpwcms["wysiwyg_editor"] = 1;</TD>
+<TD bgColor=#ffffff>Hier können Sie bestimmen welcher WYSIWIG Editor bei der Artikelerstellung benutzt werden soll.<br />Wert: 0 = kein Editor / 1 = HTMLarea / 2 = FCKeditor / 3 = Browser basierend / 4 = Spaw</TD></TR>
+<TR>
+<TD bgColor=#ffffff>64</TD>
+<TD bgColor=#ffffff>$phpwcms["phpmyadmin"] = 1;</TD>
+<TD bgColor=#ffffff>Hier können Sie bestimmen ob im Administrator Bereich der Link zu phpMyAdmin angezeigt wird. Wert: 0 = aus / 1 = an&nbsp;</TD></TR>
+<TR>
+<TD bgColor=#ffffff>65</TD>
+<TD bgColor=#ffffff>$phpwcms["default_lang"] = "en";</TD>
+<TD bgColor=#ffffff>Hier bestimmen Sie die Standardsprache für den Verwaltungsbereich (Backend). Es können nur die Sprachen verwendet werden in denen phpWCMS verfügbar ist. Eine aktuelle Liste finden Sie hier. <a href="./spracheinstellungen.phtml" target="_blank" class="phpwcmsExtLink">Spracheinstellungen</a></TD></TR>
+<TR>
+<TD bgColor=#ffffff>66</TD>
+<TD bgColor=#ffffff>$phpwcms["charset"] = "iso-8859-1";</TD>
+<TD bgColor=#ffffff>Hier bestimmen Sie den Zeichnsatz den Sie verwenden wollen. Die Standardeinstellung ist hier <STRONG>iso-8859-1</STRONG>. Eine Übersicht über alle ISO Zeichensätze finden Sie hier (engl.) <a href="http://wwwwbs.cs.tu-berlin.de/user/czyborra/charsets/" target="_blank" class="phpwcmsExtLink">Zeichensätze</a></TD></TR>
+<TR>
+<TD bgColor=#ffffff>67</TD>
+<TD bgColor=#ffffff>$phpwcms["allow_remote_URL"] = 0;</TD>
+<TD bgColor=#ffffff>Wenn Sie im {<img src="img/leer.gif" border="0" width="0" height="0" alt="" />PHP:...} Tag URL aufrufen wollen müssen Sie diesen Wert auf 1 setzten. Wert: 0 =&nbsp;URL erlaubt&nbsp;(standard) / 1 = URL verboten</TD></TR>
+<TR>
+<TD bgColor=#ffffff>68</TD>
+<TD bgColor=#ffffff>$phpwcms["gt_mod"] = 0;</TD>
+<TD bgColor=#ffffff>Hier können Sie den Graphical Text aktivieren. Wert: 0 = aus (Standard) / 1 = an</TD></TR>
+<TR>
+<TD bgColor=#ffffff>69</TD>
+<TD bgColor=#ffffff>$phpwcms["jpg_quality"] = 75; </TD>
+<TD bgColor=#ffffff>Hier können Sie die jpg Qualität einstellen in %.<br />Wert: 25 -100 / Standard = 75</TD></TR>
+<TR>
+<TD bgColor=#ffffff>70</TD>
+<TD bgColor=#ffffff>$phpwcms["sharpen_level"] = 1; </TD>
+<TD bgColor=#ffffff>Wenn Sie ImageMagick nutzen haben Sie hier die Möglichkeit Ihre Bilder noch extra zu schärfen. Wert: 0 = aus / 1 - 5 = leicht - extra schärfen</TD></TR>
+<TR>
+<TD bgColor=#ffffff>71</TD>
+<TD bgColor=#ffffff>$phpwcms["allow_ext_init"] = 0;</TD>
+<TD bgColor=#ffffff>Soll es erlaubt sein im /template/inc_script/frontend_init Ordner von phpWCMS alle&nbsp;Scripts vor dem Laden des Frontends zu laden (nützlich für eigene PHP-Funktionen). Wert:&nbsp; 0 - verboten (Standard) / 1 - erlaubt</TD></TR>
+<TR>
+<TD bgColor=#ffffff>72</TD>
+<TD bgColor=#ffffff>$phpwcms["allow_ext_render"] = 0; </TD>
+<TD bgColor=#ffffff>Soll es erlaubt sein die im Init Folder geladenen Funktionen nun auch beim Rendern der Seite einzusetzen (/template/inc_script/frontend_render). Wert:&nbsp; 0 - verboten (Standard) / 1 - erlaubt</TD></TR>
+<TR bgColor=#ffffff>
+<TD colSpan=3>&nbsp;</TD></TR>
+<TR>
+<TD colSpan=3>Zeile 75-77 -&gt; SSL Einstellungen</TD></TR>
+<TR>
+<TD bgColor=#ffffff>75</TD>
+<TD bgColor=#ffffff>$phpwcms["site_ssl_mode"] = "0"; </TD>
+<TD bgColor=#ffffff>Im Moment noch nicht möglich</TD></TR>
+<TR>
+<TD bgColor=#ffffff>76</TD>
+<TD bgColor=#ffffff>$phpwcms["site_ssl_url"] = ""; </TD>
+<TD bgColor=#ffffff>Im Moment noch nicht möglich</TD></TR>
+<TR>
+<TD bgColor=#ffffff>77</TD>
+<TD bgColor=#ffffff>$phpwcms["site_ssl_port"] = "443"; </TD>
+<TD bgColor=#ffffff>Im Moment noch nicht möglich</TD></TR>
+<TR bgColor=#ffffff>
+<TD colSpan=3>&nbsp;</TD></TR>
+<TR>
+<TD colSpan=3>Zeile 80-87 //&nbsp;SMTP Einstellungen</TD></TR>
+<TR>
+<TD bgColor=#ffffff>80</TD>
+<TD bgColor=#ffffff>$phpwcms['SMTP_FROM_EMAIL'] = 'info@localhost';</TD>
+<TD bgColor=#ffffff>Tragen Sie hier die E-mail Adresse ein die angezeigt werden soll wenn eine Mail über ein Kontaktformular verschickt wird. </TD></TR>
+<TR>
+<TD bgColor=#ffffff>81</TD>
+<TD bgColor=#ffffff>$phpwcms['SMTP_FROM_NAME'] = 'My Name';</TD>
+<TD bgColor=#ffffff>Tragen Sie hier den Namen ein der angezeigt werden soll wenn eine Mail über ein Kontaktformular verschickt wird.</TD></TR>
+<TR>
+<TD bgColor=#ffffff>82</TD>
+<TD bgColor=#ffffff>$phpwcms['SMTP_HOST'] = 'localhost';</TD>
+<TD bgColor=#ffffff>Tragen Sie hier den SMTP Host ein um Mails via&nbsp;SMTP&nbsp;zu versenden</TD></TR>
+<TR>
+<TD bgColor=#ffffff>83</TD>
+<TD bgColor=#ffffff>$phpwcms['SMTP_PORT'] = 25;</TD>
+<TD bgColor=#ffffff>Tragen Sie hier den Port für das Versenden von Mails via SMTP ein. Der Standard ist meist <STRONG>25</STRONG>.</TD></TR>
+<TR>
+<TD bgColor=#ffffff>84</TD>
+<TD bgColor=#ffffff>$phpwcms['SMTP_MAILER'] = 'mail';</TD>
+<TD bgColor=#ffffff>Hier bestimmen Sie womit die Mails gesendet werden. Wert: &nbsp;smtp = via&nbsp;SMTP / mail = phpmailer&nbsp;(standard) /&nbsp;sendmail = via sendmail</TD></TR>
+<TR>
+<TD bgColor=#ffffff>85</TD>
+<TD bgColor=#ffffff>$phpwcms['SMTP_AUTH'] = 0;</TD>
+<TD bgColor=#ffffff>Wenn Sie sich an Ihrem Mailserver anmelden müssen&nbsp;Sie den Wert auf <STRONG>1</STRONG> setzen ansonsten bleibt der wer auf <STRONG>0</STRONG></TD></TR>
+<TR>
+<TD bgColor=#ffffff>86</TD>
+<TD bgColor=#ffffff>$phpwcms['SMTP_USER'] = 'user';</TD>
+<TD bgColor=#ffffff>Tragen Sie hier den Benutzernamen für die SMTP Benutzung ein.</TD></TR>
+<TR>
+<TD bgColor=#ffffff>87</TD>
+<TD bgColor=#ffffff>$phpwcms['SMTP_PASS'] = 'pass';</TD>
+<TD bgColor=#ffffff>Tragen Sie hier das dazugehörige SMTP Passwort ein.</TD></TR>
+<TR>
+<TD bgColor=#ffffff colSpan=3>&nbsp;</TD></TR>
+<TR>
+<TD colSpan=3>Zeile 92</TD></TR>
+<TR>
+<TD bgColor=#ffffff>92</TD>
+<TD bgColor=#ffffff>//$_SERVER[’DOCUMENT_ROOT’] = ’/home/www’;</TD>
+<TD bgColor=#ffffff>&nbsp;</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><div align="right"><a href="#top"><img src="img/article/top_link_0.gif" border="0" alt="" /></a></div>
+<img src="img/leer.gif" border="0" width="10" height="10" alt="" />
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td colspan="3"><HR></td>
+  </tr>
+  <tr>
+    <td align="left" width="30%">Artikel erstellt: 2005/07/18</td>
+    <td align="center" width="35%"><a href="http://www.mister-wong.de/index.php?action=addurl&amp;bm_url=deutsche_version.phtml?aid=292&amp;bm_description=Die%20conf.inc.php" title="Wong It!" target="_blank"><img src="template/img/bookmarklets/wong.gif" alt="Wong It!" border="0" /></a> <a href="http://digg.com/submit?phase=2&amp;url=deutsche_version.phtml?aid=292&amp;title=Die%20conf.inc.php&amp;bodytext=&amp;topic=" title="DiggIt!" target="_blank"><img src="template/img/bookmarklets/digg.gif" alt="DiggIt!" border="0" /></a> <a href="http://del.icio.us/post?url=deutsche_version.phtml?aid=292&amp;title=Die%20conf.inc.php&amp;jump=no" title="Del.icio.us" target="_blank"><img src="template/img/bookmarklets/delicious.gif" alt="Del.icio.us" border="0" /></a> <a href="http://technorati.com/faves?add=http%3A%2F%2Fwww.phpwcms-docu.de%2F" title="TechnoratiFaves" target="_blank"><img src="template/img/bookmarklets/technorati.gif" alt="TechnoratiFaves" border="0" /></a> <a href="http://www.spurl.net/spurl.php?title=Die%20conf.inc.php&amp;url=deutsche_version.phtml?aid=292" title="Spurl!" target="_blank"><img src="template/img/bookmarklets/spurl.gif" alt="Spurl!" border="0" /></a> <a href="http://www.furl.net/savedialog.jsp?p=1&amp;t=Die%20conf.inc.php&amp;u=deutsche_version.phtml?aid=292&amp;c=&amp;r=" title="Furl It" target="_blank"><img src="template/img/bookmarklets/furl.gif" alt="Furl It" border="0" /></a> <a href="http://myweb2.search.yahoo.com/myresults/bookmarklet?t=Die%20conf.inc.php&amp;u=deutsche_version.phtml?aid=292&amp;d=&amp;ei=iso-8859-1" title="Save to Yahoo! My Web" target="_blank"><img src="template/img/bookmarklets/yahoo.gif" alt="Save to Yahoo! My Web" border="0" /></a> <a href="http://www.google.com/bookmarks/mark?op=add&amp;bkmk=deutsche_version.phtml?aid=292&amp;title=Die%20conf.inc.php&amp;annotation=" title="Google Bookmark" target="_blank"><img src="template/img/bookmarklets/google.gif" alt="Google Bookmark" border="0" /></a></td>
+    <td align="right" width="35%">Letzte Änderung:2005/05/29</td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="3" class="comment">Wenn Sie einen Fehler entdecken eine Ergänzung oder Frage haben benutzen Sie bitte folgendes <a href="#" onClick="javascript:window.open('./content/pages/nachricht.htm','frage','width=400, height=250, screenX=440,screenY=200,menubar=no,statusbar=yes,scrollbar=yes,resizable=no');" target="" style="max-width:148px; overflow:hidden;"><u>Formular</u></a>.<br /><br />
+Hat Ihnen oder Ihrem Kunden diese Docu weitergeholfen ? Dann würde ich mich freuen wenn Sie das Projekt unterstützen würden. Bitte nutzen Sie dafür diesen <a href="#paypal">PayPal</a> Link. Jeder Betrag ist möglich und hilft der Weiterentwicklung und Aktualisierung dieser Dokumentation.<br />
+Diese Seite nutzt die version:
+</td>
+  </tr>
+  <tr>
+
+    <td colspan="3"><img src="img/leer.gif" border="0" width="10" height="10" alt="" /></td>
+  </tr>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="height:10px;"  bgcolor="#ffffff" class="footer"><table width="100%" height="20" background="img/footer.gif" cellpadding="0" cellspacing="0" border="0">
+	<tr><td width="180" align="center" valign="middle">3 User online</td>
+	<td>
+	<table width="100%"cellpadding="0" cellspacing="0" border="0">
+   <tr>
+    <td align="center"><a href="#" target="_top" title="go back" onclick="history.back();return false;" class="phpwcmsBackLink"><img src="picture/back_.gif" border="0" alt="Zurueck"><img src="content/gt/13c1f733e9ee7693bf810fd5f035d0b7.png" alt="Zurück" title="Zurück" width="45" height="13" border="0" /></a></td>
+	<td align="center"><a href="sitemap_de.phtml"><img src="picture/sitemap_.gif" border="0"  alt="Sitemap"><img src="content/gt/38062c01670c74843cc0b291d94966c6.png" alt="Sitemap" title="Sitemap" width="50" height="13" border="0" /></a></td>
+	
+	
+	
+    </tr>
+</table></td>
+	</tr>
+</table>
+<img src="img/leer.gif" border="0" width="760" height="10" alt="" /></td>
+</tr>
+</table>
+
+</body>
+</html>

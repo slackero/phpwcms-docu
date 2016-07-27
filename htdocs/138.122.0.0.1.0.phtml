@@ -1,0 +1,451 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+     phpwcms | free open source content management system
+     created by Oliver Georgi (oliver at phpwcms dot de) and licensed under GNU/GPL.
+     phpwcms is copyright 2003-2005 of Oliver Georgi. Extensions are copyright of
+     their respective owners. Visit project page http://www.phpwcms.org for details.
+//-->
+<html>
+<head>
+<title>phpwcms documentation | Content Part &quot;Artikellink&quot;</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script src="template/inc_js/frontend.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="template/inc_css/frontend.css">
+<META NAME="Title" CONTENT="Die phpWCMS Dokumentation">
+<meta name="author" content="Oliver Frohnert">
+<meta name="Publisher" content="Oliver Frohnert">
+<meta name="Copyright" content="Oliver Frohnert">
+<meta name="keywords" content="frohnert,documentation, dokumentation, phpwcms, cms. opensource, open source">
+<meta name="description" content="Das Dokumentations Projekt für das Open Source CMS phpWCMS">
+<meta name="Audience" content="Alle">
+<meta name="Content-language" content="DE">
+<META NAME="robots"      CONTENT="index,follow">
+<META NAME="expires" CONTENT="0">
+<meta name="revisit-after" content="7 days">
+<meta name="resource-type" content="document">
+<meta name="distribution" content="Global">
+<meta name="generator" content="PHPWCMS">
+
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" link="#FF9900" vlink="#FF9900" alink="#FF9900" style="margin:0px 0px 0px 0px;">
+<table border="0" cellspacing="0" cellpadding="0" width="760" bgcolor="#ffffff" class="maintable" align="center">
+<tr>
+<td colspan="2" style="height:60px;"  bgcolor="#ffffff"><table width="760" height="135" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="1334" height="122" colspan="6"><IMG src="/template/lang/de/header.jpg" alt="" border="0">
+</td>
+  </tr>
+  <tr>
+	<td height="27" background="template/lang/all/top_menu.jpg"><table width="570" border="0" align="left" cellpadding="0" cellspacing="0">
+      <tr>
+        <td align="center" width="254"><a href="deutsche_version.phtml"><img src="picture/flags/de.gif" width="16" height="10" hspace="10" border="0"  alt="Deutsche Version" title="Deutsche Version"></a>
+<a href="english_version.phtml"><img src="picture/flags/gb.gif" width="16" height="10" hspace="10" border="0"  alt="English Version" title="English Version"></a></td>
+        <td valign="middle"><div align="center"><a href="replacement_tags_de.phtml"><img src="content/gt/8c10fcb16c44a7b9c26a5a932c5e4ae9.png" alt="Replacement Tags" title="Replacement Tags" border="0" /></a></div></td>
+        <td width="30" valign="middle"><div align="center"><img src="template/lang/all/sep.gif" width="5" height="5" border="0"></div></td>
+        <td valign="middle"><div align="center"><a href="content_parts_de.phtml"><img src="content/gt/02725c45a346fbf433a4c83e02d8dc5a.png" alt="Content Parts" title="Content Parts" border="0" /></a></div></td>
+        <td width="30" valign="middle"><div align="center"><img src="template/lang/all/sep.gif" width="5" height="5" border="0"></div></td>
+        <td valign="middle"><div align="center"><a href="links_de.phtml"><img src="content/gt/2c41bfb28d6dd3d4bbc8bb7688fd62ee.png" alt="Links" title="Links" border="0" /></a></div></td>
+        <td width="30" valign="middle"><div align="center"><img src="template/lang/all/sep.gif" width="5 " height="5" border="0"></div></td>
+        <td valign="middle"><div align="center"><a href="impressum.phtml"><img src="content/gt/d7380cf01602233e53be03b55123cf90.png" alt="Impressum" title="Impressum" border="0" /></a></div></td>
+     </tr>
+    </table>    </td>
+  </tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="185" background="img/menu.gif"><table width="180" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="180" height="20">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="padding-left: 7px;"><table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='deutsche_version.phtml?cvs_info_de';return false;" onMouseOver="MM_swapImage('linkidEwhbBh','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="2"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidEwhbBh" id="linkidEwhbBh"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="4"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="deutsche_version.phtml?cvs_info_de">News</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='inst_de.phtml';return false;" onMouseOver="MM_swapImage('linkidHT9q6N','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="2"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidHT9q6N" id="linkidHT9q6N"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="4"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="inst_de.phtml">Installation &amp; Upgrade</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='die_docu.phtml';return false;">
+<td width="7" colspan="2"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_2" alt="" border="" name="linkidn3KuQL" id="linkidn3KuQL"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table_active" colspan="4"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="die_docu.phtml">Die Docu</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='verwaltung_artikel.phtml';return false;">
+<td width="7" colspan="3"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_2" alt="" border="" name="linkidEF2yVP" id="linkidEF2yVP"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table_active" colspan="3"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="verwaltung_artikel.phtml">Artikel</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='artikel_erstellen.phtml';return false;" onMouseOver="MM_swapImage('linkidN6luXU','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="4"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidN6luXU" id="linkidN6luXU"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="2"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="artikel_erstellen.phtml">Artikel erstellen</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='artikel_editieren.phtml';return false;" onMouseOver="MM_swapImage('linkidRxIc2F','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="4"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidRxIc2F" id="linkidRxIc2F"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="2"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="artikel_editieren.phtml">Artikel bearbeiten</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='artikel_organisation.phtml';return false;" onMouseOver="MM_swapImage('linkidKFwXLA','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="4"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidKFwXLA" id="linkidKFwXLA"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="2"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="artikel_organisation.phtml">Artikel Organisation</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='content_parts_de.phtml';return false;">
+<td width="7" colspan="4"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_2" alt="" border="" name="linkidCw5g65" id="linkidCw5g65"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table_active" colspan="2"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="content_parts_de.phtml">Content Parts</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='einfacher_text.phtml';return false;" onMouseOver="MM_swapImage('linkidz6Tsll','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="5"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidz6Tsll" id="linkidz6Tsll"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="einfacher_text.phtml">Einfacher Text</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='html_.phtml';return false;" onMouseOver="MM_swapImage('linkidhxmMaY','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="5"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidhxmMaY" id="linkidhxmMaY"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="html_.phtml">HTML</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='wysiwyg_html_.phtml';return false;" onMouseOver="MM_swapImage('linkidpz7QNv','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="5"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidpz7QNv" id="linkidpz7QNv"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="wysiwyg_html_.phtml">WYSIWYG HTML</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='code_.phtml';return false;" onMouseOver="MM_swapImage('linkidD1faj7','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="5"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidD1faj7" id="linkidD1faj7"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="code_.phtml">Code</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='text_mit_bild.phtml';return false;" onMouseOver="MM_swapImage('linkidkJwBsz','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="5"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidkJwBsz" id="linkidkJwBsz"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="text_mit_bild.phtml">Text mit Bild</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='bilder.phtml';return false;" onMouseOver="MM_swapImage('linkidZrqtmQ','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="5"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidZrqtmQ" id="linkidZrqtmQ"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="bilder.phtml">Bilder</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='aufzahlung.phtml';return false;" onMouseOver="MM_swapImage('linkidDKhB0d','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="5"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidDKhB0d" id="linkidDKhB0d"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="aufzahlung.phtml">Aufzählung</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='liste.phtml';return false;" onMouseOver="MM_swapImage('linkidbMtUbm','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="5"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidbMtUbm" id="linkidbMtUbm"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="liste.phtml">Liste</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='link_e-mail_.phtml';return false;" onMouseOver="MM_swapImage('linkidmk3Ov5','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="5"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidmk3Ov5" id="linkidmk3Ov5"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="link_e-mail_.phtml">Link &amp; E-Mail</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='linkliste.phtml';return false;" onMouseOver="MM_swapImage('linkidX34eq9','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="5"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidX34eq9" id="linkidX34eq9"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="linkliste.phtml">Linkliste</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='artikellink.phtml';return false;">
+<td width="7" colspan="5"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_2" alt="" border="" name="linkidVQz8Nn" id="linkidVQz8Nn"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table_active"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="artikellink.phtml">Artikellink</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='artikelmenu.phtml';return false;" onMouseOver="MM_swapImage('linkidWykWA4','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="5"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidWykWA4" id="linkidWykWA4"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="artikelmenu.phtml">Artikelmenü</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='multimedia_.phtml';return false;" onMouseOver="MM_swapImage('linkidSe8qbe','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="5"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidSe8qbe" id="linkidSe8qbe"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="multimedia_.phtml">Multimedia</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='dateiliste.phtml';return false;" onMouseOver="MM_swapImage('linkiddjyuO3','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="5"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkiddjyuO3" id="linkiddjyuO3"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="dateiliste.phtml">Dateiliste</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='ecard_de.phtml';return false;" onMouseOver="MM_swapImage('linkidg1NKkP','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="5"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidg1NKkP" id="linkidg1NKkP"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="ecard_de.phtml">E-Card</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='e-mail_kontaktformular.phtml';return false;" onMouseOver="MM_swapImage('linkidRNKaNo','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="5"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidRNKaNo" id="linkidRNKaNo"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="e-mail_kontaktformular.phtml">E-Mail Kontaktformular</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='e-mail_formular.phtml';return false;" onMouseOver="MM_swapImage('linkidPK2b5J','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="5"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidPK2b5J" id="linkidPK2b5J"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="e-mail_formular.phtml">E-Mail Formulargenerator</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='newsletter_de.phtml';return false;" onMouseOver="MM_swapImage('linkid6GG2mp','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="5"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkid6GG2mp" id="linkid6GG2mp"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="newsletter_de.phtml">Newsletter</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='suche_.phtml';return false;" onMouseOver="MM_swapImage('linkidmqx1Ka','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="5"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidmqx1Ka" id="linkidmqx1Ka"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="suche_.phtml">Suche</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='gastebuch_komm.phtml';return false;" onMouseOver="MM_swapImage('linkidqC0762','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="5"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidqC0762" id="linkidqC0762"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="gastebuch_komm.phtml">Gästebuch / Komm.</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='sitemap_.phtml';return false;" onMouseOver="MM_swapImage('linkidpvCKL4','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="5"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidpvCKL4" id="linkidpvCKL4"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="sitemap_.phtml">Sitemap</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='angebot.phtml';return false;" onMouseOver="MM_swapImage('linkidakqID3','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="5"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidakqID3" id="linkidakqID3"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="angebot.phtml">Angebot</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='ext._content_.phtml';return false;" onMouseOver="MM_swapImage('linkidw3C0qe','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="5"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidw3C0qe" id="linkidw3C0qe"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="ext._content_.phtml">Ext. Content</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='rss_feed_de.phtml';return false;" onMouseOver="MM_swapImage('linkid64ajV4','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="5"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkid64ajV4" id="linkid64ajV4"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="rss_feed_de.phtml">RSS Feed</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='bildwechsel.phtml';return false;" onMouseOver="MM_swapImage('linkidFnydaf','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="5"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidFnydaf" id="linkidFnydaf"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="bildwechsel.phtml">Bildwechsel</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='contentpart_alias_de.phtml';return false;" onMouseOver="MM_swapImage('linkids0RyH0','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="5"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkids0RyH0" id="linkids0RyH0"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="contentpart_alias_de.phtml">Contentpart Alias</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='dateien_hinzufuegen.phtml';return false;" onMouseOver="MM_swapImage('linkidrpRNbG','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="3"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidrpRNbG" id="linkidrpRNbG"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="3"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="dateien_hinzufuegen.phtml">Datei</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='verwaltung_module.phtml';return false;" onMouseOver="MM_swapImage('linkidMpMC1x','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="3"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidMpMC1x" id="linkidMpMC1x"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="3"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="verwaltung_module.phtml">Module</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='verwaltung_nachricht.phtml';return false;" onMouseOver="MM_swapImage('linkidcLbKH8','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="3"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidcLbKH8" id="linkidcLbKH8"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="3"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="verwaltung_nachricht.phtml">Nachricht</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='verwaltung_chat.phtml';return false;" onMouseOver="MM_swapImage('linkidn7Uily','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="3"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidn7Uily" id="linkidn7Uily"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="3"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="verwaltung_chat.phtml">Chat</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='verwaltung_profil.phtml';return false;" onMouseOver="MM_swapImage('linkidIQbEJS','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="3"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidIQbEJS" id="linkidIQbEJS"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="3"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="verwaltung_profil.phtml">Profil</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='verwaltung_admin.phtml';return false;" onMouseOver="MM_swapImage('linkid7c1GQY','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="3"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkid7c1GQY" id="linkid7c1GQY"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="3"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="verwaltung_admin.phtml">Admin</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='add_on.phtml';return false;" onMouseOver="MM_swapImage('linkidWgSRTz','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="2"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidWgSRTz" id="linkidWgSRTz"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="4"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="add_on.phtml">Add Ons</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='fehlermeldungen.phtml';return false;" onMouseOver="MM_swapImage('linkidk5qalM','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="2"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidk5qalM" id="linkidk5qalM"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="4"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="fehlermeldungen.phtml">Fehlermeldungen</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='suche.phtml';return false;" onMouseOver="MM_swapImage('linkidYk4XZ7','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="2"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidYk4XZ7" id="linkidYk4XZ7"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="4"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="suche.phtml">Suche</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='kontakt.phtml';return false;" onMouseOver="MM_swapImage('linkidgCGZCx','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="2"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidgCGZCx" id="linkidgCGZCx"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="4"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="kontakt.phtml">Kontakt</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='faq_de.phtml';return false;" onMouseOver="MM_swapImage('linkidv5hUpt','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="2"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidv5hUpt" id="linkidv5hUpt"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="4"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="faq_de.phtml">FAQ</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+</table></td>
+  </tr>
+   <tr>
+    <td style="padding:10px; color:#000000;"><img src="picture/seperate.gif" border="0" alt="" /><BR><BR>
+<a href="http://www.phpwcms.de/index.php?id=1,38,0,0,1,0" target="Blank">
+<img src="content/gt/7cb37774ded38e2ea6defbe92b6a707e.png" alt="Wichtig!!!" title="Wichtig!!!" border="0" /><br>
+<img src="content/gt/a2799daaafd73ed5366e52014ca20a13.png" alt="Sicherheits Updates" title="Sicherheits Updates" border="0" /><br>
+<img src="content/gt/f594b2bcb7446a0fb595ca25b9c113ec.png" alt="f&uuml;r die Versionen" title="f&uuml;r die Versionen" border="0" /><br>
+<img src="content/gt/f6b3d6651de467e44cfdc1170eaba9d3.png" alt="1.1-RC4 / 1.1.9 / 1.2.3" title="1.1-RC4 / 1.1.9 / 1.2.3" border="0" /><br>
+<img src="content/gt/211746ba6c07fd9eb94497e27468da02.png" alt="weiter.." title="weiter.." border="0" /></a><br><BR>
+<img src="picture/seperate.gif" border="0" alt="" /><BR><BR>
+<img src="content/gt/2347bc9fa8590dd2c6d4e218ee55df88.png" alt="Letzte Version:" title="Letzte Version:" border="0" /><br>
+<img src="content/gt/e1fd75b3780539bb61dee5207be17344.png" alt="phpwcms 1.2.5-DEV" title="phpwcms 1.2.5-DEV" border="0" /><br><br>
+<img src="content/gt/6777af39b0b3fa79d44156ddf2bbe0b2.png" alt="V&ouml;: 14.08.2005" title="V&ouml;: 14.08.2005" border="0" /><BR>
+<a href="deutsche_version.phtml?id=285,212,0,0,1,0"><img src="content/gt/5cb97ddbeaa3fc737b4b09fd212dcc36.png" alt="weiter..." title="weiter..." border="0" /></a><BR><BR>
+<img src="picture/seperate.gif" border="0" alt="" /><BR><BR>
+<a href="deutsche_version.phtml?cvs_info_de">
+<img src="content/gt/561c1e752f944433a240916fd29f1d68.png" alt="Letzte CVS Version:" title="Letzte CVS Version:" border="0" /><br>
+<img src="content/gt/146e33b31b78f1788072a33538f9b258.png" alt="phpwcms 1.2.6-DEV" title="phpwcms 1.2.6-DEV" border="0" /><BR>
+<img src="content/gt/5d6c92b801a1a0fae170b3b8bd645392.png" alt="(Aktualisiert)" title="(Aktualisiert)" border="0" /><br><br>
+<img src="content/gt/84eb1724d4e56c7e5b1e188a47030aeb.png" alt="V&ouml;: 14.12.2005" title="V&ouml;: 14.12.2005" border="0" /><BR>
+<img src="content/gt/11c0da7af1db5732850053c45a24a778.png" alt="DOWNLOAD" title="DOWNLOAD" border="0" /></a><BR><BR>
+<img src="picture/seperate.gif" border="0" alt="" /></TD>
+  </tr>
+  <tr>
+    <td align="center"><a href='./ads/adclick.php?bannerid=8&amp;zoneid=0&amp;source=&amp;dest=http%3A%2F%2Fwww.tufat.com%2Faff.php%3Fid%3D2204' target='_blank' onMouseOver="self.status='http://www.tufat.com/'; return true;" onMouseOut="self.status='';return true;"><img src='http://www.tufat.com/images/affiliates/125x125.gif' width='125' height='125' alt='the docu chat' title='the docu chat' border='0'></a><br><a href='./ads/adclick.php?bannerid=8&amp;zoneid=0&amp;source=&amp;dest=http%3A%2F%2Fwww.tufat.com%2Faff.php%3Fid%3D2204' target='_blank' onMouseOver="self.status='http://www.tufat.com/'; return true;" onMouseOut="self.status='';return true;">the docu chat</a><div id="beacon_8" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src='./ads/adlog.php?bannerid=8&amp;clientid=13&amp;zoneid=0&amp;source=&amp;block=0&amp;capping=0&amp;cb=2f27871bbe9b3ef6baa6fa3724c9d3c7' width='0' height='0' alt='' style='width: 0px; height: 0px;'></div><BR>WERBUNG<BR><BR><img src="picture/seperate.gif" border="0" alt="" /><P>
+</td>
+  </tr>
+<tr>
+    <td height="20">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center"><form action="https://www.paypal.com/cgi-bin/webscr" method="post"><input type="hidden" name="hashID" value="f32e361a4e5b845699f21b092f620f66" />
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="image" src="https://www.paypal.com/en_US/i/btn/x-click-but04.gif" border="0" name="submit" alt="Zahlen Sie mit PayPal - schnell, kostenlos und sicher!">
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+">
+</form></td>
+  </tr>
+  <tr>
+    <td height="20">&nbsp;</td>
+  </tr>
+</table>
+
+
+</body>
+</html>
+</td>
+<td valign="top" width="555" bgcolor="#ffffff" class="maincontent"><img src="img/leer.gif" border="0" width="10" height="1" alt="" />
+<BR>
+<a href="deutsche_version.phtml">Deutsch</a> <span class="breadcrumb_spacer">&gt;</span> <a href="die_docu.phtml">Die Docu</a> <span class="breadcrumb_spacer">&gt;</span> <a href="verwaltung_artikel.phtml">Artikel</a> <span class="breadcrumb_spacer">&gt;</span> <a href="content_parts_de.phtml">Content Parts</a> <span class="breadcrumb_spacer">&gt;</span> Artikellink
+<br>
+<HR>
+<br>
+<a name="jump122"></a><h1>Content Part &quot;Artikellink&quot;</h1><div style="margin:25px 0 0 0; padding:0 0 0 0; clear:both;"></div><table width="158" border="0" cellspacing="0" cellpadding="0" align="left">
+<tr><td class="image_td"><a href="zoom/MzI4MmYwOGRkMDMxMzcxYzhmZDk0MmI1OWUwNzU0NDgucG5nP3dpZHRoPSI2MzYiIGhlaWdodD0iNjAwIg==&amp;hashID=f32e361a4e5b845699f21b092f620f66.html" onClick="checkClickZoom();clickZoom('zoom/MzI4MmYwOGRkMDMxMzcxYzhmZDk0MmI1OWUwNzU0NDgucG5nP3dpZHRoPSI2MzYiIGhlaWdodD0iNjAwIg.html','previewpic','width=636,height=600');return false;.html" target="_blank"><img src="content/images/ec3be143e158120e1649916b668e5699.png" width="150" height="141" border="0" class="image_img" alt="artikellink.png"></a></td><td><img src="img/leer.gif" width="8" height="1" alt="" /></td></tr>
+</table><div class="articleText"><table height="158" cellspacing="0" cellpadding="0" width="70%" border="0">
+    <tbody>
+        <tr>
+            <td>
+            <p align="justify"><strong>Artikellink (optional):</strong> Hier erscheinen alle gew&auml;hlten Artikel, die dem Besucher der Website angeboten werden.<br/>
+            <br/>
+            <strong>Artikel:</strong> Hier sind alle Artikel aufgelistet, die die Website enth&auml;lt. <font color="#cc0033"><strong>TIPP</strong></font>: Leider wird in einigen Browsern die Liste nicht automatisch sortiert. Klicken Sie einmal auf das Symbol <img src="picture/../img/button/list_remove.gif" border="0" alt="" />&nbsp;, um die Liste alphabetisch zu sortieren. <br/>
+            <br/>
+            <img src="picture/../img/button/list_copy.gif" border="0" alt="" />&nbsp;Mit diesem Knopf k&ouml;nnen Sie in der Liste &bdquo;Artikel&ldquo; gew&auml;hlte Artikel der Liste &bdquo;Artikellink&ldquo; hinzuf&uuml;gen. <font color="#cc0033"><strong>TIPP</strong></font>: Sie k&ouml;nnen mehrere Artikel mit gehaltener [Strg]-Taste (Windows) bzw. [&#65533;]-Taste (Macintosh) ausw&auml;hlen.</p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p align="justify">&nbsp;<br/>
+<img src="picture/../img/button/list_remove.gif" border="0" alt="" />&nbsp;Mit diesem Knopf k&ouml;nnen Sie in der Liste &bdquo;Artikellink&ldquo; gew&auml;hlte Artikel entfernen.<br/>
+<em>&nbsp;<br/>
+</em><img src="picture/../img/button/list_pos_up.gif" border="0" alt="" />&nbsp;Mit diesem Knopf k&ouml;nnen Sie in der Liste &bdquo;Artikellink&ldquo; gew&auml;hlte Artikel um eine Position nach oben verschieben.<br/>
+&nbsp;<br/>
+<img src="picture/../img/button/list_pos_down.gif" border="0" alt="" />&nbsp;Mit diesem Knopf k&ouml;nnen Sie in der Liste &bdquo;Artikellink&ldquo; gew&auml;hlte Artikel um eine Position nach unten verschieben</p></div><div align="right"><a href="#top"><img src="img/article/top_link_0.gif" border="0" alt="" /></a></div>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td colspan="2"><HR></td>
+  </tr>
+  <tr>
+    <td width="50%">Artikel erstellt: 2004/08/25</td>
+    <td align="right" width="50%">Letzte Änderung:2005/06/13</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2" class="comment">Wenn Sie einen Fehler entdecken eine Ergänzung oder Frage haben benutzen Sie bitte folgendes <a href="#" onClick="javascript:window.open('./content/pages/nachricht.htm','frage','width=400, height=250, screenX=440,screenY=200,menubar=no,statusbar=yes,scrollbar=yes,resizable=no');" target="" style="max-width:148px; overflow:hidden;"><u>Formular</u></a>.<br><BR>
+Hat Ihnen oder Ihrem Kunden diese Docu weitergeholfen ? Dann würde ich mich freuen wenn Sie das Projekt unterstützen würden. Bitte nutzen Sie dafür diesen <a href="#paypal">PayPal</a> Link. Jeder Betrag ist möglich und hilft der Weiterentwicklung und Aktualisierung dieser Dokumentation.<BR>
+Diese Seite nutzt die version:</td>
+  </tr>
+  <tr>
+
+    <td colspan="2"><img src="img/leer.gif" border="0" width="10" height="10" alt="" /></td>
+  </tr>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="height:10px;"  bgcolor="#ffffff" class="footer"><table width="100%" height="20" background="img/footer.gif" cellpadding="0" cellspacing="0" border="0">
+	<tr><td width="180" align="center" valign="middle">9 User online</td>
+	<td>
+	<table width="100%"cellpadding="0" cellspacing="0" border="0">
+   <tr>
+    <td align="center"><a href="javascript:history.back();" target="_top" title="go back"><img src="picture/back_.gif" border="0" alt="Zurueck"><img src="content/gt/13c1f733e9ee7693bf810fd5f035d0b7.png" alt="Zur&uuml;ck" title="Zur&uuml;ck" border="0" /></a></td>
+	<td align="center"><a href="sitemap_de.phtml"><img src="picture/sitemap_.gif" border="0"  alt="Sitemap"><img src="content/gt/38062c01670c74843cc0b291d94966c6.png" alt="Sitemap" title="Sitemap" border="0" /></a></td>
+	<td align="center"><a href="138.122.1.1.1.0.phtml" target="_blank"><img src="picture/print_.gif" border="0" alt="Drucken"><img src="content/gt/811a35c6cb2c5555a2f32d85b1bb5deb.png" alt="Drucken" title="Drucken" border="0" /></a></td>
+	<td align="center"><a href="gaestebuch.phtml"><img src="picture/icon_gaestebuch.gif" border="0" align="top" alt="Gästebuch"><img src="content/gt/1257c79a2b085b5641453b0f6e0fe1fd.png" alt="G&auml;stebuch" title="G&auml;stebuch" border="0" /></a></td>
+	<td align="center"><a href="#" onClick="BookMark_Page();return false;" title=""><img src="picture/favoriten_.gif" border="0"  alt="Lesezeichen"><img src="content/gt/7ce0fe74ab60b3da559a77c54fb85a80.png" alt="Lesezeichen" title="Lesezeichen" border="0" /></a></td>
+    </tr>
+</table></td>
+	</tr>
+</table>
+<img src="img/leer.gif" border="0" width="760" height="10" alt="" /></td>
+</tr>
+</table>
+</body>
+</html>

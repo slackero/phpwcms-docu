@@ -1,0 +1,268 @@
+ 
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+     phpwcms | free open source content management system
+     created by Oliver Georgi (oliver at phpwcms dot de) and licensed under GNU/GPL.
+     phpwcms is copyright 2003-2005 of Oliver Georgi. Extensions are copyright of
+     their respective owners. Visit project page http://www.phpwcms.org for details.
+//-->
+<html>
+<head>
+<title>phpwcms documentation | Updaten von phpWCMS</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script src="phpwcms_template/inc_js/frontend.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="phpwcms_template/inc_css/frontend.css">
+<META NAME="Title" CONTENT="Die phpWCMS Dokumentation">
+<meta name="author" content="Oliver Frohnert">
+<meta name="Publisher" content="Oliver Frohnert">
+<meta name="Copyright" content="Oliver Frohnert">
+<meta name="keywords" content="frohnert,documentation, dokumentation, phpwcms, cms. opensource, open source">
+<meta name="description" content="Das Dokumentations Projekt für das Open Source CMS phpWCMS">
+<meta name="Audience" content="Alle">
+<meta name="Content-language" content="DE">
+<META NAME="robots"      CONTENT="index,follow">
+<META NAME="expires" CONTENT="0">
+<meta name="revisit-after" content="7 days">
+<meta name="resource-type" content="document">
+<meta name="distribution" content="Global">
+<meta name="generator" content="PHPWCMS">
+<script language="JavaScript" type="text/javascript" src="pphlogger.js"></script>
+<noscript><img alt="" src="http://www.phpwcms-docu.de/pphlogger/pphlogger.php?id=phpwcms&st=img"></noscript>
+<!-- Start of StatCounter Code -->
+<script type="text/javascript" language="javascript">
+var sc_project=644539;
+var sc_partition=5;
+var sc_security="2e37fa21";
+</script>
+
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" link="#FF9900" vlink="#FF9900" alink="#FF9900" style="margin:0px 0px 0px 0px;">
+<table border="0" cellspacing="0" cellpadding="0" width="760" bgcolor="#ffffff" class="maintable" align="center">
+<tr>
+<td colspan="2" style="height:60px;"  bgcolor="#ffffff"><table width="760" height="135" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="1334" height="122" colspan="6" background="phpwcms_template/lang/de/header.jpg">&nbsp;</td>
+  </tr>
+  <tr>
+	<td height="27" background="phpwcms_template/lang/all/top_menu.jpg"><table width="570" border="0" align="left" cellpadding="0" cellspacing="0">
+      <tr>
+        <td align="center" width="254"><a href="index.php?deutsche_version"><img src="picture/flags/de.gif" width="16" height="10" hspace="10" border="0"  alt="Deutsche Version" title="Deutsche Version"></a>
+<a href="index.php?english_version"><img src="picture/flags/gb.gif" width="16" height="10" hspace="10" border="0"  alt="English Version" title="English Version"></a></td>
+        <td valign="middle"><div align="center"><a href="index.php?replacement_tags_de"><img src="content/gt/8c10fcb16c44a7b9c26a5a932c5e4ae9.png" alt="Replacement Tags" border="0" /></a></div></td>
+        <td width="30" valign="middle"><div align="center"><img src="phpwcms_template/lang/all/sep.gif" width="5" height="5" border="0"></div></td>
+        <td valign="middle"><div align="center"><a href="index.php?content_parts_de"><img src="content/gt/02725c45a346fbf433a4c83e02d8dc5a.png" alt="Content Parts" border="0" /></a></div></td>
+        <td width="30" valign="middle"><div align="center"><img src="phpwcms_template/lang/all/sep.gif" width="5" height="5" border="0"></div></td>
+        <td valign="middle"><div align="center"><a href="index.php?links_de"><img src="content/gt/2c41bfb28d6dd3d4bbc8bb7688fd62ee.png" alt="Links" border="0" /></a></div></td>
+        <td width="30" valign="middle"><div align="center"><img src="phpwcms_template/lang/all/sep.gif" width="5 " height="5" border="0"></div></td>
+        <td valign="middle"><div align="center"><a href="index.php?impressum"><img src="content/gt/d7380cf01602233e53be03b55123cf90.png" alt="Impressum" border="0" /></a></div></td>
+     </tr>
+    </table>    </td>
+  </tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="185" background="img/menu.gif"><table width="180" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="180" height="20">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="padding-left: 7px;"><table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='index.php?news_de';return false;" onMouseOver="MM_swapImage('linkidfaxnFr','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="2"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidfaxnFr" id="linkidfaxnFr"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="2"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="index.php?news_de">News<img src="picture/myRT1/neuR.gif" alt="8/28/2005" border="0"></a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='index.php?inst_de';return false;">
+<td width="7" colspan="2"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_2" alt="" border="" name="linkidQ9w1TV" id="linkidQ9w1TV"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table_active" colspan="2"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="index.php?inst_de">Installation &amp; Upgrade</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='index.php?rc_1.1_installation_de';return false;" onMouseOver="MM_swapImage('linkid33cT62','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="3"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkid33cT62" id="linkid33cT62"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="index.php?rc_1.1_installation_de">RC 1.1 installation</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='index.php?update_auf_dev';return false;" onMouseOver="MM_swapImage('linkidm6xA6H','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="3"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidm6xA6H" id="linkidm6xA6H"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="index.php?update_auf_dev">Update auf &gt; 1.2.x<img src="picture/myRT1/devR.gif" border="0" alt="" /></a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='index.php?update_1.x.x_de';return false;" onMouseOver="MM_swapImage('linkideD4zF1','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="3"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkideD4zF1" id="linkideD4zF1"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="index.php?update_1.x.x_de">Update 1.2.x &gt; 1.x.x</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='index.php?update_de';return false;">
+<td width="7" colspan="3"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_2" alt="" border="" name="linkidVrnu6T" id="linkidVrnu6T"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table_active"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="index.php?update_de">Update phpWCMS RC 1.1</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='index.php?db_sichern';return false;" onMouseOver="MM_swapImage('linkidC7S7ss','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="3"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidC7S7ss" id="linkidC7S7ss"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="index.php?db_sichern">DB sichern</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='index.php?db_wiederherstellen';return false;" onMouseOver="MM_swapImage('linkidFqQ7tW','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="3"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidFqQ7tW" id="linkidFqQ7tW"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="index.php?db_wiederherstellen">DB wiederherstellen</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='index.php?config_dateien';return false;" onMouseOver="MM_swapImage('linkidpt2x3x','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="3"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidpt2x3x" id="linkidpt2x3x"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="index.php?config_dateien">Config Dateien</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='index.php?verwaltung_login';return false;" onMouseOver="MM_swapImage('linkidHdBmVP','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="2"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidHdBmVP" id="linkidHdBmVP"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="2"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="index.php?verwaltung_login">Die Docu<img src="picture/myRT1/editR.gif" alt="8/18/2005" border="0"></a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='index.php?add_on';return false;" onMouseOver="MM_swapImage('linkid1Sy6yx','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="2"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkid1Sy6yx" id="linkid1Sy6yx"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="2"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="index.php?add_on">Add Ons</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='index.php?fehlermeldungen';return false;" onMouseOver="MM_swapImage('linkid65yfzi','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="2"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkid65yfzi" id="linkid65yfzi"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="2"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="index.php?fehlermeldungen">Fehlermeldungen</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='index.php?suche';return false;" onMouseOver="MM_swapImage('linkidu39CAo','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="2"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidu39CAo" id="linkidu39CAo"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="2"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="index.php?suche">Suche</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="location.href='index.php?kontakt';return false;" onMouseOver="MM_swapImage('linkidgS59rc','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="2"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidgS59rc" id="linkidgS59rc"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="2"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="index.php?kontakt">Kontakt</a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+<tr style="cursor:pointer;cursor:hand;" onClick="window.open('http://chat.phpwcms-docu.de', 'phpwcmnewwin');return false;" onMouseOver="MM_swapImage('linkidIIzUDF','','img/pfeil10x20_2',1);" onMouseOut="MM_swapImgRestore();">
+<td width="7" colspan="2"><img src="img/leer.gif" width="7" height="15" alt="" /></td>
+<td valign="top"><img src="img/pfeil10x20_1" alt="" border="" name="linkidIIzUDF" id="linkidIIzUDF"></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="2"><img src="img/leer.gif" width="1" height="2" alt="" /><br /><a href="http://chat.phpwcms-docu.de" target="_blank">LIVE Chat<img src="picture/myRT1/neuR.gif" alt="8/29/2005" border="0"></a><br /><img src="img/leer.gif" width="1" height="2" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" alt="" /></td>
+</tr>
+</table></td>
+  </tr>
+   <tr>
+    <td style="padding:10px; color:#000000;"><img src="picture/seperate.gif" border="0" alt="" /><BR><BR>
+	<img src="content/gt/2347bc9fa8590dd2c6d4e218ee55df88.png" alt="Letzte Version:" border="0" /><br>
+<img src="content/gt/e1fd75b3780539bb61dee5207be17344.png" alt="phpwcms 1.2.5-DEV" border="0" /><br><br>
+<img src="content/gt/59f9a148f00a5657f226e5c3cdece033.png" alt="V&ouml;: 07.08.2005" border="0" /><BR>
+<a href="http://www.phpwcms-docu.de/index.php?id=285,212,0,0,1,0"><img src="content/gt/5cb97ddbeaa3fc737b4b09fd212dcc36.png" alt="weiter..." border="0" /></a><BR><BR>
+<img src="picture/seperate.gif" border="0" alt="" /><BR><BR>
+<a href="http://www.phpwcms-docu.de/index.php?cvs_info_de">
+<img src="content/gt/561c1e752f944433a240916fd29f1d68.png" alt="Letzte CVS Version:" border="0" /><br>
+<img src="content/gt/e1fd75b3780539bb61dee5207be17344.png" alt="phpwcms 1.2.5-DEV" border="0" /><br><br>
+<img src="content/gt/43c5397f656175a0553853ebf02fe1a0.png" alt="V&ouml;: 07.09.2005" border="0" /><BR>
+<img src="content/gt/11c0da7af1db5732850053c45a24a778.png" alt="DOWNLOAD" border="0" /></a><BR><BR>
+<img src="picture/seperate.gif" border="0" alt="" /></TD>
+  </tr>
+  <tr>
+    <td align="center"><a target='blank_' href="http://www.phpwcms-docu.de/ads/adclick.php?bannerid=7&amp;zoneid=0&amp;source=&amp;dest=http%3A%2F%2Fwww.all-inkl.com%2Findex.php%3Fpartner%3D124181&amp;ismap=">
+<img border="0" src="http://www.all-inkl.com/banner/sky_ich_will_auch.gif" alt="all-inkl.com webhosting">
+</a><div id="beacon_7" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src='http://www.phpwcms-docu.de/ads/adlog.php?bannerid=7&amp;clientid=12&amp;zoneid=0&amp;source=&amp;block=0&amp;capping=0&amp;cb=3aeaf681d1ae891739dbcfe689119f0f' width='0' height='0' alt='' style='width: 0px; height: 0px;'></div><BR>WERBUNG<BR><BR><img src="picture/seperate.gif" border="0" alt="" /><P>
+</td>
+  </tr>
+<tr>
+    <td height="20">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td height="20">&nbsp;</td>
+  </tr>
+</table>
+
+
+</body>
+</html>
+</td>
+<td valign="top" width="555" bgcolor="#ffffff" class="maincontent"><img src="img/leer.gif" border="0" width="10" height="1" alt="" />
+<BR>
+<a href="index.php?deutsche_version">Deutsch</a> <span class="breadcrumb_spacer">&gt;</span> <a href="index.php?inst_de">Installation &amp; Upgrade</a> <span class="breadcrumb_spacer">&gt;</span> Update phpWCMS RC 1.1
+<br>
+<HR>
+<br>
+<a name="jump153"></a><h1>Updaten von phpWCMS</h1><h2>Was ist zu beachten</h2><div style="margin:25px 0 0 0; padding:0 0 0 0; clear:both;"></div><h4>Sichern der vorhandenen Dateien</h4>Wenn Sie eine phpWCMS Installation updaten wollen&nbsp;gehen Sie wie folgt vor.<BR><BR>Sichern Sie zuerst alle Dateien an denen Sie Veränderungen vorgenommen haben.<BR>In der Regel handelt es sich um folgende Dateien bzw Ordner: <BR><BR>
+<DIV class=kasten>include/inc_conf/conf.inc.php<BR>include/inc_conf/conf.template_default.inc.php<BR>include/inc_conf/conf.indexpage.inc.php (seit 1.1-RC4 28.08.2004) phpwcms_template/inc_default/startup.html<BR>phpwcms_template/inc_css/frontend.css<BR>phpwcms_template/inc_cntpart</DIV><BR>am besten ist es jedoch&nbsp;alle Ordner&nbsp;zu sichern.<BR><HR>Nun entpacken Sie die neue Version von phpWCMS.<BR><BR>Empfehlenswert ist es, die neue Version Ihres phpWCMS Systems mit den im Vorfeld gespeicherten Daten, (also das Backup des alten phpwcms- Systems) zu ersetzen.<BR><BR>Wenn Sie jedoch eine ältere Version von phpWCMS installiert hatten (z.B. RC2) <STRONG>editieren Sie die (include/inc_conf/)conf.inc.php von Hand</STRONG>.<BR><BR>
+<DIV class=kasten>include/inc_conf/conf.inc.php<BR>include/inc_conf/conf.template_default.inc.php<BR>include/inc_conf/conf.indexpage.inc.php (seit 1.1-RC4 28.08.2004) phpwcms_template/inc_default/startup.html<BR>phpwcms_template/inc_css/frontend.css<BR>phpwcms_template/inc_cntpart</DIV><BR>
+<HR>
+<BR>Im Zuge ständiger Erweiterungen wurden folgende Dateien stetig verändert und weiterentwickelt. <STRONG><FONT color=#ff0000>Vergleichen</FONT> Sie somit&nbsp;bitte auch</STRONG> die anderen Dateien wie <STRONG>conf.template_default.inc.php, frontend.css, </STRONG>da dort auch neue Einträge hinzugekommen sind.<BR><BR>
+<HR>
+<BR><STRONG><FONT color=#cc0033><EM>TIP:</EM></FONT></STRONG><BR>Zum optimalen Vergleich 2er Dateien empfehlen wir Ihnen das Freeware-Tool Winmerge. Ein besonderes Feature dieses Tools besteht darin 2 Dateien miteinander zu verbinden um somit einen optimalen textlichen Abgleich zu verschaffen.<BR><BR><a href="http://winmerge.sourceforge.net/" target="_blank">Hier gehts zum Download</a><BR><HR>Nun laden Sie die entpackte und editierte neue Version hoch und überschreiben Ihre vorhandene phpWCMS Installation.<BR><HR>Jetzt sollten Sie ein Datenbank Backup machen. Wenn Sie dies noch nicht gemacht haben, oder nicht wissen wie man eine Sicherung der Datenbank erstellt, folgen Sie bitte dem Link.<BR><BR><table border="0" cellspacing="0" cellpadding="0">
+<tr valign="top"><td nowrap><img src="img/article/intlink_1.gif" alt="" /><img src="img/leer.gif" width="1" height="11" alt="" /></td>
+<td><a href="index.php?id=198,159,0,0,1,0" target="_self" class="articleLinkInternal">Datenbank sichern</a></td></tr></table>
+<BR>Falls Sie schon eine Sicherung der Datenbank gemacht haben lesen Sie einfach weiter.<HR><table width="158" border="0" cellspacing="0" cellpadding="0" align="left">
+<tr><td class="image_td"><a href="image_zoom.php?show=YjVkNGI3MzU0ZmJkNjdkOTQyZDk5ODBjNjg1OWU4OWIucG5nP3dpZHRoPSI3NjUiIGhlaWdodD0iNjAwIg==" onClick="checkClickZoom();clickZoom('image_zoom.php?show=YjVkNGI3MzU0ZmJkNjdkOTQyZDk5ODBjNjg1OWU4OWIucG5nP3dpZHRoPSI3NjUiIGhlaWdodD0iNjAwIg==','previewpic','width=765,height=600');return false;" target="_blank"><img src="content/images/0a8083b208c01b247cb9eeee2438aa5e.png" width="150" height="118" border="0" class="image_img" alt="upgrade1.png"></a></td><td><img src="img/leer.gif" width="8" height="1" alt="" /></td></tr>
+</table><div class="articleText">Nun kommen Sie zum eigentlichen Updateprozess. Rufen sie dazu die <strong><em>upgrade.php</em></strong> auf. Diese finden Sie im Setup Ordner Ihrer phpWCMS Installation. (<em>http://www.ihre_domain.com/setup/updgrade.php</em> oder <em>http://www.ihre_domain.com/unterordner/setup/upgrade.php</em>)<br/><br/>Wenn Sie die <strong><em>upgrade.php </em></strong>aufgerufen haben sehen Sie folgende &Uuml;bersicht (Siehe Bild links)<br/><br/><br/>Im oberen Linken Bereich sehen folgende Felder:<br/><br/><strong>db host: </strong>Ihr Datenbank Host (meist localhost)<br/><br/><strong>db name: </strong>Ihr Datenbankname<br/><br/><strong>db user: </strong>Der Datenbankbenutzer<br/><br/><strong>db prepend: </strong><br/><br/><strong>select sql file:</strong> Hier w&auml;hlen Sie die SQL Datei aus mit der phpWCMS aktualisiert werden soll.</div><div style="margin:20px 0 0 0; padding:0 0 0 0; clear:both;"></div><table width="158" border="0" cellspacing="0" cellpadding="0" align="left">
+<tr><td class="image_td"><a href="image_zoom.php?show=ZWU3MjU3MTQxYTllMGM1YWZmZDI0ZWRlZWQ2YjdhOWIucG5nP3dpZHRoPSI4MDAiIGhlaWdodD0iNTkyIg==" onClick="checkClickZoom();clickZoom('image_zoom.php?show=ZWU3MjU3MTQxYTllMGM1YWZmZDI0ZWRlZWQ2YjdhOWIucG5nP3dpZHRoPSI4MDAiIGhlaWdodD0iNTkyIg==','previewpic','width=800,height=592');return false;" target="_blank"><img src="content/images/1556880242b636ae68869177a7580c1f.png" width="150" height="111" border="0" class="image_img" alt="upgrade2.png"></a></td><td><img src="img/leer.gif" width="8" height="1" alt="" /></td></tr>
+</table><div class="articleText"><table height="129" cellspacing="0" cellpadding="0" width="70%" border="0"><tbody><tr><td valign="top">Dr&uuml;cken Sie nun auf das Auswahlfeld <strong><em>select sql file.<br/><br/></em></strong>Nun sehen Sie folgende auswahl:<br/><br/><strong>phpwcms_1.1-RC4_31-05-2004.sql<br/>phpwcms_1.1-RC4_25-08-2004.sql<br/>phpwcms_1.1-RC4_22-04-2004.sql<br/>phpwcms_update_older.sql<br/>phpwcms_1.1-RC4_13-08-2004.sql<br/>phpwcms_1.1-RC4_08-06-2004.sql</strong></td></tr></tbody></table><strong><br/><br/></strong>W&auml;hlen Sie aus dieser Liste das erste Datum nach dem Release das Sie installiert haben. In diesem Falle w&auml;re das <strong>phpwcms_1.1-RC4_13-08-2004.sql<br/></strong><br/>Falls Sie eine Version installiert haben, die &auml;lter ist als die Datumsangaben in den SQL Dateien, starten Sie&nbsp;bitte&nbsp;mit <strong>phpwcms_update_older.sql.</strong></div><div style="margin:20px 0 0 0; padding:0 0 0 0; clear:both;"></div><table width="158" border="0" cellspacing="0" cellpadding="0" align="left">
+<tr><td class="image_td"><a href="image_zoom.php?show=NzI4ZmQ0NDQ4NzcyYWIwMzcwMjlhODhkN2Y5OTA3MDUucG5nP3dpZHRoPSI3NjUiIGhlaWdodD0iNjAwIg==" onClick="checkClickZoom();clickZoom('image_zoom.php?show=NzI4ZmQ0NDQ4NzcyYWIwMzcwMjlhODhkN2Y5OTA3MDUucG5nP3dpZHRoPSI3NjUiIGhlaWdodD0iNjAwIg==','previewpic','width=765,height=600');return false;" target="_blank"><img src="content/images/0a8b9ac18b746b484d4db76c280eb01d.png" width="150" height="118" border="0" class="image_img" alt="upgrade3.png"></a></td><td><img src="img/leer.gif" width="8" height="1" alt="" /></td></tr>
+</table><div class="articleText">Jetzt sehen Sie in der Textbox welche Eintr&auml;ge in der Datenbank vorgenommen werden. Dr&uuml;cken Sie auf <strong><em>Start Upgrade</em></strong> um die Neuerungen zu &uuml;bernehmen.<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></div><div style="margin:20px 0 0 0; padding:0 0 0 0; clear:both;"></div><table width="158" border="0" cellspacing="0" cellpadding="0" align="left">
+<tr><td class="image_td"><a href="image_zoom.php?show=YjRhMTkwMTdhNDRiYWM0Mjc3NjJkZWI0Y2IzZTFmYzYucG5nP3dpZHRoPSI4MDAiIGhlaWdodD0iNTk3Ig==" onClick="checkClickZoom();clickZoom('image_zoom.php?show=YjRhMTkwMTdhNDRiYWM0Mjc3NjJkZWI0Y2IzZTFmYzYucG5nP3dpZHRoPSI4MDAiIGhlaWdodD0iNTk3Ig==','previewpic','width=800,height=597');return false;" target="_blank"><img src="content/images/810f90e971a56b586752a0bd39c97a77.png" width="150" height="112" border="0" class="image_img" alt="upgrade4.png"></a></td><td><img src="img/leer.gif" width="8" height="1" alt="" /></td></tr>
+</table><div class="articleText"><table cellspacing="0" cellpadding="0" width="70%" border="0"><tbody><tr><td>Nachdem die Datenbank-Aktualisierung durchgef&uuml;hrt wurde, sehen Sie hier eine &Uuml;bersicht der Aktualisierungen die vorgenommen wurden.<br/><br/>Um weitere Aktualisierungen durchzuf&uuml;hren klicken Sie einfach auf <strong><em>Choose another SQL file</em></strong>. Dann gelangen Sie zum Startbildschirm der Upgradefunktion zur&uuml;ck. Von dort aus k&ouml;nnen Sie wie&nbsp;gerade beschrieben weitere Updates, falls n&ouml;tig und vorhanden, einspielen.<br/><br/><br/><br/><br/></td></tr></tbody></table></div><div style="margin:20px 0 0 0; padding:0 0 0 0; clear:both;"></div><table width="158" border="0" cellspacing="0" cellpadding="0" align="left">
+<tr><td class="image_td"><a href="image_zoom.php?show=NTE4MGRkOWFmYTAzMGIzZDUxYTAyNmQxMTU3YzhmNjgucG5nP3dpZHRoPSI4MDAiIGhlaWdodD0iNTk3Ig==" onClick="checkClickZoom();clickZoom('image_zoom.php?show=NTE4MGRkOWFmYTAzMGIzZDUxYTAyNmQxMTU3YzhmNjgucG5nP3dpZHRoPSI4MDAiIGhlaWdodD0iNTk3Ig==','previewpic','width=800,height=597');return false;" target="_blank"><img src="content/images/a8e003cb08677469d08cd11b378c9228.png" width="150" height="112" border="0" class="image_img" alt="upgrade5.png"></a></td><td><img src="img/leer.gif" width="8" height="1" alt="" /></td></tr>
+</table><div class="articleText"><table height="130" cellspacing="0" cellpadding="0" width="70%" border="0"><tbody><tr><td>Falls Sie diesen Fehler angezeigt bekommen, haben Sie entweder eine aktuelle Version in der keine Updates n&ouml;tig sind oder ein falsches SQL File ausgew&auml;hlt.<br/><br/>Bitte klicken Sie dann wieder auf <strong><em>Choose another SQL file</em></strong> um das n&auml;chste Update - falls vorhanden - auszuw&auml;hlen.<br/><br/><br/></td></tr></tbody></table></div><div align="right"><a href="#top"><img src="img/article/top_link_0.gif" border="0" alt="" /></a></div>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td colspan="2"><HR></td>
+  </tr>
+  <tr>
+    <td width="50%">Artikel erstellt: 2004/09/02</td>
+    <td align="right" width="50%">Letzte Änderung: 2005/05/29</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2" class="comment">Wenn sie einen Fehler entdecken eine Ergänzung oder Frage haben benutzen Sie bitte folgendes <a href="#" onClick="javascript:window.open('http://www.phpwcms-docu.de/content/pages/nachricht.htm','frage','width=400, height=250, screenX=440,screenY=200,menubar=no,statusbar=yes,scrollbar=yes,resizable=no');" target="" style="max-width:148px; overflow:hidden;"><u>Formular</u></a>.<br><BR>
+Hat Ihnen oder Ihrem Kunden diese Docu weitergeholfen ? Dann würde ich mich freuen wenn Sie das Projekt unterstützen würden. Bitte nutzen Sie dafür diesen <a href="https://www.paypal.com/xclick/business=support%40docu.fhss.de&item_name=phpwcms+support&no_shipping=1&no_note=1&tax=0&currency_code=EUR&lc=US" target="_blank">PayPal</a> Link. Jeder Betrag ist möglich und hilft der Weiterentwicklung und Aktualisierung dieser Dokumentation.<BR>
+Diese Seite nutzt die version: 
+</td>
+  </tr>
+  <tr>
+
+    <td colspan="2"><img src="img/leer.gif" border="0" width="10" height="10" alt="" /></td>
+  </tr>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="height:10px;"  bgcolor="#ffffff" class="footer"><table width="100%" height="20" background="img/footer.gif" cellpadding="0" cellspacing="0" border="0">
+	<tr><td width="180" align="center" valign="middle">6 User online</td>
+	<td>
+	<table width="100%"cellpadding="0" cellspacing="0" border="0">
+   <tr>
+    <td align="center"><a href="javascript:history.back();" target="_top" title="go back"><img src="picture/back_.gif" border="0" alt="Zurueck"><img src="content/gt/13c1f733e9ee7693bf810fd5f035d0b7.png" alt="Zur&uuml;ck" border="0" /></a></td>
+	<td align="center"><a href="index.php?sitemap_de"><img src="picture/sitemap_.gif" border="0"  alt="Sitemap"><img src="content/gt/38062c01670c74843cc0b291d94966c6.png" alt="Sitemap" border="0" /></a></td>
+	<td align="center"><a href="index.php?id=193,153,1,1,1,0" target="_blank"><img src="picture/print_.gif" border="0" alt="Drucken"><img src="content/gt/811a35c6cb2c5555a2f32d85b1bb5deb.png" alt="Drucken" border="0" /></a></td>
+	<td align="center"><a href="index.php?gaestebuch"><img src="picture/icon_gaestebuch.gif" border="0" align="top" alt="Gästebuch"><img src="content/gt/1257c79a2b085b5641453b0f6e0fe1fd.png" alt="G&auml;stebuch" border="0" /></a></td>
+	<td align="center"><a href="#" onClick="BookMark_Page();return false;" title=""><img src="picture/favoriten_.gif" border="0"  alt="Lesezeichen"><img src="content/gt/7ce0fe74ab60b3da559a77c54fb85a80.png" alt="Lesezeichen" border="0" /></a></td>
+    </tr>
+</table></td>
+	</tr>
+</table>
+<img src="img/leer.gif" border="0" width="760" height="10" alt="" /></td>
+</tr>
+</table>
+</body>
+</html>
