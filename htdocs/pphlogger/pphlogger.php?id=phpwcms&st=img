@@ -1,1 +1,0 @@
-unable to connect to database on 'localhost' with user 'docudocu'<br />(1045) Access denied for user: 'docudocu@localhost' (Using password: YES)<br />Please check your settings in config.inc.php !<br />
