@@ -53,7 +53,7 @@ function MM_jumpMenuGo(selName,targ,restore){ //v3.0
 <meta name="resource-type" content="document" />
 <meta name="distribution" content="Global" />
 <meta name="generator" content="PHPWCMS" />
-<meta name="verify-v1" content="1ZpxZ7AZsjm7PxjqXQVus0eiUYqOsp5URTJn9q4KNz8=" />
+
   <!--[if lt IE 7]>
   <style type="text/css">
     body { behavior: url("template/inc_css/specific/csshover2.htc"); }
@@ -130,7 +130,7 @@ function MM_jumpMenuGo(selName,targ,restore){ //v3.0
 	  
 	<div id="right">
 		<div style="margin-top:24px;">			
-		<form action="index.php?suche" method="post" name="searchFE" onsubmit="s=document.getElementById('customSearchInput');if(s.value=='Suchen')return false;">
+		<form action="#" method="post" name="searchFE" onsubmit="s=document.getElementById('customSearchInput');if(s.value=='Suchen')return false;">
 			<table width="100%" border="0" cellpadding="0" cellspacing="0">
 			<tr>
 					<td><input type="text" name="search_input_field" size="20" maxlength="200" id="customSearchInput" class="customSearchInput" value="" onfocus="if(this.value=='Suchen')this.value='';" onblur="if(this.value=='')this.value='Suchen';" /></td>
@@ -194,109 +194,7 @@ function MM_jumpMenuGo(selName,targ,restore){ //v3.0
 				
 	</div>
 	
-<div id="footer"><br /><br />
-<p style="height:30px;">&nbsp;</p>
-
-
- <script type="text/javascript" language="javascript">
-<!--
-
-var showDefaultValue =  0
-
-function hideLayer(whichLayer) {
-	if (document.getElementById) {
-		// this is the way the standards work
-		document.getElementById(whichLayer).style.display = "none";
-	} else if (document.all) {
-		// this is the way old msie versions work
-		document.all[whichlayer].style.display = "none";
-	} else if (document.layers) {
-		// this is the way nn4 works
-		document.layers[whichLayer].display = "none";
-	}
-}
-
-function showLayer(whichLayer) {
-		//	alert(whichLayer);
-	if (document.getElementById) {
-		// this is the way the standards work
-		document.getElementById(whichLayer).style.display = "block";
-	}
-	else if (document.all) {
-		// this is the way old msie versions work
-		document.all[whichlayer].style.display = "block";
-	}
-	else if (document.layers) {
-		// this is the way nn4 works
-		document.layers[whichLayer].display = "block";
-	}
-}
-
-function toggleLayer(whichLayer) {
-	if(showDefaultValue == 0) {
-		hideLayer(whichLayer);
-		showDefaultValue = 1;
-	} else {
-		showLayer(whichLayer);
-		showDefaultValue = 0;
-	}
-}
-//-->
-</script>
-
-
-<div id="alles">
-<div id="klapper" onclick="toggleLayer('formular');">
-<table width="570" border="0" cellspacing="0" cellpadding="0">
-<tr>
-<td><em style="color:#275EA8;" onmouseover="this.style.color='#4F96F4';" onmouseout="this.style.color='#275EA8';">Sie haben Anregungen oder Kritik zu diesem Artikel? Schreiben Sie uns!</em></td>   
-<td align="right" style="padding-right:2px;"><img src="template/lang/all/icons/write.gif" width="16" height="21" alt="" border="0" /></td>
-</tr>
-</table>
-
-</div>
-<div id="formular">
-
-<form name="form" method="post" action="index.php?id=319,420,0,0,1,0" style="margin:0;padding:0;"><input type="hidden" name="customForm" value="1" /><input type="hidden" name="docucheck" value="1" />
-
-
-<div style="float:left;">
-<p><select name="Betreff" id="Betreff" class="size1">
-<option value="" class="deepblue"> Bitte ausw&auml;hlen </option>
-<option value="subject_1" class="inselect">Anregungen</option>
-<option value="subject_2" class="inselect">Fehlermeldung/ Kritik</option>
-<option value="subject_3" class="inselect">Sonstiges</option>
-
-</select><br /></p>
-
-
-<p>Vorname:<br />
-<input type="text" name="Vorname" value="" class="size1" /></p>
-<p>Name:*<br />
-<input type="text" name="Name" value="" class="size1" /></p>
-<p>E-Mail:*<br />
-<input type="text" name="E-Mail" value="" class="size1" /></p>
-</div>
-
-
-<div style="float:right;">Mitteilung:*<br />
-<textarea name="Nachricht" cols="40" rows="4"  class="size7"></textarea>
-</div>
-
-<p style="clear:both; text-align:right;"><input type="reset" name="reset" value="Zur&uuml;cksetzen" class="btstyle" style="width:100px;" />&nbsp;&nbsp;
-<input type="submit" name="submit" value="Anfrage senden" class="btstyle" style="width:110px;" /></p>
-<p style="margin:20px;" class="sub">* Pflichtangaben. Ihre Daten werden ausschlie&szlig;lich für diese Anfrage verwendet.</p>
-
-</form>
-</div>
-</div>
- <script type="text/javascript" language="javascript">
-<!--
-	// Lösung ohne Onload
-	toggleLayer('formular');
-//-->
-</script>
-<br />
+<div id="footer">
 
 
 

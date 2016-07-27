@@ -33,7 +33,7 @@
 <meta name="resource-type" content="document" />
 <meta name="distribution" content="Global" />
 <meta name="generator" content="PHPWCMS" />
-<meta name="verify-v1" content="1ZpxZ7AZsjm7PxjqXQVus0eiUYqOsp5URTJn9q4KNz8=" />
+
   <!--[if lt IE 7]>
   <style type="text/css">
     body { behavior: url("template/inc_css/specific/csshover2.htc"); }
@@ -105,7 +105,7 @@ work with phpwcms and to focus on the essentials things.</p>
 	  
 	<div id="right">
 		<div style="margin-top:24px;">			
-		<form action="index.php?search" method="post" name="searchFE" onsubmit="s=document.getElementById('customSearchInput');if(s.value=='Search')return false;">
+		<form action="#" method="post" name="searchFE" onsubmit="s=document.getElementById('customSearchInput');if(s.value=='Search')return false;">
 			<table width="100%" border="0" cellpadding="0" cellspacing="0">
 			<tr>
 					<td><input type="text" name="search_input_field" size="20" maxlength="200" id="customSearchInput" class="customSearchInput" value="" onfocus="if(this.value=='Search')this.value='';" onblur="if(this.value=='')this.value='Search';"/></td>
@@ -129,23 +129,7 @@ work with phpwcms and to focus on the essentials things.</p>
 	 </p>
 
 <div style="border-bottom:1px dotted #dae7f6; margin-top:10px; margin-bottom:15px;"></div>
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_xclick" />
-<input type="hidden" name="business" value="support@docu.fhss.de" />
-<input type="hidden" name="item_name" value="phpwcms-docu.de" />
-<input type="hidden" name="buyer_credit_promo_code" value="" />
-<input type="hidden" name="buyer_credit_product_category" value="" />
-<input type="hidden" name="buyer_credit_shipping_method" value="" />
-<input type="hidden" name="buyer_credit_user_address_change" value="" />
-<input type="hidden" name="no_shipping" value="0" />
-<input type="hidden" name="no_note" value="1" />
-<input type="hidden" name="currency_code" value="EUR" />
-<input type="hidden" name="tax" value="0" />
-<input type="hidden" name="lc" value="DE" />
-<input type="hidden" name="bn" value="PP-DonationsBF" />
-<input type="image" src="template/img/paypal.gif" name="submit" title="Make a donation ..." alt="Make a donation ..." />
-<img alt="" border="0" src="https://www.paypal.com/de_DE/i/scr/pixel.gif" width="1" height="1" />
-</form>
+
 <div style="border-bottom:1px dotted #dae7f6; margin-top:10px; margin-bottom:15px;"></div>
 <!-- <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fwww.phpwcms-docu.de%2Findex.php%3Fdeutsche_version" title="W3C Standard XHTML" target="_blank"><img src="picture/w3c/w3c_xhtml.gif" border="0" alt="" /></a>
 <a href="http://jigsaw.w3.org/css-validator/validator?uri=http://www.phpwcms-docu.de" title="W3C Standard CSS" target="_blank"><img src="picture/w3c/w3c_css.gif" border="0" alt="" /></a><br />			
@@ -178,106 +162,7 @@ work with phpwcms and to focus on the essentials things.</p>
 				
 	</div>
 	
-<div id="footer"><br /><br />
-<p style="height:30px;">&nbsp;</p>
-
-
- <script type="text/javascript" language="javascript">
-<!--
-
-var showDefaultValue =  0
-
-function hideLayer(whichLayer) {
-	if (document.getElementById) {
-		// this is the way the standards work
-		document.getElementById(whichLayer).style.display = "none";
-	} else if (document.all) {
-		// this is the way old msie versions work
-		document.all[whichlayer].style.display = "none";
-	} else if (document.layers) {
-		// this is the way nn4 works
-		document.layers[whichLayer].display = "none";
-	}
-}
-
-function showLayer(whichLayer) {
-		//	alert(whichLayer);
-	if (document.getElementById) {
-		// this is the way the standards work
-		document.getElementById(whichLayer).style.display = "block";
-	}
-	else if (document.all) {
-		// this is the way old msie versions work
-		document.all[whichlayer].style.display = "block";
-	}
-	else if (document.layers) {
-		// this is the way nn4 works
-		document.layers[whichLayer].display = "block";
-	}
-}
-
-function toggleLayer(whichLayer) {
-	if(showDefaultValue == 0) {
-		hideLayer(whichLayer);
-		showDefaultValue = 1;
-	} else {
-		showLayer(whichLayer);
-		showDefaultValue = 0;
-	}
-}
-//-->
-</script>
-
-
-<div id="alles">
-<div id="klapper" onclick="toggleLayer('formular');">
-<table width="570" border="0" cellspacing="0" cellpadding="0">
-<tr>
-<td><em style="color:#275EA8;" onmouseover="this.style.color='#4F96F4';" onmouseout="this.style.color='#275EA8';">You have suggestions or criticism to this article? Write us!</em></td>   
-<td align="right" style="padding-right:2px;"><img src="template/lang/all/icons/write.gif" width="16" height="21" alt="" border="0" /></td>
-</tr>
-</table>
-
-</div>
-<div id="formular">
-
-<form name="form" method="post" action="index.php?id=327,261,0,1,1,0" style="margin:0;padding:0;"><input type="hidden" name="customForm" value="1" /><input type="hidden" name="docucheck" value="1" />
-
-
-<div style="float:left;">
-<p><select name="Betreff" id="Betreff" class="size1">
-<option value="" class="deepblue"> Select </option>
-
-</select><br /></p>
-
-
-<p>Firstname:<br />
-<input type="text" name="Vorname" value="" class="size1" /></p>
-<p>Surname:*<br />
-<input type="text" name="Name" value="" class="size1" /></p>
-<p>E-Mail:*<br />
-<input type="text" name="E-Mail" value="" class="size1" /></p>
-</div>
-
-
-<div style="float:right;">Message:*<br />
-<textarea name="Nachricht" cols="40" rows="4"  class="size7"></textarea>
-</div>
-
-<p style="clear:both; text-align:right;"><input type="reset" name="reset" value="Reset" class="btstyle" style="width:100px;" />&nbsp;&nbsp;
-<input type="submit" name="submit" value="Send email" class="btstyle" style="width:110px;" /></p>
-<p style="margin:20px;" class="sub">* Required fields.<br />Your data is used exclusively for this inquiry.</p>
-
-</form>
-</div>
-</div>
- <script type="text/javascript" language="javascript">
-<!--
-	// Lösung ohne Onload
-	toggleLayer('formular');
-//-->
-</script>
-<br />
+<div id="footer">
 
 
 
