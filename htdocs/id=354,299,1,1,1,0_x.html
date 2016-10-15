@@ -1,0 +1,277 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!--
+	phpwcms | free open source content management system
+	created by Oliver Georgi (oliver at phpwcms dot de) and licensed under GNU/GPL.
+	phpwcms is copyright 2003-2007 of Oliver Georgi. Extensions are copyright of
+	their respective owners. Visit project page for details: http://www.phpwcms.org/
+//-->
+<title>Update 1.2.x &gt; 1.x.x{D:9/10/2005,30,newR.gif} | Update Version 1.2.x</title>
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+  <meta http-equiv="content-style-type" content="text/css" />
+  <script src="phpwcms_template/inc_js/frontend.js" type="text/javascript"></script>
+  <style type="text/css" media="all">
+  <!-- 
+    body {
+      margin: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+      padding-left: 0;
+      padding-right: 0;
+
+    }
+  //-->
+  </style>
+  <style type="text/css">
+  <!-- 
+    @import url("phpwcms_template/inc_css/frontend.css");
+    @import url("phpwcms_template/inc_css/nlu_navi1_docu.css");
+  //-->
+  </style>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-361662-1";
+urchinTracker();
+</script>
+<META NAME="Title" CONTENT="The phpWCMS Documentation">
+<meta name="author" content="Oliver Frohnert">
+<meta name="Publisher" content="Oliver Frohnert">
+<meta name="Copyright" content="Oliver Frohnert">
+<meta name="keywords" content="frohnert,documentation, dokumentation, phpwcms, cms. opensource, open source">
+<meta name="description" content="A Documentation Project for the  Open Source CMS phpWCMS">
+<meta name="Audience" content="Alle">
+<meta name="Content-language" content="EN">
+<META NAME="robots"      CONTENT="index,follow">
+<META NAME="expires" CONTENT="0">
+<meta name="revisit-after" content="7 days">
+<meta name="resource-type" content="document">
+<meta name="distribution" content="Global">
+<meta name="generator" content="PHPWCMS">
+<META name="verify-v1" content="1ZpxZ7AZsjm7PxjqXQVus0eiUYqOsp5URTJn9q4KNz8=" />
+  <!--[if lt IE 7]>
+  <style type="text/css">
+    body { behavior: url("phpwcms_template/inc_css/specific/csshover2.htc"); }
+    img { behavior: url("phpwcms_template/inc_css/specific/pngbehavior.htc"); }
+  </style>
+  <![endif]-->
+</head>
+<body>
+
+
+<!--
+
+	this is the default PDF template
+	use it to add additional header or
+	footer information or whatever you 
+	like to be rendered 
+
+//-->
+URL: <a href="./index.php?id=354,299,1,1,1,0" target="_blank">./index.php?id=354,299,1,1,1,0</a>
+<hr />
+<img src="img/leer.gif" border="0" width="10" height="1" alt="" />
+<br />
+<a href="english_version.html">English</a> <span class="breadcrumb_spacer">&gt;</span> <a href="installation_en.html">Installation &amp; Upgrade<img src="picture/myRT1/newR.gif" alt="6/28/2007" border="0"></a> <span class="breadcrumb_spacer">&gt;</span> Update 1.2.x &gt; 1.x.x
+<br />
+<HR>
+<br />
+<a name="jump299"></a><div>
+<h1 style="margin:0 0 5px 0;">Update Version 1.2.x</h1>
+
+
+</div><div style="margin:25px 0 0 0;padding:0;" class="spaceBeforeCP"></div><div class="kasten">Before you start with the update make a backup of&nbsp;<strong>all</strong> your files and of your database.</div><h4>How to backup a database?</h4>
+
+<ul class="articleLinkInternal">
+
+	<li><a href="aid=196.html">Database Backup<img src="picture/myRT1/devR.gif" border="0" alt="" /></a></li>
+
+</ul>
+
+<hr/><h3>1. Preparations</h3>After you have made a backup of all your files as well as downloaded and unpacked the actual developer version (DEV), please edit first the file <strong>conf.inc.php</strong>. This file <strong>conf.inc.php</strong> is from now on in the following folder: <strong>config/phpwcms/</strong>.<br/>
+Please edit the file <strong>conf.inc.php,</strong> so that the settings comply with the settings of the old version.<br/>
+<br/>
+Furthermore you have to adapt the following files:<br/>
+<br/>
+1. /config/phpwcms/conf.template_default.inc.php<br/>
+2. /phpwcms_template/inc_css/frontend.css<br/>
+<br/>
+These are the files that will be changed very often. If you have made further changes in other files, please adapt these files too.<br/>
+<hr/><h3>2. File Upload</h3>Now you have to upload the adapted developer version with an ftp program and overwrite the existing version.<hr/><div align="right"><a href="#top"><img src="img/article/top_link_0.gif" border="0" alt="" /></a></div><h3>3. Placing of file and folder rights</h3>Place the file and folder rights with the ftp program to assure the correct execution of all phpWCMS functions.<br /><br />
+<table align="center" border="0">
+    <tbody>
+        <tr>
+            <td width="25">Folder</td>
+            <td width="10">&nbsp;</td>
+            <td>phpwcms_ftp</td>
+            <td width="10">&nbsp;</td>
+            <td>777</td>
+        </tr>
+        <tr>
+            <td width="25">Folder</td>
+            <td width="10">&nbsp;</td>
+            <td>phpwcms_filestorage</td>
+            <td width="10">&nbsp;</td>
+            <td>777</td>
+        </tr>
+        <tr>
+            <td width="25">Folder</td>
+            <td width="10">&nbsp;</td>
+            <td>content</td>
+            <td width="10">&nbsp;</td>
+            <td>777</td>
+        </tr>
+        <tr>
+            <td width="25">Folder</td>
+            <td width="10">&nbsp;</td>
+            <td>content/images</td>
+            <td width="10">&nbsp;</td>
+            <td>777</td>
+        </tr>
+        <tr>
+            <td width="25">Folder</td>
+            <td width="10">&nbsp;</td>
+            <td>content/gt</td>
+            <td width="10">&nbsp;</td>
+            <td>777</td>
+        </tr>
+        <tr>
+            <td width="25">Folder</td>
+            <td width="10">&nbsp;</td>
+            <td>content/form</td>
+            <td width="10">&nbsp;</td>
+            <td>777</td>
+        </tr>
+        <tr>
+            <td width="25">Folder</td>
+            <td width="10">&nbsp;</td>
+            <td>content/rss</td>
+            <td width="10">&nbsp;</td>
+            <td>777</td>
+        </tr>
+        <tr>
+            <td width="25">Folder</td>
+            <td width="10">&nbsp;</td>
+            <td>content/tmp</td>
+            <td width="10">&nbsp;</td>
+            <td>777</td>
+        </tr>
+        <tr>
+            <td width="25">Folder</td>
+            <td width="10">&nbsp;</td>
+            <td>content/pages</td>
+            <td width="10">&nbsp;</td>
+            <td>777</td>
+        </tr>
+        <tr>
+            <td width="25">&nbsp;</td>
+            <td width="10">&nbsp;</td>
+            <td>&nbsp;</td>
+            <td width="10">&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td width="25">File</td>
+            <td width="10">&nbsp;</td>
+            <td>phpwcms_template/inc_css/frontend.css</td>
+            <td width="10">&nbsp;</td>
+            <td>666</td>
+        </tr>
+        <tr>
+            <td width="25">File</td>
+            <td width="10">&nbsp;</td>
+            <td>config/phpwcms/conf.indexpage.inc.php</td>
+            <td width="10">&nbsp;</td>
+            <td>666</td>
+        </tr>
+        <tr>
+            <td width="25">File</td>
+            <td width="10">&nbsp;</td>
+            <td>phpwcms_template/inc_default/startup.php</td>
+            <td width="10">&nbsp;</td>
+            <td>666</td>
+        </tr>
+    </tbody>
+</table>
+<hr /><div align="right"><a href="#top"><img src="img/article/top_link_0.gif" border="0" alt="" /></a></div><h3>4. Update of the Database</h3><div class="imgDIVinTextLeft" align="left"><div class="image_td"><a href="zoom/YjA5ZDU2NzA5NDkzYWYxZjllNjFiNjQwMDRiZjQ3YmQucG5nP3dpZHRoPSI4MDAiIGhlaWdodD0iNTk0Ig.html" onclick="checkClickZoom();clickZoom('zoom/YjA5ZDU2NzA5NDkzYWYxZjllNjFiNjQwMDRiZjQ3YmQucG5nP3dpZHRoPSI4MDAiIGhlaWdodD0iNTk0Ig.html','previewpic','width.html');return false;.html"><img src="content/images/7a2e002b7b27069a7920c17c57447b67.png" width="150" height="111" border="0" class="image_img" alt="upgrade_1_2_1_a.png" /></a></div></div><div class="articleText"><table height="135" cellspacing="0" cellpadding="0" width="70%" border="0">
+    <tbody>
+        <tr>
+            <td valign="top">
+            <p align="left">Now you get to the intrinsic update process. For this you have to call the <strong>upgrade.php</strong>. This file is in the setup folder of your&nbsp;phpWCMS installation. (<a href="http://www.your_domain.com/setup/upgrade.php">http://www.your_domain.com/setup/upgrade.php</a> oder <a href="http://www.your_domain.com/subfolder/setup/upgrade.php">http://www.your_domain.com/subfolder/setup/upgrade.php</a>) <br/>
+            <br/>
+            When having called the file upgrade.php, you will see the following overview (see left picture): In the left area above you will see the following fields: <br/>
+            <br/>
+            <strong>db host</strong>:&nbsp;Your database host&nbsp;(mostly localhost) <br/>
+            <br/>
+            <strong>db name</strong>:&nbsp;Your database name&nbsp;<br/>
+            <br/>
+            <strong>db user</strong>:&nbsp;The database user&nbsp;<br/>
+            <br/>
+            <strong>db prepend</strong>: <br/>
+            <br/>
+            <strong>select sql file</strong>: Here you choose the SQL file that will actualize&nbsp;phpWCMS.<br/>
+            </p>
+            <p>&nbsp;</p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<hr/></div><div align="right"><a href="#top"><img src="img/article/top_link_0.gif" border="0" alt="" /></a></div><h3>5. Execute SQL-Update</h3><div class="imgDIVinTextLeft" align="left"><div class="image_td"><a href="zoom/YjliMTI4MTllYWFjMDg2N2ExN2Q0ZGZlZWI3N2YzNjgucG5nP3dpZHRoPSI4MDAiIGhlaWdodD0iNjA4Ig.html" onclick="checkClickZoom();clickZoom('zoom/YjliMTI4MTllYWFjMDg2N2ExN2Q0ZGZlZWI3N2YzNjgucG5nP3dpZHRoPSI4MDAiIGhlaWdodD0iNjA4Ig.html','previewpic','width.html');return false;.html"><img src="content/images/b62c1ab67d8538f21c6014cde9870c4b.png" width="150" height="114" border="0" class="image_img" alt="upgrade_1_2_1_aa.png" /></a></div></div><div class="articleText"><table height="135" cellspacing="0" cellpadding="0" width="70%" border="0">
+    <tbody>
+        <tr>
+            <td>
+            <p align="justify">Please klick the drop down field&nbsp;&quot;select sql file&quot;. <br /><br />You will see the following choices: <br /><br />00__phpwcms_update_older.sql<br />01__phpwcms_1.1-RC4_22-04-2004.sql<br />02__phpwcms_1.1-RC4_31-05-2004.sql<br />03__phpwcms_1.1-RC4_08-06-2004.sql<br />04__phpwcms_1.1-RC4_13-08-004.sql<br />05__phpwcms_1.1-RC4_25-08-004.sql<br />06__phpwcms_1.1-RC4_15-10-004.sql<br />07__1.1.5-DEV_to_1.1.9-DEV.sql<br />07__27-08-2004_to_1.1.9-DEV.sql<br />08__1.1.9-DEV_to_1.2-DEV.sql&nbsp;<br /><!--StartFragment --> 09__1.2.1-DEV_to_1.2.2-DEV.sql<br />10__1.2.2-DEV_to_1.2.3-DEV.sql<br />11__1.2.3-DEV_to_1.2.4-DEV.sql<br />12__1.2.4-DEV_to_1.2.5-DEV.sql <br /><br />Please choose from this list the first date after the release that you have installed. <br /><br /><br />When you have installed a version that is older than the date specification in the SQL files, please begin with the file &quot;phpwcms_update_older.sql&quot;. <br /></p>
+            </td>
+        </tr>
+    </tbody>
+</table></div><div style="margin:5px 0 0 0;padding:0;" class="spaceBeforeCP"></div><div class="imgDIVinTextLeft" align="left"><div class="image_td"><a href="zoom/YjU5ODg1MmZmOWQxMjBkNzAxMWUwMzgwNzk3NDM0ZjkucG5nP3dpZHRoPSI4MDAiIGhlaWdodD0iNjA4Ig.html" onclick="checkClickZoom();clickZoom('zoom/YjU5ODg1MmZmOWQxMjBkNzAxMWUwMzgwNzk3NDM0ZjkucG5nP3dpZHRoPSI4MDAiIGhlaWdodD0iNjA4Ig.html','previewpic','width.html');return false;.html"><img src="content/images/3747d441e1a4003c961fd7361cf58055.png" width="150" height="114" border="0" class="image_img" alt="upgrade_1_2_1_3.png" /></a></div></div><div class="articleText"><table height="135" cellspacing="0" cellpadding="0" width="70%" border="0">
+    <tbody>
+        <tr>
+            <td valign="top">
+            <p align="justify">Now you will see in the textarea what entries will be made in the database. Press the &quot;Upgrade&quot; button to accept the alterations. <br/>
+            </p>
+            </td>
+        </tr>
+    </tbody>
+</table></div><div style="margin:5px 0 0 0;padding:0;" class="spaceBeforeCP"></div><div class="imgDIVinTextLeft" align="left"><div class="image_td"><a href="zoom/ZGU5OTQ3OTE2MjFiM2ZjNmIwNjkzZDE4YjdlZTEyOWIucG5nP3dpZHRoPSI4MDAiIGhlaWdodD0iNTk3Ig.html" onclick="checkClickZoom();clickZoom('zoom/ZGU5OTQ3OTE2MjFiM2ZjNmIwNjkzZDE4YjdlZTEyOWIucG5nP3dpZHRoPSI4MDAiIGhlaWdodD0iNTk3Ig.html','previewpic','width.html');return false;.html"><img src="content/images/cc846431a0ec6e9cad0a84aedcf5dfe0.png" width="150" height="112" border="0" class="image_img" alt="upgrade_1_2_1_4.png" /></a></div></div><div class="articleText"><table height="135" cellspacing="0" cellpadding="0" width="70%" border="0">
+    <tbody>
+        <tr>
+            <td valign="top">
+            <p align="justify">After executing the database actualisation, you can see here an overview of all the taken changes. <br/>
+            <br/>
+            To execute further actualisations simply click <strong><em>Choose another SQL file</em></strong>. Then you arrive back&nbsp;at&nbsp;the start point of the upgrade function. From there you can import further updates as already described before.</p>
+            </td>
+        </tr>
+    </tbody>
+</table></div><div style="margin:5px 0 0 0;padding:0;" class="spaceBeforeCP"></div><div class="imgDIVinTextLeft" align="left"><div class="image_td"><a href="zoom/NDEwODY4NDdlYzMyNmM4YmRhM2ZlOWExMjg0YWY2NWEucG5nP3dpZHRoPSI4MDAiIGhlaWdodD0iNTgwIg.html" onclick="checkClickZoom();clickZoom('zoom/NDEwODY4NDdlYzMyNmM4YmRhM2ZlOWExMjg0YWY2NWEucG5nP3dpZHRoPSI4MDAiIGhlaWdodD0iNTgwIg.html','previewpic','width.html');return false;.html"><img src="content/images/0a1053c5dfaa132e55aa4522ee2e940d.png" width="150" height="108" border="0" class="image_img" alt="upgrade_1_2_1_5.png" /></a></div></div><div class="articleText"><table height="135" cellspacing="0" cellpadding="0" width="70%" border="0">
+    <tbody>
+        <tr>
+            <td valign="top">In case of getting this errer message, either you have an actual version that does not need an update or you have chosen a wrong SQL file. <br /><br />Please click again&nbsp;&quot;<strong><em>Choose another SQL</em></strong> <strong><em>file&quot;</em></strong> to select the next update - if possible.</td>
+        </tr>
+    </tbody>
+</table></div><div class="articleText"><hr /></div><h3>IMPORTANT!</h3><strong>Please do not forget to delete or rename the setup folder. If you don't do this you have a massive security risk!</strong><div align="right"><a href="#top"><img src="img/article/top_link_0.gif" border="0" alt="" /></a></div>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td colspan="2"><HR></td>
+  </tr>
+  <tr>
+    <td width="50%">Article created: 2005/08/11</td>
+    <td align="right" width="50%">Last Changes: 2005/09/06</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2" class="comment">In case you find any mistakes or have enhancments, please use this <a href="#" onClick="javascript:window.open('./content/pages/message.htm','frage','width=400, height=250, screenX=440,screenY=200,menubar=no,statusbar=yes,scrollbar=yes,resizable=no');" target="" style="max-width:148px; overflow:hidden;"><u>form</u></a> .<br /><br />
+Have you found this website a helpful resource in understanding the Phpwcms content management system? If so, would you consider making a donation?  Please click here: <a href="https://www.paypal.com/xclick/business=slackero%40gmail.com&item_name=phpwcms+support&no_shipping=1&no_note=1&tax=0&currency_code=EUR&lc=US" target="_blank">PayPal</a>. We welcome any donation amount. Your contribution helps make this website an even better resource and helps underwrite the associated server expenses of accomodating a growing number of visitors.<br />
+This page use the version:</td>
+  </tr>
+  <tr>
+
+    <td colspan="2"><img src="img/leer.gif" border="0" width="10" height="10" alt="" /></td>
+  </tr>
+</table>
+
+
+</body>
+</html>

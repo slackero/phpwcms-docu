@@ -1,0 +1,299 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!--
+	phpwcms | free open source content management system
+	created by Oliver Georgi (oliver at phpwcms dot de) and licensed under GNU/GPL.
+	phpwcms is copyright 2003-2006 of Oliver Georgi. Extensions are copyright of\
+	their respective owners. Visit project page for details: http://www.phpwcms.org/
+//-->
+<title></title>
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+  <meta http-equiv="content-style-type" content="text/css" />
+  <script src="template/inc_js/frontend.js" type="text/javascript"></script>
+  <style type="text/css" media="all">
+  /* <![CDATA[ */
+    body {
+      margin: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+      padding-left: 0;
+      padding-right: 0;
+
+    }
+  /* ]]> */
+  </style>
+  <style type="text/css">
+  /* <![CDATA[ */
+    @import url("template/inc_css/frontend.css");
+    @import url("template/inc_css/nlu_navi1_docu.css");
+    @import url("template/inc_css/print_layout.css");
+  /* ]]> */
+  </style>
+
+
+<META NAME="Title" CONTENT="Die phpwcms Dokumentation">
+<meta name="author" content="Oliver Frohnert">
+<meta name="Publisher" content="Oliver Frohnert">
+<meta name="Copyright" content="Oliver Frohnert">
+<meta name="keywords" content="frohnert,documentation, dokumentation, phpwcms, cms, opensource, open source">
+<meta name="description" content="Das Dokumentations Projekt für das Open Source CMS phpwcms">
+<meta name="Audience" content="Alle">
+<meta name="Content-language" content="DE">
+<META NAME="robots"      CONTENT="index,follow">
+<META NAME="expires" CONTENT="0">
+<meta name="revisit-after" content="7 days">
+<meta name="resource-type" content="document">
+<meta name="distribution" content="Global">
+<meta name="generator" content="PHPWCMS">
+
+  <!--[if lt IE 7]>
+  <style type="text/css">
+    body { behavior: url("template/inc_css/specific/csshover2.htc"); }
+    img { behavior: url("template/inc_css/specific/pngbehavior.htc"); }
+  </style>
+  <![endif]-->
+</head>
+<body>
+<img src="img/leer.gif" border="0" width="10" height="1" alt="" />
+<br />
+<a href="deutsche_version.html">Deutsch</a> <span class="breadcrumb_spacer">&gt;</span> <a href="die_docu.html">Die Docu</a> <span class="breadcrumb_spacer">&gt;</span> <a href="verwaltung_admin.html">Admin</a> <span class="breadcrumb_spacer">&gt;</span> <a href="replacement_tags_de.html">Replacement-Tags</a> <span class="breadcrumb_spacer">&gt;</span> Link Tags
+<br />
+<HR>
+<br />
+<a name="jump43"></a><h1>Replacement Tags für Links</h1><div style="margin:25px 0 0 0; padding:0 0 0 0; clear:both;"></div><h4>[<img src="img/leer.gif" border="0" width="0" height="0" alt="" />MAIL eMail_Adresse] Text [/MAIL]</h4><table cellspacing="0" cellpadding="5" width="100%" border="0">
+    <tbody bgcolor="#efefef">
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Verwendung:</strong></font></td>
+            <td width="5" rowspan="5"></td>
+            <td valign="top">&Ouml;ffnet das aktuelle eMail Programm des Users und setzt die angegebene eMail-Adresse ein</td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Schreibweise:</strong></font></td>
+            <td valign="top"><strong>[<img src="img/leer.gif" border="0" width="0" height="0" alt="" />MAIL docu@phpwcms.org]eMail senden[/MAIL]</strong></td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><strong><font color="#666666" size="1">Anzeige:</font></strong></td>
+            <td valign="top"><a href="mailto:docu@phpwcms.org">eMail senden</a></td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Bemerkung:</strong></font></td>
+            <td valign="top">Anstatt des Textes kann hier auch der {<img src="img/leer.gif" border="0" width="0" height="0" alt="" />IMAGE:xxx.xx} Tag zum benutzen einer Grafik verwendt werden.</td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong></strong></font></td>
+            <td valign="top"></td>
+        </tr>
+    </tbody>
+</table>
+&nbsp;<br/><div align="right"><a href="#top"><img src="img/article/top_link_0.gif" border="0" alt="" /></a></div><h4>[<img src="img/leer.gif" border="0" width="0" height="0" alt="" />MAILSUB eMail_Adresse Betreff] Text [/MAIL]</h4><table cellspacing="0" cellpadding="5" width="100%" border="0">
+    <tbody bgcolor="#efefef">
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Verwendung:</strong></font></td>
+            <td width="5" rowspan="5"></td>
+            <td valign="top">&Ouml;ffnet das aktuelle eMail-Programm des Users und setzt die angegebene <em>eMail-Adresse</em> und den <em>Betreff-Text</em> ein</td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Schreibweise:</strong></font></td>
+            <td valign="top"><strong>[<img src="img/leer.gif" border="0" width="0" height="0" alt="" />MAILSUB docu@phpwcms.org BETREFF] eMail und Betreff [/MAILSUB]</strong></td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><strong><font color="#666666" size="1">Anzeige:</font></strong></td>
+            <td valign="top">[MAILSUB docu@phpwcms.org&nbsp;Betreff] eMail und Betreff [/MAILSUB]</td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Bemerkung:</strong></font></td>
+            <td valign="top">Ersetzen Sie einfach das Wort&nbsp;<strong>BETREFF</strong> mit dem Wort, das im Betreff erscheinen soll.</td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Alternative:</strong></font></td>
+            <td valign="top">Anstatt des Textes kann hier auch&nbsp;der&nbsp;{<img src="img/leer.gif" border="0" width="0" height="0" alt="" />IMAGE:xxx.xx} Tag zum Benutzen einer Grafik verwendet werden.</td>
+        </tr>
+    </tbody>
+</table>
+&nbsp;<br/><div align="right"><a href="#top"><img src="img/article/top_link_0.gif" border="0" alt="" /></a></div><h4>[<img src="img/leer.gif" border="0" width="0" height="0" alt="" />TOP] Text [/Top]</h4><TABLE cellSpacing=0 cellPadding=5 width="100%" border=0>
+<TBODY bgColor=#efefef>
+<TR>
+<TD vAlign=top align=right width=100><FONT class=v10 color=#666666><STRONG>Verwendung:</STRONG></FONT></TD>
+<TD width=5 rowSpan=5></TD>
+<TD vAlign=top>Erzeugt einen Link zum <EM>Anfang</EM> der aktuellen Seite</TD></TR>
+<TR>
+<TD vAlign=top align=right width=100><FONT class=v10 color=#666666><STRONG>Schreibweise:</STRONG></FONT></TD>
+<TD vAlign=top><STRONG>[<img src="img/leer.gif" border="0" width="0" height="0" alt="" />TOP]zum Seitenanfang[/Top]</STRONG></TD></TR>
+<TR>
+<TD vAlign=top align=right width=100><STRONG><FONT color=#666666 size=1>Anzeige:</FONT></STRONG></TD>
+<TD vAlign=top><a href="#top">zum Seitenanfang</a></TD></TR>
+<TR>
+<TD vAlign=top align=right width=100><FONT class=v10 color=#666666><STRONG>Alternative:</STRONG></FONT></TD>
+<TD vAlign=top>Anstelle des Textes kann auch eine Grafik eingefügt werden,<br />in der Form:<br /><br /><STRONG>[<img src="img/leer.gif" border="0" width="0" height="0" alt="" />TOP]{<img src="img/leer.gif" border="0" width="0" height="0" alt="" />IMAGE:top_link_.gif}[/Top]</STRONG></TD></TR>
+<TR>
+<TD vAlign=top align=right width=100></TD>
+<TD vAlign=top><a href="#top"><img src="picture/top_link_.gif" border="0" alt="" /></a></TD></TR></TBODY></TABLE>&nbsp;<br /><div align="right"><a href="#top"><img src="img/article/top_link_0.gif" border="0" alt="" /></a></div><h4>{<img src="img/leer.gif" border="0" width="0" height="0" alt="" />NEW:Anzahl_angezeigter_Links}</h4><TABLE cellSpacing=0 cellPadding=5 width="100%" border=0>
+<TBODY bgColor=#efefef>
+<TR>
+<TD vAlign=top align=right width=100><FONT class=v10 color=#666666><STRONG>Verwendung:</STRONG></FONT></TD>
+<TD width=5 rowSpan=5></TD>
+<TD vAlign=top>Anzeige einer Liste (<EM>mit Datum und Artikel-Titel)</EM> der zuletzt bearbeiteten Artikel, deren <EM>Anzahl</EM> angegeben werden kann.</TD></TR>
+<TR>
+<TD vAlign=top align=right width=100><FONT class=v10 color=#666666><STRONG>Schreibweise:</STRONG></FONT></TD>
+<TD vAlign=top><STRONG>{<img src="img/leer.gif" border="0" width="0" height="0" alt="" />NEW:5}</STRONG></TD></TR>
+<TR>
+<TD vAlign=top align=right width=100><STRONG><FONT color=#666666 size=1>Anzeige:</FONT></STRONG></TD>
+<TD vAlign=top><div class="news"><p><a href="107.332.0.0.1.0.html"><span class="datelink">2007/01/16 - </span>test</a><p><a href="239.331.0.0.1.0.html"><span class="datelink">2006/05/18 - </span>test</a><p><a href="372.329.0.0.1.0.html"><span class="datelink">2006/03/08 - </span>werbung</a><p><a href="371.327.0.0.1.0.html"><span class="datelink">2006/02/17 - </span>FAQ</a><p><a href="370.326.0.0.1.0.html"><span class="datelink">2006/02/17 - </span>FAQ</a></div><br /></TD></TR>
+<TR>
+<TD vAlign=top align=right width=100><FONT class=v10 color=#666666><STRONG>Bemerkung:</STRONG></FONT></TD>
+<TD vAlign=top>Der <EM>zuletzt</EM> bearbeitete Artikel steht in der Liste <EM>oben</EM>.<br />Um das Ausgabeformat&nbsp;de Datums &nbsp;zu ändern schaun Sie bitte hier vorbei. <a href="sprachen.html">Spracheinstellungen</a></TD></TR>
+<TR>
+<TD vAlign=top align=right width=100><FONT class=v10 color=#666666><STRONG></STRONG></FONT></TD>
+<TD vAlign=top></TD></TR></TBODY></TABLE>&nbsp;<br /><div align="right"><a href="#top"><img src="img/article/top_link_0.gif" border="0" alt="" /></a></div><h4>{<img src="img/leer.gif" border="0" width="0" height="0" alt="" />NEW:Anzahl_angezeigter_Links:ID}</h4><table cellspacing="0" cellpadding="5" width="100%" border="0">
+    <tbody bgcolor="#efefef">
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Verwendung:</strong></font></td>
+            <td width="5" rowspan="5">&nbsp;</td>
+            <td valign="top">Anzeige einer Liste (<em>mit Datum und Artikel-Titel)</em> der zuletzt bearbeiteten Artikel, einer Strukturebene (ID), deren <em>Anzahl</em> angegeben werden kann.</td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Schreibweise:</strong></font></td>
+            <td valign="top"><strong>{<img src="img/leer.gif" border="0" width="0" height="0" alt="" />NEW:5:1}</strong></td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><strong><font color="#666666" size="1">Anzeige:</font></strong></td>
+            <td valign="top"><div class="news"><p><a href="1.2.0.0.1.0.html"><span class="datelink">2004/08/16 - </span>{docu} phpwcms {/docu}</a></div><br /></td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Bemerkung:</strong></font></td>
+            <td valign="top">Der <em>zuletzt</em> bearbeitete Artikel steht in der Liste <em>oben</em>.<br />Um das Ausgabeformat&nbsp;de Datums &nbsp;zu &auml;ndern schaun Sie bitte hier vorbei. <a href="sprachen.html">Spracheinstellungen</a></td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong></strong></font></td>
+            <td valign="top">&nbsp;</td>
+        </tr>
+    </tbody>
+</table>
+&nbsp;<br /><div align="right"><a href="#top"><img src="img/article/top_link_0.gif" border="0" alt="" /></a></div><h4>{<img src="img/leer.gif" border="0" width="0" height="0" alt="" />RELATED:Anzahl_angezeigter_Links:Schluesselwort}</h4><table cellspacing="0" cellpadding="5" width="100%">
+    <tbody bgcolor="#efefef">
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Verwendung:</strong></font></td>
+            <td width="5" rowspan="5">&nbsp;</td>
+            <td valign="top">Erstellt eine Liste mit Artikeln-Titeln, basierend auf einem angegebenen <em>Schl&uuml;sselwort</em>.&nbsp;<br />Die <em>Maximalzahl</em>&nbsp;aufgef&uuml;hrter Artikel kann angegeben werden.</td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Schreibweise:</strong></font></td>
+            <td valign="top"><strong>{<img src="img/leer.gif" border="0" width="0" height="0" alt="" />RELATED:5:bearbeitet}</strong></td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><strong><font color="#666666" size="1">Anzeige:</font></strong></td>
+            <td valign="top"><div class="related"><p><a href="97.45.0.0.1.0.html">Replacement Tags für Artikel</a><p><a href="3.263.0.0.1.0.html">phpwcms Installationsanleitung</a><p><a href="303.237.0.0.1.0.html">Die conf.inc.php</a><p><a href="33.154.0.0.1.0.html">Nützliche Links</a><p><a href="74.99.0.0.1.0.html">Fehlermeldungen</a></div><br /></td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Bemerkung:</strong></font></td>
+            <td valign="top">Es werden nur die Artikel aufgef&uuml;hrt, die innerhalb der&nbsp;<br /><em>Artikel- Basisinformation</em> im Feld <em>Schl&uuml;sselw&ouml;rter&nbsp;</em>den gesuchten Eintrag besitzen.<br />Es wird <em>nicht</em> nach Gro&szlig;- und Kleinschreibung unterschieden!</td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong></strong></font></td>
+            <td valign="top">&nbsp;</td>
+        </tr>
+    </tbody>
+</table>
+&nbsp;<br /><div align="right"><a href="#top"><img src="img/article/top_link_0.gif" border="0" alt="" /></a></div><h4>[<img src="img/leer.gif" border="0" width="0" height="0" alt="" />INT url] Text [/INT]</h4><TABLE cellSpacing=0 cellPadding=5 width="100%" border=0>
+<TBODY bgColor=#efefef>
+<TR>
+<TD vAlign=top align=right width=100><FONT class=v10 color=#666666><STRONG>Verwendung:</STRONG></FONT></TD>
+<TD width=5 rowSpan=5></TD>
+<TD vAlign=top>Erzeugt einen <EM>externen</EM> Link im <EM><STRONG>aktuellen</STRONG></EM> Fenster</TD></TR>
+<TR>
+<TD vAlign=top align=right width=100><FONT class=v10 color=#666666><STRONG>Schreibweise:</STRONG></FONT></TD>
+<TD vAlign=top><STRONG>[<img src="img/leer.gif" border="0" width="0" height="0" alt="" />INT http://www.phpwcms.de]phpwcms[/INT]</STRONG></TD></TR>
+<TR>
+<TD vAlign=top align=right width=100><STRONG><FONT color=#666666 size=1>Anzeige:</FONT></STRONG></TD>
+<TD vAlign=top><a href="http://www.phpwcms.de" target="_top">phpwcms</a></TD></TR>
+<TR>
+<TD vAlign=top align=right width=100><FONT class=v10 color=#666666><STRONG>Bemerkung:</STRONG></FONT></TD>
+<TD vAlign=top></TD></TR>
+<TR>
+<TD vAlign=top align=right width=100><FONT class=v10 color=#666666><STRONG></STRONG></FONT></TD>
+<TD vAlign=top></TD></TR></TBODY></TABLE>&nbsp;<br /><h4>[<img src="img/leer.gif" border="0" width="0" height="0" alt="" />EXT url] Text [/EXT]</h4><TABLE cellSpacing=0 cellPadding=5 width="100%" border=0 %>
+<TBODY bgColor=#efefef>
+<TR>
+<TD vAlign=top align=right width=100><FONT class=v10 color=#666666><STRONG>Verwendung:</STRONG></FONT></TD>
+<TD width=5 rowSpan=5></TD>
+<TD vAlign=top>Erzeugt einen <EM>externen</EM> Link in einem <EM><STRONG>neuen</STRONG></EM> Fenster</TD></TR>
+<TR>
+<TD vAlign=top align=right width=100><FONT class=v10 color=#666666><STRONG>Schreibweise:</STRONG></FONT></TD>
+<TD vAlign=top><STRONG>[<img src="img/leer.gif" border="0" width="0" height="0" alt="" />EXT http://www.phpwcms.de]phpwcms[/EXT]</STRONG></TD></TR>
+<TR>
+<TD vAlign=top align=right width=100><STRONG><FONT color=#666666 size=1>Anzeige:</FONT></STRONG></TD>
+<TD vAlign=top><a href="http://www.phpwcms.de" target="_blank">phpwcms</a></TD></TR>
+<TR>
+<TD vAlign=top align=right width=100><FONT class=v10 color=#666666><STRONG>Bemerkung:</STRONG></FONT></TD>
+<TD vAlign=top></TD></TR>
+<TR>
+<TD vAlign=top align=right width=100><FONT class=v10 color=#666666><STRONG></STRONG></FONT></TD>
+<TD vAlign=top></TD></TR></TBODY></TABLE>&nbsp;<br /><h4>[<img src="img/leer.gif" border="0" width="0" height="0" alt="" />ID integer] Text [/ID]</h4><TABLE cellSpacing=0 cellPadding=5 width="100%" border=0>
+<TBODY bgColor=#efefef>
+<TR>
+<TD vAlign=top align=right width=100><FONT class=v10 color=#666666><STRONG>Verwendung:</STRONG></FONT></TD>
+<TD width=5 rowSpan=5></TD>
+<TD vAlign=top>Erzeugt einen <EM>internen</EM> Link zu einem Artikel, der durch seine <EM><STRONG>Artikel-ID</STRONG></EM> angegeben wird.</TD></TR>
+<TR>
+<TD vAlign=top align=right width=100><FONT class=v10 color=#666666><STRONG>Schreibweise:</STRONG></FONT></TD>
+<TD vAlign=top><STRONG>[<img src="img/leer.gif" border="0" width="0" height="0" alt="" />ID 7]Sitemap[/ID]</STRONG></TD></TR>
+<TR>
+<TD vAlign=top align=right width=100><STRONG><FONT color=#666666 size=1>Anzeige:</FONT></STRONG></TD>
+<TD vAlign=top><a href="35.7.0.0.1.0.html" title="Sitemap">Sitemap</a></TD></TR>
+<TR>
+<TD vAlign=top align=right width=100><FONT class=v10 color=#666666><STRONG>Bemerkung:</STRONG></FONT></TD>
+<TD vAlign=top>Der verlinkte Artikel <EM>Sitemap</EM> hat im Beispiel die&nbsp;Artikel-ID: 7</TD></TR>
+<TR>
+<TD vAlign=top align=right width=100><FONT class=v10 color=#666666><STRONG></STRONG></FONT></TD>
+<TD vAlign=top></TD></TR></TBODY></TABLE>&nbsp;<br /><h4>[<img src="img/leer.gif" border="0" width="0" height="0" alt="" />ID alias] Text [/ID]</h4><table cellspacing="0" cellpadding="5" width="100%" border="0">
+    <tbody bgcolor="#efefef">
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Verwendung:</strong></font></td>
+            <td width="5" rowspan="5">&nbsp;</td>
+            <td valign="top">Erzeugt einen <em>internen</em> Link zu einer Seite (Kategorie), die durch ihren <em><strong>Alias</strong></em>-Namen angegeben wird.</td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Schreibweise:</strong></font></td>
+            <td valign="top">[<img src="img/leer.gif" border="0" width="0" height="0" alt="" />ID suche]Suche[/ID]</td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><strong><font color="#666666" size="1">Anzeige:</font></strong></td>
+            <td valign="top"><a href="suche.html">Suche</a></td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Bemerkung:</strong></font></td>
+            <td valign="top">Die verlinkte Seite (Kategorie) <em>Suche</em> hat in diesem Beispiel den&nbsp;Alias-Namen: suche</td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong></strong></font></td>
+            <td valign="top">&nbsp;</td>
+        </tr>
+    </tbody>
+</table>
+&nbsp;<br />
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td colspan="2"><HR></td>
+  </tr>
+  <tr>
+    <td width="50%">Artikel erstellt: 2004/08/23</td>
+    <td align="right" width="50%">Letzte Änderung:2006/01/03</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2" class="comment">Wenn Sie einen Fehler entdecken eine Ergänzung oder Frage haben benutzen Sie bitte folgendes <a href="#" onClick="javascript:window.open('./content/pages/nachricht.htm','frage','width=400, height=250, screenX=440,screenY=200,menubar=no,statusbar=yes,scrollbar=yes,resizable=no');" target="" style="max-width:148px; overflow:hidden;"><u>Formular</u></a>.<br /><br />
+Hat Ihnen oder Ihrem Kunden diese Docu weitergeholfen ? Dann würde ich mich freuen wenn Sie das Projekt unterstützen würden. Bitte nutzen Sie dafür diesen <a href="#paypal">PayPal</a> Link. Jeder Betrag ist möglich und hilft der Weiterentwicklung und Aktualisierung dieser Dokumentation.<br />
+Diese Seite nutzt die version:</td>
+  </tr>
+  <tr>
+
+    <td colspan="2"><img src="img/leer.gif" border="0" width="10" height="10" alt="" /></td>
+  </tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,1080 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!--
+	phpwcms | free open source content management system
+	created by Oliver Georgi (oliver at phpwcms dot de) and licensed under GNU/GPL.
+	phpwcms is copyright 2003-2007 of Oliver Georgi. Extensions are copyright of
+	their respective owners. Visit project page for details: http://www.phpwcms.org/
+//-->
+<title>Navigation Tags{D:4/26/2005,30,editR.gif} | Replacement Tags for Navigation</title>
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+  <meta http-equiv="content-style-type" content="text/css" />
+  <script src="template/inc_js/frontend.js" type="text/javascript"></script>
+  <style type="text/css" media="all">
+  <!-- 
+    body {
+      margin: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+      padding-left: 0;
+      padding-right: 0;
+
+    }
+  //-->
+  </style>
+  <style type="text/css">
+  <!-- 
+    @import url("template/inc_css/frontend.css");
+    @import url("template/inc_css/nlu_navi1_docu.css");
+    @import url("template/inc_css/tabellen.css");
+  //-->
+  </style>
+<meta name="Title" content="The phpwcms Documentation" />
+<meta name="author" content="Oliver Frohnert" />
+<meta name="Publisher" content="Oliver Frohnert" />
+<meta name="Copyright" content="Oliver Frohnert" />
+<meta name="keywords" content="frohnert,documentation, dokumentation, phpwcms, cms. opensource, open source" />
+<meta name="description" content="A Documentation Project for the  Open Source CMS phpwcms" />
+<meta name="Audience" content="Alle" />
+<meta name="Content-language" content="EN" />
+<meta name="robots"      content="index,follow" />
+<meta name="expires" content="0" />
+<meta name="revisit-after" content="7 days" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="Global" />
+<meta name="generator" content="PHPWCMS" />
+
+  <!--[if lt IE 7]>
+  <style type="text/css">
+    body { behavior: url("template/inc_css/specific/csshover2.htc"); }
+    img { behavior: url("template/inc_css/specific/pngbehavior.htc"); }
+  </style>
+  <![endif]-->
+</head>
+<body>
+
+
+<!--
+
+	this is the default PDF template
+	use it to add additional header or
+	footer information or whatever you 
+	like to be rendered 
+
+//-->
+URL: <a href="76.40.1.1.1.0.html" target="_blank">76.40.1.1.1.0.html</a>
+<hr />
+<img src="img/leer.gif" border="0" width="10" height="1" alt="" />
+<br />
+<a href="english_version.html">English</a> <span class="breadcrumb_spacer">&gt;</span> <a href="the_docu.html">The Docu<img src="picture/myRT1/newR.gif" alt="7/30/2007" border="0"><img src="picture/myRT1/editR.gif" alt="7/30/2007" border="0"></a> <span class="breadcrumb_spacer">&gt;</span> <a href="admin_en_.html">Admin<img src="picture/myRT1/newR.gif" alt="7/29/2007" border="0"><img src="picture/myRT1/editR.gif" alt="7/30/2007" border="0"></a> <span class="breadcrumb_spacer">&gt;</span> <a href="replacement_tags_en.html">Replacement Tags<img src="picture/myRT1/newR.gif" alt="7/29/2007" border="0"></a> <span class="breadcrumb_spacer">&gt;</span> Navigation Tags
+<br />
+<HR>
+<br />
+<a name="jump40"></a>
+<h1>Replacement Tags for Navigation</h1>
+
+<div style="margin:25px 0 0 0;padding:0;" class="spaceBeforeCP"></div><h4>{<img src="img/leer.gif" border="0" width="0" height="0" alt="" />BROWSE:NEXT:Text String:0 or 1}</h4><table cellspacing="0" cellpadding="5" width="100%" border="0">
+    <tbody bgcolor="#efefef">
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Usage:</strong></font></td>
+            <td width="5" rowspan="5"></td>
+            <td valign="top">This tag allows for the incremental display or 'paging' of separate articles within a given site structure level (category). In other words, in cases where multiple articles are present, this tag makes it possible to create an automatic link to the&nbsp;<strong>next</strong> article within the category.</td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Notation:</strong></font></td>
+            <td valign="top"><strong>{<img src="img/leer.gif" border="0" width="0" height="0" alt="" />BROWSE:NEXT:Next Article:1}</strong></td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><strong><font color="#666666" size="1">Result:</font></strong></td>
+            <td valign="top"><a href="89.0.0.1.0.0.html">Next Article</a></td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Alternative:</strong></font></td>
+            <td valign="top">By default the integer should be set to 1 in order to enable this function. By setting it to 0, linkage is deactivated.<br/>
+            <br/>
+            <strong>{<img src="img/leer.gif" border="0" width="0" height="0" alt="" />BROWSE:NEXT:Next Article:0}</strong></td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong></strong></font></td>
+            <td valign="top">Next Article - Disabled</td>
+        </tr>
+    </tbody>
+</table><div align="right"><a href="#top"><img src="img/article/top_link_0.gif" border="0" alt="" /></a></div><h4>{<img src="img/leer.gif" border="0" width="0" height="0" alt="" />BROWSE:PREV:Text String:0 or 1}</h4><table cellspacing="0" cellpadding="5" width="100%" border="0">
+    <tbody bgcolor="#efefef">
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Usage:</strong></font></td>
+            <td width="5" rowspan="5"></td>
+            <td valign="top">This tag, similar to the one above, allows for the incremental display or 'paging' of separate articles within a given site structure level (category). This tag makes it possible to create an automatic link to the&nbsp;<strong>previous</strong> article within a given site structure level (category).</td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Notation:</strong></font></td>
+            <td valign="top"><strong>{<img src="img/leer.gif" border="0" width="0" height="0" alt="" />BROWSE:PREV:Previous Article:1}</strong></td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><strong><font color="#666666" size="1">Result:</font></strong></td>
+            <td valign="top"><a href="79.0.0.1.0.0.html">Previous Article</a></td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Alternative:</strong></font></td>
+            <td valign="top">By default the integer should be set to 1 in order to enable this function. By setting it to 0, linkage is deactivated.<br/>
+            <br/>
+            <strong>{<img src="img/leer.gif" border="0" width="0" height="0" alt="" />BROWSE:PREV:Previous Article:0}</strong></td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong></strong></font></td>
+            <td valign="top">Previous Article (Disabled)</td>
+        </tr>
+    </tbody>
+</table><div align="right"><a href="#top"><img src="img/article/top_link_0.gif" border="0" alt="" /></a></div><h4>{<img src="img/leer.gif" border="0" width="0" height="0" alt="" />BROWSE:UP:Text String}</h4><table cellspacing="0" cellpadding="5" width="100%" border="0">
+    <tbody bgcolor="#efefef">
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Usage:</strong></font></td>
+            <td width="5" rowspan="5"></td>
+            <td valign="top">This tag allows for the creation a link to the parent category within a given site structure. Allows for very flexible navigational strategies.</td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Notation:</strong></font></td>
+            <td valign="top"><strong>{<img src="img/leer.gif" border="0" width="0" height="0" alt="" />BROWSE:UP:Go to Parent Category}</strong></td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><strong><font color="#666666" size="1">Result:</font></strong></td>
+            <td valign="top"><a href="75.0.0.1.0.0.html">Go to Parent Category</a></td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Remark:</strong></font></td>
+            <td valign="top"></td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong></strong></font></td>
+            <td valign="top"></td>
+        </tr>
+    </tbody>
+</table><div align="right"><a href="#top"><img src="img/article/top_link_0.gif" border="0" alt="" /></a></div><h4>{<img src="img/leer.gif" border="0" width="0" height="0" alt="" />NAV_TABLE_COLUMN}</h4><table cellspacing="0" cellpadding="5" width="100%" border="0">
+    <tbody bgcolor="#efefef">
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Usage:</strong></font></td>
+            <td width="5" rowspan="5"></td>
+            <td valign="top">This tag automatically produces a vertical navigation table (menu) with embedded javascript rollover code.&nbsp; The menu items are based on site structure categories. The number of sub-categories is not limited within phpwcms. Upon clicking a given link, the next set of sub-categories are displayed within the menu itself, should they exist.<br/>
+            <br/>
+            This extremely powerful menu element illustrates the menu structure of the complete site.</td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Notation:</strong></font></td>
+            <td valign="top"><strong>{<img src="img/leer.gif" border="0" width="0" height="0" alt="" />NAV_TABLE_COLUMN}</strong></td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><strong><font color="#666666" size="1">Result:</font></strong></td>
+            <td valign="top"><table border="0" cellspacing="0" cellpadding="0" width="100%" summary="">
+<tr bgcolor="#4A5966">
+<td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="6"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='deutsche_version.html';return false;" onmouseover="MM_swapImage('linkid1wPtQQ','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkid1wPtQQ" id="linkid1wPtQQ" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="6"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="deutsche_version.html">Deutsch</a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="6"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#FFFFFF" style="cursor:pointer;cursor:hand;" onclick="location.href='english_version.html';return false;">
+<td width="7"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_2.gif" alt="" border="0" name="linkidIZ59yD" id="linkidIZ59yD" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table_active" colspan="6"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="english_version.html">English</a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="2"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="5"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='english_version.html';return false;" onmouseover="MM_swapImage('linkidwTHDhV','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7" colspan="2"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkidwTHDhV" id="linkidwTHDhV" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="5"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="english_version.html">Home</a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="2"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="5"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='news_en.html';return false;" onmouseover="MM_swapImage('linkidH2DnTi','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7" colspan="2"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkidH2DnTi" id="linkidH2DnTi" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="5"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="news_en.html">News</a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="2"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="5"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='installation_en.html';return false;" onmouseover="MM_swapImage('linkidhzgXQG','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7" colspan="2"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkidhzgXQG" id="linkidhzgXQG" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="5"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="installation_en.html">Installation &amp; Upgrade<img src="picture/myRT1/newR.gif" alt="07/31/2007" border="0"></a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="2"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="5"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#FFFFFF" style="cursor:pointer;cursor:hand;" onclick="location.href='the_docu.html';return false;">
+<td width="7" colspan="2"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_2.gif" alt="" border="0" name="linkidmAKv16" id="linkidmAKv16" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table_active" colspan="5"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="the_docu.html">The Docu<img src="picture/myRT1/newR.gif" alt="7/30/2007" border="0"><img src="picture/myRT1/editR.gif" alt="7/30/2007" border="0"></a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="3"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="4"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='article.html';return false;" onmouseover="MM_swapImage('linkid64MAAw','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7" colspan="3"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkid64MAAw" id="linkid64MAAw" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="4"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="article.html">Articles<img src="picture/myRT1/newR.gif" alt="7/30/2007" border="0"></a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="3"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="4"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='deutsche_version.html?File_Administration';return false;" onmouseover="MM_swapImage('linkidZl3rYb','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7" colspan="3"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkidZl3rYb" id="linkidZl3rYb" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="4"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="deutsche_version.html?File_Administration">File</a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="3"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="4"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='module_en.html';return false;" onmouseover="MM_swapImage('linkidrtL9EB','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7" colspan="3"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkidrtL9EB" id="linkidrtL9EB" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="4"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="module_en.html">Modules</a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="3"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="4"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='message.html';return false;" onmouseover="MM_swapImage('linkid2BYX2L','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7" colspan="3"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkid2BYX2L" id="linkid2BYX2L" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="4"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="message.html">Message </a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="3"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="4"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='chat_en.html';return false;" onmouseover="MM_swapImage('linkidt8g0Z8','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7" colspan="3"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkidt8g0Z8" id="linkidt8g0Z8" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="4"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="chat_en.html">Chat</a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="3"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="4"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='profile.html';return false;" onmouseover="MM_swapImage('linkidd0uWrb','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7" colspan="3"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkidd0uWrb" id="linkidd0uWrb" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="4"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="profile.html">Profile<img src="picture/myRT1/newR.gif" alt="7/30/2007" border="0"></a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="3"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="4"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#FFFFFF" style="cursor:pointer;cursor:hand;" onclick="location.href='admin_en_.html';return false;">
+<td width="7" colspan="3"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_2.gif" alt="" border="0" name="linkidtyxUv9" id="linkidtyxUv9" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table_active" colspan="4"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="admin_en_.html">Admin<img src="picture/myRT1/newR.gif" alt="7/29/2007" border="0"><img src="picture/myRT1/editR.gif" alt="7/30/2007" border="0"></a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="4"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="3"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='sitestructure.html';return false;" onmouseover="MM_swapImage('linkidPpMLVo','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7" colspan="4"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkidPpMLVo" id="linkidPpMLVo" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="3"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="sitestructure.html">Sitestructure<img src="picture/myRT1/newR.gif" alt="8/2/2007" border="0"></a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="4"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="3"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='user_administration.html';return false;" onmouseover="MM_swapImage('linkidkyl9rb','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7" colspan="4"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkidkyl9rb" id="linkidkyl9rb" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="3"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="user_administration.html">User administration</a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="4"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="3"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='remove_delete_files.html';return false;" onmouseover="MM_swapImage('linkidptkSCS','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7" colspan="4"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkidptkSCS" id="linkidptkSCS" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="3"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="remove_delete_files.html">Remove delete files</a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="4"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="3"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#FFFFFF" style="cursor:pointer;cursor:hand;" onclick="location.href='replacement_tags_en.html';return false;">
+<td width="7" colspan="4"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_2.gif" alt="" border="0" name="linkidOhOR3R" id="linkidOhOR3R" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table_active" colspan="3"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="replacement_tags_en.html">Replacement Tags<img src="picture/myRT1/newR.gif" alt="7/29/2007" border="0"></a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="5"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="2"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='system_tags.html';return false;" onmouseover="MM_swapImage('linkid49fh0H','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7" colspan="5"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkid49fh0H" id="linkid49fh0H" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="2"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="system_tags.html">System Tags<img src="picture/myRT1/newR.gif" alt="8/2/2007" border="0"></a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="5"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="2"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#FFFFFF" style="cursor:pointer;cursor:hand;" onclick="location.href='navigation_tags.html';return false;">
+<td width="7" colspan="5"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_2.gif" alt="" border="0" name="linkid2tPxV0" id="linkid2tPxV0" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table_active" colspan="2"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="navigation_tags.html">Navigation Tags</a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="6"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='deutsche_version.html?navigation_tags';return false;" onmouseover="MM_swapImage('linkidsjyOFD','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7" colspan="6"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkidsjyOFD" id="linkidsjyOFD" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="deutsche_version.html?navigation_tags">Test Level 1</a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="6"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='deutsche_version.html?navigation_tags';return false;" onmouseover="MM_swapImage('linkidEqLW21','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7" colspan="6"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkidEqLW21" id="linkidEqLW21" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="deutsche_version.html?navigation_tags">Test Level 2</a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="5"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="2"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='link_tags.html';return false;" onmouseover="MM_swapImage('linkidVRGpQA','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7" colspan="5"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkidVRGpQA" id="linkidVRGpQA" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="2"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="link_tags.html">Link Tags<img src="picture/myRT1/newR.gif" alt="8/2/2007" border="0"></a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="5"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="2"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='image_tags.html';return false;" onmouseover="MM_swapImage('linkidAsGN72','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7" colspan="5"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkidAsGN72" id="linkidAsGN72" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="2"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="image_tags.html">Image Tags</a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="5"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="2"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='article_tags.html';return false;" onmouseover="MM_swapImage('linkid8mUB19','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7" colspan="5"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkid8mUB19" id="linkid8mUB19" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="2"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="article_tags.html">Article Tags<img src="picture/myRT1/newR.gif" alt="7/29/2007" border="0"></a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="5"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="2"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='language.html';return false;" onmouseover="MM_swapImage('linkidrrSPY2','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7" colspan="5"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkidrrSPY2" id="linkidrrSPY2" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="2"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="language.html">Language<img src="picture/myRT1/editR.gif" alt="7/30/2007" border="0"></a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="2"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="5"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='add_on_en.html';return false;" onmouseover="MM_swapImage('linkid4NwI3j','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7" colspan="2"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkid4NwI3j" id="linkid4NwI3j" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="5"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="add_on_en.html">Add On&#039;s</a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="2"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="5"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='error_messages.html';return false;" onmouseover="MM_swapImage('linkidkmEIhl','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7" colspan="2"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkidkmEIhl" id="linkidkmEIhl" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="5"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="error_messages.html">Error messages</a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="2"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="5"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='search.html';return false;" onmouseover="MM_swapImage('linkidEhI02f','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7" colspan="2"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkidEhI02f" id="linkidEhI02f" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="5"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="search.html">Search</a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="2"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="5"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='Usefull_Links_and_Tools.html';return false;" onmouseover="MM_swapImage('linkidCHKh09','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7" colspan="2"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkidCHKh09" id="linkidCHKh09" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="5"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="Usefull_Links_and_Tools.html">Usefull Links &amp; Tools</a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="2"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="5"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='contact.html';return false;" onmouseover="MM_swapImage('linkiduKwnvx','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7" colspan="2"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkiduKwnvx" id="linkiduKwnvx" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="5"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="contact.html">Contact</a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="2"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="5"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='faq_en.html';return false;" onmouseover="MM_swapImage('linkidyFKmZi','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7" colspan="2"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkidyFKmZi" id="linkidyFKmZi" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="5"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="faq_en.html">FAQ</a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="6"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+</table></td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Remark:</strong></font></td>
+            <td valign="top">This tag and the resulting table code it creates are typically called within either the 'left' or 'right' sections of page templates (admin). The final appearance of the menu can be customized in great measure by editing this file: config/phpwcms/conf.template_default.inc.php</td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong></strong></font></td>
+            <td valign="top"></td>
+        </tr>
+    </tbody>
+</table>
+&nbsp;<br/><div align="right"><a href="#top"><img src="img/article/top_link_0.gif" border="0" alt="" /></a></div><h4>{<img src="img/leer.gif" border="0" width="0" height="0" alt="" />NAV_TABLE_COLUMN:integer}</h4><table cellspacing="0" cellpadding="5" width="100%" border="0">
+    <tbody bgcolor="#efefef">
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Usage:</strong></font></td>
+            <td width="5" rowspan="5"></td>
+            <td valign="top">This tag extends the&nbsp;navigational tag (mentioned above) to include the site structure level parameter, which is expressed as an integer. This integer can be found by rolling your cursor over the site structure icons in the admin-site structure section. Using this parameter, menus are generated from this site structure level and below. In other words, the customized/contextual menus can be created...offering greater levels of flexibility.</td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Notation:</strong></font></td>
+            <td valign="top"><strong>{<img src="img/leer.gif" border="0" width="0" height="0" alt="" />NAV_TABLE_COLUMN:2}</strong></td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><strong><font color="#666666" size="1">Result:</font></strong></td>
+            <td valign="top"><table border="0" cellspacing="0" cellpadding="0" width="100%" summary="">
+<tr bgcolor="#4A5966">
+<td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="6"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='english_version.html';return false;" onmouseover="MM_swapImage('linkidtAhKUI','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkidtAhKUI" id="linkidtAhKUI" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="6"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="english_version.html">Home</a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="6"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='news_en.html';return false;" onmouseover="MM_swapImage('linkidUG1ToO','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkidUG1ToO" id="linkidUG1ToO" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="6"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="news_en.html">News</a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="6"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='installation_en.html';return false;" onmouseover="MM_swapImage('linkidCTtEF8','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkidCTtEF8" id="linkidCTtEF8" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="6"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="installation_en.html">Installation &amp; Upgrade<img src="picture/myRT1/newR.gif" alt="07/31/2007" border="0"></a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="6"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#FFFFFF" style="cursor:pointer;cursor:hand;" onclick="location.href='the_docu.html';return false;">
+<td width="7"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_2.gif" alt="" border="0" name="linkidmMmP5q" id="linkidmMmP5q" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table_active" colspan="6"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="the_docu.html">The Docu<img src="picture/myRT1/newR.gif" alt="7/30/2007" border="0"><img src="picture/myRT1/editR.gif" alt="7/30/2007" border="0"></a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="2"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="5"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='article.html';return false;" onmouseover="MM_swapImage('linkidy8at8F','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7" colspan="2"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkidy8at8F" id="linkidy8at8F" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="5"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="article.html">Articles<img src="picture/myRT1/newR.gif" alt="7/30/2007" border="0"></a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="2"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="5"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='deutsche_version.html?File_Administration';return false;" onmouseover="MM_swapImage('linkidI1RPIz','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7" colspan="2"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkidI1RPIz" id="linkidI1RPIz" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="5"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="deutsche_version.html?File_Administration">File</a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="2"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="5"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='module_en.html';return false;" onmouseover="MM_swapImage('linkidubvRp0','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7" colspan="2"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkidubvRp0" id="linkidubvRp0" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="5"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="module_en.html">Modules</a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="2"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="5"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='message.html';return false;" onmouseover="MM_swapImage('linkidH2Vb8A','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7" colspan="2"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkidH2Vb8A" id="linkidH2Vb8A" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="5"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="message.html">Message </a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="2"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="5"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='chat_en.html';return false;" onmouseover="MM_swapImage('linkid3hSEt4','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7" colspan="2"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkid3hSEt4" id="linkid3hSEt4" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="5"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="chat_en.html">Chat</a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="2"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="5"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='profile.html';return false;" onmouseover="MM_swapImage('linkidbTYSkW','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7" colspan="2"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkidbTYSkW" id="linkidbTYSkW" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="5"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="profile.html">Profile<img src="picture/myRT1/newR.gif" alt="7/30/2007" border="0"></a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="2"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="5"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#FFFFFF" style="cursor:pointer;cursor:hand;" onclick="location.href='admin_en_.html';return false;">
+<td width="7" colspan="2"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_2.gif" alt="" border="0" name="linkidi78X4D" id="linkidi78X4D" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table_active" colspan="5"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="admin_en_.html">Admin<img src="picture/myRT1/newR.gif" alt="7/29/2007" border="0"><img src="picture/myRT1/editR.gif" alt="7/30/2007" border="0"></a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="3"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="4"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='sitestructure.html';return false;" onmouseover="MM_swapImage('linkidUThttr','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7" colspan="3"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkidUThttr" id="linkidUThttr" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="4"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="sitestructure.html">Sitestructure<img src="picture/myRT1/newR.gif" alt="8/2/2007" border="0"></a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="3"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="4"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='user_administration.html';return false;" onmouseover="MM_swapImage('linkideezf0I','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7" colspan="3"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkideezf0I" id="linkideezf0I" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="4"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="user_administration.html">User administration</a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="3"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="4"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='remove_delete_files.html';return false;" onmouseover="MM_swapImage('linkidekkqCf','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7" colspan="3"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkidekkqCf" id="linkidekkqCf" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="4"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="remove_delete_files.html">Remove delete files</a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="3"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="4"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#FFFFFF" style="cursor:pointer;cursor:hand;" onclick="location.href='replacement_tags_en.html';return false;">
+<td width="7" colspan="3"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_2.gif" alt="" border="0" name="linkidut33HL" id="linkidut33HL" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table_active" colspan="4"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="replacement_tags_en.html">Replacement Tags<img src="picture/myRT1/newR.gif" alt="7/29/2007" border="0"></a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="4"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="3"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='system_tags.html';return false;" onmouseover="MM_swapImage('linkidvJwIJN','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7" colspan="4"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkidvJwIJN" id="linkidvJwIJN" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="3"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="system_tags.html">System Tags<img src="picture/myRT1/newR.gif" alt="8/2/2007" border="0"></a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="4"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="3"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#FFFFFF" style="cursor:pointer;cursor:hand;" onclick="location.href='navigation_tags.html';return false;">
+<td width="7" colspan="4"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_2.gif" alt="" border="0" name="linkidQbZcRp" id="linkidQbZcRp" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table_active" colspan="3"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="navigation_tags.html">Navigation Tags</a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="5"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="2"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='deutsche_version.html?navigation_tags';return false;" onmouseover="MM_swapImage('linkidUGMaNd','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7" colspan="5"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkidUGMaNd" id="linkidUGMaNd" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="2"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="deutsche_version.html?navigation_tags">Test Level 1</a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="5"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="2"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='deutsche_version.html?navigation_tags';return false;" onmouseover="MM_swapImage('linkidq37zov','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7" colspan="5"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkidq37zov" id="linkidq37zov" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="2"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="deutsche_version.html?navigation_tags">Test Level 2</a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="4"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="3"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='link_tags.html';return false;" onmouseover="MM_swapImage('linkidRveIgL','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7" colspan="4"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkidRveIgL" id="linkidRveIgL" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="3"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="link_tags.html">Link Tags<img src="picture/myRT1/newR.gif" alt="8/2/2007" border="0"></a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="4"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="3"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='image_tags.html';return false;" onmouseover="MM_swapImage('linkidbytpZQ','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7" colspan="4"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkidbytpZQ" id="linkidbytpZQ" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="3"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="image_tags.html">Image Tags</a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="4"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="3"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='article_tags.html';return false;" onmouseover="MM_swapImage('linkid2HiNgs','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7" colspan="4"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkid2HiNgs" id="linkid2HiNgs" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="3"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="article_tags.html">Article Tags<img src="picture/myRT1/newR.gif" alt="7/29/2007" border="0"></a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td colspan="4"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="3"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='language.html';return false;" onmouseover="MM_swapImage('linkidpRolKD','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7" colspan="4"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkidpRolKD" id="linkidpRolKD" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="3"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="language.html">Language<img src="picture/myRT1/editR.gif" alt="7/30/2007" border="0"></a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="6"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='add_on_en.html';return false;" onmouseover="MM_swapImage('linkid8AcUil','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkid8AcUil" id="linkid8AcUil" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="6"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="add_on_en.html">Add On&#039;s</a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="6"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='error_messages.html';return false;" onmouseover="MM_swapImage('linkidHbbsIp','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkidHbbsIp" id="linkidHbbsIp" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="6"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="error_messages.html">Error messages</a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="6"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='search.html';return false;" onmouseover="MM_swapImage('linkidtmXWlt','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkidtmXWlt" id="linkidtmXWlt" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="6"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="search.html">Search</a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="6"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='Usefull_Links_and_Tools.html';return false;" onmouseover="MM_swapImage('linkidE8YzFR','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkidE8YzFR" id="linkidE8YzFR" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="6"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="Usefull_Links_and_Tools.html">Usefull Links &amp; Tools</a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="6"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='contact.html';return false;" onmouseover="MM_swapImage('linkid8734Xu','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkid8734Xu" id="linkid8734Xu" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="6"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="contact.html">Contact</a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="6"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#D9DEE3" style="cursor:pointer;cursor:hand;" onclick="location.href='faq_en.html';return false;" onmouseover="MM_swapImage('linkidC29hHe','','img/article/nav_link_1.gif',1);this.bgColor='#D3ED7D';" onmouseout="MM_swapImgRestore();this.bgColor='#D9DEE3';">
+<td width="7"><img src="img/leer.gif" width="7" height="15" border="0" alt="" /></td>
+<td valign="top"><img src="img/article/nav_link_0.gif" alt="" border="0" name="linkidC29hHe" id="linkidC29hHe" /></td>
+<td valign="top" style="height:15px;"  width="100%" class="nav_table" colspan="6"><img src="img/leer.gif" width="1" height="2" border="0" alt="" /><br /><a href="faq_en.html">FAQ</a><br /><img src="img/leer.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="7"><img src="img/leer.gif" width="10" height="15" border="0" alt="" /></td>
+</tr>
+<tr bgcolor="#4A5966">
+<td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td colspan="6"><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td><td><img src="img/leer.gif" width="1" height="1" border="0" alt="" /></td>
+</tr>
+</table></td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Remark:</strong></font></td>
+            <td valign="top">In this case, the code above displays the english only version of this site. The english version corresponds to&nbsp;integer 2 within the site structure.</td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong></strong></font></td>
+            <td valign="top"></td>
+        </tr>
+    </tbody>
+</table>
+&nbsp;<div align="right"><a href="#top"><img src="img/article/top_link_0.gif" border="0" alt="" /></a></div><h4>{<img src="img/leer.gif" border="0" width="0" height="0" alt="" />NAV_LIST_TOP}</h4><table cellspacing="0" cellpadding="5" width="100%" border="0">
+    <tbody bgcolor="#efefef">
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Usage:</strong></font></td>
+            <td width="5" rowspan="5"></td>
+            <td valign="top">This tag creates a horizontal menu based on the 'first level' of&nbsp;any given phpwcms installation's&nbsp;site structure. Its formatting can be controlled&nbsp;via editing the 'list_top..' classes, found within the frontend.css file. Path: template/inc_css/frontend.css</td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Notation:</strong></font></td>
+            <td valign="top"><strong>{<img src="img/leer.gif" border="0" width="0" height="0" alt="" />NAV_LIST_TOP}</strong></td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><strong><font color="#666666" size="1">Result:</font></strong></td>
+            <td valign="top">
+<ul class="list_level">
+	<li class="parent"><a href="index.html">Home</a></li>
+	<li><a href="deutsche_version.html">Deutsch</a></li>
+	<li class="active"><a href="english_version.html">English</a></li>
+</ul>
+</td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Remark:</strong></font></td>
+            <td valign="top">The fact that its appearance is controled via CSS offers a&nbsp;notable degree of design options and flexibility.</td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong></strong></font></td>
+            <td valign="top"></td>
+        </tr>
+    </tbody>
+</table>
+&nbsp;<div align="right"><a href="#top"><img src="img/article/top_link_0.gif" border="0" alt="" /></a></div><h4>{<img src="img/leer.gif" border="0" width="0" height="0" alt="" />NAV_LIST_TOP:IndexName:ClassName}</h4><table cellspacing="0" cellpadding="5" width="100%" border="0">
+    <tbody bgcolor="#efefef">
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Usage:</strong></font></td>
+            <td width="5" rowspan="5"></td>
+            <td valign="top">This tag, nearly identical to the one&nbsp;listed above, creates a horizontal menu based on the 'first level' site structure with 2 additional options. The first of these is the&nbsp;ability&nbsp;to 'rename' the primary index to a unique/customized name (Indexname). The second allows for additonal formatting options via a call to a CSS class (ClassName). The fact that&nbsp;its appearance is CSS based, means that any number of variations on the menu's appearance can be made.<br/>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Notation:</strong></font></td>
+            <td valign="top"><strong>{<img src="img/leer.gif" border="0" width="0" height="0" alt="" />NAV_LIST_TOP:HOMEPAGE:}</strong></td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><strong><font color="#666666" size="1">Result:</font></strong></td>
+            <td valign="top">
+<ul class="list_level">
+	<li class="parent"><a href="index.html">HOMEPAGE</a></li>
+	<li><a href="deutsche_version.html">Deutsch</a></li>
+	<li class="active"><a href="english_version.html">English</a></li>
+</ul>
+</td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Remark:</strong></font></td>
+            <td valign="top">In this example, the index link, which is ordinarily displayed as 'home', was 'renamed to&nbsp;<strong>HOMEPAGE</strong>.&nbsp; No additonal CSS class was called...notice the colon however.<br/>
+            &nbsp;</td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Alternative:</strong></font></td>
+            <td valign="top"><strong>{<img src="img/leer.gif" border="0" width="0" height="0" alt="" />NAV_LIST_TOP::}<br/>
+            </strong><br/>
+            
+<ul class="list_level">
+	<li class="parent"><a href="index.html">Home</a></li>
+	<li><a href="deutsche_version.html">Deutsch</a></li>
+	<li class="active"><a href="english_version.html">English</a></li>
+</ul>
+<br/>
+            Here the&nbsp;options were completely suppressed by omitting any entries, while still including the : colon code.</td>
+        </tr>
+    </tbody>
+</table>
+&nbsp;<br/><div align="right"><a href="#top"><img src="img/article/top_link_0.gif" border="0" alt="" /></a></div><h4>{<img src="img/leer.gif" border="0" width="0" height="0" alt="" />NAV_ROW}</h4><table cellspacing="0" cellpadding="5" width="100%" border="0">
+    <tbody bgcolor="#efefef">
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Usage:</strong></font></td>
+            <td width="5" rowspan="5"></td>
+            <td valign="top">Horizontal menu to display&nbsp;<em>the first menu level, starting with the index page.</em></td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Notation:</strong></font></td>
+            <td valign="top"><strong>{<img src="img/leer.gif" border="0" width="0" height="0" alt="" />NAV_ROW}</strong></td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><strong><font color="#666666" size="1">Result:</font></strong></td>
+            <td valign="top"><a href="index.html">Home</a> | <a href="deutsche_version.html">Deutsch</a> | <span style="text-decoration:none;font-weight:bold;"><a href="english_version.html">English</a></span></td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Remark:</strong></font></td>
+            <td valign="top">Especially applicable for header or footer.<br/>
+            <br/>
+            The look of the menu is adjustable.<br/>
+            To do this please edit the file:&nbsp;<br/>
+            <em>config/phpwcms/conf.template_default.inc.php</em>&nbsp;<br/>
+            area:<br/>
+            <em><font style="BACKGROUND-COLOR: #efefef">// row based navigation</font><br/>
+            </em></td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong></strong></font></td>
+            <td valign="top"></td>
+        </tr>
+    </tbody>
+</table><div align="right"><a href="#top"><img src="img/article/top_link_0.gif" border="0" alt="" /></a></div><h4>{<img src="img/leer.gif" border="0" width="0" height="0" alt="" />NAV_ROW:CURRENT:0 or 1}</h4><table cellspacing="0" cellpadding="5" width="100%" border="0">
+    <tbody bgcolor="#efefef">
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Usage:</strong></font></td>
+            <td width="5" rowspan="5"></td>
+            <td valign="top">Horizontal menu to display the menu level below, starting at the actual page<em>.</em></td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Notation:</strong></font></td>
+            <td valign="top"><strong>{<img src="img/leer.gif" border="0" width="0" height="0" alt="" />NAV_ROW:CURRENT:1}</strong></td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><strong><font color="#666666" size="1">Display:</font></strong></td>
+            <td valign="top"><span style="text-decoration:none;font-weight:bold;"><a href="navigation_tags.html">Navigation Tags</a></span> | <a href="deutsche_version.html?navigation_tags">Test Level 1</a> | <a href="deutsche_version.html?navigation_tags">Test Level 2</a><br/>
+            <br/>
+            Flag is <strong>1</strong>:&nbsp;The actual page will also be shown!</td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Remark:</strong></font></td>
+            <td valign="top">Especially suitable for the header and footer section.<br/>
+            <br/>
+            The appearance of the menu is adjustable.&nbsp;<br/>
+            Therefore you have to modify in the file&nbsp;<br/>
+            <em>include/inc_conf/conf.template_default.inc.php</em>&nbsp;<br/>
+            the section<br/>
+            <em><font style="BACKGROUND-COLOR: #efefef">// row based navigation</font></em> </td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666" size="1"><strong>Alternative:</strong></font></td>
+            <td valign="top"><strong>{<img src="img/leer.gif" border="0" width="0" height="0" alt="" />NAV_ROW:CURRENT:0}<br/>
+            </strong><br/>
+            <a href="deutsche_version.html?navigation_tags">Test Level 1</a> | <a href="deutsche_version.html?navigation_tags">Test Level 2</a><br/>
+            <br/>
+            Flag is <strong>0</strong>: The actual page will not be shown!</td>
+        </tr>
+    </tbody>
+</table>
+&nbsp;<br/><div align="right"><a href="#top"><img src="img/article/top_link_0.gif" border="0" alt="" /></a></div><h4>{<img src="img/leer.gif" border="0" width="0" height="0" alt="" />NAV_ROW:INT:0 or 1}</h4><table cellspacing="0" cellpadding="5" width="100%" border="0">
+    <tbody bgcolor="#efefef">
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Usage:</strong></font></td>
+            <td width="5" rowspan="5"></td>
+            <td valign="top">Horizontal menu to display the menu level below, starting below&nbsp;the given category id. Furthermore you can define with 0|1&nbsp;whether the actual page name shall also be displayed.</td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Notation:</strong></font></td>
+            <td valign="top"><strong>{<img src="img/leer.gif" border="0" width="0" height="0" alt="" />NAV_ROW:INT:1}</strong></td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><strong><font color="#666666" size="1">Result:</font></strong></td>
+            <td valign="top">
+            <p><span style="text-decoration:none;font-weight:bold;"><a href="navigation_tags.html">Navigation Tags</a></span> | <a href="deutsche_version.html?navigation_tags">Test Level 1</a> | <a href="deutsche_version.html?navigation_tags">Test Level 2</a><br/>
+            <br/>
+            Flag is <strong>1</strong>: The actual page will also be displayed!</p>
+            <p>&nbsp;</p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666" size="1"><strong>Alternative:</strong></font></td>
+            <td valign="top"><strong>{<img src="img/leer.gif" border="0" width="0" height="0" alt="" />NAV_ROW:INT:0}<br/>
+            </strong><br/>
+            <a href="deutsche_version.html?navigation_tags">Test Level 1</a> | <a href="deutsche_version.html?navigation_tags">Test Level 2</a><br/>
+            <br/>
+            Flag is <strong>0</strong>: The actual page will not be shown!</td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Remark:</strong></font></td>
+            <td valign="top">Especially suitable for the header and footer section.<br/>
+            <br/>
+            The appearance of the menu is adjustable.&nbsp;<br/>
+            Therefore you have to modify in the file&nbsp;<br/>
+            <em>include/inc_conf/conf.template_default.inc.php</em>&nbsp;<br/>
+            the section<br/>
+            <em><font style="BACKGROUND-COLOR: #efefef">// row based navigation</font></em></td>
+        </tr>
+    </tbody>
+</table>
+&nbsp;<br/><h4>{<img src="img/leer.gif" border="0" width="0" height="0" alt="" />NAV_LIST_CURRENT}</h4><table cellspacing="0" cellpadding="5" width="100%" border="0">
+    <tbody bgcolor="#efefef">
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Usage:</strong></font></td>
+            <td width="5" rowspan="5"></td>
+            <td valign="top">Vertical menu element.&nbsp;Only categories<em> exactly below </em>the actual menu level or the <em>superordinated</em> can be adressed.<br/>
+            <br/>
+            Formating specifications are determined in the style sheet class: <em>frontend.css</em>&nbsp; with&nbsp; Class: <em>list_level</em></td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Notation:</strong></font></td>
+            <td valign="top"><strong>{<img src="img/leer.gif" border="0" width="0" height="0" alt="" />NAV_LIST_CURRENT}</strong></td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><strong><font color="#666666" size="1">Result:</font></strong></td>
+            <td valign="top">
+<ul class="list_level">
+	<li class="active"><a href="navigation_tags.html">Navigation Tags</a></li>
+	<li><a href="deutsche_version.html?navigation_tags">Test Level 1</a></li>
+	<li><a href="deutsche_version.html?navigation_tags">Test Level 2</a></li>
+</ul>
+</td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Remark:</strong></font></td>
+            <td valign="top"></td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong></strong></font></td>
+            <td valign="top"></td>
+        </tr>
+    </tbody>
+</table><div align="right"><a href="#top"><img src="img/article/top_link_0.gif" border="0" alt="" /></a></div><h4>{<img src="img/leer.gif" border="0" width="0" height="0" alt="" />NAV_LIST_CURRENT:0 oder 1:IndexName:list_class}</h4><table cellspacing="0" cellpadding="5" width="100%" border="0">
+    <tbody bgcolor="#efefef">
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Usage:</strong></font></td>
+            <td width="5" rowspan="5"></td>
+            <td valign="top">Vertical menu element.&nbsp;Only categories<em> exactly below </em>the actual menu level or the <em>superordinated</em> can be adressed.<br/>
+            <br/>
+            Formating specifications are determined in the style sheet class: <em>frontend.css</em>&nbsp; with&nbsp; Class: <em>list_level<br/>
+            </em><br/>
+            The display of the&nbsp;<em>superordinated</em> <em>level </em>can be suppressed.<br/>
+            <br/>
+            You can rename the <em>superordinated title</em>.<br/>
+            Formating specifications are determined in the style sheet class: <em>frontend.css</em>&nbsp; with&nbsp; Class: <em>list_level<br/>
+            </em><font style="BACKGROUND-COLOR: #ffffff"><br/>
+            After setting up your <em>own class</em> formatting according to your wishes is posible to great extend. This class has to be defined in the <em>frontend.css</em></font>!</td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Notation:</strong></font></td>
+            <td valign="top"><strong>{<img src="img/leer.gif" border="0" width="0" height="0" alt="" />NAV_LIST_CURRENT:1:superordinated title:}</strong></td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><strong><font color="#666666" size="1">Result:</font></strong></td>
+            <td valign="top">
+<ul class="list_level">
+	<li class="active"><a href="navigation_tags.html">superordinated title</a></li>
+	<li><a href="deutsche_version.html?navigation_tags">Test Level 1</a></li>
+	<li><a href="deutsche_version.html?navigation_tags">Test Level 2</a></li>
+</ul>
+</td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Remark:</strong></font></td>
+            <td valign="top">In this example the actual level was renamed to &quot;<em>superordinated title&quot;</em>.<br/>
+            No specific class was determined.<br/>
+            &nbsp;</td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Alternative:</strong></font></td>
+            <td valign="top"><strong>{<img src="img/leer.gif" border="0" width="0" height="0" alt="" />NAV_LIST_CURRENT:0:superordinated title:}<br/>
+            </strong><br/>
+            
+<ul class="list_level">
+	<li><a href="deutsche_version.html?navigation_tags">Test Level 1</a></li>
+	<li><a href="deutsche_version.html?navigation_tags">Test Level 2</a></li>
+</ul>
+<br/>
+            In this example the <strong>flag was set to 0</strong>:<br/>
+            (actual level supressed)</td>
+        </tr>
+    </tbody>
+</table>
+&nbsp;<br/>
+&nbsp;<br/><div align="right"><a href="#top"><img src="img/article/top_link_0.gif" border="0" alt="" /></a></div><h4>{<img src="img/leer.gif" border="0" width="0" height="0" alt="" />NAV_TABLE_SIMPLE}</h4><table cellspacing="0" cellpadding="5" width="100%" border="0">
+    <tbody bgcolor="#efefef">
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Usage:</strong></font></td>
+            <td width="5" rowspan="5"></td>
+            <td valign="top">Very simple vertical menu element. Only categories <em>bolow the actual level</em> can&acute;be accessed.</td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Notation:</strong></font></td>
+            <td valign="top"><strong>{<img src="img/leer.gif" border="0" width="0" height="0" alt="" />NAV_TABLE_SIMPLE}</strong></td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><strong><font color="#666666" size="1">Result:</font></strong></td>
+            <td valign="top"><table border="0" cellspacing="0" cellpadding="0" width="100%" summary="">
+<tr>
+<td width="10"><img src="img/leer.gif" width="10" height="1" alt="" /></td>
+<td width="100%"><strong>Navigation Tags</strong></td>
+<tr><tr>
+<td width="10"><img src="img/leer.gif" width="10" height="1" alt="" /></td>
+<td width="100%"><a href="deutsche_version.html?navigation_tags">Test Level 1</a></td>
+<tr><tr>
+<td width="10"><img src="img/leer.gif" width="10" height="1" alt="" /></td>
+<td width="100%"><a href="deutsche_version.html?navigation_tags">Test Level 2</a></td>
+<tr></table></td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong>Remark:</strong></font></td>
+            <td valign="top"></td>
+        </tr>
+        <tr>
+            <td valign="top" align="right" width="100"><font class="v10" color="#666666"><strong></strong></font></td>
+            <td valign="top"></td>
+        </tr>
+    </tbody>
+</table>
+&nbsp;<div align="right"><a href="#top"><img src="img/article/top_link_0.gif" border="0" alt="" /></a></div>
+<img src="img/leer.gif" border="0" width="10" height="10" alt="" />
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td colspan="3"><HR></td>
+  </tr>
+  <tr>
+    <td width="30%">Article created: 2004/08/18</td>
+    <td align="center" width="35%"><a href="http://www.mister-wong.de/index.php?action=addurl&amp;bm_url=deutsche_version.html?aid=40&amp;bm_description=Replacement%20Tags%20for%20Navigation" title="Wong It!" target="_blank"><img src="template/img/bookmarklets/wong.gif" alt="Wong It!" border="0" /></a> <a href="http://digg.com/submit?phase=2&amp;url=deutsche_version.html?aid=40&amp;title=Replacement%20Tags%20for%20Navigation&amp;bodytext=&amp;topic=" title="DiggIt!" target="_blank"><img src="template/img/bookmarklets/digg.gif" alt="DiggIt!" border="0" /></a> <a href="http://del.icio.us/post?url=deutsche_version.html?aid=40&amp;title=Replacement%20Tags%20for%20Navigation&amp;jump=no" title="Del.icio.us" target="_blank"><img src="template/img/bookmarklets/delicious.gif" alt="Del.icio.us" border="0" /></a> <a href="http://technorati.com/faves?add=http%3A%2F%2Fwww.phpwcms-docu.de%2F" title="TechnoratiFaves" target="_blank"><img src="template/img/bookmarklets/technorati.gif" alt="TechnoratiFaves" border="0" /></a> <a href="http://www.spurl.net/spurl.php?title=Replacement%20Tags%20for%20Navigation&amp;url=deutsche_version.html?aid=40" title="Spurl!" target="_blank"><img src="template/img/bookmarklets/spurl.gif" alt="Spurl!" border="0" /></a> <a href="http://www.furl.net/savedialog.jsp?p=1&amp;t=Replacement%20Tags%20for%20Navigation&amp;u=deutsche_version.html?aid=40&amp;c=&amp;r=" title="Furl It" target="_blank"><img src="template/img/bookmarklets/furl.gif" alt="Furl It" border="0" /></a> <a href="http://myweb2.search.yahoo.com/myresults/bookmarklet?t=Replacement%20Tags%20for%20Navigation&amp;u=deutsche_version.html?aid=40&amp;d=&amp;ei=iso-8859-1" title="Save to Yahoo! My Web" target="_blank"><img src="template/img/bookmarklets/yahoo.gif" alt="Save to Yahoo! My Web" border="0" /></a> <a href="http://www.google.com/bookmarks/mark?op=add&amp;bkmk=deutsche_version.html?aid=40&amp;title=Replacement%20Tags%20for%20Navigation&amp;annotation=" title="Google Bookmark" target="_blank"><img src="template/img/bookmarklets/google.gif" alt="Google Bookmark" border="0" /></a></td>
+    <td align="right" width="35%">Last Changes: 2005/06/10</td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="4" class="comment">In case you find any mistakes or have enhancments, please use this <a href="#" onClick="javascript:window.open('./content/pages/message.htm','frage','width=400, height=250, screenX=440,screenY=200,menubar=no,statusbar=yes,scrollbar=yes,resizable=no');" target="" style="max-width:148px; overflow:hidden;"><u>form</u></a> .<br /><br />
+Have you found this website a helpful resource in understanding the Phpwcms content management system? If so, would you consider making a donation?  Please click here: <a href="#paypal">PayPal</a>. We welcome any donation amount. Your contribution helps make this website an even better resource and helps underwrite the associated server expenses of accomodating a growing number of visitors.<br />
+This page use the version:</td>
+  </tr>
+  <tr>
+
+    <td colspan="3"><img src="img/leer.gif" border="0" width="10" height="10" alt="" /></td>
+  </tr>
+</table>
+
+
+</body>
+</html>
